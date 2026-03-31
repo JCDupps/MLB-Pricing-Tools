@@ -1,0 +1,382 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MLB Pricing Tools | Probable Pitchers</title>
+  <style>
+    :root {
+      --bg: #edf1f4;
+      --panel: rgba(255, 255, 255, 0.92);
+      --panel-strong: #ffffff;
+      --ink: #15202b;
+      --muted: #5b6772;
+      --accent: #0b6e4f;
+      --border: rgba(21, 32, 43, 0.12);
+      --shadow: 0 22px 44px rgba(17, 24, 39, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(11, 110, 79, 0.12), transparent 34%),
+        radial-gradient(circle at bottom right, rgba(36, 88, 129, 0.12), transparent 30%),
+        linear-gradient(160deg, #f7fafc 0%, #edf2f6 50%, #e8eef2 100%);
+    }
+
+    .shell {
+      width: min(1320px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 48px;
+    }
+
+    .hero {
+      display: grid;
+      gap: 18px;
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.96), rgba(241, 247, 244, 0.9));
+      box-shadow: var(--shadow);
+    }
+
+    .eyebrow {
+      margin: 0;
+      font-size: 0.8rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      line-height: 0.96;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      margin: 0;
+      max-width: 900px;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .mini-nav {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .mini-nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .control,
+    .status-chip {
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: var(--panel);
+      padding: 14px 16px;
+    }
+
+    .control label,
+    .status-label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    input,
+    button {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid rgba(21, 32, 43, 0.14);
+      padding: 12px 14px;
+      font: inherit;
+      background: #fff;
+      color: var(--ink);
+    }
+
+    button {
+      cursor: pointer;
+      font-weight: 700;
+      background: linear-gradient(135deg, #134e4a, #0b6e4f);
+      color: #f6fbf7;
+    }
+
+    .status-chip strong,
+    .status-chip span,
+    .status-chip a {
+      display: block;
+    }
+
+    .status-chip strong {
+      font-size: 0.95rem;
+      margin-bottom: 4px;
+    }
+
+    .status-chip span,
+    .status-chip a {
+      color: var(--muted);
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    .status-chip a:hover {
+      color: var(--accent);
+    }
+
+    .board {
+      margin-top: 24px;
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    .game-card {
+      border-radius: 24px;
+      border: 1px solid var(--border);
+      background: var(--panel-strong);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .game-head {
+      padding: 18px 20px 12px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(223, 244, 232, 0.8), rgba(255,255,255,0.95));
+    }
+
+    .game-head h2 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+
+    .game-head p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .matchup {
+      padding: 16px 20px 20px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .pitcher-row {
+      display: grid;
+      gap: 4px;
+      padding: 12px 14px;
+      border-radius: 16px;
+      background: rgba(11, 110, 79, 0.05);
+      border: 1px solid rgba(11, 110, 79, 0.08);
+    }
+
+    .team-name {
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .pitcher-name {
+      font-size: 1.15rem;
+      font-weight: 700;
+    }
+
+    .pitcher-name a {
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    .pitcher-name a:hover {
+      color: var(--accent);
+    }
+
+    .pitcher-meta {
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .empty {
+      padding: 28px 20px;
+      color: var(--muted);
+      border-radius: 24px;
+      border: 1px solid var(--border);
+      background: var(--panel-strong);
+      box-shadow: var(--shadow);
+    }
+
+    @media (max-width: 640px) {
+      .shell {
+        width: min(100% - 18px, 1320px);
+        padding: 18px 0 28px;
+      }
+
+      .hero {
+        padding: 20px;
+        border-radius: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="mini-nav">
+        <a href="/">All Tools</a>
+        <a href="/platoon-lineups">Platoon Lineups</a>
+      </div>
+      <div>
+        <p class="eyebrow">MLB Pricing Tools</p>
+        <h1>Probable Pitchers</h1>
+        <p class="subtitle">
+          Pull the next day's probable starters directly from MLB.com's scores page. The tool opens to tomorrow's slate by default so you can move right into pricing work.
+        </p>
+      </div>
+
+      <div class="toolbar">
+        <div class="control">
+          <label for="dateInput">Game Date</label>
+          <input id="dateInput" type="date">
+        </div>
+        <div class="control">
+          <label>&nbsp;</label>
+          <button id="refreshButton" type="button">Load Pitchers</button>
+        </div>
+        <div class="status-chip">
+          <span class="status-label">Source</span>
+          <strong id="dateText">Loading...</strong>
+          <a id="sourceLink" href="#" target="_blank" rel="noreferrer">Open MLB scores page</a>
+        </div>
+        <div class="status-chip">
+          <span class="status-label">Status</span>
+          <strong id="statusText">Loading probable pitchers...</strong>
+          <span id="summaryText">Preparing next day's slate</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="board" class="board"></section>
+  </main>
+
+  <script>
+    const board = document.getElementById("board");
+    const dateInput = document.getElementById("dateInput");
+    const refreshButton = document.getElementById("refreshButton");
+    const dateText = document.getElementById("dateText");
+    const statusText = document.getElementById("statusText");
+    const summaryText = document.getElementById("summaryText");
+    const sourceLink = document.getElementById("sourceLink");
+
+    function formatPitcherMeta(pitcher) {
+      const parts = [];
+      if (pitcher.record) parts.push(pitcher.record);
+      if (pitcher.era) parts.push(pitcher.era);
+      return parts.join(" | ") || "No pitcher details posted";
+    }
+
+    function formatPitcherName(pitcher) {
+      if (!pitcher.hand) {
+        return pitcher.name;
+      }
+      return `${pitcher.name} (${pitcher.hand}HP)`;
+    }
+
+    function renderPitcherName(pitcher) {
+      const label = formatPitcherName(pitcher);
+      if (!pitcher.mlb_id) {
+        return label;
+      }
+      const fgQuery = pitcher.fangraphs_player_id ? `?fg=${encodeURIComponent(pitcher.fangraphs_player_id)}` : "";
+      return `<a href="/pitchers/${pitcher.mlb_id}${fgQuery}">${label}</a>`;
+    }
+
+    function renderGame(game) {
+      return `
+        <article class="game-card">
+          <div class="game-head">
+            <h2>${game.away_team} at ${game.home_team}</h2>
+            <p>${game.game_time}</p>
+          </div>
+          <div class="matchup">
+            <div class="pitcher-row">
+              <span class="team-name">${game.away_team}</span>
+              <span class="pitcher-name">${renderPitcherName(game.away_pitcher)}</span>
+              <span class="pitcher-meta">${formatPitcherMeta(game.away_pitcher)}</span>
+            </div>
+            <div class="pitcher-row">
+              <span class="team-name">${game.home_team}</span>
+              <span class="pitcher-name">${renderPitcherName(game.home_pitcher)}</span>
+              <span class="pitcher-meta">${formatPitcherMeta(game.home_pitcher)}</span>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    async function loadProbables() {
+      const selectedDate = dateInput.value;
+      statusText.textContent = `Loading probable pitchers for ${selectedDate}...`;
+      const response = await fetch(`/api/probable-pitchers?date=${encodeURIComponent(selectedDate)}`, { cache: "no-store" });
+      const payload = await response.json();
+      if (!response.ok) {
+        throw new Error(payload.detail || "Failed to load probable pitchers.");
+      }
+
+      dateInput.value = payload.date;
+      dateText.textContent = payload.date;
+      sourceLink.href = payload.source_url;
+      statusText.textContent = "Probable pitchers loaded";
+      summaryText.textContent = `${payload.games.length} games found`;
+      history.replaceState({}, "", `?date=${encodeURIComponent(payload.date)}`);
+
+      if (!payload.games.length) {
+        board.innerHTML = `<div class="empty">No scheduled games or probable pitchers were found for this date.</div>`;
+        return;
+      }
+
+      board.innerHTML = payload.games.map(renderGame).join("");
+    }
+
+    async function boot() {
+      try {
+        const queryDate = new URLSearchParams(window.location.search).get("date");
+        const initialResponse = await fetch(`/api/probable-pitchers${queryDate ? `?date=${encodeURIComponent(queryDate)}` : ""}`, { cache: "no-store" });
+        const payload = await initialResponse.json();
+        if (!initialResponse.ok) {
+          throw new Error(payload.detail || "Failed to load probable pitchers.");
+        }
+
+        dateInput.value = payload.date || payload.default_date;
+        await loadProbables();
+      } catch (error) {
+        statusText.textContent = error.message || String(error);
+        board.innerHTML = `<div class="empty">${statusText.textContent}</div>`;
+      }
+    }
+
+    refreshButton.addEventListener("click", loadProbables);
+    dateInput.addEventListener("change", loadProbables);
+    boot();
+  </script>
+</body>
+</html>

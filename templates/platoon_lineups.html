@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MLB Pricing Tools | Platoon Lineups</title>
+  <style>
+    :root {
+      --bg: #eef3ea;
+      --panel: rgba(255, 255, 255, 0.9);
+      --panel-strong: #ffffff;
+      --ink: #17211c;
+      --muted: #5f6d65;
+      --accent: #0b6e4f;
+      --accent-soft: #dff4e8;
+      --border: rgba(23, 33, 28, 0.12);
+      --shadow: 0 22px 44px rgba(17, 24, 39, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(11, 110, 79, 0.12), transparent 34%),
+        radial-gradient(circle at bottom right, rgba(150, 111, 51, 0.12), transparent 30%),
+        linear-gradient(160deg, #f6f9f4 0%, #eaf1e5 50%, #e7efe3 100%);
+    }
+
+    .shell {
+      width: min(1320px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 48px;
+    }
+
+    .hero {
+      display: grid;
+      gap: 18px;
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(246, 250, 246, 0.88));
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+    }
+
+    .eyebrow {
+      margin: 0;
+      font-size: 0.8rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      line-height: 0.96;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      margin: 0;
+      max-width: 880px;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .mini-nav {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .mini-nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .control,
+    .status-chip {
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: var(--panel);
+      padding: 14px 16px;
+    }
+
+    .control label,
+    .status-label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    select,
+    button {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid rgba(23, 33, 28, 0.14);
+      padding: 12px 14px;
+      font: inherit;
+      background: #fff;
+      color: var(--ink);
+    }
+
+    button {
+      cursor: pointer;
+      font-weight: 700;
+      background: linear-gradient(135deg, #134e4a, #0b6e4f);
+      color: #f6fbf7;
+    }
+
+    button:hover {
+      filter: brightness(1.05);
+    }
+
+    .status-chip strong,
+    .status-chip span,
+    .status-chip a {
+      display: block;
+    }
+
+    .status-chip strong {
+      font-size: 0.95rem;
+      margin-bottom: 4px;
+    }
+
+    .status-chip span,
+    .status-chip a {
+      color: var(--muted);
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    .status-chip a:hover {
+      color: var(--accent);
+    }
+
+    .board {
+      margin-top: 24px;
+      display: grid;
+      gap: 20px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .panel {
+      border-radius: 24px;
+      border: 1px solid var(--border);
+      background: var(--panel-strong);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .panel-head {
+      padding: 18px 20px 14px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(223, 244, 232, 0.95), rgba(255,255,255,0.95));
+    }
+
+    .panel-head h2 {
+      margin: 0;
+      font-size: 1.25rem;
+    }
+
+    .panel-head p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      padding: 8px 14px 16px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 520px;
+    }
+
+    th,
+    td {
+      padding: 12px 10px;
+      border-bottom: 1px solid rgba(23, 33, 28, 0.08);
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    th {
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    td.name {
+      font-weight: 700;
+      white-space: normal;
+    }
+
+    .empty {
+      padding: 28px 20px;
+      color: var(--muted);
+    }
+
+    .footer-note {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 920px) {
+      .board {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .shell {
+        width: min(100% - 18px, 1320px);
+        padding: 18px 0 28px;
+      }
+
+      .hero {
+        padding: 20px;
+        border-radius: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="mini-nav">
+        <a href="/">All Tools</a>
+        <a href="/api/export-lineups.xlsx">Download Excel</a>
+      </div>
+      <div>
+        <p class="eyebrow">MLB Pricing Tools</p>
+        <h1>Fangraphs Platoon Lineups</h1>
+        <p class="subtitle">
+          A live-read lineup board for MLB projection work. This page pulls each team's Fangraphs
+          projected platoon lineups, shows both handedness splits, and refreshes itself every 5 minutes.
+        </p>
+      </div>
+
+      <div class="toolbar">
+        <div class="control">
+          <label for="teamSelect">Team</label>
+          <select id="teamSelect"></select>
+        </div>
+        <div class="control">
+          <label>&nbsp;</label>
+          <button id="refreshButton" type="button">Refresh From Fangraphs</button>
+        </div>
+        <div class="control">
+          <label>&nbsp;</label>
+          <button id="exportButton" type="button">Download Excel For All Teams</button>
+        </div>
+        <div class="status-chip">
+          <span class="status-label">Source</span>
+          <strong id="updatedText">Loading...</strong>
+          <a id="sourceLink" href="#" target="_blank" rel="noreferrer">Open Fangraphs page</a>
+        </div>
+        <div class="status-chip">
+          <span class="status-label">Status</span>
+          <strong id="statusText">Loading teams...</strong>
+          <span id="timerText">Auto-refresh every 5 minutes</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="board" class="board"></section>
+    <p class="footer-note">
+      Source: Fangraphs RosterResource platoon lineup pages. The Excel export places each team in a two-column
+      block with righty lineup first, then lefty lineup, plus bench and IL below the righty side.
+    </p>
+  </main>
+
+  <script>
+    const board = document.getElementById("board");
+    const teamSelect = document.getElementById("teamSelect");
+    const refreshButton = document.getElementById("refreshButton");
+    const exportButton = document.getElementById("exportButton");
+    const statusText = document.getElementById("statusText");
+    const updatedText = document.getElementById("updatedText");
+    const sourceLink = document.getElementById("sourceLink");
+    const timerText = document.getElementById("timerText");
+    const refreshMs = 5 * 60 * 1000;
+    let refreshHandle = null;
+
+    function renderTable(sectionKey, section) {
+      const headers = section.headers || [];
+      const rows = section.rows || [];
+      const extraHeaders = headers.slice(4);
+
+      if (!rows.length) {
+        return `
+          <article class="panel">
+            <div class="panel-head">
+              <h2>${sectionKey}</h2>
+              <p>${section.title || "No data available"}</p>
+            </div>
+            <div class="empty">No lineup rows were parsed for this split.</div>
+          </article>
+        `;
+      }
+
+      const headCells = [
+        "<th>Order/Status</th>",
+        "<th>Pos</th>",
+        "<th>Name</th>",
+        "<th>Bats</th>",
+        ...extraHeaders.map((header) => `<th>${header}</th>`)
+      ].join("");
+
+      const bodyRows = rows.map((row) => {
+        const extraCells = (row.stats || []).map((value) => `<td>${value}</td>`).join("");
+        return `
+          <tr>
+            <td>${row.status}</td>
+            <td>${row.position}</td>
+            <td class="name">${row.name}</td>
+            <td>${row.bats}</td>
+            ${extraCells}
+          </tr>
+        `;
+      }).join("");
+
+      return `
+        <article class="panel">
+          <div class="panel-head">
+            <h2>${sectionKey}</h2>
+            <p>${section.title}</p>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead><tr>${headCells}</tr></thead>
+              <tbody>${bodyRows}</tbody>
+            </table>
+          </div>
+        </article>
+      `;
+    }
+
+    async function loadTeams() {
+      const response = await fetch("/api/teams", { cache: "no-store" });
+      if (!response.ok) {
+        throw new Error("Failed to load MLB team list.");
+      }
+      const payload = await response.json();
+      const teams = payload.teams || [];
+      const defaultTeam = payload.default_team || "braves";
+
+      teamSelect.innerHTML = teams.map((team) => {
+        const label = `${team.code} | ${team.name} | ${team.league}`;
+        return `<option value="${team.slug}">${label}</option>`;
+      }).join("");
+
+      const queryValue = new URLSearchParams(window.location.search).get("team");
+      teamSelect.value = queryValue && teams.some((team) => team.slug === queryValue) ? queryValue : defaultTeam;
+    }
+
+    async function loadLineups() {
+      const team = teamSelect.value;
+      const url = `/api/lineups?team=${encodeURIComponent(team)}`;
+      statusText.textContent = `Refreshing ${team.toUpperCase()} from Fangraphs...`;
+
+      const response = await fetch(url, { cache: "no-store" });
+      const payload = await response.json();
+      if (!response.ok) {
+        throw new Error(payload.detail || "Failed to load Fangraphs lineup data.");
+      }
+
+      sourceLink.href = payload.source_url;
+      updatedText.textContent = payload.updated || "Updated time unavailable";
+      statusText.textContent = `${payload.team.name} loaded`;
+      timerText.textContent = `Auto-refresh every ${Math.round((payload.refreshed_every_seconds || 300) / 60)} minutes`;
+      history.replaceState({}, "", `?team=${encodeURIComponent(team)}`);
+
+      board.innerHTML = [
+        renderTable("vsR", payload.sections.vsR),
+        renderTable("vsL", payload.sections.vsL)
+      ].join("");
+    }
+
+    async function refreshAll() {
+      refreshButton.disabled = true;
+      try {
+        await loadLineups();
+      } catch (error) {
+        statusText.textContent = error.message || String(error);
+        board.innerHTML = `
+          <article class="panel">
+            <div class="empty">${statusText.textContent}</div>
+          </article>
+        `;
+      } finally {
+        refreshButton.disabled = false;
+      }
+    }
+
+    function exportWorkbook() {
+      statusText.textContent = "Building Excel export for all teams...";
+      window.location.href = "/api/export-lineups.xlsx";
+      window.setTimeout(() => {
+        statusText.textContent = "Excel export requested";
+      }, 1200);
+    }
+
+    function startAutoRefresh() {
+      if (refreshHandle) {
+        window.clearInterval(refreshHandle);
+      }
+      refreshHandle = window.setInterval(refreshAll, refreshMs);
+    }
+
+    async function boot() {
+      try {
+        await loadTeams();
+        await refreshAll();
+        startAutoRefresh();
+      } catch (error) {
+        statusText.textContent = error.message || String(error);
+      }
+    }
+
+    teamSelect.addEventListener("change", refreshAll);
+    refreshButton.addEventListener("click", refreshAll);
+    exportButton.addEventListener("click", exportWorkbook);
+    boot();
+  </script>
+</body>
+</html>

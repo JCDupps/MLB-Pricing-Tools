@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MLB Pricing Tools | Pitcher Profile</title>
+  <style>
+    :root {
+      --bg: #f3f1ea;
+      --ink: #17211c;
+      --muted: #5f6a62;
+      --accent: #0b6e4f;
+      --panel: rgba(255,255,255,0.94);
+      --border: rgba(23, 33, 28, 0.12);
+      --shadow: 0 22px 44px rgba(17, 24, 39, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(11, 110, 79, 0.12), transparent 30%),
+        radial-gradient(circle at bottom right, rgba(160, 119, 55, 0.12), transparent 30%),
+        linear-gradient(160deg, #faf8f2 0%, #f0eee7 50%, #ece7db 100%);
+    }
+    .shell {
+      width: min(1180px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 48px;
+    }
+    .nav {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 18px;
+    }
+    .nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      gap: 24px;
+      padding: 28px;
+      border-radius: 28px;
+      border: 1px solid var(--border);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+    .hero img {
+      width: 100%;
+      border-radius: 22px;
+      border: 1px solid var(--border);
+      background: #f7faf8;
+    }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 0.8rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      line-height: 0.98;
+    }
+    .subline {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 1rem;
+    }
+    .bio-grid {
+      margin-top: 18px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+    }
+    .bio-card, .metric-card, .source-card {
+      padding: 14px 16px;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,0.86);
+    }
+    .label {
+      display: block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .value {
+      display: block;
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+    .metrics {
+      margin-top: 22px;
+      display: grid;
+      gap: 20px;
+    }
+    .metric-section {
+      padding: 18px;
+      border-radius: 24px;
+      border: 1px solid var(--border);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+    }
+    .metric-section h2 {
+      margin: 0 0 14px;
+      font-size: 1.4rem;
+    }
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+    }
+    .metric-card .value {
+      font-size: 1.45rem;
+    }
+    .sources {
+      margin-top: 20px;
+      display: grid;
+      gap: 14px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+    .source-card a {
+      color: var(--accent);
+      text-decoration: none;
+      word-break: break-word;
+    }
+    .status {
+      padding: 18px 20px;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      background: var(--panel);
+      box-shadow: var(--shadow);
+      color: var(--muted);
+    }
+    @media (max-width: 760px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+      .hero img {
+        max-width: 220px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <div class="nav">
+      <a href="/">All Tools</a>
+      <a href="/probable-pitchers">Probable Pitchers</a>
+      <a href="/platoon-lineups">Platoon Lineups</a>
+    </div>
+
+    <section id="status" class="status">Loading pitcher profile...</section>
+    <section id="content" style="display:none;">
+      <article class="hero">
+        <div>
+          <img id="headshot" alt="Pitcher headshot">
+        </div>
+        <div>
+          <p class="eyebrow">Pitcher Profile</p>
+          <h1 id="playerName"></h1>
+          <p id="subline" class="subline"></p>
+          <div class="bio-grid">
+            <div class="bio-card">
+              <span class="label">Height</span>
+              <span id="heightValue" class="value"></span>
+            </div>
+            <div class="bio-card">
+              <span class="label">Weight</span>
+              <span id="weightValue" class="value"></span>
+            </div>
+            <div class="bio-card">
+              <span class="label">Age</span>
+              <span id="ageValue" class="value"></span>
+            </div>
+            <div class="bio-card">
+              <span class="label">Throws</span>
+              <span id="throwsValue" class="value"></span>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <section class="metrics">
+        <section class="metric-section">
+          <h2>Rate Stats</h2>
+          <div id="rateStats" class="metric-grid"></div>
+        </section>
+        <section class="metric-section">
+          <h2>Projections</h2>
+          <div id="projections" class="metric-grid"></div>
+        </section>
+        <section class="metric-section">
+          <h2>Arsenal</h2>
+          <div id="arsenal" class="metric-grid"></div>
+        </section>
+      </section>
+      <section class="sources">
+        <article class="source-card">
+          <span class="label">MLB</span>
+          <a id="mlbSource" href="#" target="_blank" rel="noreferrer">Open MLB profile</a>
+        </article>
+        <article class="source-card">
+          <span class="label">FanGraphs</span>
+          <a id="fangraphsSource" href="#" target="_blank" rel="noreferrer">Open Fangraphs profile</a>
+        </article>
+      </section>
+    </section>
+  </main>
+
+  <script>
+    const statusEl = document.getElementById("status");
+    const contentEl = document.getElementById("content");
+    const rateStatsEl = document.getElementById("rateStats");
+    const projectionsEl = document.getElementById("projections");
+    const arsenalEl = document.getElementById("arsenal");
+
+    function metricCard(label, value) {
+      return `
+        <article class="metric-card">
+          <span class="label">${label}</span>
+          <span class="value">${value || "N/A"}</span>
+        </article>
+      `;
+    }
+
+    async function boot() {
+      const parts = window.location.pathname.split("/");
+      const pitcherId = parts[parts.length - 1];
+      const fg = new URLSearchParams(window.location.search).get("fg");
+      try {
+        const response = await fetch(`/api/pitchers/${encodeURIComponent(pitcherId)}${fg ? `?fg=${encodeURIComponent(fg)}` : ""}`, { cache: "no-store" });
+        const payload = await response.json();
+        if (!response.ok) {
+          throw new Error(payload.detail || "Failed to load pitcher profile.");
+        }
+
+        document.getElementById("headshot").src = payload.player.headshot_url;
+        document.getElementById("headshot").alt = `${payload.player.name} headshot`;
+        document.getElementById("playerName").textContent = payload.player.name;
+        document.getElementById("subline").textContent = `${payload.player.team || "Team unavailable"} | ${payload.player.pitch_hand || "Throws unavailable"}`;
+        document.getElementById("heightValue").textContent = payload.player.height || "N/A";
+        document.getElementById("weightValue").textContent = payload.player.weight ? `${payload.player.weight} lb` : "N/A";
+        document.getElementById("ageValue").textContent = payload.player.age || "N/A";
+        document.getElementById("throwsValue").textContent = payload.player.pitch_hand || "N/A";
+        document.getElementById("mlbSource").href = payload.sources.mlb_url;
+        document.getElementById("fangraphsSource").href = payload.sources.fangraphs_url;
+
+        rateStatsEl.innerHTML = [
+          metricCard("ERA", payload.metrics.ERA),
+          metricCard("xERA", payload.metrics.xERA),
+          metricCard("FIP", payload.metrics.FIP),
+          metricCard("xFIP", payload.metrics.xFIP),
+          metricCard("SIERA", payload.metrics.SIERA),
+          metricCard("K%-BB%", payload.metrics.KMinusBBPercent)
+        ].join("");
+
+        projectionsEl.innerHTML = [
+          metricCard("Steamer RoS ERA", payload.metrics.SteamerRosERA),
+          metricCard("THE BAT RoS ERA", payload.metrics.TheBatRosERA)
+        ].join("");
+
+        arsenalEl.innerHTML = [
+          metricCard("Stuff+", payload.metrics.StuffPlus),
+          metricCard("Location+", payload.metrics.LocationPlus),
+          metricCard("Pitching+", payload.metrics.PitchingPlus)
+        ].join("");
+
+        statusEl.style.display = "none";
+        contentEl.style.display = "block";
+      } catch (error) {
+        statusEl.textContent = error.message || String(error);
+      }
+    }
+
+    boot();
+  </script>
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MLB Pricing Tools</title>
+  <style>
+    :root {
+      --bg: #f4efe4;
+      --ink: #17211c;
+      --muted: #5d665f;
+      --accent: #0b6e4f;
+      --accent-deep: #134e4a;
+      --card: rgba(255, 255, 255, 0.92);
+      --border: rgba(23, 33, 28, 0.12);
+      --shadow: 0 28px 60px rgba(17, 24, 39, 0.1);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(11, 110, 79, 0.12), transparent 28%),
+        radial-gradient(circle at bottom right, rgba(151, 111, 52, 0.18), transparent 34%),
+        linear-gradient(150deg, #fbf7f0 0%, #efe7d7 46%, #f4efe4 100%);
+    }
+
+    .shell {
+      width: min(1240px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 54px;
+    }
+
+    .hero {
+      padding: 34px;
+      border: 1px solid var(--border);
+      border-radius: 32px;
+      background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(249, 245, 237, 0.92));
+      box-shadow: var(--shadow);
+    }
+
+    .eyebrow {
+      margin: 0 0 10px;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 0.8rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.4rem, 5vw, 4.8rem);
+      line-height: 0.94;
+    }
+
+    .subtitle {
+      margin: 18px 0 0;
+      max-width: 820px;
+      color: var(--muted);
+      font-size: 1.06rem;
+      line-height: 1.7;
+    }
+
+    .hero-actions {
+      margin-top: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 18px;
+      border-radius: 14px;
+      border: 1px solid rgba(23, 33, 28, 0.14);
+      text-decoration: none;
+      font-weight: 700;
+      color: #f8fbf9;
+      background: linear-gradient(135deg, var(--accent-deep), var(--accent));
+    }
+
+    .button.secondary {
+      color: var(--ink);
+      background: rgba(255, 255, 255, 0.8);
+    }
+
+    .grid {
+      margin-top: 26px;
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+
+    .card {
+      padding: 22px;
+      border-radius: 24px;
+      border: 1px solid var(--border);
+      background: var(--card);
+      box-shadow: var(--shadow);
+    }
+
+    .card .tag {
+      margin: 0 0 10px;
+      color: var(--accent);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+    }
+
+    .card h2 {
+      margin: 0;
+      font-size: 1.4rem;
+    }
+
+    .card p {
+      margin: 12px 0 0;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 18px;
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .card.coming-soon {
+      background: linear-gradient(180deg, rgba(255,255,255,0.86), rgba(244, 239, 228, 0.95));
+    }
+
+    .footer-note {
+      margin-top: 16px;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    @media (max-width: 640px) {
+      .shell {
+        width: min(100% - 18px, 1240px);
+        padding-top: 18px;
+      }
+
+      .hero {
+        padding: 24px;
+        border-radius: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <p class="eyebrow">MLB Pricing Tools</p>
+      <h1>One place for the daily inputs we use to price baseball.</h1>
+      <p class="subtitle">
+        This homepage is the launchpad for the tools behind the slate: lineup context, handedness splits,
+        exportable grids, and the next layers we add for pricing, simulations, and market comparison.
+      </p>
+      <div class="hero-actions">
+        <a class="button" href="/platoon-lineups">Open Platoon Lineups</a>
+        <a class="button secondary" href="/api/export-lineups.xlsx">Download All-Team Excel</a>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <p class="tag">Live Now</p>
+        <h2>Fangraphs Platoon Lineups</h2>
+        <p>
+          View every team’s projected lineup versus right-handed and left-handed pitching, then export all clubs
+          into a workbook laid out for quick spreadsheet work.
+        </p>
+        <a href="/platoon-lineups">Launch tool</a>
+      </article>
+
+      <article class="card coming-soon">
+        <p class="tag">Live Now</p>
+        <h2>Probable Pitchers</h2>
+        <p>
+          A pitcher view for daily starters, handedness, matchup context, and downstream pricing adjustments.
+        </p>
+        <a href="/probable-pitchers">Launch tool</a>
+      </article>
+
+      <article class="card coming-soon">
+        <p class="tag">Coming Soon</p>
+        <h2>Weather and Park</h2>
+        <p>
+          A single board for weather, wind, roof status, and park factors so we can avoid flipping between tabs.
+        </p>
+      </article>
+
+      <article class="card coming-soon">
+        <p class="tag">Coming Soon</p>
+        <h2>Market Comparison</h2>
+        <p>
+          A home for lines, props, and pricing deltas once we connect the rest of the stack into this app.
+        </p>
+      </article>
+    </section>
+
+    <p class="footer-note">
+      Start here, then jump into whichever pricing component you need for the slate.
+    </p>
+  </main>
+</body>
+</html>
