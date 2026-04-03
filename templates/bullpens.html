@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MLB Pricing Tools | Platoon Lineups</title>
+  <title>MLB Pricing Tools | Bullpens</title>
   <style>
     :root {
       --bg: #09111a;
@@ -33,7 +33,7 @@
     }
 
     .shell {
-      width: min(1320px, calc(100% - 32px));
+      width: min(1380px, calc(100% - 32px));
       margin: 0 auto;
       padding: 32px 0 48px;
     }
@@ -66,7 +66,7 @@
 
     .subtitle {
       margin: 0;
-      max-width: 880px;
+      max-width: 900px;
       color: var(--muted);
       font-size: 1rem;
       line-height: 1.6;
@@ -157,7 +157,7 @@
       margin-top: 24px;
       display: grid;
       gap: 20px;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: 1fr;
     }
 
     .panel {
@@ -193,7 +193,7 @@
     table {
       width: 100%;
       border-collapse: collapse;
-      min-width: 520px;
+      min-width: 920px;
     }
 
     th,
@@ -216,6 +216,12 @@
       white-space: normal;
     }
 
+    td.usage {
+      white-space: normal;
+      min-width: 180px;
+      color: var(--muted);
+    }
+
     .empty {
       padding: 28px 20px;
       color: var(--muted);
@@ -227,15 +233,9 @@
       font-size: 0.92rem;
     }
 
-    @media (max-width: 920px) {
-      .board {
-        grid-template-columns: 1fr;
-      }
-    }
-
     @media (max-width: 640px) {
       .shell {
-        width: min(100% - 18px, 1320px);
+        width: min(100% - 18px, 1380px);
         padding: 18px 0 28px;
       }
 
@@ -251,14 +251,14 @@
     <section class="hero">
       <div class="mini-nav">
         <a href="/">All Tools</a>
-        <a href="/api/export-lineups.xlsx">Download Excel</a>
+        <a href="/platoon-lineups">Platoon Lineups</a>
       </div>
       <div>
         <p class="eyebrow">MLB Pricing Tools</p>
-        <h1>Fangraphs Platoon Lineups</h1>
+        <h1>Fangraphs Bullpens</h1>
         <p class="subtitle">
-          A live-read lineup board for MLB projection work. This page pulls each team's Fangraphs
-          projected platoon lineups, shows both handedness splits, and refreshes itself every 5 minutes.
+          A live bullpen board built off the Fangraphs closer depth chart. It keeps each team's projected
+          bullpen role ladder, recent usage string, velocity, and current-season relief stats in one place.
         </p>
       </div>
 
@@ -290,8 +290,7 @@
 
     <section id="board" class="board"></section>
     <p class="footer-note">
-      Source: Fangraphs RosterResource platoon lineup pages. The Excel export places each team in a two-column
-      block with righty lineup first, then lefty lineup, plus bench and IL below the righty side.
+      Source: Fangraphs RosterResource closer depth chart. Recent usage is shown as Fangraphs prints it on the chart.
     </p>
   </main>
 
@@ -307,53 +306,99 @@
     const refreshMs = 5 * 60 * 1000;
     let refreshHandle = null;
 
-    function renderTable(sectionKey, section) {
-      const headers = section.headers || [];
+    function renderActiveTable(section) {
       const rows = section.rows || [];
-      const extraHeaders = headers.slice(4);
-
       if (!rows.length) {
         return `
           <article class="panel">
             <div class="panel-head">
-              <h2>${sectionKey}</h2>
+              <h2>Projected Bullpen</h2>
               <p>${section.title || "No data available"}</p>
             </div>
-            <div class="empty">No lineup rows were parsed for this split.</div>
+            <div class="empty">No bullpen rows were parsed for this team.</div>
           </article>
         `;
       }
 
-      const headCells = [
-        "<th>Order/Status</th>",
-        "<th>Pos</th>",
-        "<th>Name</th>",
-        "<th>Bats</th>",
-        ...extraHeaders.map((header) => `<th>${header}</th>`)
-      ].join("");
-
-      const bodyRows = rows.map((row) => {
-        const extraCells = (row.stats || []).map((value) => `<td>${value}</td>`).join("");
-        return `
-          <tr>
-            <td>${row.status}</td>
-            <td>${row.position}</td>
-            <td class="name">${row.name}</td>
-            <td>${row.bats}</td>
-            ${extraCells}
-          </tr>
-        `;
-      }).join("");
+      const bodyRows = rows.map((row) => `
+        <tr>
+          <td class="name">${row.name}</td>
+          <td>${row.throws}</td>
+          <td>${row.role}</td>
+          <td class="usage">${row.usage || "-"}</td>
+          ${(row.stats || []).map((value) => `<td>${value}</td>`).join("")}
+        </tr>
+      `).join("");
 
       return `
         <article class="panel">
           <div class="panel-head">
-            <h2>${sectionKey}</h2>
+            <h2>Projected Bullpen</h2>
             <p>${section.title}</p>
           </div>
           <div class="table-wrap">
             <table>
-              <thead><tr>${headCells}</tr></thead>
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Thr</th>
+                  <th>Role</th>
+                  <th>Recent Usage</th>
+                  <th>vFA</th>
+                  <th>vSI</th>
+                  <th>G</th>
+                  <th>IP</th>
+                  <th>ERA</th>
+                  <th>Sv</th>
+                  <th>HLD</th>
+                  <th>K/9</th>
+                  <th>K%</th>
+                </tr>
+              </thead>
+              <tbody>${bodyRows}</tbody>
+            </table>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderInjuredTable(section) {
+      const rows = section.rows || [];
+      if (!rows.length) {
+        return `
+          <article class="panel">
+            <div class="panel-head">
+              <h2>IL / Unavailable</h2>
+              <p>${section.title || "No data available"}</p>
+            </div>
+            <div class="empty">No IL rows were parsed for this team.</div>
+          </article>
+        `;
+      }
+
+      const bodyRows = rows.map((row) => `
+        <tr>
+          <td class="name">${row.name}</td>
+          <td>${row.throws}</td>
+          <td>${row.status}</td>
+        </tr>
+      `).join("");
+
+      return `
+        <article class="panel">
+          <div class="panel-head">
+            <h2>IL / Unavailable</h2>
+            <p>${section.title}</p>
+          </div>
+          <div class="table-wrap">
+            <table style="min-width: 420px;">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Thr</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
               <tbody>${bodyRows}</tbody>
             </table>
           </div>
@@ -379,15 +424,12 @@
       teamSelect.value = queryValue && teams.some((team) => team.slug === queryValue) ? queryValue : defaultTeam;
     }
 
-    async function loadLineups() {
+    async function loadBullpens() {
       const team = teamSelect.value;
-      const url = `/api/lineups?team=${encodeURIComponent(team)}`;
-      statusText.textContent = `Refreshing ${team.toUpperCase()} from Fangraphs...`;
-
-      const response = await fetch(url, { cache: "no-store" });
+      const response = await fetch(`/api/bullpens?team=${encodeURIComponent(team)}`, { cache: "no-store" });
       const payload = await response.json();
       if (!response.ok) {
-        throw new Error(payload.detail || "Failed to load Fangraphs lineup data.");
+        throw new Error(payload.detail || "Failed to load Fangraphs bullpen data.");
       }
 
       sourceLink.href = payload.source_url;
@@ -397,15 +439,16 @@
       history.replaceState({}, "", `?team=${encodeURIComponent(team)}`);
 
       board.innerHTML = [
-        renderTable("vsR", payload.sections.vsR),
-        renderTable("vsL", payload.sections.vsL)
+        renderActiveTable(payload.sections.active),
+        renderInjuredTable(payload.sections.injured)
       ].join("");
     }
 
     async function refreshAll() {
       refreshButton.disabled = true;
+      statusText.textContent = `Refreshing ${teamSelect.value.toUpperCase()} from Fangraphs...`;
       try {
-        await loadLineups();
+        await loadBullpens();
       } catch (error) {
         statusText.textContent = error.message || String(error);
         board.innerHTML = `
@@ -419,10 +462,10 @@
     }
 
     function exportWorkbook() {
-      statusText.textContent = "Building Excel export for all teams...";
-      window.location.href = "/api/export-lineups.xlsx";
+      statusText.textContent = "Building bullpen Excel export for all teams...";
+      window.location.href = "/api/export-bullpens.xlsx";
       window.setTimeout(() => {
-        statusText.textContent = "Excel export requested";
+        statusText.textContent = "Bullpen Excel export requested";
       }, 1200);
     }
 

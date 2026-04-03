@@ -1,0 +1,699 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MLB Pricing Tools | Velocity Comparison</title>
+  <style>
+    :root {
+      --bg: #09111a;
+      --panel: rgba(17, 27, 38, 0.92);
+      --panel-strong: #121d29;
+      --ink: #e8f0f6;
+      --muted: #9eb0bf;
+      --accent: #66b3ff;
+      --border: rgba(140, 168, 188, 0.18);
+      --shadow: 0 22px 44px rgba(0, 0, 0, 0.34);
+      --up: #58d39b;
+      --down: #f59e0b;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(102, 179, 255, 0.18), transparent 34%),
+        radial-gradient(circle at bottom right, rgba(64, 118, 255, 0.16), transparent 30%),
+        linear-gradient(160deg, #0a121b 0%, #0f1a24 50%, #09111a 100%);
+    }
+
+    .shell {
+      width: min(1380px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 48px;
+    }
+
+    .hero {
+      display: grid;
+      gap: 18px;
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      background: linear-gradient(135deg, rgba(18, 29, 41, 0.96), rgba(12, 20, 29, 0.92));
+      box-shadow: var(--shadow);
+    }
+
+    .eyebrow {
+      margin: 0;
+      font-size: 0.8rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      line-height: 0.96;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      margin: 0;
+      max-width: 920px;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .mini-nav {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .mini-nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .toolbar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 18px;
+    }
+
+    .control,
+    .status-chip {
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: var(--panel);
+      padding: 14px 16px;
+    }
+
+    .control label,
+    .status-label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    input,
+    select,
+    button {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid rgba(21, 32, 43, 0.14);
+      padding: 12px 14px;
+      font: inherit;
+      background: #101925;
+      color: var(--ink);
+    }
+
+    button {
+      cursor: pointer;
+      font-weight: 700;
+      background: linear-gradient(135deg, #134e4a, #0b6e4f);
+      color: #f6fffb;
+    }
+
+    .status-chip strong,
+    .status-chip span,
+    .status-chip a {
+      display: block;
+    }
+
+    .status-chip strong {
+      font-size: 0.95rem;
+      margin-bottom: 4px;
+    }
+
+    .status-chip span,
+    .status-chip a {
+      color: var(--muted);
+      text-decoration: none;
+      word-break: break-word;
+    }
+
+    .status-chip a:hover {
+      color: var(--accent);
+    }
+
+    .panel {
+      margin-top: 24px;
+      border-radius: 24px;
+      border: 1px solid var(--border);
+      background: var(--panel-strong);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .panel-head {
+      padding: 18px 20px 14px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(102, 179, 255, 0.14), rgba(18, 29, 41, 0.96));
+    }
+
+    .panel-head h2 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+
+    .panel-head p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .table-wrap {
+      overflow-x: auto;
+      padding: 8px 14px 16px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 920px;
+    }
+
+    th,
+    td {
+      padding: 12px 10px;
+      border-bottom: 1px solid rgba(21, 32, 43, 0.08);
+      text-align: left;
+      white-space: nowrap;
+    }
+
+    th {
+      font-size: 0.75rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    td.name {
+      white-space: normal;
+      font-weight: 700;
+    }
+
+    .delta-up { color: var(--up); font-weight: 700; }
+    .delta-down { color: var(--down); font-weight: 700; }
+    .delta-flat { color: var(--muted); font-weight: 700; }
+
+    .empty {
+      padding: 28px 20px;
+      color: var(--muted);
+    }
+
+    .games-grid {
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      padding: 16px;
+    }
+
+    .game-card {
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      overflow: hidden;
+      background: rgba(102, 179, 255, 0.06);
+    }
+
+    .game-head {
+      padding: 16px 18px 12px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(102, 179, 255, 0.14), rgba(18, 29, 41, 0.96));
+    }
+
+    .game-head h3 {
+      margin: 0;
+      font-size: 1.15rem;
+    }
+
+    .game-head p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .starter-block {
+      padding: 14px 18px 18px;
+      border-bottom: 1px solid rgba(21, 32, 43, 0.08);
+    }
+
+    .starter-block:last-child {
+      border-bottom: 0;
+    }
+
+    .starter-label {
+      font-size: 0.82rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .starter-name {
+      margin-top: 4px;
+      font-size: 1.05rem;
+      font-weight: 700;
+    }
+
+    .starter-meta {
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .mini-table {
+      margin-top: 12px;
+      width: 100%;
+      min-width: 0;
+    }
+
+    .mini-table th,
+    .mini-table td {
+      padding: 8px 6px;
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 640px) {
+      .shell {
+        width: min(100% - 18px, 1380px);
+        padding: 18px 0 28px;
+      }
+
+      .hero {
+        padding: 20px;
+        border-radius: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="mini-nav">
+        <a href="/">All Tools</a>
+        <a href="/probable-pitchers">Probable Pitchers</a>
+      </div>
+      <div>
+        <p class="eyebrow">MLB Pricing Tools</p>
+        <h1>Velocity Comparison</h1>
+        <p class="subtitle">
+          Compare each pitcher's current-season average pitch velocity against last season using Baseball Savant's pitch arsenal leaderboard.
+        </p>
+      </div>
+
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Tomorrow's Starters</h2>
+        <p id="tomorrowSubtitle">Loading tomorrow's probable starters...</p>
+      </div>
+      <div id="tomorrowWrap"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Filters</h2>
+        <p>Use these controls to narrow and sort the full pitch velocity change table.</p>
+      </div>
+      <div class="table-wrap" style="padding-top: 16px;">
+        <div class="toolbar" style="margin-top: 0;">
+          <div class="control">
+            <label for="searchInput">Pitcher Search</label>
+            <input id="searchInput" type="text" placeholder="Search pitcher">
+          </div>
+          <div class="control">
+            <label for="teamSelect">Team</label>
+            <select id="teamSelect">
+              <option value="">All Teams</option>
+            </select>
+          </div>
+          <div class="control">
+            <label for="handSelect">Throws</label>
+            <select id="handSelect">
+              <option value="">All</option>
+              <option value="R">RHP</option>
+              <option value="L">LHP</option>
+            </select>
+          </div>
+          <div class="control">
+            <label for="pitchSelect">Pitch Thrown</label>
+            <select id="pitchSelect">
+              <option value="">All Pitches</option>
+            </select>
+          </div>
+          <div class="control">
+            <label for="sortSelect">Sort By</label>
+            <select id="sortSelect">
+              <option value="abs_delta_desc">Biggest Delta</option>
+              <option value="delta_desc">Biggest Velo Increase</option>
+              <option value="delta_asc">Biggest Velo Decrease</option>
+              <option value="spin_delta_desc">Biggest Spin Increase</option>
+              <option value="spin_delta_asc">Biggest Spin Decrease</option>
+              <option value="current_velocity_desc">Current Velocity High to Low</option>
+              <option value="current_velocity_asc">Current Velocity Low to High</option>
+              <option value="previous_velocity_desc">Last Season Velocity High to Low</option>
+              <option value="previous_velocity_asc">Last Season Velocity Low to High</option>
+              <option value="pitcher_asc">Pitcher A to Z</option>
+              <option value="pitcher_desc">Pitcher Z to A</option>
+            </select>
+          </div>
+          <div class="control">
+            <label>&nbsp;</label>
+            <button id="refreshButton" type="button">Refresh From Savant</button>
+          </div>
+          <div class="status-chip">
+            <span class="status-label">Source</span>
+            <strong id="yearText">Loading...</strong>
+            <a id="sourceLink" href="#" target="_blank" rel="noreferrer">Open current Savant table</a>
+          </div>
+          <div class="status-chip">
+            <span class="status-label">Status</span>
+            <strong id="statusText">Loading comparison data...</strong>
+            <span id="countText">Preparing rows...</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Pitch Velocity Change Table</h2>
+        <p id="panelSubtitle">Loading Baseball Savant pitch-arsenals data...</p>
+      </div>
+      <div id="tableWrap" class="table-wrap"></div>
+    </section>
+  </main>
+
+  <script>
+    const searchInput = document.getElementById("searchInput");
+    const teamSelect = document.getElementById("teamSelect");
+    const handSelect = document.getElementById("handSelect");
+    const pitchSelect = document.getElementById("pitchSelect");
+    const sortSelect = document.getElementById("sortSelect");
+    const refreshButton = document.getElementById("refreshButton");
+    const sourceLink = document.getElementById("sourceLink");
+    const yearText = document.getElementById("yearText");
+    const statusText = document.getElementById("statusText");
+    const countText = document.getElementById("countText");
+    const panelSubtitle = document.getElementById("panelSubtitle");
+    const tomorrowSubtitle = document.getElementById("tomorrowSubtitle");
+    const tomorrowWrap = document.getElementById("tomorrowWrap");
+    const tableWrap = document.getElementById("tableWrap");
+
+    let payload = null;
+
+    function formatVelocity(value) {
+      return value == null ? "—" : `${value.toFixed(1)} mph`;
+    }
+
+    function formatSpin(value) {
+      return value == null ? "\u2014" : `${Math.round(value)} rpm`;
+    }
+
+    function formatStuff(value) {
+      return value == null ? "\u2014" : `${Math.round(value)}`;
+    }
+
+    function formatDelta(value) {
+      if (value == null) {
+        return '<span class="delta-flat">—</span>';
+      }
+      if (value > 0) {
+        return `<span class="delta-up">+${value.toFixed(1)}</span>`;
+      }
+      if (value < 0) {
+        return `<span class="delta-down">${value.toFixed(1)}</span>`;
+      }
+      return `<span class="delta-flat">${value.toFixed(1)}</span>`;
+    }
+
+    function formatSpinDelta(value) {
+      if (value == null) {
+        return '<span class="delta-flat">â€”</span>';
+      }
+      const rounded = Math.round(value);
+      if (rounded > 0) {
+        return `<span class="delta-up">+${rounded}</span>`;
+      }
+      if (rounded < 0) {
+        return `<span class="delta-down">${rounded}</span>`;
+      }
+      return `<span class="delta-flat">${rounded}</span>`;
+    }
+
+    function getStuffValue(row) {
+      return row.stuff_plus == null ? null : row.stuff_plus;
+    }
+
+    function compareNumeric(a, b, direction) {
+      const left = a == null ? Number.NEGATIVE_INFINITY : a;
+      const right = b == null ? Number.NEGATIVE_INFINITY : b;
+      return direction === "asc" ? left - right : right - left;
+    }
+
+    function sortRows(rows) {
+      const sortKey = sortSelect.value;
+      const sorted = [...rows];
+
+      sorted.sort((left, right) => {
+        switch (sortKey) {
+          case "current_velocity_desc":
+            return compareNumeric(left.current_velocity, right.current_velocity, "desc") || left.pitcher_name.localeCompare(right.pitcher_name);
+          case "current_velocity_asc":
+            return compareNumeric(left.current_velocity, right.current_velocity, "asc") || left.pitcher_name.localeCompare(right.pitcher_name);
+          case "previous_velocity_desc":
+            return compareNumeric(left.previous_velocity, right.previous_velocity, "desc") || left.pitcher_name.localeCompare(right.pitcher_name);
+          case "previous_velocity_asc":
+            return compareNumeric(left.previous_velocity, right.previous_velocity, "asc") || left.pitcher_name.localeCompare(right.pitcher_name);
+          case "delta_desc":
+            return compareNumeric(left.delta, right.delta, "desc") || left.pitcher_name.localeCompare(right.pitcher_name);
+          case "delta_asc":
+            return compareNumeric(left.delta, right.delta, "asc") || left.pitcher_name.localeCompare(right.pitcher_name);
+          case "spin_delta_desc":
+            return compareNumeric(left.spin_delta, right.spin_delta, "desc") || left.pitcher_name.localeCompare(right.pitcher_name);
+          case "spin_delta_asc":
+            return compareNumeric(left.spin_delta, right.spin_delta, "asc") || left.pitcher_name.localeCompare(right.pitcher_name);
+          case "pitcher_desc":
+            return right.pitcher_name.localeCompare(left.pitcher_name) || left.pitch_type.localeCompare(right.pitch_type);
+          case "pitcher_asc":
+            return left.pitcher_name.localeCompare(right.pitcher_name) || left.pitch_type.localeCompare(right.pitch_type);
+          case "abs_delta_desc":
+          default: {
+            const leftValue = left.delta == null ? Number.NEGATIVE_INFINITY : Math.abs(left.delta);
+            const rightValue = right.delta == null ? Number.NEGATIVE_INFINITY : Math.abs(right.delta);
+            return (rightValue - leftValue) || left.pitcher_name.localeCompare(right.pitcher_name) || left.pitch_type.localeCompare(right.pitch_type);
+          }
+        }
+      });
+
+      return sorted;
+    }
+
+    function renderRows(rows) {
+      if (!rows.length) {
+        tableWrap.innerHTML = '<div class="empty">No rows match the current filters.</div>';
+        return;
+      }
+
+      const body = rows.map((row) => `
+        <tr>
+          <td class="name">${row.pitcher_name}</td>
+          <td>${row.team}</td>
+          <td>${row.throws}</td>
+          <td>${row.pitch_type}</td>
+          <td>${formatVelocity(row.current_velocity)}</td>
+          <td>${formatVelocity(row.previous_velocity)}</td>
+          <td>${formatDelta(row.delta)}</td>
+          <td>${formatStuff(getStuffValue(row))}</td>
+          <td>${formatSpin(row.current_spin)}</td>
+          <td>${formatSpin(row.previous_spin)}</td>
+          <td>${formatSpinDelta(row.spin_delta)}</td>
+        </tr>
+      `).join("");
+
+      tableWrap.innerHTML = `
+        <table>
+          <thead>
+            <tr>
+              <th>Pitcher</th>
+              <th>Team</th>
+              <th>Throws</th>
+              <th>Pitch</th>
+              <th id="currentYearHead">Current</th>
+              <th id="previousYearHead">Last Season</th>
+              <th>Velo Delta</th>
+              <th>Stuff+</th>
+              <th id="currentSpinHead">Current Spin</th>
+              <th id="previousSpinHead">Last Season Spin</th>
+              <th>Spin Delta</th>
+            </tr>
+          </thead>
+          <tbody>${body}</tbody>
+        </table>
+      `;
+
+      document.getElementById("currentYearHead").textContent = `${payload.current_year} Velo`;
+      document.getElementById("previousYearHead").textContent = `${payload.previous_year} Velo`;
+      document.getElementById("currentSpinHead").textContent = `${payload.current_year} Spin`;
+      document.getElementById("previousSpinHead").textContent = `${payload.previous_year} Spin`;
+    }
+
+    function renderTomorrowGames(games) {
+      if (!games.length) {
+        tomorrowWrap.innerHTML = '<div class="empty">No probable starters were found for tomorrow.</div>';
+        return;
+      }
+
+      const orderedGames = games.map((game) => ({
+        ...game,
+        starters: (game.starters || []).map((starter) => ({
+          ...starter,
+          rows: [...(starter.rows || [])].sort((left, right) => {
+            const leftValue = left.current_velocity == null ? Number.NEGATIVE_INFINITY : left.current_velocity;
+            const rightValue = right.current_velocity == null ? Number.NEGATIVE_INFINITY : right.current_velocity;
+            return (rightValue - leftValue) || left.pitch_type.localeCompare(right.pitch_type);
+          })
+        }))
+      }));
+
+      tomorrowWrap.innerHTML = `<div class="games-grid">${orderedGames.map((game) => `
+        <article class="game-card">
+          <div class="game-head">
+            <h3>${game.away_team} at ${game.home_team}</h3>
+            <p>${game.game_time || ""}</p>
+          </div>
+          ${(game.starters || []).map((starter) => `
+            <div class="starter-block">
+              <div class="starter-label">${starter.team}</div>
+              <div class="starter-name">${starter.pitcher_name}${starter.hand ? ` (${starter.hand}HP)` : ""}</div>
+              <div class="starter-meta">${starter.record || "No record"}${starter.era ? ` | ${starter.era}` : ""}</div>
+              ${starter.rows && starter.rows.length ? `
+                <table class="mini-table">
+                  <thead>
+                    <tr>
+                      <th>Pitch</th>
+                      <th>${payload.current_year}</th>
+                      <th>${payload.previous_year}</th>
+                      <th>Velo Delta</th>
+                      <th>Stuff+</th>
+                      <th>${payload.current_year} Spin</th>
+                      <th>${payload.previous_year} Spin</th>
+                      <th>Spin Delta</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${starter.rows.map((row) => `
+                      <tr>
+                        <td>${row.pitch_type}</td>
+                        <td>${formatVelocity(row.current_velocity)}</td>
+                        <td>${formatVelocity(row.previous_velocity)}</td>
+                        <td>${formatDelta(row.delta)}</td>
+                        <td>${formatStuff(getStuffValue(row))}</td>
+                        <td>${formatSpin(row.current_spin)}</td>
+                        <td>${formatSpin(row.previous_spin)}</td>
+                        <td>${formatSpinDelta(row.spin_delta)}</td>
+                      </tr>
+                    `).join("")}
+                  </tbody>
+                </table>
+              ` : '<div class="starter-meta" style="margin-top:10px;">No Savant velocity comparison rows found.</div>'}
+            </div>
+          `).join("")}
+        </article>
+      `).join("")}</div>`;
+    }
+
+    function applyFilters() {
+      if (!payload) {
+        return;
+      }
+      const needle = searchInput.value.trim().toLowerCase();
+      const team = teamSelect.value;
+      const hand = handSelect.value;
+      const pitch = pitchSelect.value;
+
+      const rows = (payload.rows || []).filter((row) => {
+        if (needle && !row.pitcher_name.toLowerCase().includes(needle)) {
+          return false;
+        }
+        if (team && row.team !== team) {
+          return false;
+        }
+        if (hand && row.throws !== hand) {
+          return false;
+        }
+        if (pitch && row.pitch_type !== pitch) {
+          return false;
+        }
+        return true;
+      });
+
+      const sortedRows = sortRows(rows);
+      countText.textContent = `${sortedRows.length} pitch rows shown`;
+      renderRows(sortedRows);
+    }
+
+    async function loadComparison() {
+      statusText.textContent = "Refreshing Baseball Savant comparison...";
+      const response = await fetch("/api/velocity-comparison", { cache: "no-store" });
+      const data = await response.json();
+      if (!response.ok) {
+        throw new Error(data.detail || "Failed to load Baseball Savant comparison data.");
+      }
+
+      payload = data;
+      sourceLink.href = data.source_urls.current_velocity;
+      yearText.textContent = `${data.current_year} vs ${data.previous_year}`;
+      panelSubtitle.textContent = `Current season ${data.current_year} versus ${data.previous_year}, with both velocity and spin changes by pitch.`;
+      tomorrowSubtitle.textContent = `Tomorrow's probable starters for ${data.tomorrow.date}.`;
+      statusText.textContent = "Velocity comparison loaded";
+
+      teamSelect.innerHTML = '<option value="">All Teams</option>' + (data.teams || []).map((team) => (
+        `<option value="${team}">${team}</option>`
+      )).join("");
+      const pitchTypes = [...new Set((data.rows || []).map((row) => row.pitch_type).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+      pitchSelect.innerHTML = '<option value="">All Pitches</option>' + pitchTypes.map((pitch) => (
+        `<option value="${pitch}">${pitch}</option>`
+      )).join("");
+
+      renderTomorrowGames(data.tomorrow.games || []);
+      applyFilters();
+    }
+
+    async function refreshAll() {
+      refreshButton.disabled = true;
+      try {
+        await loadComparison();
+      } catch (error) {
+        statusText.textContent = error.message || String(error);
+        tomorrowWrap.innerHTML = `<div class="empty">${statusText.textContent}</div>`;
+        tableWrap.innerHTML = `<div class="empty">${statusText.textContent}</div>`;
+        countText.textContent = "No rows available";
+      } finally {
+        refreshButton.disabled = false;
+      }
+    }
+
+    searchInput.addEventListener("input", applyFilters);
+    teamSelect.addEventListener("change", applyFilters);
+    handSelect.addEventListener("change", applyFilters);
+    pitchSelect.addEventListener("change", applyFilters);
+    sortSelect.addEventListener("change", applyFilters);
+    refreshButton.addEventListener("click", refreshAll);
+    refreshAll();
+  </script>
+</body>
+</html>

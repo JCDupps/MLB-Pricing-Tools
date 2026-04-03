@@ -6,14 +6,14 @@
   <title>MLB Pricing Tools</title>
   <style>
     :root {
-      --bg: #f4efe4;
-      --ink: #17211c;
-      --muted: #5d665f;
-      --accent: #0b6e4f;
-      --accent-deep: #134e4a;
-      --card: rgba(255, 255, 255, 0.92);
-      --border: rgba(23, 33, 28, 0.12);
-      --shadow: 0 28px 60px rgba(17, 24, 39, 0.1);
+      --bg: #09111a;
+      --ink: #e8f0f6;
+      --muted: #9eb0bf;
+      --accent: #66b3ff;
+      --accent-deep: #2f6fe4;
+      --card: rgba(15, 24, 34, 0.92);
+      --border: rgba(140, 168, 188, 0.18);
+      --shadow: 0 28px 60px rgba(0, 0, 0, 0.35);
     }
 
     * { box-sizing: border-box; }
@@ -24,9 +24,9 @@
       font-family: Georgia, "Times New Roman", serif;
       color: var(--ink);
       background:
-        radial-gradient(circle at top left, rgba(11, 110, 79, 0.12), transparent 28%),
-        radial-gradient(circle at bottom right, rgba(151, 111, 52, 0.18), transparent 34%),
-        linear-gradient(150deg, #fbf7f0 0%, #efe7d7 46%, #f4efe4 100%);
+        radial-gradient(circle at top left, rgba(102, 179, 255, 0.18), transparent 28%),
+        radial-gradient(circle at bottom right, rgba(64, 118, 255, 0.16), transparent 34%),
+        linear-gradient(150deg, #0a121b 0%, #0f1a24 46%, #09111a 100%);
     }
 
     .shell {
@@ -39,7 +39,7 @@
       padding: 34px;
       border: 1px solid var(--border);
       border-radius: 32px;
-      background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(249, 245, 237, 0.92));
+      background: linear-gradient(135deg, rgba(18, 29, 41, 0.96), rgba(12, 20, 29, 0.94));
       box-shadow: var(--shadow);
     }
 
@@ -82,13 +82,13 @@
       border: 1px solid rgba(23, 33, 28, 0.14);
       text-decoration: none;
       font-weight: 700;
-      color: #f8fbf9;
+      color: #f5fffb;
       background: linear-gradient(135deg, var(--accent-deep), var(--accent));
     }
 
     .button.secondary {
       color: var(--ink);
-      background: rgba(255, 255, 255, 0.8);
+      background: rgba(14, 23, 33, 0.88);
     }
 
     .grid {
@@ -134,7 +134,7 @@
     }
 
     .card.coming-soon {
-      background: linear-gradient(180deg, rgba(255,255,255,0.86), rgba(244, 239, 228, 0.95));
+      background: linear-gradient(180deg, rgba(18, 29, 41, 0.9), rgba(11, 19, 28, 0.96));
     }
 
     .footer-note {
@@ -191,20 +191,23 @@
         <a href="/probable-pitchers">Launch tool</a>
       </article>
 
-      <article class="card coming-soon">
-        <p class="tag">Coming Soon</p>
-        <h2>Weather and Park</h2>
+      <article class="card">
+        <p class="tag">Live Now</p>
+        <h2>Velocity Comparison</h2>
         <p>
-          A single board for weather, wind, roof status, and park factors so we can avoid flipping between tabs.
+          Compare each pitcher's current average pitch velocity against last season using Baseball Savant's pitch arsenal leaderboard.
         </p>
+        <a href="/velocity-comparison">Launch tool</a>
       </article>
 
-      <article class="card coming-soon">
-        <p class="tag">Coming Soon</p>
-        <h2>Market Comparison</h2>
+      <article class="card">
+        <p class="tag">Live Now</p>
+        <h2>Fangraphs Bullpens</h2>
         <p>
-          A home for lines, props, and pricing deltas once we connect the rest of the stack into this app.
+          A bullpen board for projected reliever roles, recent usage, velo, and current relief stats without
+          hopping between team tabs.
         </p>
+        <a href="/bullpens">Launch tool</a>
       </article>
     </section>
 
