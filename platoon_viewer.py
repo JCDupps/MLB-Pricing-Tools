@@ -31,6 +31,7 @@ VELOCITY_TEMPLATE_PATH = APP_DIR / "templates" / "velocity_comparison.html"
 PITCHERS_TEMPLATE_PATH = APP_DIR / "templates" / "probable_pitchers.html"
 PITCHER_PROFILE_TEMPLATE_PATH = APP_DIR / "templates" / "pitcher_profile.html"
 STUFF_PLUS_CACHE_PATH = APP_DIR / "pitch_stuff_plus_cache.json"
+VELOCITY_COMPARISON_CACHE_PATH = APP_DIR / "velocity_comparison_cache.json"
 REFRESH_SECONDS = 300
 MLB_HEADSHOT_TEMPLATE = "https://midfield.mlbstatic.com/v1/people/{mlb_id}/silo/360?zoom=1.2"
 VALID_BATS = {"R", "L", "S"}
@@ -1105,6 +1106,19 @@ def save_stuff_plus_cache_file(payload: Dict[str, object]) -> None:
     STUFF_PLUS_CACHE_PATH.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
 
 
+def load_velocity_comparison_cache_file() -> Dict[str, object]:
+    if not VELOCITY_COMPARISON_CACHE_PATH.exists():
+        return {}
+    try:
+        return json.loads(VELOCITY_COMPARISON_CACHE_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def save_velocity_comparison_cache_file(payload: Dict[str, object]) -> None:
+    VELOCITY_COMPARISON_CACHE_PATH.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
+
+
 def extract_fangraphs_player_id_from_url(url: Optional[str]) -> Optional[int]:
     if not url:
         return None
@@ -1430,6 +1444,23 @@ def build_velocity_comparison() -> Dict[str, object]:
     }
 
 
+def get_or_build_velocity_comparison_cache() -> Dict[str, object]:
+    expected_refresh_key = current_stuff_plus_refresh_key()
+    cached = load_velocity_comparison_cache_file()
+
+    if cached.get("refresh_key") == expected_refresh_key and cached.get("payload"):
+        return cached["payload"]
+
+    payload = build_velocity_comparison()
+    cache_wrapper = {
+        "generated_at": eastern_now().isoformat(),
+        "refresh_key": expected_refresh_key,
+        "payload": payload,
+    }
+    save_velocity_comparison_cache_file(cache_wrapper)
+    return payload
+
+
 def build_pitch_stuff_plus_map(current_row: Dict[str, object]) -> Dict[str, Optional[int]]:
     pitch_map: Dict[str, Optional[int]] = {}
     for savant_code, fg_code in STUFF_PLUS_FIELD_MAP.items():
@@ -1673,7 +1704,7 @@ def api_bullpens(team: str = Query("braves", description="Fangraphs team slug"))
 @app.get("/api/velocity-comparison", response_class=JSONResponse)
 def api_velocity_comparison() -> JSONResponse:
     try:
-        payload = build_velocity_comparison()
+        payload = get_or_build_velocity_comparison_cache()
     except (HTTPError, URLError, TimeoutError) as exc:
         raise HTTPException(status_code=502, detail=f"Failed to fetch Baseball Savant pitch-arsenals data: {exc}") from exc
     except ValueError as exc:

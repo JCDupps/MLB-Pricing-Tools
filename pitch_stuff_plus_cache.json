@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T12:47:34.946851",
+  "generated_at": "2026-04-03T15:42:18.932164",
   "pitchers": {
     "434378": {
       "fangraphs_player_id": 8700,
@@ -87,36 +87,8 @@
       "pitcher_id": "472610",
       "pitcher_name": "Luis Garc\u00eda",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": 88,
-          "FO": null,
-          "FS": 98,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 103,
-          "SL": 125,
-          "ST": 125,
-          "SV": 125
-        },
-        "2026": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": null,
-          "FO": null,
-          "FS": 91,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 103,
-          "SL": 107,
-          "ST": 107,
-          "SV": 107
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "477132": {
@@ -483,36 +455,8 @@
       "pitcher_id": "544150",
       "pitcher_name": "Albert Su\u00e1rez",
       "years": {
-        "2025": {
-          "CH": 77,
-          "CU": 98,
-          "FC": 88,
-          "FF": 88,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": null,
-          "SL": null,
-          "ST": null,
-          "SV": null
-        },
-        "2026": {
-          "CH": 85,
-          "CU": 109,
-          "FC": 90,
-          "FF": 82,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": null,
-          "SL": null,
-          "ST": null,
-          "SV": null
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "547179": {
@@ -547,36 +491,8 @@
       "pitcher_id": "548384",
       "pitcher_name": "Brooks Raley",
       "years": {
-        "2025": {
-          "CH": 91,
-          "CU": null,
-          "FC": 97,
-          "FF": null,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 100,
-          "SL": 127,
-          "ST": 127,
-          "SV": 127
-        },
-        "2026": {
-          "CH": 91,
-          "CU": null,
-          "FC": 90,
-          "FF": null,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 95,
-          "SL": 134,
-          "ST": 134,
-          "SV": 134
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "552640": {
@@ -1089,8 +1005,36 @@
       "pitcher_id": "595014",
       "pitcher_name": "Blake Treinen",
       "years": {
-        "2025": {},
-        "2026": {}
+        "2025": {
+          "CH": null,
+          "CU": null,
+          "FC": 96,
+          "FF": 85,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 103,
+          "SL": 127,
+          "ST": 127,
+          "SV": 127
+        },
+        "2026": {
+          "CH": null,
+          "CU": null,
+          "FC": 95,
+          "FF": 48,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 104,
+          "SL": 112,
+          "ST": 112,
+          "SV": 112
+        }
       }
     },
     "595345": {
@@ -1212,36 +1156,8 @@
       "pitcher_id": "601713",
       "pitcher_name": "Nick Pivetta",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": 98,
-          "FC": 81,
-          "FF": 103,
-          "FO": null,
-          "FS": 86,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 81,
-          "SL": 114,
-          "ST": 114,
-          "SV": 114
-        },
-        "2026": {
-          "CH": null,
-          "CU": 86,
-          "FC": 69,
-          "FF": 106,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 68,
-          "SL": 119,
-          "ST": 119,
-          "SV": 119
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "605130": {
@@ -1249,36 +1165,8 @@
       "pitcher_id": "605130",
       "pitcher_name": "Scott Barlow",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": 114,
-          "FC": null,
-          "FF": 97,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 90,
-          "SL": 103,
-          "ST": 103,
-          "SV": 103
-        },
-        "2026": {
-          "CH": null,
-          "CU": 97,
-          "FC": null,
-          "FF": 79,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 76,
-          "SL": 101,
-          "ST": 101,
-          "SV": 101
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "605135": {
@@ -1295,7 +1183,21 @@
       "pitcher_id": "605154",
       "pitcher_name": "John Brebbia",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 89,
+          "CU": 101,
+          "FC": null,
+          "FF": 93,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": null,
+          "SL": 93,
+          "ST": 93,
+          "SV": 93
+        },
         "2026": {}
       }
     },
@@ -1372,36 +1274,8 @@
       "pitcher_id": "605447",
       "pitcher_name": "Jordan Romano",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": 103,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": null,
-          "SL": 105,
-          "ST": 105,
-          "SV": 105
-        },
-        "2026": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": 100,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": null,
-          "SL": 95,
-          "ST": 95,
-          "SV": 95
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "605452": {
@@ -1418,7 +1292,21 @@
       "pitcher_id": "605463",
       "pitcher_name": "Tayler Scott",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": null,
+          "CU": null,
+          "FC": null,
+          "FF": 90,
+          "FO": null,
+          "FS": 95,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 92,
+          "SL": 89,
+          "ST": 89,
+          "SV": 89
+        },
         "2026": {}
       }
     },
@@ -1472,8 +1360,36 @@
       "pitcher_id": "606303",
       "pitcher_name": "Joel Payamps",
       "years": {
-        "2025": {},
-        "2026": {}
+        "2025": {
+          "CH": 86,
+          "CU": null,
+          "FC": 82,
+          "FF": 107,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 92,
+          "SL": 104,
+          "ST": 104,
+          "SV": 104
+        },
+        "2026": {
+          "CH": 56,
+          "CU": null,
+          "FC": null,
+          "FF": 97,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": null,
+          "SL": 104,
+          "ST": 104,
+          "SV": 104
+        }
       }
     },
     "606930": {
@@ -1522,36 +1438,8 @@
       "pitcher_id": "607067",
       "pitcher_name": "Colin Rea",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": 91,
-          "FC": 90,
-          "FF": 86,
-          "FO": null,
-          "FS": 94,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 97,
-          "SL": 107,
-          "ST": 107,
-          "SV": 107
-        },
-        "2026": {
-          "CH": null,
-          "CU": 82,
-          "FC": 84,
-          "FF": 99,
-          "FO": null,
-          "FS": 89,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 92,
-          "SL": 93,
-          "ST": 93,
-          "SV": 93
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "607074": {
@@ -1705,7 +1593,21 @@
       "pitcher_id": "608334",
       "pitcher_name": "Carson Fulmer",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 83,
+          "CU": 86,
+          "FC": null,
+          "FF": 97,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 87,
+          "SL": 87,
+          "ST": 87,
+          "SV": 87
+        },
         "2026": {}
       }
     },
@@ -1936,7 +1838,21 @@
       "pitcher_id": "621199",
       "pitcher_name": "Matt Bowman",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": null,
+          "CU": null,
+          "FC": 96,
+          "FF": 69,
+          "FO": null,
+          "FS": 81,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 110,
+          "SL": 105,
+          "ST": 105,
+          "SV": 105
+        },
         "2026": {}
       }
     },
@@ -2058,7 +1974,21 @@
       "pitcher_id": "622503",
       "pitcher_name": "Nabil Crismatt",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 84,
+          "CU": 83,
+          "FC": 89,
+          "FF": 69,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 74,
+          "SL": 77,
+          "ST": 77,
+          "SV": 77
+        },
         "2026": {}
       }
     },
@@ -2250,36 +2180,8 @@
       "pitcher_id": "623474",
       "pitcher_name": "Jimmy Herget",
       "years": {
-        "2025": {
-          "CH": 80,
-          "CU": 127,
-          "FC": null,
-          "FF": 93,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 80,
-          "SL": 98,
-          "ST": 98,
-          "SV": 98
-        },
-        "2026": {
-          "CH": 19,
-          "CU": 167,
-          "FC": null,
-          "FF": 112,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 86,
-          "SL": 113,
-          "ST": 113,
-          "SV": 113
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "624133": {
@@ -2397,36 +2299,8 @@
       "pitcher_id": "640455",
       "pitcher_name": "Sean Manaea",
       "years": {
-        "2025": {
-          "CH": 94,
-          "CU": null,
-          "FC": null,
-          "FF": 107,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 88,
-          "SL": 119,
-          "ST": 119,
-          "SV": 119
-        },
-        "2026": {
-          "CH": 80,
-          "CU": null,
-          "FC": 98,
-          "FF": 88,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 91,
-          "SL": 114,
-          "ST": 114,
-          "SV": 114
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "640462": {
@@ -2475,36 +2349,8 @@
       "pitcher_id": "641312",
       "pitcher_name": "Shaun Anderson",
       "years": {
-        "2025": {
-          "CH": 93,
-          "CU": null,
-          "FC": null,
-          "FF": 78,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 92,
-          "SL": 91,
-          "ST": 91,
-          "SV": 91
-        },
-        "2026": {
-          "CH": 85,
-          "CU": null,
-          "FC": null,
-          "FF": 78,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 86,
-          "SL": 72,
-          "ST": 72,
-          "SV": 72
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "641329": {
@@ -2628,7 +2474,7 @@
     "641778": {
       "fangraphs_player_id": 19316,
       "pitcher_id": "641778",
-      "pitcher_name": "Lauer",
+      "pitcher_name": "Eric Lauer",
       "years": {
         "2025": {},
         "2026": {}
@@ -2730,36 +2576,8 @@
       "pitcher_id": "642100",
       "pitcher_name": "Gabe Speier",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": 111,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 105,
-          "SL": 114,
-          "ST": 114,
-          "SV": 114
-        },
-        "2026": {
-          "CH": 87,
-          "CU": null,
-          "FC": null,
-          "FF": 124,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 111,
-          "SL": 110,
-          "ST": 110,
-          "SV": 110
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "642121": {
@@ -2972,36 +2790,8 @@
       "pitcher_id": "643410",
       "pitcher_name": "Mark Leiter Jr.",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": 92,
-          "FC": 67,
-          "FF": 63,
-          "FO": null,
-          "FS": 101,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 91,
-          "SL": 96,
-          "ST": 96,
-          "SV": 96
-        },
-        "2026": {
-          "CH": null,
-          "CU": 95,
-          "FC": 83,
-          "FF": 76,
-          "FO": null,
-          "FS": 96,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 82,
-          "SL": 84,
-          "ST": 84,
-          "SV": 84
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "643511": {
@@ -3155,7 +2945,21 @@
       "pitcher_id": "655889",
       "pitcher_name": "Manuel Rodr\u00edguez",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": null,
+          "CU": null,
+          "FC": null,
+          "FF": 97,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 111,
+          "SL": 110,
+          "ST": 110,
+          "SV": 110
+        },
         "2026": {}
       }
     },
@@ -3164,7 +2968,21 @@
       "pitcher_id": "656186",
       "pitcher_name": "Dan Altavilla",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 88,
+          "CU": null,
+          "FC": null,
+          "FF": 103,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 99,
+          "SL": 103,
+          "ST": 103,
+          "SV": 103
+        },
         "2026": {}
       }
     },
@@ -3182,36 +3000,8 @@
       "pitcher_id": "656234",
       "pitcher_name": "Jake Bird",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": 123,
-          "FC": 116,
-          "FF": 73,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 87,
-          "SL": 129,
-          "ST": 129,
-          "SV": 129
-        },
-        "2026": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": 93,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 100,
-          "SL": 132,
-          "ST": 132,
-          "SV": 132
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "656240": {
@@ -3441,36 +3231,8 @@
       "pitcher_id": "656849",
       "pitcher_name": "David Peterson",
       "years": {
-        "2025": {
-          "CH": 87,
-          "CU": 88,
-          "FC": null,
-          "FF": 81,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 97,
-          "SL": 98,
-          "ST": 98,
-          "SV": 98
-        },
-        "2026": {
-          "CH": 85,
-          "CU": 84,
-          "FC": null,
-          "FF": 79,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 89,
-          "SL": 89,
-          "ST": 89,
-          "SV": 89
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "656876": {
@@ -3515,36 +3277,8 @@
       "pitcher_id": "656945",
       "pitcher_name": "Tanner Scott",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": 116,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": null,
-          "SL": 119,
-          "ST": 119,
-          "SV": 119
-        },
-        "2026": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": 126,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": null,
-          "SL": 117,
-          "ST": 117,
-          "SV": 117
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "656986": {
@@ -3689,36 +3423,8 @@
       "pitcher_id": "657514",
       "pitcher_name": "Brennan Bernardino",
       "years": {
-        "2025": {
-          "CH": 76,
-          "CU": 107,
-          "FC": 82,
-          "FF": null,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 98,
-          "SL": 76,
-          "ST": 76,
-          "SV": 76
-        },
-        "2026": {
-          "CH": 80,
-          "CU": 112,
-          "FC": 90,
-          "FF": 126,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 89,
-          "SL": null,
-          "ST": null,
-          "SV": null
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "657571": {
@@ -3953,36 +3659,8 @@
       "pitcher_id": "663158",
       "pitcher_name": "Robert Suarez",
       "years": {
-        "2025": {
-          "CH": 101,
-          "CU": null,
-          "FC": 76,
-          "FF": 110,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 110,
-          "SL": null,
-          "ST": null,
-          "SV": null
-        },
-        "2026": {
-          "CH": 94,
-          "CU": null,
-          "FC": 95,
-          "FF": 114,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 91,
-          "SL": null,
-          "ST": null,
-          "SV": null
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "663321": {
@@ -4095,7 +3773,21 @@
       "pitcher_id": "663455",
       "pitcher_name": "Konnor Pilkington",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 96,
+          "CU": 108,
+          "FC": null,
+          "FF": 95,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": null,
+          "SL": 104,
+          "ST": 104,
+          "SV": 104
+        },
         "2026": {}
       }
     },
@@ -4281,7 +3973,21 @@
       "pitcher_id": "663671",
       "pitcher_name": "Nic Enright",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 115,
+          "CU": 94,
+          "FC": null,
+          "FF": 90,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": null,
+          "SL": 101,
+          "ST": 101,
+          "SV": 101
+        },
         "2026": {}
       }
     },
@@ -4308,36 +4014,8 @@
       "pitcher_id": "663765",
       "pitcher_name": "Jake Woodford",
       "years": {
-        "2025": {
-          "CH": 90,
-          "CU": null,
-          "FC": 89,
-          "FF": 101,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 101,
-          "SL": 102,
-          "ST": 102,
-          "SV": 102
-        },
-        "2026": {
-          "CH": 95,
-          "CU": null,
-          "FC": 101,
-          "FF": 90,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 93,
-          "SL": 106,
-          "ST": 106,
-          "SV": 106
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "663767": {
@@ -4727,36 +4405,8 @@
       "pitcher_id": "664854",
       "pitcher_name": "Ryan Helsley",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": 123,
-          "FC": 94,
-          "FF": 99,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": null,
-          "SL": 145,
-          "ST": 145,
-          "SV": 145
-        },
-        "2026": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": 93,
-          "FO": null,
-          "FS": 114,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": null,
-          "SL": 134,
-          "ST": 134,
-          "SV": 134
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "664875": {
@@ -4796,36 +4446,8 @@
       "pitcher_id": "664991",
       "pitcher_name": "Grant Wolfram",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": 120,
-          "FC": null,
-          "FF": 94,
-          "FO": null,
-          "FS": 110,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 108,
-          "SL": 119,
-          "ST": 119,
-          "SV": 119
-        },
-        "2026": {
-          "CH": null,
-          "CU": 130,
-          "FC": null,
-          "FF": 82,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 100,
-          "SL": 119,
-          "ST": 119,
-          "SV": 119
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "665152": {
@@ -4843,21 +4465,7 @@
       "pitcher_name": "Luis Medina",
       "years": {
         "2025": {},
-        "2026": {
-          "CH": 108,
-          "CU": null,
-          "FC": null,
-          "FF": 91,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 88,
-          "SL": 136,
-          "ST": 136,
-          "SV": 136
-        }
+        "2026": {}
       }
     },
     "665625": {
@@ -5184,36 +4792,8 @@
       "pitcher_id": "668390",
       "pitcher_name": "Cole Winn",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": 99,
-          "FC": 87,
-          "FF": 111,
-          "FO": null,
-          "FS": 95,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 111,
-          "SL": 97,
-          "ST": 97,
-          "SV": 97
-        },
-        "2026": {
-          "CH": null,
-          "CU": null,
-          "FC": 73,
-          "FF": 89,
-          "FO": null,
-          "FS": 97,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 107,
-          "SL": 92,
-          "ST": 92,
-          "SV": 92
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "668674": {
@@ -5454,8 +5034,36 @@
       "pitcher_id": "669062",
       "pitcher_name": "Erik Miller",
       "years": {
-        "2025": {},
-        "2026": {}
+        "2025": {
+          "CH": 91,
+          "CU": null,
+          "FC": null,
+          "FF": 94,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 132,
+          "SL": 123,
+          "ST": 123,
+          "SV": 123
+        },
+        "2026": {
+          "CH": 107,
+          "CU": null,
+          "FC": null,
+          "FF": 86,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 134,
+          "SL": 124,
+          "ST": 124,
+          "SV": 124
+        }
       }
     },
     "669084": {
@@ -5527,36 +5135,8 @@
       "pitcher_id": "669199",
       "pitcher_name": "Lake Bachar",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": 98,
-          "FO": null,
-          "FS": 105,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": null,
-          "SL": 103,
-          "ST": 103,
-          "SV": 103
-        },
-        "2026": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": 114,
-          "FO": null,
-          "FS": 91,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": null,
-          "SL": 92,
-          "ST": 92,
-          "SV": 92
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "669203": {
@@ -5605,36 +5185,8 @@
       "pitcher_id": "669276",
       "pitcher_name": "Dylan Lee",
       "years": {
-        "2025": {
-          "CH": 87,
-          "CU": null,
-          "FC": null,
-          "FF": 113,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": null,
-          "SL": 112,
-          "ST": 112,
-          "SV": 112
-        },
-        "2026": {
-          "CH": 91,
-          "CU": null,
-          "FC": null,
-          "FF": 104,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": null,
-          "SL": 118,
-          "ST": 118,
-          "SV": 118
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "669302": {
@@ -5912,36 +5464,8 @@
       "pitcher_id": "669622",
       "pitcher_name": "Anthony Bender",
       "years": {
-        "2025": {
-          "CH": 94,
-          "CU": null,
-          "FC": null,
-          "FF": 93,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 102,
-          "SL": 116,
-          "ST": 116,
-          "SV": 116
-        },
-        "2026": {
-          "CH": 119,
-          "CU": null,
-          "FC": null,
-          "FF": 175,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 82,
-          "SL": 119,
-          "ST": 119,
-          "SV": 119
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "669674": {
@@ -5967,7 +5491,21 @@
       "pitcher_id": "669704",
       "pitcher_name": "Kade Strowd",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": null,
+          "CU": 122,
+          "FC": 95,
+          "FF": 114,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 101,
+          "SL": 124,
+          "ST": 124,
+          "SV": 124
+        },
         "2026": {}
       }
     },
@@ -5985,7 +5523,21 @@
       "pitcher_id": "669713",
       "pitcher_name": "Hayden Wesneski",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 93,
+          "CU": 95,
+          "FC": 84,
+          "FF": 81,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 96,
+          "SL": 125,
+          "ST": 125,
+          "SV": 125
+        },
         "2026": {}
       }
     },
@@ -6104,36 +5656,8 @@
       "pitcher_id": "670036",
       "pitcher_name": "Matt Festa",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": null,
-          "FC": 100,
-          "FF": 104,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 96,
-          "SL": 98,
-          "ST": 98,
-          "SV": 98
-        },
-        "2026": {
-          "CH": null,
-          "CU": null,
-          "FC": 93,
-          "FF": 91,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 81,
-          "SL": 104,
-          "ST": 104,
-          "SV": 104
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "670059": {
@@ -6511,36 +6035,8 @@
       "pitcher_id": "672335",
       "pitcher_name": "Cionel P\u00e9rez",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": 106,
-          "FC": 135,
-          "FF": 93,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 102,
-          "SL": 116,
-          "ST": 116,
-          "SV": 116
-        },
-        "2026": {
-          "CH": null,
-          "CU": 107,
-          "FC": null,
-          "FF": 118,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 108,
-          "SL": null,
-          "ST": null,
-          "SV": null
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "672391": {
@@ -6575,36 +6071,8 @@
       "pitcher_id": "672582",
       "pitcher_name": "Angel Zerpa",
       "years": {
-        "2025": {
-          "CH": 92,
-          "CU": null,
-          "FC": null,
-          "FF": 88,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 128,
-          "SL": 110,
-          "ST": 110,
-          "SV": 110
-        },
-        "2026": {
-          "CH": 76,
-          "CU": null,
-          "FC": null,
-          "FF": null,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 103,
-          "SL": 114,
-          "ST": 114,
-          "SV": 114
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "672710": {
@@ -6762,7 +6230,21 @@
       "pitcher_id": "674841",
       "pitcher_name": "Andrew Alvarez",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 84,
+          "CU": 102,
+          "FC": null,
+          "FF": 82,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 98,
+          "SL": 83,
+          "ST": 83,
+          "SV": 83
+        },
         "2026": {}
       }
     },
@@ -6839,7 +6321,21 @@
       "pitcher_id": "676092",
       "pitcher_name": "Collin Snider",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": null,
+          "CU": 97,
+          "FC": 101,
+          "FF": 103,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 87,
+          "SL": 108,
+          "ST": 108,
+          "SV": 108
+        },
         "2026": {}
       }
     },
@@ -6884,36 +6380,8 @@
       "pitcher_id": "676263",
       "pitcher_name": "Jack Dreyer",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": 101,
-          "FC": null,
-          "FF": 101,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": null,
-          "SL": 96,
-          "ST": 96,
-          "SV": 96
-        },
-        "2026": {
-          "CH": null,
-          "CU": 84,
-          "FC": null,
-          "FF": 103,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": null,
-          "SL": 93,
-          "ST": 93,
-          "SV": 93
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "676272": {
@@ -6962,36 +6430,8 @@
       "pitcher_id": "676428",
       "pitcher_name": "Brant Hurter",
       "years": {
-        "2025": {
-          "CH": 95,
-          "CU": null,
-          "FC": null,
-          "FF": 101,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 114,
-          "SL": 117,
-          "ST": 117,
-          "SV": 117
-        },
-        "2026": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": 102,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 114,
-          "SL": 130,
-          "ST": 130,
-          "SV": 130
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "676440": {
@@ -6999,36 +6439,8 @@
       "pitcher_id": "676440",
       "pitcher_name": "Tanner Bibee",
       "years": {
-        "2025": {
-          "CH": 122,
-          "CU": 102,
-          "FC": 103,
-          "FF": 87,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 110,
-          "SL": 111,
-          "ST": 111,
-          "SV": 111
-        },
-        "2026": {
-          "CH": 94,
-          "CU": 94,
-          "FC": 106,
-          "FF": 87,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 103,
-          "SL": 116,
-          "ST": 116,
-          "SV": 116
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "676467": {
@@ -7131,36 +6543,8 @@
       "pitcher_id": "676684",
       "pitcher_name": "Will Vest",
       "years": {
-        "2025": {
-          "CH": 106,
-          "CU": null,
-          "FC": null,
-          "FF": 102,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 114,
-          "SL": 107,
-          "ST": 107,
-          "SV": 107
-        },
-        "2026": {
-          "CH": 72,
-          "CU": null,
-          "FC": null,
-          "FF": 89,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 101,
-          "SL": 111,
-          "ST": 111,
-          "SV": 111
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "676702": {
@@ -7232,36 +6616,8 @@
       "pitcher_id": "676775",
       "pitcher_name": "Keaton Winn",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": 76,
-          "FO": null,
-          "FS": 107,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 91,
-          "SL": 113,
-          "ST": 113,
-          "SV": 113
-        },
-        "2026": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": 97,
-          "FO": null,
-          "FS": 118,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 95,
-          "SL": null,
-          "ST": null,
-          "SV": null
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "676879": {
@@ -7438,36 +6794,8 @@
       "pitcher_id": "677955",
       "pitcher_name": "Jaden Hill",
       "years": {
-        "2025": {
-          "CH": 99,
-          "CU": null,
-          "FC": null,
-          "FF": 88,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 83,
-          "SL": 113,
-          "ST": 113,
-          "SV": 113
-        },
-        "2026": {
-          "CH": 92,
-          "CU": null,
-          "FC": null,
-          "FF": 103,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 90,
-          "SL": 107,
-          "ST": 107,
-          "SV": 107
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "677958": {
@@ -7493,36 +6821,8 @@
       "pitcher_id": "677961",
       "pitcher_name": "Cole Wilcox",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": null,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 103,
-          "SL": 95,
-          "ST": 95,
-          "SV": 95
-        },
-        "2026": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": 87,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 80,
-          "SL": 109,
-          "ST": 109,
-          "SV": 109
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "678020": {
@@ -7602,36 +6902,8 @@
       "pitcher_id": "678606",
       "pitcher_name": "Jose A. Ferrer",
       "years": {
-        "2025": {
-          "CH": 115,
-          "CU": null,
-          "FC": null,
-          "FF": null,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 125,
-          "SL": 126,
-          "ST": 126,
-          "SV": 126
-        },
-        "2026": {
-          "CH": 109,
-          "CU": null,
-          "FC": null,
-          "FF": null,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 123,
-          "SL": 121,
-          "ST": 121,
-          "SV": 121
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "678692": {
@@ -7648,7 +6920,21 @@
       "pitcher_id": "678821",
       "pitcher_name": "Luis Peralta",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 82,
+          "CU": 108,
+          "FC": null,
+          "FF": 95,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": null,
+          "SL": null,
+          "ST": null,
+          "SV": null
+        },
         "2026": {}
       }
     },
@@ -7675,36 +6961,8 @@
       "pitcher_id": "679775",
       "pitcher_name": "Kyle Backhus",
       "years": {
-        "2025": {
-          "CH": 95,
-          "CU": null,
-          "FC": null,
-          "FF": null,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 111,
-          "SL": 103,
-          "ST": 103,
-          "SV": 103
-        },
-        "2026": {
-          "CH": 107,
-          "CU": null,
-          "FC": null,
-          "FF": null,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 128,
-          "SL": 106,
-          "ST": 106,
-          "SV": 106
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "679883": {
@@ -8031,36 +7289,8 @@
       "pitcher_id": "681217",
       "pitcher_name": "Chase Silseth",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": 98,
-          "FO": null,
-          "FS": 102,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 84,
-          "SL": 107,
-          "ST": 107,
-          "SV": 107
-        },
-        "2026": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": 101,
-          "FO": null,
-          "FS": 97,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 90,
-          "SL": 107,
-          "ST": 107,
-          "SV": 107
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "681293": {
@@ -8077,36 +7307,8 @@
       "pitcher_id": "681343",
       "pitcher_name": "Shane Smith",
       "years": {
-        "2025": {
-          "CH": 97,
-          "CU": 94,
-          "FC": null,
-          "FF": 94,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 99,
-          "SL": 92,
-          "ST": 92,
-          "SV": 92
-        },
-        "2026": {
-          "CH": 109,
-          "CU": 92,
-          "FC": null,
-          "FF": 99,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 96,
-          "SL": 88,
-          "ST": 88,
-          "SV": 88
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "681347": {
@@ -8160,7 +7362,21 @@
       "pitcher_id": "681676",
       "pitcher_name": "Ryan Fernandez",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 96,
+          "CU": null,
+          "FC": 91,
+          "FF": 87,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": null,
+          "SL": 107,
+          "ST": 107,
+          "SV": 107
+        },
         "2026": {}
       }
     },
@@ -8329,36 +7545,8 @@
       "pitcher_id": "681911",
       "pitcher_name": "Alex Vesia",
       "years": {
-        "2025": {
-          "CH": 104,
-          "CU": null,
-          "FC": null,
-          "FF": 118,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": null,
-          "SL": 119,
-          "ST": 119,
-          "SV": 119
-        },
-        "2026": {
-          "CH": 103,
-          "CU": null,
-          "FC": null,
-          "FF": 122,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": null,
-          "SL": 113,
-          "ST": 113,
-          "SV": 113
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "681916": {
@@ -8493,7 +7681,21 @@
       "pitcher_id": "682825",
       "pitcher_name": "Luis Mey",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": null,
+          "CU": null,
+          "FC": null,
+          "FF": 88,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 101,
+          "SL": 130,
+          "ST": 130,
+          "SV": 130
+        },
         "2026": {}
       }
     },
@@ -8761,7 +7963,21 @@
       "pitcher_id": "685314",
       "pitcher_name": "Andrew Saalfrank",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": null,
+          "CU": 86,
+          "FC": null,
+          "FF": 87,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 89,
+          "SL": null,
+          "ST": null,
+          "SV": null
+        },
         "2026": {}
       }
     },
@@ -8770,7 +7986,21 @@
       "pitcher_id": "685326",
       "pitcher_name": "McCade Brown",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 83,
+          "CU": 107,
+          "FC": null,
+          "FF": null,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 89,
+          "SL": 96,
+          "ST": 96,
+          "SV": 96
+        },
         "2026": {}
       }
     },
@@ -8843,8 +8073,36 @@
       "pitcher_id": "686580",
       "pitcher_name": "Justin Slaten",
       "years": {
-        "2025": {},
-        "2026": {}
+        "2025": {
+          "CH": null,
+          "CU": 109,
+          "FC": 91,
+          "FF": 118,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": null,
+          "SL": 121,
+          "ST": 121,
+          "SV": 121
+        },
+        "2026": {
+          "CH": null,
+          "CU": null,
+          "FC": 84,
+          "FF": 119,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": null,
+          "SL": 118,
+          "ST": 118,
+          "SV": 118
+        }
       }
     },
     "686610": {
@@ -9026,7 +8284,21 @@
       "pitcher_id": "686826",
       "pitcher_name": "Bryce Jarvis",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 85,
+          "CU": 87,
+          "FC": 84,
+          "FF": 78,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 83,
+          "SL": 104,
+          "ST": 104,
+          "SV": 104
+        },
         "2026": {}
       }
     },
@@ -9035,7 +8307,21 @@
       "pitcher_id": "686930",
       "pitcher_name": "Mason Barnett",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 105,
+          "CU": 91,
+          "FC": null,
+          "FF": 87,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": null,
+          "SL": 120,
+          "ST": 120,
+          "SV": 120
+        },
         "2026": {}
       }
     },
@@ -9153,7 +8439,21 @@
       "pitcher_id": "687362",
       "pitcher_name": "Connor Gillispie",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 81,
+          "CU": 68,
+          "FC": 89,
+          "FF": 92,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": null,
+          "SL": 88,
+          "ST": 88,
+          "SV": 88
+        },
         "2026": {}
       }
     },
@@ -9162,7 +8462,21 @@
       "pitcher_id": "687377",
       "pitcher_name": "Orlando Ribalta",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 96,
+          "CU": null,
+          "FC": null,
+          "FF": 107,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 103,
+          "SL": 100,
+          "ST": 100,
+          "SV": 100
+        },
         "2026": {}
       }
     },
@@ -9212,7 +8526,21 @@
       "pitcher_id": "687606",
       "pitcher_name": "Paxton Schultz",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 92,
+          "CU": null,
+          "FC": 95,
+          "FF": 94,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 72,
+          "SL": 91,
+          "ST": 91,
+          "SV": 91
+        },
         "2026": {}
       }
     },
@@ -9230,7 +8558,21 @@
       "pitcher_id": "687830",
       "pitcher_name": "Sawyer Gipson-Long",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 94,
+          "CU": null,
+          "FC": 88,
+          "FF": 95,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 101,
+          "SL": 94,
+          "ST": 94,
+          "SV": 94
+        },
         "2026": {}
       }
     },
@@ -9284,7 +8626,21 @@
       "pitcher_id": "687931",
       "pitcher_name": "Carson Whisenhunt",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 108,
+          "CU": 92,
+          "FC": null,
+          "FF": null,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 79,
+          "SL": 96,
+          "ST": 96,
+          "SV": 96
+        },
         "2026": {}
       }
     },
@@ -9425,36 +8781,8 @@
       "pitcher_id": "689254",
       "pitcher_name": "Mason Fluharty",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": null,
-          "FC": 104,
-          "FF": null,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 139,
-          "SL": 110,
-          "ST": 110,
-          "SV": 110
-        },
-        "2026": {
-          "CH": 97,
-          "CU": null,
-          "FC": 125,
-          "FF": null,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": null,
-          "SL": 105,
-          "ST": 105,
-          "SV": 105
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "689266": {
@@ -9462,7 +8790,21 @@
       "pitcher_id": "689266",
       "pitcher_name": "Dylan Dodd",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 81,
+          "CU": null,
+          "FC": 98,
+          "FF": 100,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": null,
+          "SL": 121,
+          "ST": 121,
+          "SV": 121
+        },
         "2026": {}
       }
     },
@@ -9472,21 +8814,7 @@
       "pitcher_name": "Anthony Nunez",
       "years": {
         "2025": {},
-        "2026": {
-          "CH": 118,
-          "CU": null,
-          "FC": 91,
-          "FF": 113,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 106,
-          "SL": 113,
-          "ST": 113,
-          "SV": 113
-        }
+        "2026": {}
       }
     },
     "689520": {
@@ -9567,8 +8895,36 @@
       "pitcher_id": "690925",
       "pitcher_name": "Clayton Beeter",
       "years": {
-        "2025": {},
-        "2026": {}
+        "2025": {
+          "CH": null,
+          "CU": null,
+          "FC": null,
+          "FF": 89,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": null,
+          "SL": 119,
+          "ST": 119,
+          "SV": 119
+        },
+        "2026": {
+          "CH": null,
+          "CU": null,
+          "FC": null,
+          "FF": 92,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": null,
+          "SL": 108,
+          "ST": 108,
+          "SV": 108
+        }
       }
     },
     "690928": {
@@ -9718,21 +9074,7 @@
       "pitcher_name": "Carter Baumler",
       "years": {
         "2025": {},
-        "2026": {
-          "CH": null,
-          "CU": 101,
-          "FC": null,
-          "FF": 104,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 105,
-          "SL": 85,
-          "ST": 85,
-          "SV": 85
-        }
+        "2026": {}
       }
     },
     "691951": {
@@ -9836,36 +9178,8 @@
       "pitcher_id": "693645",
       "pitcher_name": "Cam Schlittler",
       "years": {
-        "2025": {
-          "CH": null,
-          "CU": 106,
-          "FC": 120,
-          "FF": 103,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 94,
-          "SL": 124,
-          "ST": 124,
-          "SV": 124
-        },
-        "2026": {
-          "CH": null,
-          "CU": 109,
-          "FC": 106,
-          "FF": 116,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 113,
-          "SL": 109,
-          "ST": 109,
-          "SV": 109
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "693686": {
@@ -9927,7 +9241,21 @@
       "pitcher_id": "694350",
       "pitcher_name": "Zach Brzykcy",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 86,
+          "CU": 91,
+          "FC": null,
+          "FF": 94,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": null,
+          "SL": null,
+          "ST": null,
+          "SV": null
+        },
         "2026": {}
       }
     },
@@ -10064,36 +9392,8 @@
       "pitcher_id": "694918",
       "pitcher_name": "Blade Tidwell",
       "years": {
-        "2025": {
-          "CH": 100,
-          "CU": null,
-          "FC": 60,
-          "FF": 104,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 103,
-          "SL": 112,
-          "ST": 112,
-          "SV": 112
-        },
-        "2026": {
-          "CH": null,
-          "CU": null,
-          "FC": null,
-          "FF": 106,
-          "FO": null,
-          "FS": null,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 83,
-          "SL": 126,
-          "ST": 126,
-          "SV": 126
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "694973": {
@@ -10101,36 +9401,8 @@
       "pitcher_id": "694973",
       "pitcher_name": "Paul Skenes",
       "years": {
-        "2025": {
-          "CH": 100,
-          "CU": 111,
-          "FC": null,
-          "FF": 107,
-          "FO": null,
-          "FS": 96,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 114,
-          "SL": 129,
-          "ST": 129,
-          "SV": 129
-        },
-        "2026": {
-          "CH": 81,
-          "CU": 88,
-          "FC": null,
-          "FF": 104,
-          "FO": null,
-          "FS": 91,
-          "KC": null,
-          "KN": null,
-          "SC": null,
-          "SI": 97,
-          "SL": 129,
-          "ST": 129,
-          "SV": 129
-        }
+        "2025": {},
+        "2026": {}
       }
     },
     "695076": {
@@ -10420,7 +9692,21 @@
       "pitcher_id": "701487",
       "pitcher_name": "Pierson Ohl",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 107,
+          "CU": 86,
+          "FC": 96,
+          "FF": 91,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 100,
+          "SL": null,
+          "ST": null,
+          "SV": null
+        },
         "2026": {}
       }
     },
@@ -10493,7 +9779,21 @@
       "pitcher_id": "701656",
       "pitcher_name": "Logan Henderson",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 101,
+          "CU": null,
+          "FC": 94,
+          "FF": 103,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": null,
+          "SL": 103,
+          "ST": 103,
+          "SV": 103
+        },
         "2026": {}
       }
     },
@@ -10570,7 +9870,21 @@
       "pitcher_id": "800049",
       "pitcher_name": "Adam Mazur",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 88,
+          "CU": 92,
+          "FC": null,
+          "FF": 101,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": 97,
+          "SL": 102,
+          "ST": 102,
+          "SV": 102
+        },
         "2026": {}
       }
     },
@@ -10812,7 +10126,21 @@
       "pitcher_id": "815083",
       "pitcher_name": "Mitch Farris",
       "years": {
-        "2025": {},
+        "2025": {
+          "CH": 102,
+          "CU": null,
+          "FC": null,
+          "FF": 77,
+          "FO": null,
+          "FS": null,
+          "KC": null,
+          "KN": null,
+          "SC": null,
+          "SI": null,
+          "SL": 94,
+          "ST": 94,
+          "SV": 94
+        },
         "2026": {}
       }
     },
