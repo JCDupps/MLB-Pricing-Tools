@@ -1,7 +1,9 @@
 import html
 import json
 import re
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
 from html.parser import HTMLParser
@@ -33,6 +35,7 @@ PITCHER_PROFILE_TEMPLATE_PATH = APP_DIR / "templates" / "pitcher_profile.html"
 STUFF_PLUS_CACHE_PATH = APP_DIR / "pitch_stuff_plus_cache.json"
 VELOCITY_COMPARISON_CACHE_PATH = APP_DIR / "velocity_comparison_cache.json"
 REFRESH_SECONDS = 300
+VELOCITY_RUNTIME_CACHE_SECONDS = 300
 MLB_HEADSHOT_TEMPLATE = "https://midfield.mlbstatic.com/v1/people/{mlb_id}/silo/360?zoom=1.2"
 VALID_BATS = {"R", "L", "S"}
 POSITIONS = {
@@ -154,6 +157,10 @@ DEPTH_CHART_CACHE: Dict[str, List[Dict[str, object]]] = {}
 DEPTH_CHART_DATA_CACHE: Dict[str, Dict[str, object]] = {}
 FANGRAPHS_PITCHER_ID_MAP_CACHE: Optional[Dict[str, int]] = None
 PITCH_STUFF_CACHE: Dict[str, Dict[str, object]] = {}
+VELOCITY_RUNTIME_CACHE: Dict[str, object] = {}
+VELOCITY_RUNTIME_CACHE_LOCK = threading.Lock()
+STUFF_PLUS_REFRESH_LOCK = threading.Lock()
+STUFF_PLUS_REFRESH_IN_PROGRESS = False
 SAVANT_PITCH_TYPES = [
     ("ff", "Four-Seam"),
     ("si", "Sinker"),
@@ -1261,6 +1268,31 @@ def build_daily_stuff_plus_cache(
     }
 
 
+def start_background_stuff_plus_refresh(
+    pitcher_index: Dict[str, Dict[str, object]],
+    seasons: List[int],
+) -> None:
+    global STUFF_PLUS_REFRESH_IN_PROGRESS
+
+    with STUFF_PLUS_REFRESH_LOCK:
+        if STUFF_PLUS_REFRESH_IN_PROGRESS:
+            return
+        STUFF_PLUS_REFRESH_IN_PROGRESS = True
+
+    def runner() -> None:
+        global STUFF_PLUS_REFRESH_IN_PROGRESS
+        try:
+            refreshed = build_daily_stuff_plus_cache(pitcher_index, seasons)
+            save_stuff_plus_cache_file(refreshed)
+        except Exception:
+            pass
+        finally:
+            with STUFF_PLUS_REFRESH_LOCK:
+                STUFF_PLUS_REFRESH_IN_PROGRESS = False
+
+    threading.Thread(target=runner, name="stuff-plus-refresh", daemon=True).start()
+
+
 def get_or_build_daily_stuff_plus_cache(
     pitcher_index: Dict[str, Dict[str, object]],
     seasons: List[int],
@@ -1282,6 +1314,10 @@ def get_or_build_daily_stuff_plus_cache(
         and cache_has_values
         and all(pitcher_id in cached_pitchers for pitcher_id in pitcher_index)
     ):
+        return cached
+
+    if cached_pitchers:
+        start_background_stuff_plus_refresh(pitcher_index, seasons)
         return cached
 
     refreshed = build_daily_stuff_plus_cache(pitcher_index, seasons)
@@ -1315,6 +1351,25 @@ def parse_float(value: object) -> Optional[float]:
         return None
 
 
+def fetch_savant_payloads(savant_sources: Dict[str, str]) -> Dict[str, List[Dict[str, object]]]:
+    try:
+        with ThreadPoolExecutor(max_workers=4) as executor:
+            future_map = {
+                source_key: executor.submit(fetch_text_page, source_url)
+                for source_key, source_url in savant_sources.items()
+            }
+            return {
+                source_key: extract_savant_pitch_data(future.result())
+                for source_key, future in future_map.items()
+            }
+    except Exception:
+        # Baseball Savant can reject bursty parallel requests, so fall back to sequential fetches.
+        return {
+            source_key: extract_savant_pitch_data(fetch_text_page(source_url))
+            for source_key, source_url in savant_sources.items()
+        }
+
+
 def build_velocity_comparison() -> Dict[str, object]:
     current_year = date.today().year
     previous_year = current_year - 1
@@ -1323,10 +1378,19 @@ def build_velocity_comparison() -> Dict[str, object]:
     current_spin_url = SAVANT_PITCH_ARSENALS_URL.format(year=current_year, minimum="q", metric_type="avg_spin")
     previous_spin_url = SAVANT_PITCH_ARSENALS_URL.format(year=previous_year, minimum="100", metric_type="avg_spin")
 
-    current_velocity_rows = extract_savant_pitch_data(fetch_text_page(current_velocity_url))
-    previous_velocity_rows = extract_savant_pitch_data(fetch_text_page(previous_velocity_url))
-    current_spin_rows = extract_savant_pitch_data(fetch_text_page(current_spin_url))
-    previous_spin_rows = extract_savant_pitch_data(fetch_text_page(previous_spin_url))
+    savant_sources = {
+        "current_velocity": current_velocity_url,
+        "previous_velocity": previous_velocity_url,
+        "current_spin": current_spin_url,
+        "previous_spin": previous_spin_url,
+    }
+
+    savant_payloads = fetch_savant_payloads(savant_sources)
+
+    current_velocity_rows = savant_payloads["current_velocity"]
+    previous_velocity_rows = savant_payloads["previous_velocity"]
+    current_spin_rows = savant_payloads["current_spin"]
+    previous_spin_rows = savant_payloads["previous_spin"]
 
     previous_velocity_by_pitcher = {str(row.get("pitcher")): row for row in previous_velocity_rows}
     current_spin_by_pitcher = {str(row.get("pitcher")): row for row in current_spin_rows}
@@ -1446,18 +1510,61 @@ def build_velocity_comparison() -> Dict[str, object]:
 
 def get_or_build_velocity_comparison_cache() -> Dict[str, object]:
     expected_refresh_key = current_stuff_plus_refresh_key()
+    current_timestamp = time.time()
+
+    with VELOCITY_RUNTIME_CACHE_LOCK:
+        if (
+            VELOCITY_RUNTIME_CACHE.get("refresh_key") == expected_refresh_key
+            and VELOCITY_RUNTIME_CACHE.get("expires_at", 0) > current_timestamp
+            and VELOCITY_RUNTIME_CACHE.get("payload")
+        ):
+            return VELOCITY_RUNTIME_CACHE["payload"]
+
     cached = load_velocity_comparison_cache_file()
 
     if cached.get("refresh_key") == expected_refresh_key and cached.get("payload"):
+        with VELOCITY_RUNTIME_CACHE_LOCK:
+            VELOCITY_RUNTIME_CACHE.clear()
+            VELOCITY_RUNTIME_CACHE.update(
+                {
+                    "refresh_key": expected_refresh_key,
+                    "expires_at": current_timestamp + VELOCITY_RUNTIME_CACHE_SECONDS,
+                    "payload": cached["payload"],
+                }
+            )
         return cached["payload"]
 
-    payload = build_velocity_comparison()
+    try:
+        payload = build_velocity_comparison()
+    except Exception:
+        if cached.get("payload"):
+            with VELOCITY_RUNTIME_CACHE_LOCK:
+                VELOCITY_RUNTIME_CACHE.clear()
+                VELOCITY_RUNTIME_CACHE.update(
+                    {
+                        "refresh_key": cached.get("refresh_key", expected_refresh_key),
+                        "expires_at": current_timestamp + VELOCITY_RUNTIME_CACHE_SECONDS,
+                        "payload": cached["payload"],
+                    }
+                )
+            return cached["payload"]
+        raise
+
     cache_wrapper = {
         "generated_at": eastern_now().isoformat(),
         "refresh_key": expected_refresh_key,
         "payload": payload,
     }
     save_velocity_comparison_cache_file(cache_wrapper)
+    with VELOCITY_RUNTIME_CACHE_LOCK:
+        VELOCITY_RUNTIME_CACHE.clear()
+        VELOCITY_RUNTIME_CACHE.update(
+            {
+                "refresh_key": expected_refresh_key,
+                "expires_at": current_timestamp + VELOCITY_RUNTIME_CACHE_SECONDS,
+                "payload": payload,
+            }
+        )
     return payload
 
 
