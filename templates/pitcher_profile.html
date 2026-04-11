@@ -271,7 +271,9 @@
         ].join("");
 
         arsenalEl.innerHTML = [
-          metricCard("Stuff+", payload.metrics.StuffPlus),
+          metricCard(`${payload.seasons.current} Stuff+`, payload.metrics.StuffPlus),
+          metricCard(`${payload.seasons.previous} Stuff+`, payload.metrics.StuffPlusPrevious),
+          metricCard("Stuff+ Diff", payload.metrics.StuffPlusDiff),
           metricCard("Location+", payload.metrics.LocationPlus),
           metricCard("Pitching+", payload.metrics.PitchingPlus)
         ].join("");
