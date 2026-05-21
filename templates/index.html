@@ -143,6 +143,260 @@
       font-size: 0.94rem;
     }
 
+    .scoreboard {
+      margin-top: 28px;
+      padding: 24px;
+      border-radius: 28px;
+      border: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(16, 26, 37, 0.94), rgba(10, 18, 27, 0.98));
+      box-shadow: var(--shadow);
+    }
+
+    .scoreboard-header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 10px 20px;
+      margin-bottom: 18px;
+    }
+
+    .scoreboard-header h2 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .scoreboard-subtitle,
+    .scoreboard-meta {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .scoreboard-controls {
+      margin-top: 18px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .score-toggle {
+      min-height: 42px;
+      padding: 0 16px;
+      border-radius: 999px;
+      border: 1px solid rgba(140, 168, 188, 0.18);
+      background: rgba(12, 20, 29, 0.92);
+      color: var(--ink);
+      font: inherit;
+      font-weight: 700;
+      cursor: pointer;
+    }
+
+    .score-toggle.active {
+      color: #f5fffb;
+      background: linear-gradient(135deg, var(--accent-deep), var(--accent));
+    }
+
+    .scoreboard-stage {
+      margin-top: 18px;
+    }
+
+    .slate-panel {
+      padding: 20px;
+      border-radius: 22px;
+      border: 1px solid var(--border);
+      background: rgba(11, 18, 27, 0.88);
+    }
+
+    .slate-panel h3 {
+      margin: 0;
+      font-size: 1.35rem;
+    }
+
+    .slate-date {
+      margin: 6px 0 0;
+      color: var(--accent);
+      font-size: 0.92rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .slate-state {
+      margin-top: 14px;
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    .games-list {
+      margin-top: 16px;
+      display: grid;
+      gap: 14px;
+      grid-template-columns: 1fr;
+    }
+
+    .game-card {
+      padding: 16px;
+      border-radius: 18px;
+      border: 1px solid rgba(140, 168, 188, 0.14);
+      background: rgba(17, 27, 39, 0.88);
+    }
+
+    .game-card h4 {
+      margin: 0;
+      font-size: 1.12rem;
+    }
+
+    .game-time {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .matchup-lines {
+      margin-top: 12px;
+      display: grid;
+      gap: 8px;
+    }
+
+    .matchup-line {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .matchup-line .record {
+      color: var(--muted);
+      font-size: 0.92rem;
+      font-weight: 400;
+    }
+
+    .broadcast-line {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+
+    .pitcher-grid {
+      margin-top: 14px;
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .pitcher-side {
+      padding: 12px;
+      border-radius: 14px;
+      background: rgba(9, 15, 23, 0.78);
+      border: 1px solid rgba(140, 168, 188, 0.12);
+    }
+
+    .pitcher-side .team {
+      margin: 0 0 4px;
+      color: var(--accent);
+      font-size: 0.76rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .pitcher-side .name {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    .pitcher-side .name a {
+      color: var(--ink);
+      text-decoration: none;
+    }
+
+    .pitcher-side .meta {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+      line-height: 1.5;
+    }
+
+    .lineup-grid {
+      margin-top: 14px;
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .lineup-side {
+      padding: 14px;
+      border-radius: 14px;
+      background: rgba(9, 15, 23, 0.78);
+      border: 1px solid rgba(140, 168, 188, 0.12);
+    }
+
+    .lineup-side .heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 0.76rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .lineup-source {
+      color: var(--muted);
+      font-size: 0.72rem;
+      letter-spacing: normal;
+      text-transform: none;
+    }
+
+    .lineup-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 7px;
+    }
+
+    .lineup-item {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+      font-size: 0.96rem;
+    }
+
+    .lineup-order {
+      min-width: 16px;
+      color: var(--muted);
+      font-size: 0.84rem;
+    }
+
+    .lineup-name {
+      font-weight: 700;
+    }
+
+    .lineup-pos {
+      color: var(--muted);
+      font-size: 0.84rem;
+    }
+
+    .lineup-check {
+      color: #7af0a2;
+      font-weight: 700;
+    }
+
+    .lineup-empty {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+      line-height: 1.5;
+    }
+
+    .slate-error {
+      margin-top: 14px;
+      color: #ffb6b6;
+      line-height: 1.6;
+    }
+
     @media (max-width: 640px) {
       .shell {
         width: min(100% - 18px, 1240px);
@@ -152,6 +406,19 @@
       .hero {
         padding: 24px;
         border-radius: 24px;
+      }
+
+      .scoreboard {
+        padding: 18px;
+        border-radius: 22px;
+      }
+
+      .pitcher-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .lineup-grid {
+        grid-template-columns: 1fr;
       }
     }
   </style>
@@ -184,11 +451,11 @@
 
       <article class="card coming-soon">
         <p class="tag">Live Now</p>
-        <h2>Probable Pitchers</h2>
+        <h2>Starting Pitchers</h2>
         <p>
-          A pitcher view for daily starters, handedness, matchup context, and downstream pricing adjustments.
+          A spreadsheet-style starting pitcher board that mirrors the `SPs` tab from MLB Pricing, with editable ERA and pitch-count inputs.
         </p>
-        <a href="/probable-pitchers">Launch tool</a>
+        <a href="/starting-pitchers">Launch tool</a>
       </article>
 
       <article class="card">
@@ -211,9 +478,234 @@
       </article>
     </section>
 
+    <section class="scoreboard" aria-labelledby="scoreboard-title">
+      <div class="scoreboard-header">
+        <div>
+          <h2 id="scoreboard-title">Today and Tomorrow's MLB Slate</h2>
+          <p class="scoreboard-subtitle">
+            Full game board from MLB.com so we can keep the pricing workflow on one page while we bring the spreadsheet logic into the app.
+          </p>
+        </div>
+        <p class="scoreboard-meta" id="scoreboard-meta">Loading MLB.com scores...</p>
+      </div>
+
+      <div class="scoreboard-controls" id="scoreboard-controls">
+        <button class="score-toggle active" data-slate="today" type="button">Today</button>
+        <button class="score-toggle" data-slate="tomorrow" type="button">Tomorrow</button>
+      </div>
+
+      <div class="scoreboard-stage" id="scoreboard-stage">
+        <article class="slate-panel">
+          <h3>Loading slate...</h3>
+          <p class="slate-state">Pulling MLB.com scores...</p>
+        </article>
+      </div>
+    </section>
+
     <p class="footer-note">
       Start here, then jump into whichever pricing component you need for the slate.
     </p>
   </main>
+
+  <script>
+    function formatDateLabel(dateText) {
+      if (!dateText) return '';
+      const date = new Date(`${dateText}T12:00:00`);
+      return date.toLocaleDateString(undefined, {
+        weekday: 'long',
+        month: 'short',
+        day: 'numeric'
+      });
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;');
+    }
+
+    function formatPitcherLine(pitcher) {
+      if (!pitcher || !pitcher.name) {
+        return '<p class="name">TBD</p><p class="meta">No pitcher listed yet.</p>';
+      }
+
+      const hand = pitcher.hand ? ` (${pitcher.hand}HP)` : '';
+      const nameText = `${pitcher.name}${hand}`;
+      const nameMarkup = pitcher.mlb_id
+        ? `<a href="/pitchers/${pitcher.mlb_id}">${escapeHtml(nameText)}</a>`
+        : escapeHtml(nameText);
+      const details = [pitcher.record, pitcher.era, pitcher.ip].filter(Boolean).join(' | ') || 'No pitcher details posted';
+
+      return `
+        <p class="name">${nameMarkup}</p>
+        <p class="meta">${escapeHtml(details)}</p>
+      `;
+    }
+
+    function renderGameCard(game) {
+      return `
+        <article class="game-card">
+          <h4>${escapeHtml(game.away_team)} at ${escapeHtml(game.home_team)}</h4>
+          <p class="game-time">${escapeHtml(game.game_time || 'Time TBD')}</p>
+          <div class="matchup-lines">
+            <div class="matchup-line">${escapeHtml(game.away_team)} <span class="record">${escapeHtml(game.away_record || '')}</span></div>
+            <div class="matchup-line">${escapeHtml(game.home_team)} <span class="record">${escapeHtml(game.home_record || '')}</span></div>
+          </div>
+          <div class="pitcher-grid">
+            <section class="pitcher-side">
+              <p class="team">${escapeHtml(game.away_team)}</p>
+              ${formatPitcherLine(game.away_pitcher)}
+            </section>
+            <section class="pitcher-side">
+              <p class="team">${escapeHtml(game.home_team)}</p>
+              ${formatPitcherLine(game.home_pitcher)}
+            </section>
+          </div>
+          <div class="lineup-grid">
+            ${renderLineupBlock(game.away_team, game.away_lineup)}
+            ${renderLineupBlock(game.home_team, game.home_lineup)}
+          </div>
+        </article>
+      `;
+    }
+
+    function renderLineupBlock(teamName, lineup) {
+      const players = Array.isArray(lineup?.players) ? lineup.players : [];
+      const sourceText = lineup?.is_official ? 'Official MLB lineup' : 'Fangraphs platoon lineup';
+      const items = players.length
+        ? `
+          <ol class="lineup-list">
+            ${players.map((player, index) => `
+              <li class="lineup-item">
+                <span class="lineup-order">${index + 1}.</span>
+                <span class="lineup-name">${player.confirmed ? '<span class="lineup-check">✓</span> ' : ''}${escapeHtml(player.name || '')}</span>
+                <span class="lineup-pos">${escapeHtml(player.position || '')}</span>
+              </li>
+            `).join('')}
+          </ol>
+        `
+        : `<p class="lineup-empty">No lineup available yet.</p>`;
+
+      return `
+        <section class="lineup-side">
+          <p class="heading">
+            <span>${escapeHtml(teamName)}</span>
+            <span class="lineup-source">${escapeHtml(sourceText)}</span>
+          </p>
+          ${items}
+        </section>
+      `;
+    }
+
+    function renderSlate(slate) {
+      const games = Array.isArray(slate.games) ? slate.games : [];
+      const errorMarkup = slate.error ? `<p class="slate-error">${escapeHtml(slate.error)}</p>` : '';
+      const gamesMarkup = games.length
+        ? `<div class="games-list">${games.map(renderGameCard).join('')}</div>`
+        : `<p class="slate-state">No games found for this slate.</p>`;
+
+      return `
+        <article class="slate-panel">
+          <h3>${escapeHtml(slate.label || '')}</h3>
+          <p class="slate-date">${escapeHtml(formatDateLabel(slate.date))}</p>
+          ${errorMarkup || gamesMarkup}
+        </article>
+      `;
+    }
+
+    function applyActiveToggle(activeKey) {
+      document.querySelectorAll('.score-toggle').forEach((button) => {
+        button.classList.toggle('active', button.dataset.slate === activeKey);
+      });
+    }
+
+    async function loadHomepageScoreboard() {
+      const meta = document.getElementById('scoreboard-meta');
+      const stage = document.getElementById('scoreboard-stage');
+      const controls = document.getElementById('scoreboard-controls');
+
+      try {
+        const slates = {
+          today: null,
+          tomorrow: null,
+        };
+        let activeSlate = 'today';
+
+        const updateMeta = (generatedAt) => {
+          if (!generatedAt) return;
+          meta.textContent = `Last pulled ${new Date(generatedAt).toLocaleString(undefined, {
+            month: 'short',
+            day: 'numeric',
+            hour: 'numeric',
+            minute: '2-digit'
+          })}`;
+        };
+
+        const fetchSlate = async (dayKey) => {
+          const response = await fetch(`/api/homepage-scoreboard?day=${encodeURIComponent(dayKey)}`, { cache: 'no-store' });
+          const payload = await response.json();
+          if (!response.ok) {
+            throw new Error(payload.detail || 'Failed to load MLB.com scores.');
+          }
+          updateMeta(payload.generated_at);
+          slates[dayKey] = payload[dayKey];
+        };
+
+        const renderActiveSlate = () => {
+          if (!slates[activeSlate]) {
+            stage.innerHTML = `
+              <article class="slate-panel">
+                <h3>Loading ${escapeHtml(activeSlate)} slate...</h3>
+                <p class="slate-state">Pulling the prematch board.</p>
+              </article>
+            `;
+            applyActiveToggle(activeSlate);
+            return;
+          }
+          stage.innerHTML = renderSlate(slates[activeSlate]);
+          applyActiveToggle(activeSlate);
+        };
+
+        controls.addEventListener('click', async (event) => {
+          const button = event.target.closest('.score-toggle');
+          if (!button) return;
+          const nextSlate = button.dataset.slate;
+          activeSlate = nextSlate;
+          if (!slates[nextSlate]) {
+            renderActiveSlate();
+            try {
+              await fetchSlate(nextSlate);
+            } catch (error) {
+              meta.textContent = 'Could not load MLB.com scores right now.';
+              stage.innerHTML = `
+                <article class="slate-panel">
+                  <h3>Scoreboard unavailable</h3>
+                  <p class="slate-error">${escapeHtml(error.message || 'Unexpected error.')}</p>
+                </article>
+              `;
+              return;
+            }
+          }
+          renderActiveSlate();
+        });
+
+        await fetchSlate('today');
+        renderActiveSlate();
+      } catch (error) {
+        meta.textContent = 'Could not load MLB.com scores right now.';
+        stage.innerHTML = `
+          <article class="slate-panel">
+            <h3>Scoreboard unavailable</h3>
+            <p class="slate-error">${escapeHtml(error.message || 'Unexpected error.')}</p>
+          </article>
+        `;
+      }
+    }
+
+    loadHomepageScoreboard();
+  </script>
 </body>
 </html>

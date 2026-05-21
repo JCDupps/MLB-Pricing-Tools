@@ -1,0 +1,649 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MLB Pricing Tools | Starting Pitchers</title>
+  <style>
+    :root {
+      --bg: #09111a;
+      --panel: rgba(17, 27, 38, 0.94);
+      --panel-strong: #121d29;
+      --ink: #e8f0f6;
+      --muted: #9eb0bf;
+      --accent: #66b3ff;
+      --accent-deep: #2f6fe4;
+      --good: #7af0a2;
+      --warn: #ffd166;
+      --bad: #ff8f8f;
+      --border: rgba(140, 168, 188, 0.18);
+      --shadow: 0 22px 44px rgba(0, 0, 0, 0.34);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(102, 179, 255, 0.18), transparent 34%),
+        radial-gradient(circle at bottom right, rgba(64, 118, 255, 0.16), transparent 30%),
+        linear-gradient(160deg, #0a121b 0%, #0f1a24 50%, #09111a 100%);
+    }
+
+    .shell {
+      width: min(1680px, calc(100% - 28px));
+      margin: 0 auto;
+      padding: 28px 0 42px;
+    }
+
+    .hero {
+      display: grid;
+      gap: 18px;
+      padding: 26px 28px;
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      background: linear-gradient(135deg, rgba(18, 29, 41, 0.96), rgba(12, 20, 29, 0.92));
+      box-shadow: var(--shadow);
+    }
+
+    .mini-nav {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .mini-nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .eyebrow {
+      margin: 0;
+      font-size: 0.8rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      line-height: 0.96;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      margin: 0;
+      max-width: 1100px;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .toolbar {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: minmax(260px, 360px) 1fr;
+      gap: 14px;
+    }
+
+    .control,
+    .meta-panel {
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: var(--panel);
+      padding: 14px 16px;
+    }
+
+    .control label,
+    .meta-label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    .control input {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid rgba(21, 32, 43, 0.14);
+      padding: 12px 14px;
+      font: inherit;
+      background: #101925;
+      color: var(--ink);
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+    }
+
+    .meta-item strong,
+    .meta-item span {
+      display: block;
+    }
+
+    .meta-item strong {
+      margin-bottom: 4px;
+      font-size: 0.96rem;
+    }
+
+    .meta-item span {
+      color: var(--muted);
+      font-size: 0.92rem;
+      line-height: 1.5;
+      word-break: break-word;
+    }
+
+    .table-shell {
+      margin-top: 22px;
+      border-radius: 24px;
+      border: 1px solid var(--border);
+      background: var(--panel-strong);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .table-scroll {
+      overflow: auto;
+      max-height: calc(100vh - 240px);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 1700px;
+    }
+
+    thead th {
+      position: sticky;
+      top: 0;
+      z-index: 2;
+      padding: 12px 10px;
+      text-align: left;
+      font-size: 0.8rem;
+      letter-spacing: 0.07em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: rgba(15, 24, 35, 0.98);
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    tbody td {
+      padding: 10px;
+      border-bottom: 1px solid rgba(140, 168, 188, 0.1);
+      vertical-align: middle;
+      font-size: 0.95rem;
+      white-space: nowrap;
+    }
+
+    th.rank-col,
+    td.rank-col {
+      width: 56px;
+      min-width: 56px;
+      text-align: right;
+      color: var(--muted);
+      font-variant-numeric: tabular-nums;
+    }
+
+    tbody tr:nth-child(odd) td {
+      background: rgba(11, 18, 27, 0.7);
+    }
+
+    tbody tr:nth-child(even) td {
+      background: rgba(15, 24, 34, 0.82);
+    }
+
+    td.pitcher-name {
+      font-weight: 700;
+      min-width: 210px;
+      white-space: normal;
+    }
+
+    td.notes {
+      min-width: 260px;
+      white-space: normal;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    .cell-input {
+      width: 84px;
+      border-radius: 10px;
+      border: 1px solid rgba(102, 179, 255, 0.16);
+      padding: 8px 10px;
+      font: inherit;
+      background: #0f1823;
+      color: var(--ink);
+    }
+
+    .cell-input.era-input {
+      width: 68px;
+      padding-inline: 8px;
+    }
+
+    .cell-input.pitches-input {
+      width: 64px;
+      padding-inline: 8px;
+    }
+
+    .cell-input.dirty {
+      border-color: rgba(255, 209, 102, 0.7);
+      box-shadow: 0 0 0 1px rgba(255, 209, 102, 0.2);
+    }
+
+    .cell-input.saving {
+      border-color: rgba(102, 179, 255, 0.6);
+    }
+
+    .cell-input.saved {
+      border-color: rgba(122, 240, 162, 0.7);
+    }
+
+    .row-status {
+      min-width: 90px;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .row-status.saved { color: var(--good); }
+    .row-status.saving { color: var(--accent); }
+    .row-status.error { color: var(--bad); }
+
+    .empty {
+      padding: 28px 20px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 960px) {
+      .toolbar {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .shell {
+        width: min(100% - 18px, 1680px);
+        padding: 18px 0 28px;
+      }
+
+      .hero {
+        padding: 20px;
+        border-radius: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div class="mini-nav">
+        <a href="/">All Tools</a>
+        <a href="/platoon-lineups">Platoon Lineups</a>
+        <a href="/velocity-comparison">Velocity Comparison</a>
+      </div>
+      <div>
+        <p class="eyebrow">MLB Pricing Tools</p>
+        <h1>Starting Pitchers</h1>
+        <p class="subtitle">
+          This page mirrors the `SPs` tab from your MLB Pricing workbook. We’re keeping the same columns,
+          letting you edit `ERA` and `Pitches`, and leaving anything missing blank so we can tighten the
+          remaining sources next.
+        </p>
+      </div>
+
+      <div class="toolbar">
+        <div class="control">
+          <label for="searchInput">Pitcher Search</label>
+          <input id="searchInput" type="search" placeholder="Search pitcher">
+        </div>
+        <div class="meta-panel">
+          <div class="meta-grid">
+            <div class="meta-item">
+              <p class="meta-label">Workbook</p>
+              <strong>MLB Pricing.xlsx</strong>
+              <span id="workbookMeta">Loading...</span>
+            </div>
+            <div class="meta-item">
+              <p class="meta-label">Sheet</p>
+              <strong>SPs</strong>
+              <span id="rowCountMeta">Loading...</span>
+            </div>
+            <div class="meta-item">
+              <p class="meta-label">Editable Fields</p>
+              <strong>ERA, Pitches</strong>
+              <span id="overrideMeta">Local overrides enabled</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="table-shell">
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr id="tableHead"></tr>
+          </thead>
+          <tbody id="tableBody">
+            <tr><td class="empty" colspan="32">Loading starting pitcher table...</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const HEADER_LABELS = {
+      '2025 Stuff+2': '2025 Stuff+',
+    };
+
+    const LOW_IS_GOOD_HEADERS = new Set([
+      '2025 ERA',
+      'xERA',
+      'FIP',
+      'xFIP',
+      'SIERA',
+      'Pre. Proj. ERA',
+      'ROS Proj. ERA',
+      'L30 SIERA',
+    ]);
+
+    const HIGH_IS_GOOD_HEADERS = new Set([
+      '2025 IP',
+      'K-BB',
+      'L30 Stuff+',
+      '2025 Stuff+2',
+      '2026 Stuff+',
+    ]);
+
+    const state = {
+      headers: [],
+      rows: [],
+      filteredRows: [],
+      metricBounds: {},
+    };
+
+    function escapeHtml(value) {
+      return String(value ?? '')
+        .replaceAll('&', '&amp;')
+        .replaceAll('<', '&lt;')
+        .replaceAll('>', '&gt;')
+        .replaceAll('"', '&quot;')
+        .replaceAll("'", '&#39;');
+    }
+
+    function formatMetaDate(value) {
+      if (!value) return 'Unavailable';
+      const date = new Date(value);
+      return Number.isNaN(date.getTime()) ? String(value) : date.toLocaleString();
+    }
+
+    function displayHeaderName(header) {
+      return HEADER_LABELS[header] || header;
+    }
+
+    function toNumber(value) {
+      if (value === null || value === undefined || value === '') return null;
+      if (typeof value === 'number') return Number.isFinite(value) ? value : null;
+      const parsed = Number.parseFloat(String(value).replaceAll(',', '').trim());
+      return Number.isFinite(parsed) ? parsed : null;
+    }
+
+    function formatIpValue(pitches, pitchesPerOut) {
+      const pitchCount = toNumber(pitches);
+      const pOut = toNumber(pitchesPerOut);
+      if (pitchCount === null || pOut === null || pOut === 0) return '';
+      return (pitchCount / (pOut * 3)).toFixed(2).replace(/\.00$/, '').replace(/(\.\d)0$/, '$1');
+    }
+
+    function compareRowsByEra(a, b) {
+      const eraA = toNumber(a.ERA);
+      const eraB = toNumber(b.ERA);
+      if (eraA === null && eraB === null) return String(a.Pitcher || '').localeCompare(String(b.Pitcher || ''));
+      if (eraA === null) return 1;
+      if (eraB === null) return -1;
+      if (eraA !== eraB) return eraA - eraB;
+      return String(a.Pitcher || '').localeCompare(String(b.Pitcher || ''));
+    }
+
+    function recomputeRows() {
+      state.rows.forEach((row) => {
+        row.IP = formatIpValue(row.Pitches, row['P/out']);
+      });
+      state.rows.sort(compareRowsByEra);
+      state.rows.forEach((row, index) => {
+        row._rank = index + 1;
+      });
+      state.metricBounds = computeMetricBounds(state.rows);
+    }
+
+    function computeMetricBounds(rows) {
+      const bounds = {};
+      [...LOW_IS_GOOD_HEADERS, ...HIGH_IS_GOOD_HEADERS].forEach((header) => {
+        const values = rows
+          .map((row) => toNumber(row[header]))
+          .filter((value) => value !== null);
+        if (!values.length) return;
+        const sorted = [...values].sort((a, b) => a - b);
+        bounds[header] = {
+          min: Math.min(...values),
+          max: Math.max(...values),
+          sorted,
+        };
+      });
+      return bounds;
+    }
+
+    function metricTextColor(header, value) {
+      const numericValue = toNumber(value);
+      const bound = state.metricBounds[header];
+      if (numericValue === null || !bound) return '';
+
+      const sorted = bound.sorted || [];
+      if (sorted.length <= 1) return 'rgb(232, 240, 246)';
+
+      let insertionIndex = sorted.findIndex((candidate) => numericValue <= candidate);
+      if (insertionIndex === -1) insertionIndex = sorted.length - 1;
+      const percentile = insertionIndex / (sorted.length - 1);
+
+      let qualityScore = percentile;
+      if (LOW_IS_GOOD_HEADERS.has(header)) {
+        qualityScore = 1 - percentile;
+      }
+
+      // Center the middle of the pool around white and saturate the top/bottom 20%.
+      let normalized = (qualityScore - 0.5) / 0.3;
+      normalized = Math.max(-1, Math.min(1, normalized));
+
+      const start = [255, 255, 255];
+      const end = normalized >= 0 ? [122, 240, 162] : [255, 143, 143];
+      const amount = Math.abs(normalized);
+      const channel = start.map((channelValue, index) => {
+        const blended = channelValue + (end[index] - channelValue) * amount;
+        return Math.round(blended);
+      });
+      return `rgb(${channel.join(', ')})`;
+    }
+
+    function isEditableHeader(header) {
+      return header === 'ERA' || header === 'Pitches';
+    }
+
+    function buildTableHead() {
+      const head = document.getElementById('tableHead');
+      const headerCells = state.headers.map((header) => `<th>${escapeHtml(displayHeaderName(header))}</th>`).join('');
+      head.innerHTML = `<th class="rank-col">Rank</th>${headerCells}<th>Save</th>`;
+    }
+
+    function renderCell(row, header) {
+      const value = row[header] ?? '';
+      if (isEditableHeader(header)) {
+        const inputClass = header === 'ERA' ? 'era-input' : 'pitches-input';
+        return `
+          <td>
+            <input
+              class="cell-input ${inputClass}"
+              data-field="${escapeHtml(header)}"
+              data-pitcher="${escapeHtml(row._pitcher)}"
+              type="text"
+              value="${escapeHtml(value)}"
+            >
+          </td>
+        `;
+      }
+
+      const classes = [
+        header === 'Pitcher' ? 'pitcher-name' : '',
+        header === 'Notes' ? 'notes' : '',
+      ].filter(Boolean).join(' ');
+      const color = metricTextColor(header, value);
+      const style = color ? ` style="color: ${color};"` : '';
+      return `<td class="${classes}"${style}>${escapeHtml(value)}</td>`;
+    }
+
+    function renderRows() {
+      const body = document.getElementById('tableBody');
+      if (!state.filteredRows.length) {
+        body.innerHTML = `<tr><td class="empty" colspan="${state.headers.length + 2}">No pitchers match that search.</td></tr>`;
+        return;
+      }
+
+      body.innerHTML = state.filteredRows.map((row) => `
+        <tr data-pitcher="${escapeHtml(row._pitcher)}">
+          <td class="rank-col">${escapeHtml(row._rank ?? '')}</td>
+          ${state.headers.map((header) => renderCell(row, header)).join('')}
+          <td class="row-status" data-status-for="${escapeHtml(row._pitcher)}">${row._override_saved_at ? 'Saved' : ''}</td>
+        </tr>
+      `).join('');
+    }
+
+    function applySearch() {
+      const term = document.getElementById('searchInput').value.trim().toLowerCase();
+      state.filteredRows = state.rows.filter((row) => {
+        if (!term) return true;
+        return state.headers.some((header) => String(row[header] ?? '').toLowerCase().includes(term));
+      });
+      renderRows();
+      bindEditableInputs();
+    }
+
+    function setRowStatus(pitcher, text, className) {
+      const node = document.querySelector(`[data-status-for="${CSS.escape(pitcher)}"]`);
+      if (!node) return;
+      node.textContent = text;
+      node.className = `row-status ${className || ''}`.trim();
+    }
+
+    async function saveOverride(pitcher) {
+      const eraInput = document.querySelector(`input[data-pitcher="${CSS.escape(pitcher)}"][data-field="ERA"]`);
+      const pitchesInput = document.querySelector(`input[data-pitcher="${CSS.escape(pitcher)}"][data-field="Pitches"]`);
+      if (!eraInput || !pitchesInput) return;
+
+      [eraInput, pitchesInput].forEach((input) => {
+        input.classList.remove('dirty', 'saved');
+        input.classList.add('saving');
+      });
+      setRowStatus(pitcher, 'Saving...', 'saving');
+
+      try {
+        const response = await fetch('/api/starting-pitchers/override', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            pitcher,
+            era: eraInput.value,
+            pitches: pitchesInput.value,
+          }),
+        });
+        const payload = await response.json();
+        if (!response.ok) {
+          throw new Error(payload.detail || 'Failed to save override.');
+        }
+
+        const targetRow = state.rows.find((row) => row._pitcher === pitcher);
+        if (targetRow) {
+          targetRow.ERA = eraInput.value;
+          targetRow.Pitches = pitchesInput.value;
+          targetRow._override_saved_at = payload.override?.saved_at || new Date().toISOString();
+        }
+
+        recomputeRows();
+        applySearch();
+
+        const freshEraInput = document.querySelector(`input[data-pitcher="${CSS.escape(pitcher)}"][data-field="ERA"]`);
+        const freshPitchesInput = document.querySelector(`input[data-pitcher="${CSS.escape(pitcher)}"][data-field="Pitches"]`);
+        [freshEraInput, freshPitchesInput].filter(Boolean).forEach((input) => {
+          input.classList.remove('saving', 'dirty');
+          input.classList.add('saved');
+        });
+        setRowStatus(pitcher, 'Saved', 'saved');
+        document.getElementById('overrideMeta').textContent = `Last override save: ${formatMetaDate(payload.override?.saved_at)}`;
+      } catch (error) {
+        [eraInput, pitchesInput].forEach((input) => {
+          input.classList.remove('saving', 'saved');
+          input.classList.add('dirty');
+        });
+        setRowStatus(pitcher, error.message || 'Save failed', 'error');
+      }
+    }
+
+    function bindEditableInputs() {
+      document.querySelectorAll('.cell-input').forEach((input) => {
+        input.addEventListener('input', () => {
+          input.classList.remove('saved');
+          input.classList.add('dirty');
+          setRowStatus(input.dataset.pitcher, 'Unsaved', '');
+        });
+        input.addEventListener('blur', () => saveOverride(input.dataset.pitcher));
+        input.addEventListener('keydown', (event) => {
+          if (event.key === 'Enter') {
+            event.preventDefault();
+            input.blur();
+          }
+        });
+      });
+    }
+
+    async function loadStartingPitchers() {
+      const response = await fetch('/api/starting-pitchers', { cache: 'no-store' });
+      const payload = await response.json();
+      if (!response.ok) {
+        throw new Error(payload.detail || 'Failed to load starting pitcher table.');
+      }
+
+      state.headers = payload.headers || [];
+      state.rows = payload.rows || [];
+      recomputeRows();
+      state.filteredRows = [...state.rows];
+      buildTableHead();
+      renderRows();
+      bindEditableInputs();
+
+      document.getElementById('workbookMeta').textContent = `Workbook updated ${formatMetaDate(payload.source?.workbook_modified_at)}`;
+      document.getElementById('rowCountMeta').textContent = `${state.rows.length} pitchers loaded`;
+      if (payload.source?.overrides_saved_at) {
+        document.getElementById('overrideMeta').textContent = `Last override save: ${formatMetaDate(payload.source.overrides_saved_at)}`;
+      }
+    }
+
+    document.getElementById('searchInput').addEventListener('input', applySearch);
+
+    loadStartingPitchers().catch((error) => {
+      document.getElementById('tableBody').innerHTML = `
+        <tr>
+          <td class="empty" colspan="33">${escapeHtml(error.message || 'Unexpected error.')}</td>
+        </tr>
+      `;
+    });
+  </script>
+</body>
+</html>

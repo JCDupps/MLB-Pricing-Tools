@@ -1,0 +1,4731 @@
+{
+  "lineup_fallbacks": {
+    "angels:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Zach Neto",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Mike Trout",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Nolan Schanuel",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Jorge Soler",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Vaughn Grissom",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Jo Adell",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Oswald Peraza",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Logan O'Hoppe",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Josh Lowe",
+            "position": "LF"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:50.723935"
+    },
+    "astros:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Jeremy Pe\u00f1a",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Isaac Paredes",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Yordan Alvarez",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Christian Walker",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Jake Meyers",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Zach Cole",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Cam Smith",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Braden Shewmake",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Christian V\u00e1zquez",
+            "position": "C"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:33.596658"
+    },
+    "athletics:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Carlos Cortes",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Shea Langeliers",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Nick Kurtz",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Brent Rooker",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Tyler Soderstrom",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Zack Gelof",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Jeff McNeil",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Henry Bolte",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Darell Hernaiz",
+            "position": "SS"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:53.046432"
+    },
+    "blue-jays:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "George Springer",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Vladimir Guerrero Jr.",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Daulton Varsho",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Kazuma Okamoto",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Yohendrick Pi\u00f1ango",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Ernie Clement",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Jes\u00fas S\u00e1nchez",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Brandon Valenzuela",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Andr\u00e9s Gim\u00e9nez",
+            "position": "SS"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:40.720455"
+    },
+    "braves:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Ronald Acu\u00f1a Jr.",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Michael Harris II",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Matt Olson",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Ozzie Albies",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Dominic Smith",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Austin Riley",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Mike Yastrzemski",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Ha-Seong Kim",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Sandy Le\u00f3n",
+            "position": "C"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:46.253294"
+    },
+    "brewers:vsL": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Jackson Chourio",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Brice Turang",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "William Contreras",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Christian Yelich",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Andrew Vaughn",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Luis Rengifo",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Gary S\u00e1nchez",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Blake Perkins",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Joey Ortiz",
+            "position": "SS"
+          }
+        ],
+        "source": "fangraphs_vsL"
+      },
+      "saved_at": "2026-05-21T19:12:49.400141"
+    },
+    "cardinals:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "JJ Wetherholt",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Iv\u00e1n Herrera",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Alec Burleson",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Jordan Walker",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Nolan Gorman",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Masyn Winn",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Nathan Church",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Pedro Pag\u00e9s",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Victor Scott II",
+            "position": "CF"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:35.166595"
+    },
+    "cubs:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Nico Hoerner",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Michael Busch",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Alex Bregman",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Ian Happ",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Seiya Suzuki",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Michael Conforto",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Carson Kelly",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Pete Crow-Armstrong",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Dansby Swanson",
+            "position": "SS"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:34.403092"
+    },
+    "diamondbacks:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Ketel Marte",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Corbin Carroll",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Geraldo Perdomo",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Nolan Arenado",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Ildemaro Vargas",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Lourdes Gurriel Jr.",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Gabriel Moreno",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Adrian Del Castillo",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Ryan Waldschmidt",
+            "position": "CF"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:52.262465"
+    },
+    "dodgers:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Shohei Ohtani",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Mookie Betts",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Freddie Freeman",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Kyle Tucker",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Andy Pages",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Max Muncy",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Will Smith",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Teoscar Hern\u00e1ndez",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Hyeseong Kim",
+            "position": "2B"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:48.584688"
+    },
+    "giants:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Jung Hoo Lee",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Luis Arraez",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Casey Schmitt",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Rafael Devers",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Willy Adames",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Matt Chapman",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Bryce Eldridge",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Daniel Susac",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Harrison Bader",
+            "position": "CF"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:55.089382"
+    },
+    "guardians:vsL": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Angel Mart\u00ednez",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Jos\u00e9 Ram\u00edrez",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Chase DeLauter",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Rhys Hoskins",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "David Fry",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Travis Bazzana",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Steven Kwan",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Austin Hedges",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Brayan Rocchio",
+            "position": "SS"
+          }
+        ],
+        "source": "fangraphs_vsL"
+      },
+      "saved_at": "2026-05-21T19:12:36.765641"
+    },
+    "mariners:vsL": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "J.P. Crawford",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Julio Rodr\u00edguez",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Randy Arozarena",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Josh Naylor",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Rob Refsnyder",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Connor Joe",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Mitch Garver",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Cole Young",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Colt Emerson",
+            "position": "3B"
+          }
+        ],
+        "source": "fangraphs_vsL"
+      },
+      "saved_at": "2026-05-21T19:12:47.064261"
+    },
+    "marlins:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Xavier Edwards",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Liam Hicks",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Otto Lopez",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Kyle Stowers",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Jakob Marsee",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Connor Norby",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Owen Caissie",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Joe Mack",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Javier Sanoja",
+            "position": "3B"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:43.599138"
+    },
+    "mets:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Carson Benge",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Bo Bichette",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Juan Soto",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Mark Vientos",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Brett Baty",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Marcus Semien",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "A.J. Ewing",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "MJ Melendez",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Luis Torrens",
+            "position": "C"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:43.099201"
+    },
+    "nationals:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "James Wood",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Luis Garc\u00eda Jr.",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Dylan Crews",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "CJ Abrams",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Daylen Lile",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Jacob Young",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Jos\u00e9 Tena",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Drew Millas",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Nasim Nu\u00f1ez",
+            "position": "2B"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:45.617348"
+    },
+    "orioles:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Taylor Ward",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Gunnar Henderson",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Adley Rutschman",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Pete Alonso",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Samuel Basallo",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Tyler O'Neill",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Jackson Holliday",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Coby Mayo",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Colton Cowser",
+            "position": "CF"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:45.121563"
+    },
+    "padres:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Fernando Tatis Jr.",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Miguel Andujar",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Gavin Sheets",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Manny Machado",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Xander Bogaerts",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Jackson Merrill",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Nick Castellanos",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Ram\u00f3n Laureano",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Freddy Fermin",
+            "position": "C"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:53.540036"
+    },
+    "phillies:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Trea Turner",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Kyle Schwarber",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Bryce Harper",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Alec Bohm",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Brandon Marsh",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Adolis Garc\u00eda",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Bryson Stott",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "J.T. Realmuto",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Justin Crawford",
+            "position": "CF"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:37.588410"
+    },
+    "pirates:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Nick Gonzales",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Brandon Lowe",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Bryan Reynolds",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Oneil Cruz",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Spencer Horwitz",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Konnor Griffin",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Marcell Ozuna",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Jake Mangum",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Henry Davis",
+            "position": "C"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:39.951164"
+    },
+    "rangers:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Evan Carter",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Brandon Nimmo",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Josh Jung",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Joc Pederson",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Ezequiel Duran",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Alejandro Osuna",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Jake Burger",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Justin Foscue",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Danny Jansen",
+            "position": "C"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:49.918582"
+    },
+    "rays:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Chandler Simpson",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Junior Caminero",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Jonathan Aranda",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Yandy D\u00edaz",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Richie Palacios",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Jonny DeLuca",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Cedric Mullins",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Hunter Feduccia",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Taylor Walls",
+            "position": "SS"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:38.399292"
+    },
+    "red-sox:vsL": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Jarren Duran",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Ceddanne Rafaela",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Wilyer Abreu",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Willson Contreras",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Andruw Monasterio",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Nick Sogard",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Carlos Narv\u00e1ez",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Isiah Kiner-Falefa",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Caleb Durbin",
+            "position": "3B"
+          }
+        ],
+        "source": "fangraphs_vsL"
+      },
+      "saved_at": "2026-05-21T19:12:42.346183"
+    },
+    "reds:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Matt McLain",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Elly De La Cruz",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "JJ Bleday",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Sal Stewart",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Spencer Steer",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Nathaniel Lowe",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Will Benson",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Tyler Stephenson",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "TJ Friedl",
+            "position": "CF"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:35.990313"
+    },
+    "rockies:vsL": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Willi Castro",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Tyler Freeman",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "TJ Rumfield",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Hunter Goodman",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Brenton Doyle",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Ezequiel Tovar",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Kyle Karros",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Jake McCarthy",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Braxton Fulford",
+            "position": "DH"
+          }
+        ],
+        "source": "fangraphs_vsL"
+      },
+      "saved_at": "2026-05-21T19:12:32.434842"
+    },
+    "rockies:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Jake McCarthy",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Mickey Moniak",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Hunter Goodman",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "TJ Rumfield",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Tyler Freeman",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Troy Johnston",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Willi Castro",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Edouard Julien",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Ezequiel Tovar",
+            "position": "SS"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:51.480110"
+    },
+    "royals:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Maikel Garcia",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Bobby Witt Jr.",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Vinnie Pasquantino",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Salvador Perez",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Carter Jensen",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Jac Caglianone",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Isaac Collins",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Michael Massey",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Kyle Isbel",
+            "position": "CF"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:47.829092"
+    },
+    "tigers:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Colt Keith",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Kevin McGonigle",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Dillon Dingler",
+            "position": "C"
+          },
+          {
+            "confirmed": false,
+            "name": "Riley Greene",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Spencer Torkelson",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Gage Workman",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Matt Vierling",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Zach McKinstry",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Wenceel P\u00e9rez",
+            "position": "RF"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:44.328179"
+    },
+    "twins:vsL": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Byron Buxton",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Austin Martin",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Josh Bell",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Victor Caratini",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Luke Keaschall",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Brooks Lee",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Orlando Arcia",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Ryan Kreidler",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Alex Jackson",
+            "position": "C"
+          }
+        ],
+        "source": "fangraphs_vsL"
+      },
+      "saved_at": "2026-05-21T19:12:41.506999"
+    },
+    "white-sox:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Sam Antonacci",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Munetaka Murakami",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Miguel Vargas",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Colson Montgomery",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Chase Meidroth",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Andrew Benintendi",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Jarred Kelenic",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Tristan Peters",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Drew Romo",
+            "position": "C"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:54.322998"
+    },
+    "yankees:vsR": {
+      "lineup": {
+        "is_official": false,
+        "players": [
+          {
+            "confirmed": false,
+            "name": "Trent Grisham",
+            "position": "CF"
+          },
+          {
+            "confirmed": false,
+            "name": "Ben Rice",
+            "position": "1B"
+          },
+          {
+            "confirmed": false,
+            "name": "Aaron Judge",
+            "position": "RF"
+          },
+          {
+            "confirmed": false,
+            "name": "Cody Bellinger",
+            "position": "LF"
+          },
+          {
+            "confirmed": false,
+            "name": "Jazz Chisholm Jr.",
+            "position": "2B"
+          },
+          {
+            "confirmed": false,
+            "name": "Spencer Jones",
+            "position": "DH"
+          },
+          {
+            "confirmed": false,
+            "name": "Ryan McMahon",
+            "position": "3B"
+          },
+          {
+            "confirmed": false,
+            "name": "Anthony Volpe",
+            "position": "SS"
+          },
+          {
+            "confirmed": false,
+            "name": "Austin Wells",
+            "position": "C"
+          }
+        ],
+        "source": "fangraphs_vsR"
+      },
+      "saved_at": "2026-05-21T19:12:39.175869"
+    }
+  },
+  "saved_at": "2026-05-21T19:20:18.073962",
+  "slates": {
+    "2026-05-21": {
+      "date": "2026-05-21",
+      "error": null,
+      "games": [
+        {
+          "away_lineup": {
+            "is_official": true,
+            "players": [
+              {
+                "confirmed": true,
+                "name": "Daniel Schneemann",
+                "position": "3B"
+              },
+              {
+                "confirmed": true,
+                "name": "Jos\u00e9 Ram\u00edrez",
+                "position": "DH"
+              },
+              {
+                "confirmed": true,
+                "name": "Chase DeLauter",
+                "position": "RF"
+              },
+              {
+                "confirmed": true,
+                "name": "Rhys Hoskins",
+                "position": "1B"
+              },
+              {
+                "confirmed": true,
+                "name": "Travis Bazzana",
+                "position": "2B"
+              },
+              {
+                "confirmed": true,
+                "name": "Angel Mart\u00ednez",
+                "position": "LF"
+              },
+              {
+                "confirmed": true,
+                "name": "Steven Kwan",
+                "position": "CF"
+              },
+              {
+                "confirmed": true,
+                "name": "Patrick Bailey",
+                "position": "C"
+              },
+              {
+                "confirmed": true,
+                "name": "Brayan Rocchio",
+                "position": "SS"
+              }
+            ],
+            "source": "official"
+          },
+          "away_pitcher": {
+            "era": "3.8 ERA",
+            "hand": "",
+            "ip": "5.2 IP",
+            "mlb_id": 676282,
+            "name": "Joey Cantillo",
+            "record": ""
+          },
+          "away_record": "30-22",
+          "away_team": "Cleveland",
+          "broadcasts": [
+            "WTAM 1100",
+            "Guardians.TV Presented by Progressive",
+            "Detroit SportsNet",
+            "WXYT 97.1 FM",
+            "Guardians Radio Network",
+            "LaZ WDTW 1310AM/107.9FM"
+          ],
+          "game_pk": 824274,
+          "game_time": "1:10 PM ET",
+          "home_lineup": {
+            "is_official": true,
+            "players": [
+              {
+                "confirmed": true,
+                "name": "Matt Vierling",
+                "position": "CF"
+              },
+              {
+                "confirmed": true,
+                "name": "Kevin McGonigle",
+                "position": "3B"
+              },
+              {
+                "confirmed": true,
+                "name": "Dillon Dingler",
+                "position": "C"
+              },
+              {
+                "confirmed": true,
+                "name": "Riley Greene",
+                "position": "LF"
+              },
+              {
+                "confirmed": true,
+                "name": "Jahmai Jones",
+                "position": "DH"
+              },
+              {
+                "confirmed": true,
+                "name": "Spencer Torkelson",
+                "position": "1B"
+              },
+              {
+                "confirmed": true,
+                "name": "Wenceel P\u00e9rez",
+                "position": "RF"
+              },
+              {
+                "confirmed": true,
+                "name": "Hao-Yu  Lee",
+                "position": "2B"
+              },
+              {
+                "confirmed": true,
+                "name": "Zack Short",
+                "position": "SS"
+              }
+            ],
+            "source": "official"
+          },
+          "home_pitcher": {
+            "era": "3.85 ERA",
+            "hand": "",
+            "ip": "5.77 IP",
+            "mlb_id": 663554,
+            "name": "Casey Mize",
+            "record": ""
+          },
+          "home_record": "20-31",
+          "home_team": "Detroit",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": true,
+            "players": [
+              {
+                "confirmed": true,
+                "name": "Oneil Cruz",
+                "position": "CF"
+              },
+              {
+                "confirmed": true,
+                "name": "Brandon Lowe",
+                "position": "2B"
+              },
+              {
+                "confirmed": true,
+                "name": "Bryan Reynolds",
+                "position": "LF"
+              },
+              {
+                "confirmed": true,
+                "name": "Spencer Horwitz",
+                "position": "1B"
+              },
+              {
+                "confirmed": true,
+                "name": "Konnor Griffin",
+                "position": "SS"
+              },
+              {
+                "confirmed": true,
+                "name": "Marcell Ozuna",
+                "position": "DH"
+              },
+              {
+                "confirmed": true,
+                "name": "Jake Mangum",
+                "position": "RF"
+              },
+              {
+                "confirmed": true,
+                "name": "Jared Triolo",
+                "position": "3B"
+              },
+              {
+                "confirmed": true,
+                "name": "Henry Davis",
+                "position": "C"
+              }
+            ],
+            "source": "official"
+          },
+          "away_pitcher": {
+            "era": "3.7 ERA",
+            "hand": "",
+            "ip": "5.6 IP",
+            "mlb_id": 677952,
+            "name": "Braxton Ashcraft",
+            "record": ""
+          },
+          "away_record": "26-24",
+          "away_team": "Pittsburgh",
+          "broadcasts": [
+            "SportsNet Pittsburgh",
+            "Cardinals.TV",
+            "KMOX 1120 AM/104.1 FM",
+            "100.1 FM/KDKA-AM 1020",
+            "WIJR AM 880 (En Espanol)"
+          ],
+          "game_pk": 823056,
+          "game_time": "1:15 PM ET",
+          "home_lineup": {
+            "is_official": true,
+            "players": [
+              {
+                "confirmed": true,
+                "name": "JJ Wetherholt",
+                "position": "2B"
+              },
+              {
+                "confirmed": true,
+                "name": "Iv\u00e1n Herrera",
+                "position": "DH"
+              },
+              {
+                "confirmed": true,
+                "name": "Alec Burleson",
+                "position": "1B"
+              },
+              {
+                "confirmed": true,
+                "name": "Jordan Walker",
+                "position": "RF"
+              },
+              {
+                "confirmed": true,
+                "name": "Nolan Gorman",
+                "position": "3B"
+              },
+              {
+                "confirmed": true,
+                "name": "Masyn Winn",
+                "position": "SS"
+              },
+              {
+                "confirmed": true,
+                "name": "Jos\u00e9 Ferm\u00edn",
+                "position": "LF"
+              },
+              {
+                "confirmed": true,
+                "name": "Pedro Pag\u00e9s",
+                "position": "C"
+              },
+              {
+                "confirmed": true,
+                "name": "Victor Scott II",
+                "position": "CF"
+              }
+            ],
+            "source": "official"
+          },
+          "home_pitcher": {
+            "era": "4.35 ERA",
+            "hand": "",
+            "ip": "4.97 IP",
+            "mlb_id": 669160,
+            "name": "Dustin May",
+            "record": ""
+          },
+          "home_record": "28-21",
+          "home_team": "St. Louis",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": true,
+            "players": [
+              {
+                "confirmed": true,
+                "name": "Carson Benge",
+                "position": "RF"
+              },
+              {
+                "confirmed": true,
+                "name": "Bo Bichette",
+                "position": "SS"
+              },
+              {
+                "confirmed": true,
+                "name": "Juan Soto",
+                "position": "LF"
+              },
+              {
+                "confirmed": true,
+                "name": "Mark Vientos",
+                "position": "1B"
+              },
+              {
+                "confirmed": true,
+                "name": "Brett Baty",
+                "position": "3B"
+              },
+              {
+                "confirmed": true,
+                "name": "Marcus Semien",
+                "position": "2B"
+              },
+              {
+                "confirmed": true,
+                "name": "A.J. Ewing",
+                "position": "CF"
+              },
+              {
+                "confirmed": true,
+                "name": "MJ Melendez",
+                "position": "DH"
+              },
+              {
+                "confirmed": true,
+                "name": "Luis Torrens",
+                "position": "C"
+              }
+            ],
+            "source": "official"
+          },
+          "away_pitcher": {
+            "era": "3.85 ERA",
+            "hand": "",
+            "ip": "5.29 IP",
+            "mlb_id": 656849,
+            "name": "David Peterson",
+            "record": ""
+          },
+          "away_record": "22-28",
+          "away_team": "NY Mets",
+          "broadcasts": [
+            "SNY",
+            "Nationals.TV",
+            "WJFK 106.7 The Fan",
+            "WEPN 1050AM",
+            "Audacy App 92.3 HD2"
+          ],
+          "game_pk": 822733,
+          "game_time": "4:05 PM ET",
+          "home_lineup": {
+            "is_official": true,
+            "players": [
+              {
+                "confirmed": true,
+                "name": "James Wood",
+                "position": "LF"
+              },
+              {
+                "confirmed": true,
+                "name": "Curtis Mead",
+                "position": "3B"
+              },
+              {
+                "confirmed": true,
+                "name": "Andr\u00e9s Chaparro",
+                "position": "1B"
+              },
+              {
+                "confirmed": true,
+                "name": "CJ Abrams",
+                "position": "SS"
+              },
+              {
+                "confirmed": true,
+                "name": "Dylan Crews",
+                "position": "RF"
+              },
+              {
+                "confirmed": true,
+                "name": "Daylen Lile",
+                "position": "DH"
+              },
+              {
+                "confirmed": true,
+                "name": "Jacob Young",
+                "position": "CF"
+              },
+              {
+                "confirmed": true,
+                "name": "Nasim Nu\u00f1ez",
+                "position": "2B"
+              },
+              {
+                "confirmed": true,
+                "name": "Keibert Ruiz",
+                "position": "C"
+              }
+            ],
+            "source": "official"
+          },
+          "home_pitcher": {
+            "era": "4.3 ERA",
+            "hand": "",
+            "ip": "4.8 IP",
+            "mlb_id": 676917,
+            "name": "Cade Cavalli",
+            "record": ""
+          },
+          "home_record": "25-26",
+          "home_team": "Washington",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": true,
+            "players": [
+              {
+                "confirmed": true,
+                "name": "Ronald Acu\u00f1a Jr.",
+                "position": "RF"
+              },
+              {
+                "confirmed": true,
+                "name": "Michael Harris II",
+                "position": "CF"
+              },
+              {
+                "confirmed": true,
+                "name": "Matt Olson",
+                "position": "1B"
+              },
+              {
+                "confirmed": true,
+                "name": "Ozzie Albies",
+                "position": "2B"
+              },
+              {
+                "confirmed": true,
+                "name": "Dominic Smith",
+                "position": "DH"
+              },
+              {
+                "confirmed": true,
+                "name": "Austin Riley",
+                "position": "3B"
+              },
+              {
+                "confirmed": true,
+                "name": "Mike Yastrzemski",
+                "position": "LF"
+              },
+              {
+                "confirmed": true,
+                "name": "Ha-Seong Kim",
+                "position": "SS"
+              },
+              {
+                "confirmed": true,
+                "name": "Chadwick Tromp",
+                "position": "C"
+              }
+            ],
+            "source": "official"
+          },
+          "away_pitcher": {
+            "era": "4 ERA",
+            "hand": "",
+            "ip": "",
+            "mlb_id": 675911,
+            "name": "Spencer Strider",
+            "record": ""
+          },
+          "away_record": "34-16",
+          "away_team": "Atlanta",
+          "broadcasts": [
+            "680 AM/93.7 FM The Fan",
+            "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
+            "BravesVision",
+            "WQAM 104.3",
+            "WAQI 710"
+          ],
+          "game_pk": 823864,
+          "game_time": "6:40 PM ET",
+          "home_lineup": {
+            "is_official": true,
+            "players": [
+              {
+                "confirmed": true,
+                "name": "Xavier Edwards",
+                "position": "2B"
+              },
+              {
+                "confirmed": true,
+                "name": "Liam Hicks",
+                "position": "DH"
+              },
+              {
+                "confirmed": true,
+                "name": "Otto Lopez",
+                "position": "SS"
+              },
+              {
+                "confirmed": true,
+                "name": "Kyle Stowers",
+                "position": "LF"
+              },
+              {
+                "confirmed": true,
+                "name": "Jakob Marsee",
+                "position": "CF"
+              },
+              {
+                "confirmed": true,
+                "name": "Christopher Morel",
+                "position": "1B"
+              },
+              {
+                "confirmed": true,
+                "name": "Owen Caissie",
+                "position": "RF"
+              },
+              {
+                "confirmed": true,
+                "name": "Joe Mack",
+                "position": "C"
+              },
+              {
+                "confirmed": true,
+                "name": "Javier Sanoja",
+                "position": "3B"
+              }
+            ],
+            "source": "official"
+          },
+          "home_pitcher": {
+            "era": "3.65 ERA",
+            "hand": "",
+            "ip": "6.1 IP",
+            "mlb_id": 645261,
+            "name": "Sandy Alcantara",
+            "record": ""
+          },
+          "home_record": "22-28",
+          "home_team": "Miami",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": true,
+            "players": [
+              {
+                "confirmed": true,
+                "name": "George Springer",
+                "position": "DH"
+              },
+              {
+                "confirmed": true,
+                "name": "Vladimir Guerrero Jr.",
+                "position": "1B"
+              },
+              {
+                "confirmed": true,
+                "name": "Daulton Varsho",
+                "position": "CF"
+              },
+              {
+                "confirmed": true,
+                "name": "Kazuma Okamoto",
+                "position": "3B"
+              },
+              {
+                "confirmed": true,
+                "name": "Ernie Clement",
+                "position": "SS"
+              },
+              {
+                "confirmed": true,
+                "name": "Lenyn Sosa",
+                "position": "2B"
+              },
+              {
+                "confirmed": true,
+                "name": "Myles Straw",
+                "position": "RF"
+              },
+              {
+                "confirmed": true,
+                "name": "Brandon Valenzuela",
+                "position": "C"
+              },
+              {
+                "confirmed": true,
+                "name": "Davis Schneider",
+                "position": "LF"
+              }
+            ],
+            "source": "official"
+          },
+          "away_pitcher": {
+            "era": "",
+            "hand": "",
+            "ip": "",
+            "mlb_id": 680755,
+            "name": "Braydon Fisher",
+            "record": ""
+          },
+          "away_record": "22-27",
+          "away_team": "Toronto",
+          "broadcasts": [
+            "YES",
+            "SN1",
+            "MLB Network",
+            "MLB Network",
+            "SN590 THE FAN",
+            "WFAN 660/101.9 FM",
+            "WADO 1280"
+          ],
+          "game_pk": 823545,
+          "game_time": "7:05 PM ET",
+          "home_lineup": {
+            "is_official": true,
+            "players": [
+              {
+                "confirmed": true,
+                "name": "Ben Rice",
+                "position": "DH"
+              },
+              {
+                "confirmed": true,
+                "name": "Aaron Judge",
+                "position": "RF"
+              },
+              {
+                "confirmed": true,
+                "name": "Cody Bellinger",
+                "position": "LF"
+              },
+              {
+                "confirmed": true,
+                "name": "Jazz Chisholm Jr.",
+                "position": "2B"
+              },
+              {
+                "confirmed": true,
+                "name": "Paul Goldschmidt",
+                "position": "1B"
+              },
+              {
+                "confirmed": true,
+                "name": "Spencer Jones",
+                "position": "CF"
+              },
+              {
+                "confirmed": true,
+                "name": "Ryan McMahon",
+                "position": "3B"
+              },
+              {
+                "confirmed": true,
+                "name": "Anthony Volpe",
+                "position": "SS"
+              },
+              {
+                "confirmed": true,
+                "name": "J.C. Escarra",
+                "position": "C"
+              }
+            ],
+            "source": "official"
+          },
+          "home_pitcher": {
+            "era": "3.7 ERA",
+            "hand": "",
+            "ip": "",
+            "mlb_id": 607074,
+            "name": "Carlos Rod\u00f3n",
+            "record": ""
+          },
+          "home_record": "30-20",
+          "home_team": "NY Yankees",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": true,
+            "players": [
+              {
+                "confirmed": true,
+                "name": "Carlos Cortes",
+                "position": "RF"
+              },
+              {
+                "confirmed": true,
+                "name": "Shea Langeliers",
+                "position": "C"
+              },
+              {
+                "confirmed": true,
+                "name": "Nick Kurtz",
+                "position": "1B"
+              },
+              {
+                "confirmed": true,
+                "name": "Brent Rooker",
+                "position": "DH"
+              },
+              {
+                "confirmed": true,
+                "name": "Tyler Soderstrom",
+                "position": "LF"
+              },
+              {
+                "confirmed": true,
+                "name": "Zack Gelof",
+                "position": "3B"
+              },
+              {
+                "confirmed": true,
+                "name": "Jeff McNeil",
+                "position": "2B"
+              },
+              {
+                "confirmed": true,
+                "name": "Darell Hernaiz",
+                "position": "SS"
+              },
+              {
+                "confirmed": true,
+                "name": "Lawrence Butler",
+                "position": "CF"
+              }
+            ],
+            "source": "official"
+          },
+          "away_pitcher": {
+            "era": "4.5 ERA",
+            "hand": "",
+            "ip": "5.41 IP",
+            "mlb_id": 622663,
+            "name": "Luis Severino",
+            "record": ""
+          },
+          "away_record": "25-24",
+          "away_team": "Athletics",
+          "broadcasts": [
+            "KLAA 830",
+            "NBCSCA",
+            "ABTV, presented by Pechanga Resort Casino",
+            "KWKW 1330",
+            "Talk 650 KSTE",
+            "A's Cast"
+          ],
+          "game_pk": 824031,
+          "game_time": "9:38 PM ET",
+          "home_lineup": {
+            "is_official": true,
+            "players": [
+              {
+                "confirmed": true,
+                "name": "Zach Neto",
+                "position": "SS"
+              },
+              {
+                "confirmed": true,
+                "name": "Mike Trout",
+                "position": "DH"
+              },
+              {
+                "confirmed": true,
+                "name": "Nolan Schanuel",
+                "position": "1B"
+              },
+              {
+                "confirmed": true,
+                "name": "Vaughn Grissom",
+                "position": "3B"
+              },
+              {
+                "confirmed": true,
+                "name": "Jo Adell",
+                "position": "RF"
+              },
+              {
+                "confirmed": true,
+                "name": "Josh Lowe",
+                "position": "LF"
+              },
+              {
+                "confirmed": true,
+                "name": "Jose Siri",
+                "position": "CF"
+              },
+              {
+                "confirmed": true,
+                "name": "Sebasti\u00e1n Rivero",
+                "position": "C"
+              },
+              {
+                "confirmed": true,
+                "name": "Adam Frazier",
+                "position": "2B"
+              }
+            ],
+            "source": "official"
+          },
+          "home_pitcher": {
+            "era": "3.5 ERA",
+            "hand": "",
+            "ip": "5.72 IP",
+            "mlb_id": 667755,
+            "name": "Jos\u00e9 Soriano",
+            "record": ""
+          },
+          "home_record": "17-33",
+          "home_team": "LA Angels",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": true,
+            "players": [
+              {
+                "confirmed": true,
+                "name": "Willi Castro",
+                "position": "1B"
+              },
+              {
+                "confirmed": true,
+                "name": "Tyler Freeman",
+                "position": "RF"
+              },
+              {
+                "confirmed": true,
+                "name": "Hunter Goodman",
+                "position": "C"
+              },
+              {
+                "confirmed": true,
+                "name": "Ezequiel Tovar",
+                "position": "SS"
+              },
+              {
+                "confirmed": true,
+                "name": "Kyle Karros",
+                "position": "3B"
+              },
+              {
+                "confirmed": true,
+                "name": "Jake McCarthy",
+                "position": "CF"
+              },
+              {
+                "confirmed": true,
+                "name": "Braxton Fulford",
+                "position": "DH"
+              },
+              {
+                "confirmed": true,
+                "name": "Troy Johnston",
+                "position": "LF"
+              },
+              {
+                "confirmed": true,
+                "name": "Chad Stevens",
+                "position": "2B"
+              }
+            ],
+            "source": "official"
+          },
+          "away_pitcher": {
+            "era": "",
+            "hand": "",
+            "ip": "",
+            "mlb_id": 688642,
+            "name": "Zach Agnos",
+            "record": ""
+          },
+          "away_record": "19-31",
+          "away_team": "Colorado",
+          "broadcasts": [
+            "Arizona Sports 98.7 FM",
+            "DBACKS.TV",
+            "Rockies.TV",
+            "12 News KPNX",
+            "KOA 850 AM/94.1 FM ",
+            "La Campesina 101.9 FM & 860 AM"
+          ],
+          "game_pk": 825083,
+          "game_time": "9:40 PM ET",
+          "home_lineup": {
+            "is_official": true,
+            "players": [
+              {
+                "confirmed": true,
+                "name": "Ketel Marte",
+                "position": "2B"
+              },
+              {
+                "confirmed": true,
+                "name": "Corbin Carroll",
+                "position": "RF"
+              },
+              {
+                "confirmed": true,
+                "name": "Geraldo Perdomo",
+                "position": "SS"
+              },
+              {
+                "confirmed": true,
+                "name": "Nolan Arenado",
+                "position": "3B"
+              },
+              {
+                "confirmed": true,
+                "name": "Ildemaro Vargas",
+                "position": "1B"
+              },
+              {
+                "confirmed": true,
+                "name": "Lourdes Gurriel Jr.",
+                "position": "LF"
+              },
+              {
+                "confirmed": true,
+                "name": "Gabriel Moreno",
+                "position": "C"
+              },
+              {
+                "confirmed": true,
+                "name": "Adrian Del Castillo",
+                "position": "DH"
+              },
+              {
+                "confirmed": true,
+                "name": "Ryan Waldschmidt",
+                "position": "CF"
+              }
+            ],
+            "source": "official"
+          },
+          "home_pitcher": {
+            "era": "4.2 ERA",
+            "hand": "",
+            "ip": "5.29 IP",
+            "mlb_id": 593958,
+            "name": "Eduardo Rodriguez",
+            "record": ""
+          },
+          "home_record": "25-23",
+          "home_team": "Arizona",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        }
+      ],
+      "generated_at": "2026-05-21T19:20:10.193257",
+      "label": "Today",
+      "source_url": "https://www.mlb.com/scores/2026-05-21"
+    },
+    "2026-05-22": {
+      "date": "2026-05-22",
+      "error": null,
+      "games": [
+        {
+          "away_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Jeremy Pe\u00f1a",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Isaac Paredes",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Yordan Alvarez",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Christian Walker",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Jake Meyers",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Zach Cole",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Cam Smith",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Braden Shewmake",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Christian V\u00e1zquez",
+                "position": "C"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "away_pitcher": {
+            "era": "4.35 ERA",
+            "hand": "",
+            "ip": "5.49 IP",
+            "mlb_id": 681293,
+            "name": "Spencer Arrighetti",
+            "record": ""
+          },
+          "away_record": "20-31",
+          "away_team": "Houston",
+          "broadcasts": [
+            "Apple TV",
+            "104.3 The Score",
+            "Apple TV",
+            "KBME 790 AM/94.5 FM HD-2",
+            "Univision TUDN",
+            "KLTN-TUDN 102.9 FM",
+            "WPPN 106.7 / TUDN"
+          ],
+          "game_pk": 824679,
+          "game_time": "2:20 PM ET",
+          "home_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Nico Hoerner",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Michael Busch",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Alex Bregman",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Ian Happ",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Seiya Suzuki",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Michael Conforto",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Carson Kelly",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Pete Crow-Armstrong",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Dansby Swanson",
+                "position": "SS"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "home_pitcher": {
+            "era": "4.5 ERA",
+            "hand": "",
+            "ip": "5.56 IP",
+            "mlb_id": 592791,
+            "name": "Jameson Taillon",
+            "record": ""
+          },
+          "home_record": "29-21",
+          "home_team": "Chi Cubs",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "JJ Wetherholt",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Iv\u00e1n Herrera",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Alec Burleson",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Jordan Walker",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Nolan Gorman",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Masyn Winn",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Nathan Church",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Pedro Pag\u00e9s",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Victor Scott II",
+                "position": "CF"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "away_pitcher": {
+            "era": "4.5 ERA",
+            "hand": "",
+            "ip": "5.0 IP",
+            "mlb_id": 681517,
+            "name": "Kyle Leahy",
+            "record": ""
+          },
+          "away_record": "28-21",
+          "away_team": "St. Louis",
+          "broadcasts": [
+            "Reds.TV",
+            "Cardinals.TV",
+            "KMOX 1120 AM/104.1 FM",
+            "WLW 700",
+            "KMOV-4"
+          ],
+          "game_pk": 824518,
+          "game_time": "6:40 PM ET",
+          "home_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Matt McLain",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Elly De La Cruz",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "JJ Bleday",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Sal Stewart",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Spencer Steer",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Nathaniel Lowe",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Will Benson",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Tyler Stephenson",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "TJ Friedl",
+                "position": "CF"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "home_pitcher": {
+            "era": "4.4 ERA",
+            "hand": "",
+            "ip": "5.3 IP",
+            "mlb_id": 663978,
+            "name": "Chris Paddack",
+            "record": ""
+          },
+          "home_record": "26-24",
+          "home_team": "Cincinnati",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Angel Mart\u00ednez",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Jos\u00e9 Ram\u00edrez",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Chase DeLauter",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Rhys Hoskins",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "David Fry",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Travis Bazzana",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Steven Kwan",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Austin Hedges",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Brayan Rocchio",
+                "position": "SS"
+              }
+            ],
+            "source": "fangraphs_vsL"
+          },
+          "away_pitcher": {
+            "era": "3.8 ERA",
+            "hand": "",
+            "ip": "5.61 IP",
+            "mlb_id": 668909,
+            "name": "Gavin Williams",
+            "record": ""
+          },
+          "away_record": "30-22",
+          "away_team": "Cleveland",
+          "broadcasts": [
+            "NBCSP",
+            "Guardians.TV Presented by Progressive",
+            "WTAM 1100",
+            "WMMS 100.7",
+            "94 WIP",
+            "Guardians Radio Network",
+            "iHeart App"
+          ],
+          "game_pk": 823461,
+          "game_time": "6:40 PM ET",
+          "home_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Trea Turner",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Kyle Schwarber",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Bryce Harper",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Alec Bohm",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Brandon Marsh",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Adolis Garc\u00eda",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Bryson Stott",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "J.T. Realmuto",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Justin Crawford",
+                "position": "CF"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "home_pitcher": {
+            "era": "3.05 ERA",
+            "hand": "",
+            "ip": "5.59 IP",
+            "mlb_id": 650911,
+            "name": "Cristopher S\u00e1nchez",
+            "record": ""
+          },
+          "home_record": "25-25",
+          "home_team": "Philadelphia",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Chandler Simpson",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Junior Caminero",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Jonathan Aranda",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Yandy D\u00edaz",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Richie Palacios",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Jonny DeLuca",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Cedric Mullins",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Hunter Feduccia",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Taylor Walls",
+                "position": "SS"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "away_pitcher": {
+            "era": "4.4 ERA",
+            "hand": "",
+            "ip": "6.14 IP",
+            "mlb_id": 607259,
+            "name": "Nick Martinez",
+            "record": ""
+          },
+          "away_record": "33-15",
+          "away_team": "Tampa Bay",
+          "broadcasts": [
+            "YES",
+            "Rays.TV",
+            "WDAE 95.7 FM",
+            "WFAN 660/101.9 FM",
+            "WADO 1280",
+            "WQBN/1300AM"
+          ],
+          "game_pk": 823546,
+          "game_time": "7:05 PM ET",
+          "home_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Trent Grisham",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Ben Rice",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Aaron Judge",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Cody Bellinger",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Jazz Chisholm Jr.",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Spencer Jones",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Ryan McMahon",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Anthony Volpe",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Austin Wells",
+                "position": "C"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "home_pitcher": {
+            "era": "3.5 ERA",
+            "hand": "",
+            "ip": "",
+            "mlb_id": 543037,
+            "name": "Gerrit Cole",
+            "record": ""
+          },
+          "home_record": "30-20",
+          "home_team": "NY Yankees",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Nick Gonzales",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Brandon Lowe",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Bryan Reynolds",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Oneil Cruz",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Spencer Horwitz",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Konnor Griffin",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Marcell Ozuna",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Jake Mangum",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Henry Davis",
+                "position": "C"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "away_pitcher": {
+            "era": "4.35 ERA",
+            "hand": "",
+            "ip": "4.98 IP",
+            "mlb_id": 696149,
+            "name": "Bubba Chandler",
+            "record": ""
+          },
+          "away_record": "26-24",
+          "away_team": "Pittsburgh",
+          "broadcasts": [
+            "SN1",
+            "SportsNet Pittsburgh",
+            "SN590 THE FAN",
+            "Sports Radio 93.7 KDKA The Fan"
+          ],
+          "game_pk": 822816,
+          "game_time": "7:07 PM ET",
+          "home_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "George Springer",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Vladimir Guerrero Jr.",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Daulton Varsho",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Kazuma Okamoto",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Yohendrick Pi\u00f1ango",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Ernie Clement",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Jes\u00fas S\u00e1nchez",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Brandon Valenzuela",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Andr\u00e9s Gim\u00e9nez",
+                "position": "SS"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "home_pitcher": {
+            "era": "3.4 ERA",
+            "hand": "",
+            "ip": "5.94 IP",
+            "mlb_id": 592332,
+            "name": "Kevin Gausman",
+            "record": ""
+          },
+          "home_record": "22-27",
+          "home_team": "Toronto",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Byron Buxton",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Austin Martin",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Josh Bell",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Victor Caratini",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Luke Keaschall",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Brooks Lee",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Orlando Arcia",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Ryan Kreidler",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Alex Jackson",
+                "position": "C"
+              }
+            ],
+            "source": "fangraphs_vsL"
+          },
+          "away_pitcher": {
+            "era": "",
+            "hand": "",
+            "ip": "",
+            "mlb_id": 687570,
+            "name": "Connor Prielipp",
+            "record": ""
+          },
+          "away_record": "23-27",
+          "away_team": "Minnesota",
+          "broadcasts": [
+            "TIBN",
+            "Twins.TV Presented by Progressive",
+            "NESN",
+            "WEEI 93.7",
+            "WCCO 830",
+            "The Wolf 102.9 FM",
+            "WESX 1230 AM (SP)",
+            "WCCM 1490 AM (SP)",
+            "Audacy App"
+          ],
+          "game_pk": 824761,
+          "game_time": "7:10 PM ET",
+          "home_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Jarren Duran",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Ceddanne Rafaela",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Wilyer Abreu",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Willson Contreras",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Andruw Monasterio",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Nick Sogard",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Carlos Narv\u00e1ez",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Isiah Kiner-Falefa",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Caleb Durbin",
+                "position": "3B"
+              }
+            ],
+            "source": "fangraphs_vsL"
+          },
+          "home_pitcher": {
+            "era": "4.7 ERA",
+            "hand": "",
+            "ip": "5.39 IP",
+            "mlb_id": 801139,
+            "name": "Payton Tolle",
+            "record": ""
+          },
+          "home_record": "22-27",
+          "home_team": "Boston",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Carson Benge",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Bo Bichette",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Juan Soto",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Mark Vientos",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Brett Baty",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Marcus Semien",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "A.J. Ewing",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "MJ Melendez",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Luis Torrens",
+                "position": "C"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "away_pitcher": {
+            "era": "",
+            "hand": "",
+            "ip": "",
+            "mlb_id": null,
+            "name": "TBD",
+            "record": ""
+          },
+          "away_record": "22-28",
+          "away_team": "NY Mets",
+          "broadcasts": [
+            "WPIX",
+            "Marlins.TV presented by Werner, Hoffman, Greig & Garcia",
+            "Audacy Mets Radio WHSQ 880AM",
+            "WQAM 104.3",
+            "WAQI 710",
+            "Audacy App 92.3 HD2"
+          ],
+          "game_pk": 823863,
+          "game_time": "7:10 PM ET",
+          "home_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Xavier Edwards",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Liam Hicks",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Otto Lopez",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Kyle Stowers",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Jakob Marsee",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Connor Norby",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Owen Caissie",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Joe Mack",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Javier Sanoja",
+                "position": "3B"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "home_pitcher": {
+            "era": "4.05 ERA",
+            "hand": "",
+            "ip": "5.19 IP",
+            "mlb_id": 691587,
+            "name": "Eury P\u00e9rez",
+            "record": ""
+          },
+          "home_record": "22-28",
+          "home_team": "Miami",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Colt Keith",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Kevin McGonigle",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Dillon Dingler",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Riley Greene",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Spencer Torkelson",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Gage Workman",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Matt Vierling",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Zach McKinstry",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Wenceel P\u00e9rez",
+                "position": "RF"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "away_pitcher": {
+            "era": "4.1 ERA",
+            "hand": "",
+            "ip": "4.75 IP",
+            "mlb_id": 656427,
+            "name": "Jack Flaherty",
+            "record": ""
+          },
+          "away_record": "20-31",
+          "away_team": "Detroit",
+          "broadcasts": [
+            "Apple TV",
+            "Apple TV",
+            "WXYT 97.1 FM",
+            "98 Rock 97.9 FM",
+            "WBAL 1090 AM"
+          ],
+          "game_pk": 824842,
+          "game_time": "7:15 PM ET",
+          "home_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Taylor Ward",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Gunnar Henderson",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Adley Rutschman",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Pete Alonso",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Samuel Basallo",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Tyler O'Neill",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Jackson Holliday",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Coby Mayo",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Colton Cowser",
+                "position": "CF"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "home_pitcher": {
+            "era": "4.4 ERA",
+            "hand": "",
+            "ip": "5.29 IP",
+            "mlb_id": 605135,
+            "name": "Chris Bassitt",
+            "record": ""
+          },
+          "home_record": "21-29",
+          "home_team": "Baltimore",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "James Wood",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Luis Garc\u00eda Jr.",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Dylan Crews",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "CJ Abrams",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Daylen Lile",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Jacob Young",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Jos\u00e9 Tena",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Drew Millas",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Nasim Nu\u00f1ez",
+                "position": "2B"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "away_pitcher": {
+            "era": "5 ERA",
+            "hand": "",
+            "ip": "5.37 IP",
+            "mlb_id": 571945,
+            "name": "Miles Mikolas",
+            "record": ""
+          },
+          "away_record": "25-26",
+          "away_team": "Washington",
+          "broadcasts": [
+            "680 AM/93.7 FM The Fan",
+            "Nationals.TV",
+            "BravesVision",
+            "WJFK 106.7 The Fan",
+            "La Mejor 1600/1460/1130 AM"
+          ],
+          "game_pk": 824922,
+          "game_time": "7:15 PM ET",
+          "home_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Ronald Acu\u00f1a Jr.",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Michael Harris II",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Matt Olson",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Ozzie Albies",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Dominic Smith",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Austin Riley",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Mike Yastrzemski",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Ha-Seong Kim",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Sandy Le\u00f3n",
+                "position": "C"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "home_pitcher": {
+            "era": "",
+            "hand": "",
+            "ip": "",
+            "mlb_id": null,
+            "name": "TBD",
+            "record": ""
+          },
+          "home_record": "34-16",
+          "home_team": "Atlanta",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "J.P. Crawford",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Julio Rodr\u00edguez",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Randy Arozarena",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Josh Naylor",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Rob Refsnyder",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Connor Joe",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Mitch Garver",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Cole Young",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Colt Emerson",
+                "position": "3B"
+              }
+            ],
+            "source": "fangraphs_vsL"
+          },
+          "away_pitcher": {
+            "era": "3.4 ERA",
+            "hand": "",
+            "ip": "5.5 IP",
+            "mlb_id": 669302,
+            "name": "Logan Gilbert",
+            "record": ""
+          },
+          "away_record": "24-27",
+          "away_team": "Seattle",
+          "broadcasts": [
+            "Mariners.TV",
+            "Royals.TV",
+            "Seattle Sports (710 AM)",
+            "96.5 The Fan",
+            "KCTV5",
+            "Royals Radio Network"
+          ],
+          "game_pk": 824110,
+          "game_time": "7:40 PM ET",
+          "home_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Maikel Garcia",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Bobby Witt Jr.",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Vinnie Pasquantino",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Salvador Perez",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Carter Jensen",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Jac Caglianone",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Isaac Collins",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Michael Massey",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Kyle Isbel",
+                "position": "CF"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "home_pitcher": {
+            "era": "4.15 ERA",
+            "hand": "",
+            "ip": "5.38 IP",
+            "mlb_id": 702070,
+            "name": "Noah Cameron",
+            "record": ""
+          },
+          "home_record": "20-30",
+          "home_team": "Kansas City",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Shohei Ohtani",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Mookie Betts",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Freddie Freeman",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Kyle Tucker",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Andy Pages",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Max Muncy",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Will Smith",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Teoscar Hern\u00e1ndez",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Hyeseong Kim",
+                "position": "2B"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "away_pitcher": {
+            "era": "4.3 ERA",
+            "hand": "",
+            "ip": "5.17 IP",
+            "mlb_id": 680736,
+            "name": "Justin Wrobleski",
+            "record": ""
+          },
+          "away_record": "31-19",
+          "away_team": "LA Dodgers",
+          "broadcasts": [
+            "SportsNet LA",
+            "Brewers.TV",
+            "Dodgers Radio AM570",
+            "WTMJ 620",
+            "KTNQ 1020"
+          ],
+          "game_pk": 823788,
+          "game_time": "7:40 PM ET",
+          "home_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Jackson Chourio",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Brice Turang",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "William Contreras",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Christian Yelich",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Andrew Vaughn",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Luis Rengifo",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Gary S\u00e1nchez",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Blake Perkins",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Joey Ortiz",
+                "position": "SS"
+              }
+            ],
+            "source": "fangraphs_vsL"
+          },
+          "home_pitcher": {
+            "era": "4.15 ERA",
+            "hand": "",
+            "ip": "4.74 IP",
+            "mlb_id": 701656,
+            "name": "Logan Henderson",
+            "record": ""
+          },
+          "home_record": "29-18",
+          "home_team": "Milwaukee",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Evan Carter",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Brandon Nimmo",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Josh Jung",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Joc Pederson",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Ezequiel Duran",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Alejandro Osuna",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Jake Burger",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Justin Foscue",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Danny Jansen",
+                "position": "C"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "away_pitcher": {
+            "era": "3.3 ERA",
+            "hand": "",
+            "ip": "5.56 IP",
+            "mlb_id": 594798,
+            "name": "Jacob deGrom",
+            "record": ""
+          },
+          "away_record": "24-25",
+          "away_team": "Texas",
+          "broadcasts": [
+            "KLAA 830",
+            "CW33",
+            "ABTV, presented by Pechanga Resort Casino",
+            "105.3 The Fan",
+            "Angels ES",
+            "KFLC 1270"
+          ],
+          "game_pk": 824029,
+          "game_time": "9:38 PM ET",
+          "home_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Zach Neto",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Mike Trout",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Nolan Schanuel",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Jorge Soler",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Vaughn Grissom",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Jo Adell",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Oswald Peraza",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Logan O'Hoppe",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Josh Lowe",
+                "position": "LF"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "home_pitcher": {
+            "era": "",
+            "hand": "",
+            "ip": "",
+            "mlb_id": null,
+            "name": "TBD",
+            "record": ""
+          },
+          "home_record": "17-33",
+          "home_team": "LA Angels",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Jake McCarthy",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Mickey Moniak",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Hunter Goodman",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "TJ Rumfield",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Tyler Freeman",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Troy Johnston",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Willi Castro",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Edouard Julien",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Ezequiel Tovar",
+                "position": "SS"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "away_pitcher": {
+            "era": "4.65 ERA",
+            "hand": "",
+            "ip": "4.97 IP",
+            "mlb_id": 608372,
+            "name": "Tomoyuki Sugano",
+            "record": ""
+          },
+          "away_record": "19-31",
+          "away_team": "Colorado",
+          "broadcasts": [
+            "Arizona Sports 98.7 FM",
+            "DBACKS.TV",
+            "Rockies.TV",
+            "KOA 850 AM/94.1 FM ",
+            "La Campesina 101.9 FM & 860 AM"
+          ],
+          "game_pk": 825082,
+          "game_time": "9:40 PM ET",
+          "home_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Ketel Marte",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Corbin Carroll",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Geraldo Perdomo",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Nolan Arenado",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Ildemaro Vargas",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Lourdes Gurriel Jr.",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Gabriel Moreno",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Adrian Del Castillo",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Ryan Waldschmidt",
+                "position": "CF"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "home_pitcher": {
+            "era": "3.9 ERA",
+            "hand": "",
+            "ip": "5.46 IP",
+            "mlb_id": 647336,
+            "name": "Michael Soroka",
+            "record": ""
+          },
+          "home_record": "25-23",
+          "home_team": "Arizona",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Carlos Cortes",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Shea Langeliers",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Nick Kurtz",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Brent Rooker",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Tyler Soderstrom",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Zack Gelof",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Jeff McNeil",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Henry Bolte",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Darell Hernaiz",
+                "position": "SS"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "away_pitcher": {
+            "era": "",
+            "hand": "",
+            "ip": "",
+            "mlb_id": null,
+            "name": "TBD",
+            "record": ""
+          },
+          "away_record": "25-24",
+          "away_team": "Athletics",
+          "broadcasts": [
+            "NBCSCA",
+            "Padres.TV Presented by UC San Diego Health",
+            "KWFN 97.3",
+            "Talk 650 KSTE",
+            "KVMX 92.1/105.5",
+            "XEMO 860",
+            "A's Cast"
+          ],
+          "game_pk": 823298,
+          "game_time": "9:40 PM ET",
+          "home_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Fernando Tatis Jr.",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Miguel Andujar",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Gavin Sheets",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Manny Machado",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Xander Bogaerts",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Jackson Merrill",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Nick Castellanos",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Ram\u00f3n Laureano",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Freddy Fermin",
+                "position": "C"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "home_pitcher": {
+            "era": "4.6 ERA",
+            "hand": "",
+            "ip": "4.7 IP",
+            "mlb_id": 621111,
+            "name": "Walker Buehler",
+            "record": ""
+          },
+          "home_record": "29-20",
+          "home_team": "San Diego",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        },
+        {
+          "away_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Sam Antonacci",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Munetaka Murakami",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Miguel Vargas",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Colson Montgomery",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Chase Meidroth",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Andrew Benintendi",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Jarred Kelenic",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Tristan Peters",
+                "position": "CF"
+              },
+              {
+                "confirmed": false,
+                "name": "Drew Romo",
+                "position": "C"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "away_pitcher": {
+            "era": "4.3 ERA",
+            "hand": "",
+            "ip": "5.59 IP",
+            "mlb_id": 663436,
+            "name": "Davis Martin",
+            "record": ""
+          },
+          "away_record": "25-24",
+          "away_team": "Chi White Sox",
+          "broadcasts": [
+            "KNBR 680",
+            "NBCS BA",
+            "Chicago Sports Network",
+            "ESPN Chicago WMVP 1000 AM",
+            "1510 AM - KSFN"
+          ],
+          "game_pk": 823223,
+          "game_time": "10:15 PM ET",
+          "home_lineup": {
+            "is_official": false,
+            "players": [
+              {
+                "confirmed": false,
+                "name": "Jung Hoo Lee",
+                "position": "RF"
+              },
+              {
+                "confirmed": false,
+                "name": "Luis Arraez",
+                "position": "2B"
+              },
+              {
+                "confirmed": false,
+                "name": "Casey Schmitt",
+                "position": "LF"
+              },
+              {
+                "confirmed": false,
+                "name": "Rafael Devers",
+                "position": "1B"
+              },
+              {
+                "confirmed": false,
+                "name": "Willy Adames",
+                "position": "SS"
+              },
+              {
+                "confirmed": false,
+                "name": "Matt Chapman",
+                "position": "3B"
+              },
+              {
+                "confirmed": false,
+                "name": "Bryce Eldridge",
+                "position": "DH"
+              },
+              {
+                "confirmed": false,
+                "name": "Daniel Susac",
+                "position": "C"
+              },
+              {
+                "confirmed": false,
+                "name": "Harrison Bader",
+                "position": "CF"
+              }
+            ],
+            "source": "fangraphs_vsR"
+          },
+          "home_pitcher": {
+            "era": "",
+            "hand": "",
+            "ip": "",
+            "mlb_id": 686790,
+            "name": "Trevor McDonald",
+            "record": ""
+          },
+          "home_record": "20-30",
+          "home_team": "San Francisco",
+          "status": {
+            "abstract": "Preview",
+            "detailed": "Scheduled"
+          }
+        }
+      ],
+      "generated_at": "2026-05-21T19:20:18.068995",
+      "label": "Tomorrow",
+      "source_url": "https://www.mlb.com/scores/2026-05-22"
+    }
+  }
+}

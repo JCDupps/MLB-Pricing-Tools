@@ -1,0 +1,170 @@
+{
+  "pitchers": {
+    "593958": {
+      "cache_key": "{\"fangraphs_player_id\": 13164, \"mlb_player_id\": 593958, \"overrides_mtime\": 1779400423.8004086, \"season\": 2026, \"stuff_cache_mtime\": 1779403956.05705, \"workbook_mtime\": 1777478983.6557348}",
+      "payload": {
+        "cache": {
+          "stuff_comparison_is_cached_fallback": true,
+          "stuff_comparison_saved_at": "2026-04-08T14:38:08.372327"
+        },
+        "metrics": {
+          "ERA": null,
+          "FIP": null,
+          "KMinusBBPercent": null,
+          "LocationPlus": "108.2",
+          "PitchingPlus": "98.9",
+          "SIERA": null,
+          "SteamerRosERA": null,
+          "StuffPlus": "87.1",
+          "StuffPlusDiff": null,
+          "StuffPlusPrevious": null,
+          "TheBatRosERA": null,
+          "xERA": null,
+          "xFIP": null
+        },
+        "player": {
+          "age": 33,
+          "headshot_url": "https://midfield.mlbstatic.com/v1/people/593958/silo/360?zoom=1.2",
+          "height": "6' 2\"",
+          "mlb_id": 593958,
+          "name": "Eduardo Rodriguez",
+          "number": "57",
+          "pitch_hand": "Left",
+          "team": "Arizona Diamondbacks",
+          "weight": 231
+        },
+        "seasons": {
+          "current": 2026,
+          "previous": 2025
+        },
+        "sources": {
+          "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=13164",
+          "mlb_url": "https://www.mlb.com/player/eduardo-rodriguez-593958"
+        },
+        "sp_board": {
+          "fields": [
+            {
+              "key": "Hand",
+              "label": "Hand",
+              "value": "L"
+            },
+            {
+              "key": "ERA",
+              "label": "ERA",
+              "value": 4.2
+            },
+            {
+              "key": "Pitches",
+              "label": "Pitches",
+              "value": 88
+            },
+            {
+              "key": "IP",
+              "label": "IP",
+              "value": 5.29
+            },
+            {
+              "key": "2025 ERA",
+              "label": "2025 ERA",
+              "value": 2.89
+            },
+            {
+              "key": "xERA",
+              "label": "xERA",
+              "value": 4.96
+            },
+            {
+              "key": "FIP",
+              "label": "FIP",
+              "value": 4.98
+            },
+            {
+              "key": "xFIP",
+              "label": "xFIP",
+              "value": 4.61
+            },
+            {
+              "key": "SIERA",
+              "label": "SIERA",
+              "value": 5.02
+            },
+            {
+              "key": "Pre. Proj. ERA",
+              "label": "Pre. Proj. ERA",
+              "value": 4.23
+            },
+            {
+              "key": "ROS Proj. ERA",
+              "label": "ROS Proj. ERA",
+              "value": 4.33
+            },
+            {
+              "key": "2026 Stuff+",
+              "label": "2026 Stuff+",
+              "value": 90
+            },
+            {
+              "key": "2025 Stuff+2",
+              "label": "2025 Stuff+",
+              "value": 91
+            },
+            {
+              "key": "L30 Stuff+",
+              "label": "L30 Stuff+",
+              "value": 89
+            },
+            {
+              "key": "L30 SIERA",
+              "label": "L30 SIERA",
+              "value": 5.33
+            },
+            {
+              "key": "K-BB",
+              "label": "K-BB",
+              "value": 0.05
+            },
+            {
+              "key": "2025 IP",
+              "label": "2025 IP",
+              "value": 28
+            },
+            {
+              "key": "P/out",
+              "label": "P/out",
+              "value": 5.548
+            },
+            {
+              "key": "P/Start",
+              "label": "P/Start",
+              "value": 93.2
+            },
+            {
+              "key": "Nonstarts",
+              "label": "Nonstarts",
+              "value": 0
+            },
+            {
+              "key": "P Diff",
+              "label": "P Diff",
+              "value": -5.200000000000003
+            },
+            {
+              "key": "Starting Tomorrow?",
+              "label": "Starting Tomorrow?",
+              "value": ""
+            },
+            {
+              "key": "Notes",
+              "label": "Notes",
+              "value": ""
+            }
+          ],
+          "matched": true,
+          "sheet_name": "SPs"
+        }
+      },
+      "saved_at": "2026-05-21T19:23:19.810959"
+    }
+  },
+  "saved_at": "2026-05-21T19:23:19.810959"
+}

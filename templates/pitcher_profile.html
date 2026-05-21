@@ -123,6 +123,12 @@
     .metric-card .value {
       font-size: 1.45rem;
     }
+    .metric-card.long .value {
+      font-size: 1rem;
+      line-height: 1.5;
+      font-weight: 600;
+      white-space: normal;
+    }
     .sources {
       margin-top: 20px;
       display: grid;
@@ -156,7 +162,7 @@
   <main class="shell">
     <div class="nav">
       <a href="/">All Tools</a>
-      <a href="/probable-pitchers">Probable Pitchers</a>
+      <a href="/starting-pitchers">Starting Pitchers</a>
       <a href="/platoon-lineups">Platoon Lineups</a>
     </div>
 
@@ -171,6 +177,14 @@
           <h1 id="playerName"></h1>
           <p id="subline" class="subline"></p>
           <div class="bio-grid">
+            <div class="bio-card">
+              <span class="label">Team</span>
+              <span id="teamValue" class="value"></span>
+            </div>
+            <div class="bio-card">
+              <span class="label">Number</span>
+              <span id="numberValue" class="value"></span>
+            </div>
             <div class="bio-card">
               <span class="label">Height</span>
               <span id="heightValue" class="value"></span>
@@ -193,16 +207,8 @@
 
       <section class="metrics">
         <section class="metric-section">
-          <h2>Rate Stats</h2>
-          <div id="rateStats" class="metric-grid"></div>
-        </section>
-        <section class="metric-section">
-          <h2>Projections</h2>
-          <div id="projections" class="metric-grid"></div>
-        </section>
-        <section class="metric-section">
-          <h2>Arsenal</h2>
-          <div id="arsenal" class="metric-grid"></div>
+          <h2>SP Board Stats</h2>
+          <div id="spBoardStats" class="metric-grid"></div>
         </section>
       </section>
       <section class="sources">
@@ -221,15 +227,15 @@
   <script>
     const statusEl = document.getElementById("status");
     const contentEl = document.getElementById("content");
-    const rateStatsEl = document.getElementById("rateStats");
-    const projectionsEl = document.getElementById("projections");
-    const arsenalEl = document.getElementById("arsenal");
+    const spBoardStatsEl = document.getElementById("spBoardStats");
 
     function metricCard(label, value) {
+      const text = value === null || value === undefined || value === "" ? "N/A" : value;
+      const longClass = String(text).length > 18 ? " long" : "";
       return `
-        <article class="metric-card">
+        <article class="metric-card${longClass}">
           <span class="label">${label}</span>
-          <span class="value">${value || "N/A"}</span>
+          <span class="value">${text}</span>
         </article>
       `;
     }
@@ -248,7 +254,13 @@
         document.getElementById("headshot").src = payload.player.headshot_url;
         document.getElementById("headshot").alt = `${payload.player.name} headshot`;
         document.getElementById("playerName").textContent = payload.player.name;
-        document.getElementById("subline").textContent = `${payload.player.team || "Team unavailable"} | ${payload.player.pitch_hand || "Throws unavailable"}`;
+        document.getElementById("subline").textContent = [
+          payload.player.team || "Team unavailable",
+          payload.player.number ? `#${payload.player.number}` : "",
+          payload.player.pitch_hand || "Throws unavailable"
+        ].filter(Boolean).join(" | ");
+        document.getElementById("teamValue").textContent = payload.player.team || "N/A";
+        document.getElementById("numberValue").textContent = payload.player.number || "N/A";
         document.getElementById("heightValue").textContent = payload.player.height || "N/A";
         document.getElementById("weightValue").textContent = payload.player.weight ? `${payload.player.weight} lb` : "N/A";
         document.getElementById("ageValue").textContent = payload.player.age || "N/A";
@@ -256,27 +268,10 @@
         document.getElementById("mlbSource").href = payload.sources.mlb_url;
         document.getElementById("fangraphsSource").href = payload.sources.fangraphs_url;
 
-        rateStatsEl.innerHTML = [
-          metricCard("ERA", payload.metrics.ERA),
-          metricCard("xERA", payload.metrics.xERA),
-          metricCard("FIP", payload.metrics.FIP),
-          metricCard("xFIP", payload.metrics.xFIP),
-          metricCard("SIERA", payload.metrics.SIERA),
-          metricCard("K%-BB%", payload.metrics.KMinusBBPercent)
-        ].join("");
-
-        projectionsEl.innerHTML = [
-          metricCard("Steamer RoS ERA", payload.metrics.SteamerRosERA),
-          metricCard("THE BAT RoS ERA", payload.metrics.TheBatRosERA)
-        ].join("");
-
-        arsenalEl.innerHTML = [
-          metricCard(`${payload.seasons.current} Stuff+`, payload.metrics.StuffPlus),
-          metricCard(`${payload.seasons.previous} Stuff+`, payload.metrics.StuffPlusPrevious),
-          metricCard("Stuff+ Diff", payload.metrics.StuffPlusDiff),
-          metricCard("Location+", payload.metrics.LocationPlus),
-          metricCard("Pitching+", payload.metrics.PitchingPlus)
-        ].join("");
+        const spFields = Array.isArray(payload.sp_board?.fields) ? payload.sp_board.fields : [];
+        spBoardStatsEl.innerHTML = spFields.length
+          ? spFields.map((field) => metricCard(field.label, field.value)).join("")
+          : metricCard("SP Board", "No SP page stats matched yet");
 
         statusEl.style.display = "none";
         contentEl.style.display = "block";

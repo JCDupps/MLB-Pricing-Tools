@@ -4,6 +4,7 @@ import re
 import subprocess
 import threading
 import time
+import unicodedata
 from concurrent.futures import ThreadPoolExecutor
 from dataclasses import dataclass
 from datetime import date, datetime, timedelta
@@ -16,7 +17,7 @@ from urllib.parse import parse_qs, quote, unquote, urlparse
 from urllib.request import Request, urlopen
 from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import Body, FastAPI, HTTPException, Query
 from fastapi.responses import HTMLResponse, JSONResponse, StreamingResponse
 from openpyxl import Workbook
 from openpyxl.utils import get_column_letter
@@ -33,11 +34,17 @@ BULLPEN_TEMPLATE_PATH = APP_DIR / "templates" / "bullpens.html"
 VELOCITY_TEMPLATE_PATH = APP_DIR / "templates" / "velocity_comparison.html"
 PITCHERS_TEMPLATE_PATH = APP_DIR / "templates" / "probable_pitchers.html"
 PITCHER_PROFILE_TEMPLATE_PATH = APP_DIR / "templates" / "pitcher_profile.html"
+STARTING_PITCHERS_TEMPLATE_PATH = APP_DIR / "templates" / "starting_pitchers.html"
 STUFF_PLUS_CACHE_PATH = APP_DIR / "pitch_stuff_plus_cache.json"
 VELOCITY_COMPARISON_CACHE_PATH = APP_DIR / "velocity_comparison_cache.json"
 LINEUP_CACHE_PATH = APP_DIR / "lineup_cache.json"
 BULLPEN_CACHE_PATH = APP_DIR / "bullpen_cache.json"
 PITCHER_STUFF_COMPARISON_CACHE_PATH = APP_DIR / "pitcher_stuff_comparison_cache.json"
+HOMEPAGE_SCOREBOARD_CACHE_PATH = APP_DIR / "homepage_scoreboard_cache.json"
+STARTING_PITCHER_OVERRIDES_PATH = APP_DIR / "starting_pitcher_overrides.json"
+STARTING_PITCHER_PREVIEW_CACHE_PATH = APP_DIR / "starting_pitcher_preview_cache.json"
+PITCHER_PROFILE_PAYLOAD_CACHE_PATH = APP_DIR / "pitcher_profile_payload_cache.json"
+MLB_PRICING_WORKBOOK_PATH = APP_DIR / "MLB Pricing.xlsx"
 CHROME_PROFILE_DIR = APP_DIR / "chrome_fangraphs_profile"
 CHROME_PATH_CANDIDATES = [
     Path(r"C:\Program Files\Google\Chrome\Application\chrome.exe"),
@@ -46,6 +53,9 @@ CHROME_PATH_CANDIDATES = [
 ]
 REFRESH_SECONDS = 300
 VELOCITY_RUNTIME_CACHE_SECONDS = 300
+HOMEPAGE_SCOREBOARD_CACHE_SECONDS = 300
+HOMEPAGE_LINEUP_CACHE_SECONDS = 900
+PITCHER_PROFILE_CACHE_SECONDS = 900
 MLB_HEADSHOT_TEMPLATE = "https://midfield.mlbstatic.com/v1/people/{mlb_id}/silo/360?zoom=1.2"
 VALID_BATS = {"R", "L", "S"}
 POSITIONS = {
@@ -167,8 +177,17 @@ DEPTH_CHART_CACHE: Dict[str, List[Dict[str, object]]] = {}
 DEPTH_CHART_DATA_CACHE: Dict[str, Dict[str, object]] = {}
 FANGRAPHS_PITCHER_ID_MAP_CACHE: Optional[Dict[str, int]] = None
 PITCH_STUFF_CACHE: Dict[str, Dict[str, object]] = {}
+HOMEPAGE_PITCHER_HAND_CACHE: Dict[int, str] = {}
 VELOCITY_RUNTIME_CACHE: Dict[str, object] = {}
 VELOCITY_RUNTIME_CACHE_LOCK = threading.Lock()
+STARTING_PITCHER_RUNTIME_CACHE: Dict[str, object] = {}
+STARTING_PITCHER_RUNTIME_CACHE_LOCK = threading.Lock()
+HOMEPAGE_SCOREBOARD_RUNTIME_CACHE: Dict[str, object] = {}
+HOMEPAGE_SCOREBOARD_RUNTIME_CACHE_LOCK = threading.Lock()
+STARTING_PITCHER_PREVIEW_RUNTIME_CACHE: Dict[str, object] = {}
+STARTING_PITCHER_PREVIEW_RUNTIME_CACHE_LOCK = threading.Lock()
+HOMEPAGE_CACHE_REFRESH_THREAD_STARTED = False
+HOMEPAGE_CACHE_REFRESH_THREAD_LOCK = threading.Lock()
 STUFF_PLUS_REFRESH_LOCK = threading.Lock()
 STUFF_PLUS_REFRESH_IN_PROGRESS = False
 SAVANT_PITCH_TYPES = [
@@ -266,6 +285,19 @@ def fetch_json(url: str) -> Dict[str, object]:
     req = Request(url, headers=JSON_HEADERS)
     with urlopen(req, timeout=30) as resp:
         return json.loads(resp.read().decode("utf-8", "ignore"))
+
+
+def fetch_mlb_person(mlb_player_id: int) -> Dict[str, object]:
+    payload = fetch_json(
+        f"https://statsapi.mlb.com/api/v1/people/{mlb_player_id}?hydrate=currentTeam"
+    )
+    people = payload.get("people", [])
+    if not people:
+        raise ValueError("Could not find MLB player bio.")
+    person = people[0]
+    if not isinstance(person, dict):
+        raise ValueError("Could not parse MLB player bio.")
+    return person
 
 
 def fetch_fangraphs_page(url: str) -> str:
@@ -545,6 +577,748 @@ def fetch_probable_pitchers(target_date: date) -> Dict[str, object]:
     raw = fetch_url(f"{MLB_SCORES_URL}/{target_date.isoformat()}")
     html_text = raw.decode("utf-8", "ignore")
     return parse_probable_pitchers_page(target_date, html_text)
+
+
+def format_schedule_game_time(game_datetime: Optional[str]) -> str:
+    if not game_datetime:
+        return "Time TBD"
+    try:
+        normalized = game_datetime.replace("Z", "+00:00")
+        parsed = datetime.fromisoformat(normalized)
+        if parsed.tzinfo is None:
+            return parsed.strftime("%I:%M %p ET").lstrip("0")
+        try:
+            eastern = parsed.astimezone(ZoneInfo("America/New_York"))
+        except ZoneInfoNotFoundError:
+            eastern = parsed.astimezone()
+        return eastern.strftime("%I:%M %p ET").lstrip("0")
+    except Exception:
+        return str(game_datetime)
+
+
+def normalize_pitcher_lookup_name(name: object) -> str:
+    if not name:
+        return ""
+    normalized = unicodedata.normalize("NFKD", str(name))
+    ascii_name = normalized.encode("ascii", "ignore").decode("ascii")
+    collapsed = re.sub(r"[^a-z0-9]+", "", ascii_name.lower())
+    return collapsed
+
+
+def build_starting_pitcher_preview_lookup() -> Dict[str, Dict[str, object]]:
+    try:
+        return get_or_build_starting_pitcher_preview_lookup()
+    except Exception:
+        return {}
+
+
+def display_starting_pitcher_header(header: str) -> str:
+    return "2025 Stuff+" if header == "2025 Stuff+2" else header
+
+
+def build_starting_pitcher_profile_section(pitcher_name: str) -> Dict[str, object]:
+    try:
+        payload = build_starting_pitcher_payload()
+    except Exception:
+        return {"matched": False, "fields": [], "sheet_name": "SPs"}
+
+    normalized_target = normalize_pitcher_lookup_name(pitcher_name)
+    candidate_row: Optional[Dict[str, object]] = None
+    surname_matches: List[Dict[str, object]] = []
+
+    for row in payload.get("rows", []):
+        if not isinstance(row, dict):
+            continue
+        row_name = str(row.get("Pitcher") or "").strip()
+        if not row_name:
+            continue
+        normalized_row_name = normalize_pitcher_lookup_name(row_name)
+        if normalized_row_name == normalized_target:
+            candidate_row = row
+            break
+        tokens = re.findall(r"[A-Za-z0-9']+", row_name)
+        if tokens and normalize_pitcher_lookup_name(tokens[-1]) == normalized_target:
+            surname_matches.append(row)
+
+    if candidate_row is None and len(surname_matches) == 1:
+        candidate_row = surname_matches[0]
+
+    headers = [header for header in payload.get("headers", []) if header != "Pitcher"]
+    if not candidate_row:
+        return {
+            "matched": False,
+            "sheet_name": payload.get("source", {}).get("sheet_name", "SPs"),
+            "fields": [{"key": header, "label": display_starting_pitcher_header(header), "value": ""} for header in headers],
+        }
+
+    return {
+        "matched": True,
+        "sheet_name": payload.get("source", {}).get("sheet_name", "SPs"),
+        "fields": [
+            {
+                "key": header,
+                "label": display_starting_pitcher_header(header),
+                "value": candidate_row.get(header, ""),
+            }
+            for header in headers
+        ],
+    }
+
+
+def enrich_scoreboard_pitcher_from_sp_board(
+    pitcher_payload: Dict[str, object],
+    sp_lookup: Dict[str, Dict[str, object]],
+) -> Dict[str, object]:
+    if not pitcher_payload:
+        return pitcher_payload
+
+    lookup_key = normalize_pitcher_lookup_name(pitcher_payload.get("name"))
+    preview = sp_lookup.get(lookup_key, {}) if lookup_key else {}
+    if not preview:
+        return pitcher_payload
+
+    enriched = dict(pitcher_payload)
+    era_value = preview.get("era")
+    ip_value = preview.get("ip")
+    if era_value not in (None, ""):
+        enriched["era"] = f"{era_value} ERA"
+    if ip_value not in (None, ""):
+        enriched["ip"] = f"{ip_value} IP"
+    return enriched
+
+
+def build_scoreboard_pitcher_payload(
+    probable_pitcher: Optional[Dict[str, object]],
+    sp_lookup: Optional[Dict[str, Dict[str, object]]] = None,
+) -> Dict[str, object]:
+    probable_pitcher = probable_pitcher or {}
+    payload = {
+        "name": probable_pitcher.get("fullName") or "TBD",
+        "mlb_id": probable_pitcher.get("id"),
+        "hand": "",
+        "record": "",
+        "era": "",
+        "ip": "",
+    }
+    if sp_lookup:
+        return enrich_scoreboard_pitcher_from_sp_board(payload, sp_lookup)
+    return payload
+
+
+def parse_cached_iso_datetime(value: object) -> Optional[datetime]:
+    if not value:
+        return None
+    try:
+        return datetime.fromisoformat(str(value))
+    except ValueError:
+        return None
+
+
+def cache_timestamp_is_fresh(timestamp_value: object, ttl_seconds: int) -> bool:
+    parsed = parse_cached_iso_datetime(timestamp_value)
+    if not parsed:
+        return False
+    return (eastern_now() - parsed).total_seconds() <= ttl_seconds
+
+
+def get_cached_homepage_lineup_fallback(
+    homepage_cache: Dict[str, object],
+    team_slug: Optional[str],
+    opposing_hand: str,
+) -> Optional[Dict[str, object]]:
+    if not team_slug:
+        return None
+    lineup_fallbacks = homepage_cache.get("lineup_fallbacks", {}) if isinstance(homepage_cache, dict) else {}
+    if not isinstance(lineup_fallbacks, dict):
+        return None
+    hand_key = "vsL" if opposing_hand == "L" else "vsR"
+    cache_key = f"{team_slug}:{hand_key}"
+    cached_entry = lineup_fallbacks.get(cache_key)
+    if not isinstance(cached_entry, dict):
+        return None
+    if not cache_timestamp_is_fresh(cached_entry.get("saved_at"), HOMEPAGE_LINEUP_CACHE_SECONDS):
+        return None
+    lineup_payload = cached_entry.get("lineup")
+    return dict(lineup_payload) if isinstance(lineup_payload, dict) else None
+
+
+def save_cached_homepage_lineup_fallback(
+    homepage_cache: Dict[str, object],
+    team_slug: Optional[str],
+    opposing_hand: str,
+    lineup_payload: Dict[str, object],
+) -> None:
+    if not team_slug:
+        return
+    lineup_fallbacks = homepage_cache.setdefault("lineup_fallbacks", {}) if isinstance(homepage_cache, dict) else {}
+    if not isinstance(lineup_fallbacks, dict):
+        lineup_fallbacks = {}
+        homepage_cache["lineup_fallbacks"] = lineup_fallbacks
+    hand_key = "vsL" if opposing_hand == "L" else "vsR"
+    cache_key = f"{team_slug}:{hand_key}"
+    lineup_fallbacks[cache_key] = {
+        "saved_at": eastern_now().isoformat(),
+        "lineup": lineup_payload,
+    }
+
+
+def get_pitcher_hand(mlb_player_id: Optional[int]) -> str:
+    if not mlb_player_id:
+        return ""
+    if mlb_player_id in HOMEPAGE_PITCHER_HAND_CACHE:
+        return HOMEPAGE_PITCHER_HAND_CACHE[mlb_player_id]
+    try:
+        person = fetch_mlb_person(mlb_player_id)
+        code = str((person.get("pitchHand") or {}).get("code") or "").upper()
+        if code not in {"R", "L"}:
+            code = ""
+    except Exception:
+        code = ""
+    HOMEPAGE_PITCHER_HAND_CACHE[mlb_player_id] = code
+    return code
+
+
+def build_homepage_lineup_from_mlb_players(players: List[Dict[str, object]]) -> Dict[str, object]:
+    return {
+        "source": "official",
+        "is_official": True,
+        "players": [
+            {
+                "name": player.get("fullName") or "",
+                "position": ((player.get("primaryPosition") or {}).get("abbreviation") or ""),
+                "confirmed": True,
+            }
+            for player in players[:STARTING_LINEUP_LENGTH]
+            if player.get("fullName")
+        ],
+    }
+
+
+def build_homepage_lineup_from_fangraphs(
+    team_slug: Optional[str],
+    opposing_hand: str,
+    homepage_cache: Optional[Dict[str, object]] = None,
+) -> Dict[str, object]:
+    if not team_slug:
+        return {"source": "fangraphs", "is_official": False, "players": []}
+    cached_lineup = get_cached_homepage_lineup_fallback(homepage_cache or {}, team_slug, opposing_hand)
+    if cached_lineup:
+        return cached_lineup
+    try:
+        payload = fetch_lineup_data(team_slug)
+        split_key = "vsL" if opposing_hand == "L" else "vsR"
+        rows = (payload.get("sections", {}) or {}).get(split_key, {}).get("rows", [])[:STARTING_LINEUP_LENGTH]
+        lineup_payload = {
+            "source": f"fangraphs_{split_key}",
+            "is_official": False,
+            "players": [
+                {
+                    "name": row.get("name") or "",
+                    "position": row.get("position") or "",
+                    "confirmed": False,
+                }
+                for row in rows
+                if row.get("name")
+            ],
+        }
+        if homepage_cache is not None:
+            save_cached_homepage_lineup_fallback(homepage_cache, team_slug, opposing_hand, lineup_payload)
+        return lineup_payload
+    except Exception:
+        return cached_lineup or {"source": "fangraphs", "is_official": False, "players": []}
+
+
+def build_homepage_team_lineup(
+    team_name: str,
+    official_players: Optional[List[Dict[str, object]]],
+    opposing_pitcher_id: Optional[int],
+    homepage_cache: Optional[Dict[str, object]] = None,
+) -> Dict[str, object]:
+    if official_players:
+        return build_homepage_lineup_from_mlb_players(official_players)
+    team_slug = resolve_team_slug(team_name)
+    opposing_hand = get_pitcher_hand(opposing_pitcher_id)
+    return build_homepage_lineup_from_fangraphs(team_slug, opposing_hand, homepage_cache)
+
+
+def is_homepage_game_pregame(status: Dict[str, object]) -> bool:
+    abstract = str((status or {}).get("abstract") or "").strip().lower()
+    detailed = str((status or {}).get("detailed") or "").strip().lower()
+    return abstract == "preview" or detailed in {"scheduled", "pre-game", "warmup", "delayed start"}
+
+
+def build_homepage_game_payload(
+    game: Dict[str, object],
+    sp_lookup: Optional[Dict[str, Dict[str, object]]] = None,
+    homepage_cache: Optional[Dict[str, object]] = None,
+) -> Dict[str, object]:
+    away = game.get("teams", {}).get("away", {})
+    home = game.get("teams", {}).get("home", {})
+    away_team = away.get("team", {}) or {}
+    home_team = home.get("team", {}) or {}
+    status = game.get("status", {}) or {}
+    broadcasts = game.get("broadcasts", []) or []
+    lineups = game.get("lineups", {}) or {}
+    broadcast_names = [
+        entry.get("name")
+        for entry in broadcasts
+        if isinstance(entry, dict) and entry.get("name")
+    ]
+    away_pitcher = build_scoreboard_pitcher_payload(away.get("probablePitcher"), sp_lookup)
+    home_pitcher = build_scoreboard_pitcher_payload(home.get("probablePitcher"), sp_lookup)
+
+    return {
+        "game_pk": game.get("gamePk"),
+        "status": {
+            "abstract": status.get("abstractGameState") or "",
+            "detailed": status.get("detailedState") or "",
+        },
+        "game_time": format_schedule_game_time(game.get("gameDate")),
+        "away_team": away_team.get("shortName") or away_team.get("name") or "",
+        "home_team": home_team.get("shortName") or home_team.get("name") or "",
+        "away_record": "{wins}-{losses}".format(
+            wins=(away.get("leagueRecord") or {}).get("wins", 0),
+            losses=(away.get("leagueRecord") or {}).get("losses", 0),
+        ),
+        "home_record": "{wins}-{losses}".format(
+            wins=(home.get("leagueRecord") or {}).get("wins", 0),
+            losses=(home.get("leagueRecord") or {}).get("losses", 0),
+        ),
+        "broadcasts": broadcast_names,
+        "away_pitcher": away_pitcher,
+        "home_pitcher": home_pitcher,
+        "away_lineup": build_homepage_team_lineup(
+            away_team.get("shortName") or away_team.get("name") or "",
+            lineups.get("awayPlayers") if isinstance(lineups.get("awayPlayers"), list) else None,
+            home_pitcher.get("mlb_id"),
+            homepage_cache,
+        ),
+        "home_lineup": build_homepage_team_lineup(
+            home_team.get("shortName") or home_team.get("name") or "",
+            lineups.get("homePlayers") if isinstance(lineups.get("homePlayers"), list) else None,
+            away_pitcher.get("mlb_id"),
+            homepage_cache,
+        ),
+    }
+
+
+def normalize_homepage_game_to_prematch(game_payload: Dict[str, object]) -> Dict[str, object]:
+    normalized = dict(game_payload)
+    normalized["status"] = {
+        "abstract": "Preview",
+        "detailed": "Scheduled",
+    }
+    return normalized
+
+
+def fetch_homepage_slate(target_date: date, label: str) -> Dict[str, object]:
+    cache_date_key = target_date.isoformat()
+    homepage_cache = load_homepage_scoreboard_cache_file()
+    cached_slates = homepage_cache.get("slates", {}) if isinstance(homepage_cache, dict) else {}
+    cached_slate = cached_slates.get(cache_date_key, {}) if isinstance(cached_slates, dict) else {}
+    if isinstance(cached_slate, dict) and cache_timestamp_is_fresh(
+        cached_slate.get("generated_at"), HOMEPAGE_SCOREBOARD_CACHE_SECONDS
+    ):
+        return dict(cached_slate)
+
+    schedule_url = (
+        "https://statsapi.mlb.com/api/v1/schedule"
+        f"?sportId=1&date={target_date.isoformat()}&hydrate=probablePitcher,lineups,decisions,linescore,team,flags,broadcasts(all)"
+    )
+    payload = fetch_json(schedule_url)
+    date_entries = payload.get("dates", [])
+    game_entries = date_entries[0].get("games", []) if date_entries else []
+    cached_games_by_pk = {
+        str(game.get("game_pk")): game
+        for game in cached_slate.get("games", [])
+        if isinstance(game, dict) and game.get("game_pk") is not None
+    }
+    games: List[Dict[str, object]] = []
+    sp_lookup = build_starting_pitcher_preview_lookup()
+
+    for game in game_entries:
+        built_game = build_homepage_game_payload(game, sp_lookup, homepage_cache)
+        game_pk = str(built_game.get("game_pk"))
+        live_status = built_game.get("status", {})
+        frozen_game = normalize_homepage_game_to_prematch(built_game)
+        cached_game = cached_games_by_pk.get(game_pk)
+        if cached_game:
+            cached_game = {
+                **cached_game,
+                **frozen_game,
+            }
+        if is_homepage_game_pregame(live_status):
+            cached_games_by_pk[game_pk] = frozen_game
+            games.append(frozen_game)
+        elif cached_game:
+            cached_games_by_pk[game_pk] = cached_game
+            games.append(cached_game)
+        else:
+            cached_games_by_pk[game_pk] = frozen_game
+            games.append(frozen_game)
+
+    slate_payload = {
+        "label": label,
+        "date": cache_date_key,
+        "generated_at": eastern_now().isoformat(),
+        "source_url": f"{MLB_SCORES_URL}/{cache_date_key}",
+        "games": games,
+        "error": None,
+    }
+    cached_slates[cache_date_key] = slate_payload
+    homepage_cache["saved_at"] = eastern_now().isoformat()
+    homepage_cache["slates"] = cached_slates
+    save_homepage_scoreboard_cache_file(homepage_cache)
+    return slate_payload
+
+
+def build_homepage_scoreboard_payload(day_key: Optional[str] = None) -> Dict[str, object]:
+    today_date = eastern_now().date()
+    tomorrow_date = today_date + timedelta(days=1)
+    runtime_cache_key = json.dumps(
+        {
+            "day": day_key or "all",
+            "today": today_date.isoformat(),
+            "tomorrow": tomorrow_date.isoformat(),
+        },
+        sort_keys=True,
+    )
+    current_timestamp = time.time()
+
+    with HOMEPAGE_SCOREBOARD_RUNTIME_CACHE_LOCK:
+        if (
+            HOMEPAGE_SCOREBOARD_RUNTIME_CACHE.get("cache_key") == runtime_cache_key
+            and HOMEPAGE_SCOREBOARD_RUNTIME_CACHE.get("expires_at", 0) > current_timestamp
+            and HOMEPAGE_SCOREBOARD_RUNTIME_CACHE.get("payload")
+        ):
+            return dict(HOMEPAGE_SCOREBOARD_RUNTIME_CACHE["payload"])
+
+    def load_slate(target_date: date, label: str) -> Dict[str, object]:
+        try:
+            return fetch_homepage_slate(target_date, label)
+        except Exception as exc:
+            return {
+                "label": label,
+                "date": target_date.isoformat(),
+                "generated_at": eastern_now().isoformat(),
+                "source_url": f"{MLB_SCORES_URL}/{target_date.isoformat()}",
+                "games": [],
+                "error": str(exc),
+            }
+
+    payload: Dict[str, object] = {
+        "generated_at": eastern_now().isoformat(),
+        "available_days": ["today", "tomorrow"],
+    }
+    if day_key in (None, "today"):
+        payload["today"] = load_slate(today_date, "Today")
+    if day_key in (None, "tomorrow"):
+        payload["tomorrow"] = load_slate(tomorrow_date, "Tomorrow")
+
+    with HOMEPAGE_SCOREBOARD_RUNTIME_CACHE_LOCK:
+        HOMEPAGE_SCOREBOARD_RUNTIME_CACHE.clear()
+        HOMEPAGE_SCOREBOARD_RUNTIME_CACHE.update(
+            {
+                "cache_key": runtime_cache_key,
+                "expires_at": current_timestamp + 60,
+                "payload": payload,
+            }
+        )
+    return payload
+
+
+def refresh_homepage_supporting_caches_once() -> None:
+    try:
+        get_or_build_starting_pitcher_preview_lookup(force_refresh=True)
+    except Exception:
+        pass
+
+    today_date = eastern_now().date()
+    tomorrow_date = today_date + timedelta(days=1)
+    for target_date, label in ((today_date, "Today"), (tomorrow_date, "Tomorrow")):
+        try:
+            fetch_homepage_slate(target_date, label)
+        except Exception:
+            continue
+
+
+def ensure_homepage_cache_refresh_thread() -> None:
+    global HOMEPAGE_CACHE_REFRESH_THREAD_STARTED
+    with HOMEPAGE_CACHE_REFRESH_THREAD_LOCK:
+        if HOMEPAGE_CACHE_REFRESH_THREAD_STARTED:
+            return
+        HOMEPAGE_CACHE_REFRESH_THREAD_STARTED = True
+
+    def runner() -> None:
+        while True:
+            refresh_homepage_supporting_caches_once()
+            time.sleep(HOMEPAGE_SCOREBOARD_CACHE_SECONDS)
+
+    threading.Thread(target=runner, name="homepage-cache-refresh", daemon=True).start()
+
+
+def workbook_cell_to_display(value: object) -> object:
+    if value in (None, ""):
+        return ""
+    if isinstance(value, str) and value.strip() == "#N/A":
+        return ""
+    return value
+
+
+def starting_pitcher_numeric(value: object) -> Optional[float]:
+    if value in (None, ""):
+        return None
+    if isinstance(value, (int, float)):
+        return float(value)
+    if isinstance(value, str):
+        stripped = value.strip().replace(",", "")
+        if not stripped:
+            return None
+        try:
+            return float(stripped)
+        except ValueError:
+            return None
+    return None
+
+
+def derive_starting_pitcher_ip(pitches: object, pitches_per_out: object) -> object:
+    pitches_value = starting_pitcher_numeric(pitches)
+    pitches_per_out_value = starting_pitcher_numeric(pitches_per_out)
+    if pitches_value is None or pitches_per_out_value in (None, 0):
+        return ""
+    innings_pitched = pitches_value / (pitches_per_out_value * 3)
+    return round(innings_pitched, 2)
+
+
+def build_starting_pitcher_payload() -> Dict[str, object]:
+    if not MLB_PRICING_WORKBOOK_PATH.exists():
+        raise FileNotFoundError(f"Could not find workbook at {MLB_PRICING_WORKBOOK_PATH}")
+
+    from openpyxl import load_workbook
+
+    overrides_payload = load_starting_pitcher_overrides_file()
+    workbook_mtime = datetime.fromtimestamp(MLB_PRICING_WORKBOOK_PATH.stat().st_mtime).isoformat()
+    overrides_mtime = (
+        datetime.fromtimestamp(STARTING_PITCHER_OVERRIDES_PATH.stat().st_mtime).isoformat()
+        if STARTING_PITCHER_OVERRIDES_PATH.exists()
+        else None
+    )
+    cache_key = json.dumps(
+        {
+            "workbook_modified_at": workbook_mtime,
+            "overrides_modified_at": overrides_mtime,
+        },
+        sort_keys=True,
+    )
+
+    with STARTING_PITCHER_RUNTIME_CACHE_LOCK:
+        if STARTING_PITCHER_RUNTIME_CACHE.get("cache_key") == cache_key and STARTING_PITCHER_RUNTIME_CACHE.get("payload"):
+            return dict(STARTING_PITCHER_RUNTIME_CACHE["payload"])
+
+    pitcher_overrides = overrides_payload.get("pitchers", {}) if isinstance(overrides_payload, dict) else {}
+    rows: List[Dict[str, object]] = []
+
+    workbook = load_workbook(MLB_PRICING_WORKBOOK_PATH, data_only=True, read_only=True)
+    try:
+        if "SPs" not in workbook.sheetnames:
+            raise ValueError("Workbook does not contain an 'SPs' tab.")
+
+        worksheet = workbook["SPs"]
+        row_iter = worksheet.iter_rows(values_only=True)
+        header_values = next(row_iter, None)
+        if not header_values:
+            raise ValueError("Workbook 'SPs' tab is empty.")
+        headers = [str(value or "").strip() for value in header_values]
+
+        for row_number, raw_values in enumerate(row_iter, start=2):
+            row_values = [workbook_cell_to_display(value) for value in raw_values[: len(headers)]]
+            if len(row_values) < len(headers):
+                row_values.extend([""] * (len(headers) - len(row_values)))
+
+            pitcher_name = str(row_values[0] or "").strip()
+            if not pitcher_name:
+                continue
+
+            row_data = {headers[index]: row_values[index] for index in range(len(headers))}
+            row_data["_row"] = row_number
+            row_data["_pitcher"] = pitcher_name
+            row_data["_editable"] = {"ERA": True, "Pitches": True}
+
+            overrides = pitcher_overrides.get(pitcher_name, {}) if isinstance(pitcher_overrides, dict) else {}
+            if isinstance(overrides, dict):
+                for field in ("ERA", "Pitches"):
+                    if field in overrides and overrides[field] not in (None, ""):
+                        row_data[field] = overrides[field]
+                row_data["_override_saved_at"] = overrides.get("saved_at")
+
+            if "IP" in row_data and "P/out" in row_data:
+                row_data["IP"] = derive_starting_pitcher_ip(row_data.get("Pitches"), row_data.get("P/out"))
+
+            rows.append(row_data)
+    finally:
+        workbook.close()
+
+    rows.sort(
+        key=lambda row: (
+            starting_pitcher_numeric(row.get("ERA")) is None,
+            starting_pitcher_numeric(row.get("ERA")) if starting_pitcher_numeric(row.get("ERA")) is not None else 9999.0,
+            str(row.get("Pitcher") or ""),
+        )
+    )
+    for index, row in enumerate(rows, start=1):
+        row["_rank"] = index
+
+    payload = {
+        "headers": headers,
+        "rows": rows,
+        "source": {
+            "workbook_path": str(MLB_PRICING_WORKBOOK_PATH),
+            "sheet_name": "SPs",
+            "workbook_modified_at": workbook_mtime,
+            "overrides_saved_at": overrides_payload.get("saved_at") if isinstance(overrides_payload, dict) else None,
+        },
+    }
+    with STARTING_PITCHER_RUNTIME_CACHE_LOCK:
+        STARTING_PITCHER_RUNTIME_CACHE.clear()
+        STARTING_PITCHER_RUNTIME_CACHE.update({"cache_key": cache_key, "payload": payload})
+    return payload
+
+
+def build_starting_pitcher_preview_lookup_payload() -> Dict[str, object]:
+    workbook_mtime = datetime.fromtimestamp(MLB_PRICING_WORKBOOK_PATH.stat().st_mtime).isoformat()
+    overrides_mtime = (
+        datetime.fromtimestamp(STARTING_PITCHER_OVERRIDES_PATH.stat().st_mtime).isoformat()
+        if STARTING_PITCHER_OVERRIDES_PATH.exists()
+        else None
+    )
+    cache_key = json.dumps(
+        {
+            "workbook_modified_at": workbook_mtime,
+            "overrides_modified_at": overrides_mtime,
+        },
+        sort_keys=True,
+    )
+
+    payload = build_starting_pitcher_payload()
+    lookup: Dict[str, Dict[str, object]] = {}
+    surname_buckets: Dict[str, List[Dict[str, object]]] = {}
+
+    for row in payload.get("rows", []):
+        if not isinstance(row, dict):
+            continue
+        pitcher_name = str(row.get("Pitcher") or "").strip()
+        if not pitcher_name:
+            continue
+        preview = {
+            "pitcher_name": pitcher_name,
+            "era": row.get("ERA"),
+            "ip": row.get("IP"),
+        }
+        normalized_full = normalize_pitcher_lookup_name(pitcher_name)
+        if normalized_full:
+            lookup[normalized_full] = preview
+
+        tokens = re.findall(r"[A-Za-z0-9']+", pitcher_name)
+        if tokens:
+            surname_key = normalize_pitcher_lookup_name(tokens[-1])
+            if surname_key:
+                surname_buckets.setdefault(surname_key, []).append(preview)
+
+    for surname_key, previews in surname_buckets.items():
+        if len(previews) == 1 and surname_key not in lookup:
+            lookup[surname_key] = previews[0]
+
+    return {
+        "cache_key": cache_key,
+        "generated_at": eastern_now().isoformat(),
+        "lookup": lookup,
+    }
+
+
+def get_or_build_starting_pitcher_preview_lookup(force_refresh: bool = False) -> Dict[str, Dict[str, object]]:
+    if not MLB_PRICING_WORKBOOK_PATH.exists():
+        return {}
+
+    workbook_mtime = datetime.fromtimestamp(MLB_PRICING_WORKBOOK_PATH.stat().st_mtime).isoformat()
+    overrides_mtime = (
+        datetime.fromtimestamp(STARTING_PITCHER_OVERRIDES_PATH.stat().st_mtime).isoformat()
+        if STARTING_PITCHER_OVERRIDES_PATH.exists()
+        else None
+    )
+    cache_key = json.dumps(
+        {
+            "workbook_modified_at": workbook_mtime,
+            "overrides_modified_at": overrides_mtime,
+        },
+        sort_keys=True,
+    )
+
+    if not force_refresh:
+        with STARTING_PITCHER_PREVIEW_RUNTIME_CACHE_LOCK:
+            if (
+                STARTING_PITCHER_PREVIEW_RUNTIME_CACHE.get("cache_key") == cache_key
+                and isinstance(STARTING_PITCHER_PREVIEW_RUNTIME_CACHE.get("lookup"), dict)
+            ):
+                return dict(STARTING_PITCHER_PREVIEW_RUNTIME_CACHE["lookup"])
+
+        cached_file = load_starting_pitcher_preview_cache_file()
+        if (
+            isinstance(cached_file, dict)
+            and cached_file.get("cache_key") == cache_key
+            and isinstance(cached_file.get("lookup"), dict)
+        ):
+            with STARTING_PITCHER_PREVIEW_RUNTIME_CACHE_LOCK:
+                STARTING_PITCHER_PREVIEW_RUNTIME_CACHE.clear()
+                STARTING_PITCHER_PREVIEW_RUNTIME_CACHE.update(
+                    {"cache_key": cache_key, "lookup": cached_file["lookup"]}
+                )
+            return dict(cached_file["lookup"])
+
+    preview_payload = build_starting_pitcher_preview_lookup_payload()
+    save_starting_pitcher_preview_cache_file(preview_payload)
+    with STARTING_PITCHER_PREVIEW_RUNTIME_CACHE_LOCK:
+        STARTING_PITCHER_PREVIEW_RUNTIME_CACHE.clear()
+        STARTING_PITCHER_PREVIEW_RUNTIME_CACHE.update(
+            {"cache_key": preview_payload["cache_key"], "lookup": preview_payload["lookup"]}
+        )
+    return dict(preview_payload["lookup"])
+
+
+def update_starting_pitcher_override(pitcher_name: str, era: object, pitches: object) -> Dict[str, object]:
+    payload = load_starting_pitcher_overrides_file()
+    pitcher_payload = payload.setdefault("pitchers", {}) if isinstance(payload, dict) else {}
+    if not isinstance(pitcher_payload, dict):
+        pitcher_payload = {}
+        payload["pitchers"] = pitcher_payload
+
+    def normalize_numeric(value: object) -> object:
+        if value in (None, ""):
+            return ""
+        if isinstance(value, str):
+            stripped = value.strip()
+            if not stripped:
+                return ""
+            try:
+                numeric_value = float(stripped)
+            except ValueError:
+                return stripped
+            return int(numeric_value) if numeric_value.is_integer() else round(numeric_value, 3)
+        if isinstance(value, (int, float)):
+            return int(value) if float(value).is_integer() else round(float(value), 3)
+        return value
+
+    pitcher_payload[pitcher_name] = {
+        "ERA": normalize_numeric(era),
+        "Pitches": normalize_numeric(pitches),
+        "saved_at": eastern_now().isoformat(),
+    }
+    payload["saved_at"] = eastern_now().isoformat()
+    save_starting_pitcher_overrides_file(payload)
+    with STARTING_PITCHER_RUNTIME_CACHE_LOCK:
+        STARTING_PITCHER_RUNTIME_CACHE.clear()
+    with STARTING_PITCHER_PREVIEW_RUNTIME_CACHE_LOCK:
+        STARTING_PITCHER_PREVIEW_RUNTIME_CACHE.clear()
+    return pitcher_payload[pitcher_name]
 
 
 def fetch_depth_chart_data(team_slug: str) -> Dict[str, object]:
@@ -906,6 +1680,7 @@ def build_pitcher_profile_from_cached_stuff(
             "mlb_id": mlb_player_id,
             "name": person.get("fullName") or full_name,
             "team": person.get("currentTeam", {}).get("name") if isinstance(person.get("currentTeam"), dict) else None,
+            "number": person.get("primaryNumber"),
             "headshot_url": MLB_HEADSHOT_TEMPLATE.format(mlb_id=mlb_player_id),
             "height": person.get("height"),
             "weight": person.get("weight"),
@@ -924,6 +1699,7 @@ def build_pitcher_profile_from_cached_stuff(
             "stuff_comparison_saved_at": cached_stuff.get("cache_saved_at"),
             "stuff_comparison_is_cached_fallback": True,
         },
+        "sp_board": build_starting_pitcher_profile_section(person.get("fullName") or full_name),
         "metrics": {
             "ERA": None,
             "xERA": None,
@@ -942,27 +1718,142 @@ def build_pitcher_profile_from_cached_stuff(
     }
 
 
-def build_pitcher_profile(mlb_player_id: int, fangraphs_player_id: Optional[int] = None) -> Dict[str, object]:
-    if mlb_player_id in PITCHER_PROFILE_CACHE:
-        return PITCHER_PROFILE_CACHE[mlb_player_id]
+def load_pitcher_profile_payload_cache_file() -> Dict[str, object]:
+    if not PITCHER_PROFILE_PAYLOAD_CACHE_PATH.exists():
+        return {}
+    try:
+        return json.loads(PITCHER_PROFILE_PAYLOAD_CACHE_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
 
-    mlb_data = fetch_json(f"https://statsapi.mlb.com/api/v1/people/{mlb_player_id}")
-    people = mlb_data.get("people", [])
-    if not people:
-        raise ValueError("Could not find MLB player bio.")
-    person = people[0]
-    full_name = person.get("fullName", "")
-    canonical_fangraphs_player_id = resolve_canonical_fangraphs_pitcher_id(mlb_player_id, fangraphs_player_id)
 
-    fangraphs_url = (
-        f"https://www.fangraphs.com/statss.aspx?playerid={canonical_fangraphs_player_id}"
-        if canonical_fangraphs_player_id
-        else resolve_fangraphs_player_url(full_name)
+def save_pitcher_profile_payload_cache_file(payload: Dict[str, object]) -> None:
+    PITCHER_PROFILE_PAYLOAD_CACHE_PATH.write_text(
+        json.dumps(payload, indent=2, sort_keys=True),
+        encoding="utf-8",
     )
+
+
+def build_pitcher_profile_cache_key(mlb_player_id: int, fangraphs_player_id: Optional[int]) -> str:
+    workbook_mtime = MLB_PRICING_WORKBOOK_PATH.stat().st_mtime if MLB_PRICING_WORKBOOK_PATH.exists() else 0
+    overrides_mtime = STARTING_PITCHER_OVERRIDES_PATH.stat().st_mtime if STARTING_PITCHER_OVERRIDES_PATH.exists() else 0
+    stuff_cache_mtime = (
+        PITCHER_STUFF_COMPARISON_CACHE_PATH.stat().st_mtime
+        if PITCHER_STUFF_COMPARISON_CACHE_PATH.exists()
+        else 0
+    )
+    return json.dumps(
+        {
+            "mlb_player_id": mlb_player_id,
+            "fangraphs_player_id": fangraphs_player_id or 0,
+            "season": eastern_now().year,
+            "workbook_mtime": workbook_mtime,
+            "overrides_mtime": overrides_mtime,
+            "stuff_cache_mtime": stuff_cache_mtime,
+        },
+        sort_keys=True,
+    )
+
+
+def get_cached_pitcher_profile_payload(
+    mlb_player_id: int,
+    cache_key: str,
+) -> Optional[Dict[str, object]]:
+    def payload_is_usable(payload: object) -> bool:
+        if not isinstance(payload, dict):
+            return False
+        player = payload.get("player", {})
+        return isinstance(player, dict) and bool(player.get("team"))
+
+    runtime_entry = PITCHER_PROFILE_CACHE.get(mlb_player_id)
+    if isinstance(runtime_entry, dict):
+        if (
+            runtime_entry.get("_cache_key") == cache_key
+            and cache_timestamp_is_fresh(runtime_entry.get("_saved_at"), PITCHER_PROFILE_CACHE_SECONDS)
+            and payload_is_usable(runtime_entry.get("payload"))
+        ):
+            return dict(runtime_entry["payload"])
+
+    cached = load_pitcher_profile_payload_cache_file()
+    entries = cached.get("pitchers", {}) if isinstance(cached, dict) else {}
+    entry = entries.get(str(mlb_player_id)) if isinstance(entries, dict) else None
+    if not isinstance(entry, dict):
+        return None
+    if entry.get("cache_key") != cache_key:
+        return None
+    if not cache_timestamp_is_fresh(entry.get("saved_at"), PITCHER_PROFILE_CACHE_SECONDS):
+        return None
+    payload = entry.get("payload")
+    if not payload_is_usable(payload):
+        return None
+    PITCHER_PROFILE_CACHE[mlb_player_id] = {
+        "_cache_key": cache_key,
+        "_saved_at": entry.get("saved_at"),
+        "payload": payload,
+    }
+    return dict(payload)
+
+
+def save_cached_pitcher_profile_payload(
+    mlb_player_id: int,
+    cache_key: str,
+    payload: Dict[str, object],
+) -> None:
+    saved_at = eastern_now().isoformat()
+    PITCHER_PROFILE_CACHE[mlb_player_id] = {
+        "_cache_key": cache_key,
+        "_saved_at": saved_at,
+        "payload": payload,
+    }
+    cached = load_pitcher_profile_payload_cache_file()
+    entries = cached.setdefault("pitchers", {}) if isinstance(cached, dict) else {}
+    if not isinstance(entries, dict):
+        entries = {}
+        cached["pitchers"] = entries
+    entries[str(mlb_player_id)] = {
+        "cache_key": cache_key,
+        "saved_at": saved_at,
+        "payload": payload,
+    }
+    cached["saved_at"] = saved_at
+    save_pitcher_profile_payload_cache_file(cached)
+
+
+def build_pitcher_profile(mlb_player_id: int, fangraphs_player_id: Optional[int] = None) -> Dict[str, object]:
+    canonical_fangraphs_player_id = resolve_canonical_fangraphs_pitcher_id(mlb_player_id, fangraphs_player_id)
+    cache_key = build_pitcher_profile_cache_key(mlb_player_id, canonical_fangraphs_player_id)
+    cached_profile = get_cached_pitcher_profile_payload(mlb_player_id, cache_key)
+    if cached_profile:
+        return cached_profile
+
+    person = fetch_mlb_person(mlb_player_id)
+    full_name = person.get("fullName", "")
+    cached_stuff = get_cached_pitcher_stuff_comparison(mlb_player_id, canonical_fangraphs_player_id)
+    fangraphs_url = (
+        cached_stuff.get("fangraphs_url")
+        if isinstance(cached_stuff, dict) and cached_stuff.get("fangraphs_url")
+        else (
+            f"https://www.fangraphs.com/statss.aspx?playerid={canonical_fangraphs_player_id}"
+            if canonical_fangraphs_player_id
+            else None
+        )
+    )
+    if cached_stuff:
+        profile = build_pitcher_profile_from_cached_stuff(
+            mlb_player_id=mlb_player_id,
+            person=person,
+            full_name=full_name,
+            fangraphs_url=fangraphs_url,
+            cached_stuff=cached_stuff,
+        )
+        save_cached_pitcher_profile_payload(mlb_player_id, cache_key, profile)
+        return profile
+
+    if not fangraphs_url:
+        fangraphs_url = resolve_fangraphs_player_url(full_name)
     if not fangraphs_url:
         raise ValueError("Could not resolve a Fangraphs player page for this pitcher.")
 
-    cached_stuff = get_cached_pitcher_stuff_comparison(mlb_player_id, canonical_fangraphs_player_id)
     try:
         fg_html = fetch_fangraphs_page(fangraphs_url)
     except Exception:
@@ -974,7 +1865,7 @@ def build_pitcher_profile(mlb_player_id: int, fangraphs_player_id: Optional[int]
                 fangraphs_url=fangraphs_url,
                 cached_stuff=cached_stuff,
             )
-            PITCHER_PROFILE_CACHE[mlb_player_id] = profile
+            save_cached_pitcher_profile_payload(mlb_player_id, cache_key, profile)
             return profile
         raise
 
@@ -1018,6 +1909,7 @@ def build_pitcher_profile(mlb_player_id: int, fangraphs_player_id: Optional[int]
             "mlb_id": mlb_player_id,
             "name": person.get("fullName") or player_info.get("firstLastName") or full_name,
             "team": team_info.get("MLB_FullName"),
+            "number": person.get("primaryNumber"),
             "headshot_url": MLB_HEADSHOT_TEMPLATE.format(mlb_id=mlb_player_id),
             "height": person.get("height") or player_info.get("HeightDisplay"),
             "weight": person.get("weight") or player_info.get("Weight"),
@@ -1036,6 +1928,7 @@ def build_pitcher_profile(mlb_player_id: int, fangraphs_player_id: Optional[int]
             "stuff_comparison_saved_at": eastern_now().isoformat(),
             "stuff_comparison_is_cached_fallback": False,
         },
+        "sp_board": build_starting_pitcher_profile_section(person.get("fullName") or player_info.get("firstLastName") or full_name),
         "metrics": {
             "ERA": format_decimal(current_row.get("ERA")),
             "xERA": format_decimal(current_row.get("xERA")),
@@ -1053,7 +1946,7 @@ def build_pitcher_profile(mlb_player_id: int, fangraphs_player_id: Optional[int]
         },
     }
 
-    PITCHER_PROFILE_CACHE[mlb_player_id] = profile
+    save_cached_pitcher_profile_payload(mlb_player_id, cache_key, profile)
     return profile
 
 
@@ -1265,6 +2158,9 @@ def fetch_lineup_data(team_slug: str) -> Dict[str, object]:
 
 
 TEAM_CODE_MAP = {team["code"]: team for team in TEAM_OPTIONS}
+BULLPEN_TEAM_CODE_ALIASES = {
+    "ATH": "athletics",
+}
 BULLPEN_ROLE_PREFIXES = [
     "Co-Closer",
     "Closer Committee",
@@ -1314,7 +2210,11 @@ def parse_bullpen_row(line: str) -> Optional[Dict[str, object]]:
         return None
 
     team_code = match.group("team")
-    if team_code not in TEAM_CODE_MAP:
+    team = TEAM_CODE_MAP.get(team_code)
+    if not team:
+        team_slug = BULLPEN_TEAM_CODE_ALIASES.get(team_code)
+        team = TEAM_MAP.get(team_slug) if team_slug else None
+    if not team:
         return None
 
     body = match.group("body")
@@ -1346,7 +2246,7 @@ def parse_bullpen_row(line: str) -> Optional[Dict[str, object]]:
     stats = tokens[-9:]
     return {
         "kind": "active",
-        "team_code": team_code,
+        "team_code": team["code"],
         "row": BullpenRow(name=name, throws=throws, role=role, usage=usage, stats=stats),
     }
 
@@ -1573,6 +2473,48 @@ def load_bullpen_cache_file() -> Dict[str, object]:
 
 def save_bullpen_cache_file(payload: Dict[str, object]) -> None:
     BULLPEN_CACHE_PATH.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
+
+
+def load_homepage_scoreboard_cache_file() -> Dict[str, object]:
+    if not HOMEPAGE_SCOREBOARD_CACHE_PATH.exists():
+        return {}
+    try:
+        return json.loads(HOMEPAGE_SCOREBOARD_CACHE_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def save_homepage_scoreboard_cache_file(payload: Dict[str, object]) -> None:
+    HOMEPAGE_SCOREBOARD_CACHE_PATH.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
+
+
+def load_starting_pitcher_preview_cache_file() -> Dict[str, object]:
+    if not STARTING_PITCHER_PREVIEW_CACHE_PATH.exists():
+        return {}
+    try:
+        return json.loads(STARTING_PITCHER_PREVIEW_CACHE_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def save_starting_pitcher_preview_cache_file(payload: Dict[str, object]) -> None:
+    STARTING_PITCHER_PREVIEW_CACHE_PATH.write_text(
+        json.dumps(payload, indent=2, sort_keys=True),
+        encoding="utf-8",
+    )
+
+
+def load_starting_pitcher_overrides_file() -> Dict[str, object]:
+    if not STARTING_PITCHER_OVERRIDES_PATH.exists():
+        return {}
+    try:
+        return json.loads(STARTING_PITCHER_OVERRIDES_PATH.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+
+def save_starting_pitcher_overrides_file(payload: Dict[str, object]) -> None:
+    STARTING_PITCHER_OVERRIDES_PATH.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
 
 
 def save_cached_bullpen_data(payload: Dict[str, object]) -> Dict[str, object]:
@@ -2753,6 +3695,11 @@ def build_excel_workbook() -> bytes:
 app = FastAPI(title="MLB Pricing Tools", version="1.4.0")
 
 
+@app.on_event("startup")
+def startup_homepage_refresh() -> None:
+    ensure_homepage_cache_refresh_thread()
+
+
 @app.get("/", response_class=HTMLResponse)
 def home() -> HTMLResponse:
     return HTMLResponse(HOME_TEMPLATE_PATH.read_text(encoding="utf-8"))
@@ -2771,6 +3718,11 @@ def bullpens_page() -> HTMLResponse:
 @app.get("/velocity-comparison", response_class=HTMLResponse)
 def velocity_comparison_page() -> HTMLResponse:
     return HTMLResponse(VELOCITY_TEMPLATE_PATH.read_text(encoding="utf-8"))
+
+
+@app.get("/starting-pitchers", response_class=HTMLResponse)
+def starting_pitchers_page() -> HTMLResponse:
+    return HTMLResponse(STARTING_PITCHERS_TEMPLATE_PATH.read_text(encoding="utf-8"))
 
 
 @app.get("/probable-pitchers", response_class=HTMLResponse)
@@ -2892,6 +3844,63 @@ def api_probable_pitchers(target_date: Optional[str] = Query(None, alias="date",
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f"Unexpected probable pitchers parse error: {exc}") from exc
 
+    return JSONResponse(
+        payload,
+        headers={
+            "Cache-Control": "no-store, max-age=0",
+            "Pragma": "no-cache",
+        },
+    )
+
+
+@app.get("/api/starting-pitchers", response_class=JSONResponse)
+def api_starting_pitchers() -> JSONResponse:
+    try:
+        payload = build_starting_pitcher_payload()
+    except FileNotFoundError as exc:
+        raise HTTPException(status_code=404, detail=str(exc)) from exc
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Unexpected starting pitcher table error: {exc}") from exc
+
+    return JSONResponse(
+        payload,
+        headers={
+            "Cache-Control": "no-store, max-age=0",
+            "Pragma": "no-cache",
+        },
+    )
+
+
+@app.post("/api/starting-pitchers/override", response_class=JSONResponse)
+def api_starting_pitchers_override(
+    payload: Dict[str, object] = Body(...),
+) -> JSONResponse:
+    pitcher_name = str(payload.get("pitcher") or "").strip()
+    if not pitcher_name:
+        raise HTTPException(status_code=400, detail="Pitcher is required.")
+
+    override_payload = update_starting_pitcher_override(
+        pitcher_name=pitcher_name,
+        era=payload.get("era"),
+        pitches=payload.get("pitches"),
+    )
+    return JSONResponse(
+        {
+            "pitcher": pitcher_name,
+            "override": override_payload,
+        },
+        headers={
+            "Cache-Control": "no-store, max-age=0",
+            "Pragma": "no-cache",
+        },
+    )
+
+
+@app.get("/api/homepage-scoreboard", response_class=JSONResponse)
+def api_homepage_scoreboard(day: Optional[str] = Query(None, description="Optional slate key: today or tomorrow")) -> JSONResponse:
+    if day not in (None, "today", "tomorrow"):
+        raise HTTPException(status_code=400, detail="Invalid day. Use today or tomorrow.")
+    payload = build_homepage_scoreboard_payload(day)
     return JSONResponse(
         payload,
         headers={

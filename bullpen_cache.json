@@ -1,5 +1,5 @@
 {
-  "cache_saved_at": "2026-04-11T14:37:49.050304",
+  "cache_saved_at": "2026-05-19T11:54:04.374967",
   "refreshed_every_seconds": 300,
   "source_url": "https://www.fangraphs.com/roster-resource/closer-depth-chart",
   "teams": {
@@ -21,140 +21,140 @@
       ],
       "active_rows": [
         {
-          "name": "Jordan Romano",
-          "role": "Closer",
+          "name": "Ryan Zeferjahn",
+          "role": "Co-Closer",
           "stats": [
-            "4",
-            "0",
+            "1",
             "2",
-            "0",
-            "16.9%",
-            "41.2%",
-            "12.6",
-            "11.8%",
-            "3.6"
+            "5",
+            "4",
+            "11.7%",
+            "30.2%",
+            "11.9",
+            "13.5%",
+            "5.3"
           ],
           "throws": "R",
-          "usage": "3 (Sv) 6 5 0.00"
-        },
-        {
-          "name": "Chase Silseth",
-          "role": "Setup Man",
-          "stats": [
-            "0",
-            "3",
-            "3",
-            "1",
-            "18.0%",
-            "28.6%",
-            "10.8",
-            "9.5%",
-            "3.6"
-          ],
-          "throws": "R",
-          "usage": "29 7 5 1.80"
-        },
-        {
-          "name": "Drew Pomeranz",
-          "role": "Setup Man",
-          "stats": [
-            "0",
-            "3",
-            "3",
-            "1",
-            "5.7%",
-            "9.1%",
-            "3.9",
-            "13.6%",
-            "5.8"
-          ],
-          "throws": "L",
-          "usage": "5 4.2 5.79"
+          "usage": "24 19 43 1.1 16 22 4.50"
         },
         {
           "name": "Sam Bachman",
+          "role": "Co-Closer",
+          "stats": [
+            "0",
+            "7",
+            "7",
+            "2",
+            "13.7%",
+            "27.6%",
+            "9.7",
+            "11.5%",
+            "4.0"
+          ],
+          "throws": "R",
+          "usage": "24 20 44 3.1 16 22.1 2.82"
+        },
+        {
+          "name": "Kirby Yates",
+          "role": "Setup Man",
+          "stats": [
+            "0",
+            "0",
+            "0",
+            "1",
+            "13.4%",
+            "40.0%",
+            "14.7",
+            "6.7%",
+            "2.5"
+          ],
+          "throws": "R",
+          "usage": "10 11 21 2 4 3.2 4.91"
+        },
+        {
+          "name": "Jos\u00e9 Fermin",
           "role": "Middle Reliever",
           "stats": [
             "0",
+            "0",
             "2",
             "2",
-            "1",
-            "16.1%",
-            "29.6%",
-            "10.8",
-            "18.5%",
-            "6.8"
+            "15.8%",
+            "24.3%",
+            "9.0",
+            "8.1%",
+            "3.0"
           ],
           "throws": "R",
-          "usage": "15 28 (BS) 5 6.2 1.35"
+          "usage": "5 23 28 1.1 9 9 4.00"
         },
         {
           "name": "Brent Suter",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "0",
-            "0",
             "2",
-            "12.7%",
-            "29.7%",
-            "10.6",
+            "1",
+            "3",
             "10.8%",
-            "3.9"
+            "22.5%",
+            "8.3",
+            "10.8%",
+            "4.0"
           ],
           "throws": "L",
-          "usage": "32 39 5 9.1 2.89"
+          "usage": "8 8 1 17 25 4.32"
         },
         {
-          "name": "Ryan Zeferjahn",
+          "name": "Chase Silseth",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "0",
-            "2",
-            "1",
-            "16.8%",
-            "35.7%",
-            "14.2",
-            "14.3%",
-            "5.7"
+            "3",
+            "4",
+            "4",
+            "15.5%",
+            "19.7%",
+            "8.0",
+            "16.9%",
+            "6.9"
           ],
           "throws": "R",
-          "usage": "42 27 4 6.1 5.68"
-        },
-        {
-          "name": "Shaun Anderson",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "0",
-            "1",
-            "0",
-            "10.9%",
-            "17.6%",
-            "6.8",
-            "11.8%",
-            "4.5"
-          ],
-          "throws": "R",
-          "usage": "62 27 (W) 3 8 4.50"
+          "usage": "4 (W) 15 19 0.4 20 15.2 2.30"
         },
         {
           "name": "Mitch Farris",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "0",
+            "2",
+            "0",
+            "11.4%",
+            "19.4%",
+            "7.4",
+            "6.9%",
+            "2.6"
+          ],
+          "throws": "L",
+          "usage": "27 27 2 7 17 3.18"
+        },
+        {
+          "name": "Ryan Johnson",
           "role": "Long Reliever",
           "stats": [
             "0",
             "0",
             "0",
             "0",
-            "7.8%",
-            "15.4%",
-            "6.0",
-            "15.4%",
-            "6.0"
+            "13.2%",
+            "13.9%",
+            "7.1",
+            "16.7%",
+            "8.5"
           ],
-          "throws": "L",
-          "usage": "37 14 AAA 2 3 3.00"
+          "throws": "R",
+          "usage": "35 21 56 3 3 6.1 12.79"
         }
       ],
       "injured_headers": [
@@ -162,23 +162,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Kirby Yates",
-          "status": "15-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Ben Joyce",
-          "status": "15-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Robert Stephenson",
-          "status": "60-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "LAA",
         "league": "AL West",
@@ -204,157 +188,123 @@
       ],
       "active_rows": [
         {
-          "name": "Bryan Abreu",
-          "role": "Co-Closer",
-          "stats": [
-            "1",
-            "1",
-            "0",
-            "1",
-            "11.7%",
-            "36.4%",
-            "19.6",
-            "31.8%",
-            "17.2"
-          ],
-          "throws": "R",
-          "usage": "22 16 (L) 5 3.2 19.64"
-        },
-        {
           "name": "Bryan King",
           "role": "Co-Closer",
           "stats": [
-            "1",
-            "1",
-            "2",
-            "1",
-            "12.6%",
-            "34.8%",
-            "13.5",
-            "8.7%",
-            "3.4"
+            "4",
+            "3",
+            "7",
+            "4",
+            "7.6%",
+            "18.4%",
+            "7.2",
+            "10.3%",
+            "4.1"
           ],
           "throws": "L",
-          "usage": "23 5 5.1 1.69"
+          "usage": "12 (H) 17 (Sv) 34 (BS) 63 2.4 17 20 3.15"
         },
         {
-          "name": "Enyel De Los Santos",
+          "name": "Bryan Abreu",
+          "role": "Co-Closer",
+          "stats": [
+            "2",
+            "2",
+            "4",
+            "3",
+            "11.6%",
+            "27.6%",
+            "12.6",
+            "23.7%",
+            "10.8"
+          ],
+          "throws": "R",
+          "usage": "24 (Sv) 17 (W) 41 2.1 16 15 7.80"
+        },
+        {
+          "name": "AJ Blubaugh",
           "role": "Setup Man",
           "stats": [
             "0",
-            "0",
-            "0",
-            "0",
-            "11.7%",
-            "17.6%",
-            "6.8",
-            "5.9%",
-            "2.3"
+            "3",
+            "5",
+            "2",
+            "12.3%",
+            "18.0%",
+            "7.2",
+            "15.6%",
+            "6.3"
           ],
           "throws": "R",
-          "usage": "10 42 8 IL 3 4 2.25"
-        },
-        {
-          "name": "Kai-Wei Teng",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "0",
-            "0",
-            "1",
-            "8.1%",
-            "24.1%",
-            "8.2",
-            "3.4%",
-            "1.2"
-          ],
-          "throws": "R",
-          "usage": "18 7 5 7.2 2.35"
+          "usage": "32 16 (H) 48 2.2 19 28.2 4.71"
         },
         {
           "name": "Steven Okert",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "0",
-            "2",
-            "1",
-            "16.0%",
-            "26.1%",
-            "8.1",
-            "13.0%",
-            "4.1"
+            "3",
+            "5",
+            "3",
+            "12.9%",
+            "20.0%",
+            "7.2",
+            "8.8%",
+            "3.2"
           ],
           "throws": "L",
-          "usage": "21 13 9 6 6.2 4.05"
+          "usage": "12 18 30 2.1 22 20 3.60"
         },
         {
-          "name": "Christian Roa",
+          "name": "Enyel De Los Santos",
           "role": "Middle Reliever",
           "stats": [
-            "0",
-            "0",
-            "0",
-            "0",
-            "8.0%",
-            "16.7%",
-            "7.7",
-            "25.0%",
-            "11.6"
-          ],
-          "throws": "R",
-          "usage": "34 15 27 5 4.2 3.86"
-        },
-        {
-          "name": "AJ Blubaugh",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
+            "3",
             "1",
-            "1",
+            "5",
             "2",
-            "14.3%",
-            "17.1%",
-            "7.6",
-            "12.2%",
-            "5.4"
+            "15.1%",
+            "21.3%",
+            "8.2",
+            "5.3%",
+            "2.0"
           ],
           "throws": "R",
-          "usage": "39 (L) 44 5 8.1 10.80"
+          "usage": "12 12 24 1.2 17 17.2 4.58"
         },
         {
-          "name": "J.P. France",
+          "name": "Jayden Murray",
           "role": "Middle Reliever",
           "stats": [
             "0",
             "0",
             "0",
-            "0",
-            "5.1%",
-            "20.0%",
-            "10.1",
-            "26.7%",
-            "13.5"
+            "1",
+            "7.2%",
+            "9.4%",
+            "4.0",
+            "13.2%",
+            "5.6"
           ],
           "throws": "R",
-          "usage": "59 AAA AAA AAA AAA AAA 1 2.2 13.50"
+          "usage": "25 25 1.1 7 11.1 7.15"
         },
         {
-          "name": "Ryan Weiss",
+          "name": "Jason Alexander",
           "role": "Long Reliever",
           "stats": [
             "0",
             "0",
             "0",
-            "2",
-            "11.4%",
-            "26.8%",
-            "12.3",
-            "10.7%",
-            "4.9"
+            "0",
+            "7.5%",
+            "17.6%",
+            "8.5",
+            "14.7%",
+            "7.1"
           ],
           "throws": "R",
-          "usage": "64 (L) 62 (L) 5 11 7.36"
+          "usage": "AAA AAA AAA AAA AAA 0 0 2 6.1 14.21"
         }
       ],
       "injured_headers": [
@@ -362,23 +312,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Josh Hader",
-          "status": "15-Day IL",
-          "throws": "L"
-        },
-        {
-          "name": "Nate Pearson",
-          "status": "15-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Bennett Sousa",
-          "status": "15-Day IL",
-          "throws": "L"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "HOU",
         "league": "AL West",
@@ -402,7 +336,161 @@
         "K/9",
         "K%"
       ],
-      "active_rows": [],
+      "active_rows": [
+        {
+          "name": "Jack Perkins",
+          "role": "Closer Committee",
+          "stats": [
+            "3",
+            "1",
+            "5",
+            "2",
+            "15.6%",
+            "28.2%",
+            "11.6",
+            "6.4%",
+            "2.6"
+          ],
+          "throws": "R",
+          "usage": "23 (L,B) .css-148agmb{z-index:1500;pointer-events:none;pointer-events:auto;pointer-events:none;}.css-148agmb[data-popper-placement*=\"bottom\"] .MuiTooltip-arrow{top:0;margin-top:-0.71em;}.css-148agmb[data-popper-placement*=\"bottom\"] .MuiTooltip-arrow::before{transform-origin:0 100%;}.css-148agmb[data-popper-placement*=\"top\"] .MuiTooltip-arrow{bottom:0;margin-bottom:-0.71em;}.css-148agmb[data-popper-placement*=\"top\"] .MuiTooltip-arrow::before{transform-origin:100% 0;}.css-148agmb[data-popper-placement*=\"right\"] .MuiTooltip-arrow{height:1em;width:0.71em;}.css-148agmb[data-popper-placement*=\"right\"] .MuiTooltip-arrow::before{transform-origin:100% 100%;}.css-148agmb[data-popper-placement*=\"left\"] .MuiTooltip-arrow{height:1em;width:0.71em;}.css-148agmb[data-popper-placement*=\"left\"] .MuiTooltip-arrow::before{transform-origin:0 0;}.css-148agmb[data-popper-placement*=\"right\"] .MuiTooltip-arrow{left:0;margin-left:-0.71em;}.css-148agmb[data-popper-placement*=\"left\"] .MuiTooltip-arrow{right:0;margin-right:-0.71em;} .css-1w0uwdk{z-index:1500;pointer-events:none;pointer-events:auto;pointer-events:none;}.css-1w0uwdk[data-popper-placement*=\"bottom\"] .MuiTooltip-arrow{top:0;margin-top:-0.71em;}.css-1w0uwdk[data-popper-placement*=\"bottom\"] .MuiTooltip-arrow::before{transform-origin:0 100%;}.css-1w0uwdk[data-popper-placement*=\"top\"] .MuiTooltip-arrow{bottom:0;margin-bottom:-0.71em;}.css-1w0uwdk[data-popper-placement*=\"top\"] .MuiTooltip-arrow::before{transform-origin:100% 0;}.css-1w0uwdk[data-popper-placement*=\"right\"] .MuiTooltip-arrow{height:1em;width:0.71em;}.css-1w0uwdk[data-popper-placement*=\"right\"] .MuiTooltip-arrow::before{transform-origin:100% 100%;}.css-1w0uwdk[data-popper-placement*=\"left\"] .MuiTooltip-arrow{height:1em;width:0.71em;}.css-1w0uwdk[data-popper-placement*=\"left\"] .MuiTooltip-arrow::before{transform-origin:0 0;}.css-1w0uwdk[data-popper-placement*=\"right\"] .MuiTooltip-arrow{left:0;margin-left:-0.71em;}.css-1w0uwdk[data-popper-placement*=\"left\"] .MuiTooltip-arrow{right:0;margin-right:-0.71em;} 18 41 1.1 12 17 4.76"
+        },
+        {
+          "name": "Hogan Harris",
+          "role": "Closer Committee",
+          "stats": [
+            "3",
+            "7",
+            "8",
+            "4",
+            "9.5%",
+            "23.3%",
+            "9.8",
+            "16.5%",
+            "7.0"
+          ],
+          "throws": "L",
+          "usage": "14 (Sv) 9 (H) 23 1.1 24 22 2.45"
+        },
+        {
+          "name": "Joel Kuhnel",
+          "role": "Closer Committee",
+          "stats": [
+            "4",
+            "3",
+            "6",
+            "2",
+            "9.3%",
+            "12.1%",
+            "4.3",
+            "6.1%",
+            "2.2"
+          ],
+          "throws": "R",
+          "usage": "14 (H) 8 22 1.1 17 16.2 2.70"
+        },
+        {
+          "name": "Scott Barlow",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "8",
+            "9",
+            "2",
+            "15.4%",
+            "22.7%",
+            "8.4",
+            "10.2%",
+            "3.8"
+          ],
+          "throws": "R",
+          "usage": "16 12 (H) 28 2 21 21.1 3.38"
+        },
+        {
+          "name": "Justin Sterner",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "8",
+            "6",
+            "3",
+            "14.2%",
+            "24.0%",
+            "9.3",
+            "7.3%",
+            "2.8"
+          ],
+          "throws": "R",
+          "usage": "23 11 13 (H) 47 2.2 22 22.1 4.03"
+        },
+        {
+          "name": "Mark Leiter Jr.",
+          "role": "Middle Reliever",
+          "stats": [
+            "3",
+            "1",
+            "3",
+            "5",
+            "13.0%",
+            "24.2%",
+            "10.1",
+            "6.6%",
+            "2.7"
+          ],
+          "throws": "R",
+          "usage": "25 15 40 3 21 19.2 6.86"
+        },
+        {
+          "name": "Luis Medina",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "2",
+            "2",
+            "3",
+            "10.7%",
+            "22.2%",
+            "8.6",
+            "12.5%",
+            "4.9"
+          ],
+          "throws": "R",
+          "usage": "20 19 (H) 9 (H) 48 2 13 16.2 2.70"
+        },
+        {
+          "name": "Jos\u00e9 Suarez",
+          "role": "Long Reliever",
+          "stats": [
+            "1",
+            "1",
+            "1",
+            "2",
+            "13.3%",
+            "25.5%",
+            "11.5",
+            "14.7%",
+            "6.6"
+          ],
+          "throws": "L",
+          "usage": "21 21 (H) 42 2 11 20.1 7.08"
+        },
+        {
+          "name": "Jack Perkins",
+          "role": "Closer Committee",
+          "stats": [
+            "3",
+            "1",
+            "5",
+            "2",
+            "15.6%",
+            "28.2%",
+            "11.6",
+            "6.4%",
+            "2.6"
+          ],
+          "throws": "R",
+          "usage": "23 (L,B) 18 41 1.1 12 17 4.76"
+        }
+      ],
       "injured_headers": [
         "Name",
         "Thr",
@@ -434,106 +522,89 @@
       ],
       "active_rows": [
         {
-          "name": "Jeff Hoffman",
+          "name": "Louis Varland",
           "role": "Closer",
           "stats": [
-            "2",
-            "0",
-            "2",
-            "2",
-            "25.0%",
-            "48.4%",
-            "20.3",
-            "6.5%",
-            "2.7"
+            "5",
+            "3",
+            "10",
+            "1",
+            "12.2%",
+            "35.8%",
+            "12.9",
+            "9.5%",
+            "3.4"
           ],
           "throws": "R",
-          "usage": "21 (Sv) 14 7 6.2 2.70"
+          "usage": "26 (W) 23 49 3 22 23.2 0.38"
         },
         {
           "name": "Tyler Rogers",
           "role": "Setup Man",
           "stats": [
-            "0",
+            "1",
+            "7",
+            "7",
             "2",
-            "3",
-            "0",
-            "7.5%",
-            "18.5%",
-            "6.8",
-            "11.1%",
-            "4.1"
+            "6.2%",
+            "15.9%",
+            "5.9",
+            "8.0%",
+            "3.0"
           ],
           "throws": "R",
-          "usage": "20 (W) 6 6.2 0.00"
+          "usage": "20 (Sv) 11 14 45 2.2 22 21.1 1.69"
         },
         {
-          "name": "Louis Varland",
+          "name": "Jeff Hoffman",
           "role": "Setup Man",
           "stats": [
-            "0",
-            "2",
             "3",
-            "1",
-            "11.2%",
-            "34.5%",
-            "11.3",
-            "10.3%",
-            "3.4"
+            "5",
+            "5",
+            "7",
+            "18.3%",
+            "35.0%",
+            "15.5",
+            "8.0%",
+            "3.5"
           ],
           "throws": "R",
-          "usage": "23 (H) 13 23 7 8 0.00"
+          "usage": "17 23 (L) 18 (W) 58 2.2 22 20.1 5.75"
         },
         {
           "name": "Braydon Fisher",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "2",
-            "4",
-            "1",
-            "14.2%",
-            "35.7%",
-            "10.8",
-            "3.6%",
-            "1.1"
+            "5",
+            "10",
+            "6",
+            "10.8%",
+            "23.8%",
+            "8.2",
+            "9.9%",
+            "3.4"
           ],
           "throws": "R",
-          "usage": "32 6 8.1 0.00"
+          "usage": "27 20 10 57 3.2 24 26.1 3.08"
         },
         {
           "name": "Mason Fluharty",
           "role": "Middle Reliever",
           "stats": [
             "0",
+            "5",
+            "5",
             "2",
-            "1",
-            "1",
-            "13.0%",
-            "27.3%",
-            "12.5",
-            "13.6%",
-            "6.2"
+            "14.0%",
+            "31.4%",
+            "12.1",
+            "10.0%",
+            "3.9"
           ],
           "throws": "L",
-          "usage": "14 20 7 4.1 8.31"
-        },
-        {
-          "name": "Tommy Nance",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "1",
-            "0",
-            "1",
-            "7.8%",
-            "27.6%",
-            "12.0",
-            "6.9%",
-            "3.0"
-          ],
-          "throws": "R",
-          "usage": "10 36 6 6 7.50"
+          "usage": "19 2 21 1.2 23 16.1 4.96"
         },
         {
           "name": "Joe Mantiply",
@@ -541,33 +612,50 @@
           "stats": [
             "0",
             "0",
+            "2",
             "1",
-            "0",
-            "8.8%",
-            "58.3%",
-            "21.0",
-            "16.7%",
-            "6.0"
+            "8.0%",
+            "22.5%",
+            "8.2",
+            "5.6%",
+            "2.0"
           ],
           "throws": "L",
-          "usage": "15 (W) 25 17 3 3 9.00"
+          "usage": "21 14 35 1.1 17 17.2 2.04"
         },
         {
-          "name": "Spencer Miles",
+          "name": "Adam Macko",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "1",
+            "1",
+            "0",
+            "20.0%",
+            "0.0%",
+            "0.0",
+            "0.0%",
+            "0.0"
+          ],
+          "throws": "L",
+          "usage": "15 (H) AAA AAA AAA AAA 15 1 1 1 0.00"
+        },
+        {
+          "name": "Yariel Rodr\u00edguez",
           "role": "Long Reliever",
           "stats": [
             "0",
             "0",
+            "0",
             "1",
-            "1",
-            "11.0%",
-            "24.0%",
-            "9.5",
-            "8.0%",
-            "3.2"
+            "6.7%",
+            "23.1%",
+            "10.1",
+            "15.4%",
+            "6.8"
           ],
           "throws": "R",
-          "usage": "16 27 4 5.2 6.35"
+          "usage": "20 (L,B) 14 34 1.2 3 2.2 16.88"
         }
       ],
       "injured_headers": [
@@ -575,13 +663,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Yimi Garc\u00eda",
-          "status": "15-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "TOR",
         "league": "AL East",
@@ -610,137 +692,120 @@
           "name": "Raisel Iglesias",
           "role": "Closer",
           "stats": [
-            "2",
+            "8",
             "0",
-            "3",
+            "7",
             "0",
-            "16.9%",
-            "26.3%",
-            "7.9",
-            "0.0%",
-            "0.0"
+            "18.8%",
+            "34.7%",
+            "11.2",
+            "6.1%",
+            "2.0"
           ],
           "throws": "R",
-          "usage": "22 (Sv) 14 5 5.2 0.00"
+          "usage": "20 8 (Sv) 28 2 13 13.2 0.00"
         },
         {
           "name": "Robert Suarez",
           "role": "Setup Man",
           "stats": [
-            "0",
-            "2",
-            "2",
-            "0",
-            "12.4%",
-            "31.8%",
-            "10.5",
-            "4.5%",
-            "1.5"
+            "4",
+            "5",
+            "11",
+            "1",
+            "14.0%",
+            "25.7%",
+            "8.8",
+            "5.4%",
+            "1.9"
           ],
           "throws": "R",
-          "usage": "26 (H) 14 6 6 0.00"
+          "usage": "21 21 (W) 42 2.1 19 19.1 0.47"
         },
         {
           "name": "Dylan Lee",
           "role": "Setup Man",
           "stats": [
             "0",
-            "1",
+            "7",
+            "9",
             "2",
-            "1",
-            "19.5%",
-            "20.0%",
-            "6.8",
-            "0.0%",
-            "0.0"
+            "21.3%",
+            "35.1%",
+            "11.0",
+            "2.7%",
+            "0.8"
           ],
           "throws": "L",
-          "usage": "7 9 (H) 18 7 6.2 1.35"
+          "usage": "10 (H) 10 20 1.1 22 21.1 0.84"
         },
         {
           "name": "Tyler Kinley",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "0",
-            "0",
-            "1",
-            "16.7%",
-            "25.0%",
-            "7.9",
-            "5.0%",
-            "1.6"
+            "6",
+            "4",
+            "3",
+            "10.2%",
+            "23.3%",
+            "9.1",
+            "10.0%",
+            "3.9"
           ],
           "throws": "R",
-          "usage": "10 (W) 13 (W) 19 6 5.2 0.00"
+          "usage": "12 15 15 (BS) 9 51 2.1 23 20.2 3.92"
         },
         {
-          "name": "Aaron Bummer",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "2",
-            "1",
-            "1",
-            "12.7%",
-            "21.4%",
-            "8.1",
-            "7.1%",
-            "2.7"
-          ],
-          "throws": "L",
-          "usage": "6 17 (H) 7 5 3.1 0.00"
-        },
-        {
-          "name": "Joel Payamps",
+          "name": "Didier Fuentes",
           "role": "Middle Reliever",
           "stats": [
             "0",
             "1",
+            "5",
             "0",
-            "2",
-            "13.7%",
-            "30.8%",
-            "12.0",
-            "7.7%",
-            "3.0"
-          ],
-          "throws": "R",
-          "usage": "3 (H) 7 11 1 (L) 6 3 3.00"
-        },
-        {
-          "name": "Osvaldo Bido",
-          "role": "Middle Reliever",
-          "stats": [
-            "1",
-            "0",
-            "0",
-            "0",
-            "12.2%",
-            "20.8%",
-            "6.4",
+            "13.4%",
+            "30.6%",
+            "11.2",
             "8.3%",
-            "2.6"
+            "3.1"
           ],
           "throws": "R",
-          "usage": "14 18 4 7 1.29"
+          "usage": "23 10 (W) 33 2 9 17.2 3.06"
         },
         {
-          "name": "Jos\u00e9 Suarez",
-          "role": "Long Reliever",
+          "name": "Reynaldo L\u00f3pez",
+          "role": "Middle Reliever",
           "stats": [
             "0",
+            "1",
+            "2",
+            "0",
+            "8.3%",
+            "20.6%",
+            "8.0",
+            "10.7%",
+            "4.2"
+          ],
+          "throws": "R",
+          "usage": "26 32 58 3.2 10 30.1 3.56"
+        },
+        {
+          "name": "Dylan Dodd",
+          "role": "Middle Reliever",
+          "stats": [
+            "1",
             "0",
             "0",
-            "0",
-            "14.9%",
-            "31.3%",
-            "14.2",
-            "12.5%",
-            "5.7"
+            "1",
+            "8.0%",
+            "25.0%",
+            "9.0",
+            "6.3%",
+            "2.3"
           ],
           "throws": "L",
-          "usage": "31 24 3 6.1 9.95"
+          "usage": "IL IL IL IL IL IL 0 0 2 4 2.25"
         }
       ],
       "injured_headers": [
@@ -748,18 +813,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Danny Young",
-          "status": "60-Day IL",
-          "throws": "L"
-        },
-        {
-          "name": "Joe Jim\u00e9nez",
-          "status": "60-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "ATL",
         "league": "NL East",
@@ -785,140 +839,140 @@
       ],
       "active_rows": [
         {
-          "name": "Trevor Megill",
-          "role": "Closer",
+          "name": "Abner Uribe",
+          "role": "Co-Closer",
           "stats": [
-            "3",
-            "0",
-            "1",
-            "2",
-            "16.7%",
-            "21.7%",
-            "11.3",
-            "13.0%",
-            "6.8"
+            "4",
+            "5",
+            "9",
+            "4",
+            "8.2%",
+            "25.0%",
+            "9.3",
+            "9.7%",
+            "3.6"
           ],
           "throws": "R",
-          "usage": "9 (L) 12 (Sv) 5 4 11.25"
+          "usage": "11 (H) 19 (L,B) 30 2 19 17.1 4.67"
         },
         {
-          "name": "Abner Uribe",
-          "role": "Setup Man",
+          "name": "Trevor Megill",
+          "role": "Co-Closer",
           "stats": [
-            "0",
+            "5",
+            "5",
+            "7",
             "3",
-            "2",
-            "1",
-            "3.8%",
-            "31.6%",
-            "11.6",
-            "5.3%",
-            "1.9"
+            "15.4%",
+            "28.6%",
+            "11.3",
+            "8.6%",
+            "3.4"
           ],
           "throws": "R",
-          "usage": "14 14 (H) 5 4.2 1.93"
+          "usage": "16 (Sv) 16 1 17 16 5.63"
         },
         {
           "name": "Aaron Ashby",
           "role": "Setup Man",
           "stats": [
             "0",
-            "0",
-            "3",
-            "0",
-            "12.2%",
-            "36.7%",
-            "13.5",
-            "10.2%",
-            "3.8"
+            "1",
+            "7",
+            "2",
+            "14.6%",
+            "36.4%",
+            "13.7",
+            "12.4%",
+            "4.7"
           ],
           "throws": "L",
-          "usage": "44 11 23 (W) 8 12 3.75"
-        },
-        {
-          "name": "Angel Zerpa",
-          "role": "Middle Reliever",
-          "stats": [
-            "1",
-            "1",
-            "3",
-            "0",
-            "8.8%",
-            "11.1%",
-            "3.7",
-            "11.1%",
-            "3.7"
-          ],
-          "throws": "L",
-          "usage": "22 (BS) 16 (Sv) 23 (H) 6 7.1 2.45"
-        },
-        {
-          "name": "Grant Anderson",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "3",
-            "3",
-            "0",
-            "12.3%",
-            "25.0%",
-            "9.0",
-            "12.5%",
-            "4.5"
-          ],
-          "throws": "R",
-          "usage": "31 15 (H) 12 (H) 7 8 2.25"
+          "usage": "23 (W,B) 14 (H) 37 3 21 29 2.17"
         },
         {
           "name": "DL Hall",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "0",
-            "0",
-            "1",
-            "11.3%",
-            "33.3%",
-            "12.3",
-            "16.7%",
-            "6.1"
+            "3",
+            "3",
+            "4",
+            "10.5%",
+            "27.3%",
+            "10.1",
+            "18.2%",
+            "6.8"
           ],
           "throws": "L",
-          "usage": "39 5 7.1 0.00"
+          "usage": "21 18 39 2.1 19 21.1 1.69"
         },
         {
-          "name": "Easton McGee",
+          "name": "Grant Anderson",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "0",
-            "0",
-            "0",
-            "14.3%",
-            "0.0%",
-            "0.0",
-            "0.0%",
-            "0.0"
+            "5",
+            "5",
+            "2",
+            "11.3%",
+            "22.7%",
+            "7.8",
+            "9.3%",
+            "3.2"
           ],
           "throws": "R",
-          "usage": "7 AAA AAA AAA AAA AAA 1 1 0.00"
+          "usage": "29 (L) 16 45 2.2 20 19.2 3.20"
+        },
+        {
+          "name": "Chad Patrick",
+          "role": "Middle Reliever",
+          "stats": [
+            "1",
+            "1",
+            "2",
+            "1",
+            "10.3%",
+            "18.1%",
+            "6.6",
+            "10.6%",
+            "3.9"
+          ],
+          "throws": "R",
+          "usage": "52 (Sv) 52 4 10 39.1 2.75"
+        },
+        {
+          "name": "Shane Drohan",
+          "role": "Middle Reliever",
+          "stats": [
+            "1",
+            "2",
+            "0",
+            "0",
+            "13.3%",
+            "23.0%",
+            "8.6",
+            "6.9%",
+            "2.6"
+          ],
+          "throws": "L",
+          "usage": "42 (W) 42 4 8 21 2.57"
         },
         {
           "name": "Jake Woodford",
           "role": "Long Reliever",
           "stats": [
+            "1",
             "0",
             "0",
-            "0",
-            "0",
-            "8.5%",
-            "19.2%",
-            "7.1",
+            "1",
             "7.7%",
-            "2.8"
+            "19.5%",
+            "7.8",
+            "3.9%",
+            "1.6"
           ],
           "throws": "R",
-          "usage": "41 3 4 6.1 4.26"
+          "usage": "19 19 1 12 17.1 4.67"
         }
       ],
       "injured_headers": [
@@ -926,18 +980,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Rob Zastryzny",
-          "status": "15-Day IL",
-          "throws": "L"
-        },
-        {
-          "name": "Craig Yoho",
-          "status": "15-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "MIL",
         "league": "NL Central",
@@ -966,103 +1009,103 @@
           "name": "Riley O'Brien",
           "role": "Closer",
           "stats": [
-            "4",
+            "13",
             "1",
-            "6",
-            "0",
-            "14.3%",
-            "27.6%",
-            "8.6",
-            "0.0%",
-            "0.0"
+            "14",
+            "3",
+            "12.8%",
+            "29.4%",
+            "10.2",
+            "2.4%",
+            "0.8"
           ],
           "throws": "R",
-          "usage": "8 (Sv) 15 16 (Sv) 13 (Sv) 8 8.1 0.00"
+          "usage": "10 16 (Sv) 26 2 22 22 2.45"
         },
         {
           "name": "JoJo Romero",
           "role": "Setup Man",
           "stats": [
             "0",
+            "14",
+            "11",
             "5",
-            "5",
-            "0",
-            "5.2%",
-            "16.7%",
-            "5.9",
-            "6.7%",
-            "2.3"
+            "8.0%",
+            "20.7%",
+            "7.7",
+            "9.8%",
+            "3.6"
           ],
           "throws": "L",
-          "usage": "21 (H) 21 19 (H) 7 7.2 0.00"
-        },
-        {
-          "name": "Ryne Stanek",
-          "role": "Setup Man",
-          "stats": [
-            "1",
-            "3",
-            "4",
-            "2",
-            "17.0%",
-            "28.1%",
-            "12.2",
-            "15.6%",
-            "6.8"
-          ],
-          "throws": "R",
-          "usage": "10 (H) 23 23 (H) 7 6.2 5.40"
+          "usage": "21 17 (BS) 38 1.1 22 22.1 3.22"
         },
         {
           "name": "George Soriano",
-          "role": "Middle Reliever",
+          "role": "Setup Man",
           "stats": [
-            "0",
-            "1",
-            "1",
-            "1",
-            "11.2%",
-            "12.0%",
-            "4.5",
-            "12.0%",
-            "4.5"
+            "2",
+            "8",
+            "6",
+            "2",
+            "12.7%",
+            "19.0%",
+            "7.3",
+            "11.9%",
+            "4.6"
           ],
           "throws": "R",
-          "usage": "21 (W) 19 (H) 5 6 3.00"
+          "usage": "14 (Sv) 9 23 1.1 21 19.2 3.66"
+        },
+        {
+          "name": "Ryne Stanek",
+          "role": "Middle Reliever",
+          "stats": [
+            "1",
+            "8",
+            "6",
+            "7",
+            "15.6%",
+            "28.7%",
+            "12.6",
+            "17.0%",
+            "7.4"
+          ],
+          "throws": "R",
+          "usage": "13 16 (H) 29 1.1 22 19.1 6.52"
         },
         {
           "name": "Gordon Graceffo",
           "role": "Middle Reliever",
           "stats": [
-            "0",
             "1",
-            "2",
-            "0",
-            "1.7%",
-            "11.8%",
-            "3.9",
-            "23.5%",
-            "7.7"
+            "3",
+            "7",
+            "1",
+            "5.0%",
+            "10.6%",
+            "3.6",
+            "10.6%",
+            "3.6"
           ],
           "throws": "R",
-          "usage": "35 4 4.2 1.93"
+          "usage": "10 (H) 14 (W) 14 38 3.2 20 24.2 1.82"
         },
         {
           "name": "Justin Bruihl",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "1",
-            "2",
-            "3",
-            "5.1%",
-            "10.0%",
-            "4.3",
-            "20.0%",
-            "8.5"
+            "5",
+            "6",
+            "6",
+            "6.3%",
+            "13.2%",
+            "5.5",
+            "14.3%",
+            "5.9"
           ],
           "throws": "L",
-          "usage": "2 (H) 23 (BS) 7 6.1 5.68"
+          "usage": "14 10 (H) 11 35 1.2 22 19.2 5.03"
         },
         {
           "name": "Matt Svanson",
@@ -1071,15 +1114,32 @@
             "0",
             "1",
             "1",
-            "3",
-            "7.5%",
-            "15.0%",
-            "7.0",
-            "12.5%",
-            "5.9"
+            "5",
+            "7.4%",
+            "20.0%",
+            "8.7",
+            "12.7%",
+            "5.6"
           ],
           "throws": "R",
-          "usage": "18 (H) 13 (L) 6 7.2 11.74"
+          "usage": "15 13 (W) 17 45 3 21 22.2 8.34"
+        },
+        {
+          "name": "Matt Pushard",
+          "role": "Long Reliever",
+          "stats": [
+            "0",
+            "0",
+            "0",
+            "1",
+            "7.5%",
+            "20.0%",
+            "9.0",
+            "10.0%",
+            "4.5"
+          ],
+          "throws": "R",
+          "usage": "9 IL IL IL 9 1 2 2 13.50"
         }
       ],
       "injured_headers": [
@@ -1116,103 +1176,103 @@
           "name": "Daniel Palencia",
           "role": "Closer",
           "stats": [
-            "1",
+            "3",
             "0",
+            "6",
             "1",
-            "0",
-            "28.9%",
-            "27.3%",
+            "15.9%",
+            "24.3%",
             "9.0",
-            "0.0%",
-            "0.0"
+            "8.1%",
+            "3.0"
           ],
           "throws": "R",
-          "usage": "13 (Sv) 3 3 0.00"
+          "usage": "14 16 (Sv) 30 2 10 9 2.00"
         },
         {
-          "name": "Caleb Thielbar",
+          "name": "Jacob Webb",
           "role": "Setup Man",
           "stats": [
-            "0",
-            "0",
-            "1",
-            "1",
-            "8.8%",
-            "16.7%",
-            "6.2",
-            "11.1%",
-            "4.2"
-          ],
-          "throws": "L",
-          "usage": "21 (L) 2 28 (W) 5 4.1 4.15"
-        },
-        {
-          "name": "Hunter Harvey",
-          "role": "Setup Man",
-          "stats": [
-            "0",
-            "0",
-            "0",
-            "1",
-            "6.6%",
-            "22.2%",
-            "9.0",
-            "5.6%",
-            "2.3"
-          ],
-          "throws": "R",
-          "usage": "16 4 4 6.75"
-        },
-        {
-          "name": "Ben Brown",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "0",
             "1",
             "2",
-            "10.5%",
-            "25.6%",
-            "9.3",
+            "5",
+            "3",
+            "16.4%",
+            "26.7%",
+            "10.5",
             "9.3%",
-            "3.4"
+            "3.7"
           ],
           "throws": "R",
-          "usage": "31 42 (BS) 4 10.2 4.22"
+          "usage": "24 16 (H) 40 2.1 20 19.2 3.20"
+        },
+        {
+          "name": "Phil Maton",
+          "role": "Setup Man",
+          "stats": [
+            "0",
+            "3",
+            "4",
+            "5",
+            "11.3%",
+            "26.2%",
+            "11.7",
+            "9.8%",
+            "4.4"
+          ],
+          "throws": "R",
+          "usage": "18 14 (H) 17 49 2.2 14 12.1 9.49"
         },
         {
           "name": "Hoby Milner",
           "role": "Middle Reliever",
           "stats": [
-            "0",
             "1",
             "3",
-            "1",
-            "0.0%",
-            "3.4%",
-            "1.2",
-            "0.0%",
-            "0.0"
+            "6",
+            "2",
+            "4.7%",
+            "10.5%",
+            "3.7",
+            "7.0%",
+            "2.5"
           ],
           "throws": "L",
-          "usage": "10 17 14 (H) 7 7.1 2.45"
+          "usage": "18 25 (W) 43 3.1 21 21.2 2.08"
         },
         {
-          "name": "Jacob Webb",
+          "name": "Ryan Rolison",
           "role": "Middle Reliever",
           "stats": [
             "0",
             "0",
+            "2",
+            "4",
+            "6.9%",
+            "25.0%",
+            "9.5",
+            "11.5%",
+            "4.4"
+          ],
+          "throws": "L",
+          "usage": "2 (L,B) 12 10 24 1.2 11 12.1 4.38"
+        },
+        {
+          "name": "Trent Thornton",
+          "role": "Middle Reliever",
+          "stats": [
             "0",
-            "1",
-            "11.7%",
-            "17.4%",
-            "7.7",
-            "21.7%",
-            "9.6"
+            "0",
+            "2",
+            "0",
+            "9.5%",
+            "16.7%",
+            "5.4",
+            "5.6%",
+            "1.8"
           ],
           "throws": "R",
-          "usage": "14 20 (L,B) 5 4.2 5.79"
+          "usage": "26 (W) 26 2 4 5 0.00"
         },
         {
           "name": "Ethan Roberts",
@@ -1222,31 +1282,31 @@
             "0",
             "0",
             "0",
-            "6.7%",
+            "7.5%",
             "14.3%",
-            "4.5",
-            "0.0%",
-            "0.0"
+            "4.8",
+            "14.3%",
+            "4.8"
           ],
           "throws": "R",
-          "usage": "17 AAA AAA AAA AAA 13 2 2 0.00"
+          "usage": "28 31 59 3.2 7 9.1 0.96"
         },
         {
-          "name": "Riley Martin",
+          "name": "Ty Blach",
           "role": "Long Reliever",
           "stats": [
             "0",
             "0",
             "0",
             "0",
-            "4.3%",
-            "16.7%",
-            "4.5",
+            "10.0%",
+            "22.2%",
+            "6.0",
             "0.0%",
             "0.0"
           ],
           "throws": "L",
-          "usage": "13 10 2 2 0.00"
+          "usage": "30 AAA AAA AAA AAA 30 3 1 3 0.00"
         }
       ],
       "injured_headers": [
@@ -1254,13 +1314,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Porter Hodge",
-          "status": "15-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "CHC",
         "league": "NL Central",
@@ -1289,137 +1343,137 @@
           "name": "Paul Sewald",
           "role": "Closer",
           "stats": [
-            "4",
+            "10",
             "0",
-            "3",
-            "2",
-            "11.0%",
-            "35.0%",
-            "11.8",
-            "0.0%",
-            "0.0"
+            "8",
+            "4",
+            "11.7%",
+            "29.2%",
+            "10.5",
+            "9.2%",
+            "3.3"
           ],
           "throws": "R",
-          "usage": "9 (Sv) 6 (L) 7 5.1 3.38"
+          "usage": "16 (Sv) 20 (L,B) 36 1.1 19 16.1 4.41"
         },
         {
           "name": "Juan Morillo",
           "role": "Setup Man",
           "stats": [
-            "0",
-            "5",
-            "6",
             "1",
-            "14.4%",
-            "25.9%",
-            "8.6",
-            "7.4%",
-            "2.5"
-          ],
-          "throws": "R",
-          "usage": "26 (H) 10 (H) 8 7.1 2.45"
-        },
-        {
-          "name": "Jonathan Lo\u00e1isiga",
-          "role": "Setup Man",
-          "stats": [
-            "1",
+            "8",
+            "12",
             "3",
-            "4",
-            "2",
-            "14.3%",
-            "24.1%",
-            "8.6",
-            "0.0%",
-            "0.0"
+            "15.8%",
+            "27.6%",
+            "9.6",
+            "6.6%",
+            "2.3"
           ],
           "throws": "R",
-          "usage": "15 (H) 21 (BS) 25 (BS) 7 7.1 2.45"
+          "usage": "4 1 5 1 21 19.2 1.83"
         },
         {
           "name": "Taylor Clarke",
-          "role": "Middle Reliever",
+          "role": "Setup Man",
           "stats": [
             "0",
-            "4",
-            "3",
-            "1",
-            "9.5%",
-            "19.2%",
-            "6.8",
-            "0.0%",
-            "0.0"
+            "9",
+            "8",
+            "2",
+            "8.5%",
+            "11.7%",
+            "3.9",
+            "2.6%",
+            "0.9"
           ],
           "throws": "R",
-          "usage": "10 (H) 16 17 7 6.2 5.40"
+          "usage": "7 (H) 8 15 0.4 21 20.2 2.18"
         },
         {
-          "name": "Ryan Thompson",
+          "name": "Jonathan Lo\u00e1isiga",
+          "role": "Middle Reliever",
+          "stats": [
+            "1",
+            "4",
+            "6",
+            "3",
+            "11.1%",
+            "16.4%",
+            "5.9",
+            "4.1%",
+            "1.5"
+          ],
+          "throws": "R",
+          "usage": "17 13 30 2 20 18.1 2.95"
+        },
+        {
+          "name": "Brandyn Garcia",
           "role": "Middle Reliever",
           "stats": [
             "0",
+            "1",
             "2",
-            "2",
-            "2",
-            "6.9%",
-            "10.0%",
-            "3.9",
-            "15.0%",
-            "5.8"
+            "1",
+            "11.4%",
+            "28.0%",
+            "9.5",
+            "4.0%",
+            "1.4"
           ],
-          "throws": "R",
-          "usage": "3 (H) 8 (H) 14 (BS) 7 4.2 0.00"
+          "throws": "L",
+          "usage": "16 16 32 1 7 6.2 1.35"
         },
         {
           "name": "Kevin Ginkel",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "1",
             "2",
-            "2",
-            "11.1%",
-            "15.0%",
-            "6.2",
-            "5.0%",
-            "2.1"
+            "6",
+            "5",
+            "12.0%",
+            "28.4%",
+            "10.5",
+            "5.4%",
+            "2.0"
           ],
           "throws": "R",
-          "usage": "12 13 (H) 5 4.1 8.31"
+          "usage": "14 14 28 2 19 18 3.50"
         },
         {
-          "name": "Andrew Hoffmann",
+          "name": "Ryan Thompson",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "0",
-            "0",
-            "0",
-            "5.0%",
-            "24.1%",
-            "9.5",
-            "17.2%",
-            "6.8"
+            "4",
+            "6",
+            "2",
+            "8.8%",
+            "16.9%",
+            "6.2",
+            "9.2%",
+            "3.4"
           ],
           "throws": "R",
-          "usage": "33 4 6.2 1.35"
+          "usage": "18 3 21 1.1 22 16 2.81"
         },
         {
-          "name": "Taylor Rashi",
+          "name": "Brandon Pfaadt",
           "role": "Long Reliever",
           "stats": [
             "0",
             "0",
-            "1",
             "0",
-            "33.3%",
-            "33.3%",
-            "9.0",
-            "0.0%",
-            "0.0"
+            "2",
+            "11.2%",
+            "18.8%",
+            "7.4",
+            "10.4%",
+            "4.1"
           ],
           "throws": "R",
-          "usage": "21 9 (W) 2 3 0.00"
+          "usage": "16 16 0.1 9 32.2 6.34"
         }
       ],
       "injured_headers": [
@@ -1427,23 +1481,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "A.J. Puk",
-          "status": "60-Day IL",
-          "throws": "L"
-        },
-        {
-          "name": "Justin Martinez",
-          "status": "60-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Andrew Saalfrank",
-          "status": "60-Day IL",
-          "throws": "L"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "ARI",
         "league": "NL West",
@@ -1469,140 +1507,140 @@
       ],
       "active_rows": [
         {
-          "name": "Edwin D\u00edaz",
+          "name": "Tanner Scott",
           "role": "Closer",
           "stats": [
             "4",
-            "0",
-            "3",
-            "1",
-            "10.1%",
-            "34.5%",
-            "15.0",
-            "13.8%",
-            "6.0"
-          ],
-          "throws": "R",
-          "usage": "23 (W,B) 23 (Sv) 13 (Sv) 6 6 6.00"
-        },
-        {
-          "name": "Tanner Scott",
-          "role": "Setup Man",
-          "stats": [
-            "0",
-            "2",
             "4",
-            "1",
-            "19.2%",
-            "38.1%",
-            "12.7",
-            "0.0%",
-            "0.0"
+            "7",
+            "2",
+            "17.2%",
+            "27.7%",
+            "8.8",
+            "3.1%",
+            "1.0"
           ],
           "throws": "L",
-          "usage": "10 (H) 15 (H) 7 5.2 1.59"
+          "usage": "9 (Sv) 14 23 2 20 18.1 1.47"
         },
         {
           "name": "Alex Vesia",
           "role": "Setup Man",
           "stats": [
-            "0",
-            "3",
+            "2",
             "4",
-            "0",
-            "12.9%",
-            "21.7%",
-            "7.5",
-            "13.0%",
-            "4.5"
+            "6",
+            "2",
+            "15.3%",
+            "35.4%",
+            "12.7",
+            "12.3%",
+            "4.4"
           ],
           "throws": "L",
-          "usage": "19 (H) 15 (H) 17 6 6 0.00"
+          "usage": "13 19 21 (H) 53 3 20 16.1 2.76"
+        },
+        {
+          "name": "Kyle Hurt",
+          "role": "Setup Man",
+          "stats": [
+            "0",
+            "1",
+            "1",
+            "0",
+            "19.4%",
+            "33.3%",
+            "11.1",
+            "4.2%",
+            "1.4"
+          ],
+          "throws": "R",
+          "usage": "6 17 15 38 3 13 13 0.69"
         },
         {
           "name": "Blake Treinen",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "2",
+            "5",
+            "6",
             "3",
-            "0",
-            "16.1%",
-            "17.6%",
-            "5.8",
-            "11.8%",
-            "3.9"
+            "11.3%",
+            "21.9%",
+            "8.6",
+            "7.8%",
+            "3.1"
           ],
           "throws": "R",
-          "usage": "9 10 (H) 5 4.2 0.00"
+          "usage": "17 11 28 2 18 14.2 3.68"
         },
         {
           "name": "Will Klein",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "0",
-            "0",
-            "0",
-            "8.1%",
-            "22.7%",
-            "7.9",
-            "9.1%",
-            "3.2"
+            "4",
+            "2",
+            "4",
+            "7.6%",
+            "24.4%",
+            "9.3",
+            "7.7%",
+            "2.9"
           ],
           "throws": "R",
-          "usage": "27 4 5.2 1.59"
+          "usage": "32 32 2 13 18.1 2.45"
         },
         {
           "name": "Edgardo Henriquez",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "0",
             "1",
-            "0",
-            "9.7%",
-            "23.5%",
-            "9.0",
-            "5.9%",
-            "2.3"
+            "1",
+            "2",
+            "11.9%",
+            "23.2%",
+            "8.5",
+            "10.1%",
+            "3.7"
           ],
           "throws": "R",
-          "usage": "11 4 4 6.75"
+          "usage": "17 (W) 17 (H) 34 2 16 17 3.71"
         },
         {
-          "name": "Jack Dreyer",
+          "name": "Wyatt Mills",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "1",
-            "1",
-            "1",
-            "7.5%",
-            "21.1%",
-            "8.3",
-            "15.8%",
-            "6.2"
+            "0",
+            "0",
+            "0",
+            "7.3%",
+            "4.8%",
+            "2.7",
+            "33.3%",
+            "18.9"
           ],
-          "throws": "L",
-          "usage": "19 (BS) 16 (W) 5 4.1 4.15"
+          "throws": "R",
+          "usage": "19 15 34 2 4 3.1 8.10"
         },
         {
-          "name": "Ben Casparius",
+          "name": "Paul Gervase",
           "role": "Long Reliever",
           "stats": [
             "0",
             "0",
             "0",
-            "1",
-            "11.0%",
-            "17.6%",
-            "7.4",
-            "11.8%",
-            "4.9"
+            "0",
+            "12.0%",
+            "35.7%",
+            "15.0",
+            "7.1%",
+            "3.0"
           ],
           "throws": "R",
-          "usage": "16 (L) 4 3.2 7.36"
+          "usage": "AAA AAA AAA AAA 0 0 1 3 3.00"
         }
       ],
       "injured_headers": [
@@ -1610,33 +1648,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Brusdar Graterol",
-          "status": "15-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Brock Stewart",
-          "status": "15-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Evan Phillips",
-          "status": "60-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Bobby Miller",
-          "status": "60-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Jake Cousins",
-          "status": "60-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "LAD",
         "league": "NL West",
@@ -1662,123 +1674,123 @@
       ],
       "active_rows": [
         {
-          "name": "Ryan Walker",
+          "name": "Caleb Kilian",
           "role": "Closer",
           "stats": [
-            "1",
-            "1",
+            "2",
+            "2",
+            "6",
             "0",
-            "0",
-            "3.5%",
-            "26.3%",
-            "10.4",
-            "15.8%",
-            "6.2"
+            "12.5%",
+            "25.6%",
+            "9.5",
+            "14.6%",
+            "5.4"
           ],
           "throws": "R",
-          "usage": "25 (H) 5 4.1 4.15"
+          "usage": "9 9 0.2 19 20 1.80"
         },
         {
-          "name": "Caleb Kilian",
+          "name": "Keaton Winn",
           "role": "Setup Man",
           "stats": [
             "0",
-            "1",
-            "1",
-            "0",
-            "13.9%",
-            "36.8%",
-            "11.8",
-            "10.5%",
-            "3.4"
+            "9",
+            "4",
+            "2",
+            "11.5%",
+            "22.2%",
+            "7.4",
+            "8.3%",
+            "2.8"
           ],
           "throws": "R",
-          "usage": "13 (H) 17 6 5.1 0.00"
+          "usage": "18 18 1 20 19.1 2.33"
         },
         {
           "name": "Erik Miller",
           "role": "Setup Man",
           "stats": [
+            "2",
+            "4",
+            "3",
+            "1",
+            "11.6%",
+            "34.6%",
+            "13.5",
+            "15.4%",
+            "6.0"
+          ],
+          "throws": "L",
+          "usage": "24 IL IL IL 24 0.2 13 12 4.50"
+        },
+        {
+          "name": "Joel Peguero",
+          "role": "Middle Reliever",
+          "stats": [
             "0",
             "0",
             "0",
             "1",
-            "15.5%",
-            "30.0%",
-            "13.5",
-            "10.0%",
-            "4.5"
+            "6.4%",
+            "4.2%",
+            "1.4",
+            "8.3%",
+            "2.8"
           ],
-          "throws": "L",
-          "usage": "17 24 (BS) 5 4 9.00"
+          "throws": "R",
+          "usage": "12 12 24 2.1 6 6.1 1.42"
         },
         {
           "name": "Matt Gage",
           "role": "Middle Reliever",
           "stats": [
-            "0",
             "1",
-            "0",
-            "0",
-            "11.5%",
-            "20.8%",
-            "6.8",
-            "12.5%",
-            "4.1"
+            "5",
+            "5",
+            "3",
+            "8.8%",
+            "16.7%",
+            "6.1",
+            "14.1%",
+            "5.1"
           ],
           "throws": "L",
-          "usage": "2 13 (W) 15 7 6.2 0.00"
+          "usage": "15 (Sv) 21 36 1.1 23 19.1 1.40"
         },
         {
-          "name": "Keaton Winn",
+          "name": "Sam Hentges",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "2",
-            "0",
             "1",
-            "20.2%",
-            "28.0%",
-            "9.9",
-            "8.0%",
-            "2.8"
+            "1",
+            "0",
+            "7.8%",
+            "35.7%",
+            "13.5",
+            "21.4%",
+            "8.1"
           ],
-          "throws": "R",
-          "usage": "11 11 8 (L,H) 7 6.1 4.26"
-        },
-        {
-          "name": "Blade Tidwell",
-          "role": "Middle Reliever",
-          "stats": [
-            "1",
-            "1",
-            "0",
-            "0",
-            "13.8%",
-            "22.7%",
-            "7.5",
-            "4.5%",
-            "1.5"
-          ],
-          "throws": "R",
-          "usage": "18 13 (H) 19 4 6 3.00"
+          "throws": "L",
+          "usage": "10 (H) 13 23 2 4 3.1 0.00"
         },
         {
           "name": "Ryan Borucki",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "0",
-            "0",
+            "1",
             "2",
-            "12.5%",
-            "10.5%",
-            "4.5",
-            "10.5%",
-            "4.5"
+            "4",
+            "14.6%",
+            "15.8%",
+            "5.9",
+            "7.9%",
+            "2.9"
           ],
           "throws": "L",
-          "usage": "12 (L,B) 5 4 9.00"
+          "usage": "22 10 13 45 4 18 18.1 3.93"
         },
         {
           "name": "JT Brubaker",
@@ -1787,15 +1799,15 @@
             "0",
             "0",
             "0",
-            "1",
+            "2",
             "9.7%",
-            "18.8%",
-            "7.4",
-            "18.8%",
-            "7.4"
+            "17.9%",
+            "7.2",
+            "12.6%",
+            "5.1"
           ],
           "throws": "R",
-          "usage": "15 19 6 7.1 3.68"
+          "usage": "29 13 42 2.2 16 21.1 3.80"
         }
       ],
       "injured_headers": [
@@ -1803,33 +1815,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Sam Hentges",
-          "status": "15-Day IL",
-          "throws": "L"
-        },
-        {
-          "name": "Joel Peguero",
-          "status": "15-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Jason Foley",
-          "status": "60-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Reiver Sanmartin",
-          "status": "60-Day IL",
-          "throws": "L"
-        },
-        {
-          "name": "Randy Rodr\u00edguez",
-          "status": "60-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "SFG",
         "league": "NL West",
@@ -1858,137 +1844,137 @@
           "name": "Cade Smith",
           "role": "Closer",
           "stats": [
-            "3",
+            "14",
             "0",
-            "3",
-            "1",
-            "13.6%",
-            "32.3%",
+            "11",
+            "2",
+            "17.5%",
+            "35.6%",
             "12.9",
-            "9.7%",
-            "3.9"
+            "5.7%",
+            "2.1"
           ],
           "throws": "R",
-          "usage": "10 (W) 33 (Sv) 7 7 6.43"
-        },
-        {
-          "name": "Shawn Armstrong",
-          "role": "Setup Man",
-          "stats": [
-            "0",
-            "3",
-            "2",
-            "2",
-            "8.7%",
-            "31.0%",
-            "12.2",
-            "13.8%",
-            "5.4"
-          ],
-          "throws": "R",
-          "usage": "25 29 (W) 7 6.2 2.70"
+          "usage": "17 (Sv) 14 (Sv) 31 2 21 21.2 2.91"
         },
         {
           "name": "Erik Sabrowski",
           "role": "Setup Man",
           "stats": [
             "0",
-            "5",
-            "3",
-            "0",
-            "19.8%",
-            "43.5%",
-            "15.0",
-            "8.7%",
-            "3.0"
-          ],
-          "throws": "L",
-          "usage": "13 (H) 15 14 7 6 0.00"
-        },
-        {
-          "name": "Tim Herrin",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "0",
+            "16",
+            "11",
             "2",
-            "0",
-            "15.4%",
-            "20.0%",
-            "7.7",
-            "10.0%",
-            "3.9"
+            "17.3%",
+            "47.4%",
+            "16.5",
+            "13.2%",
+            "4.6"
           ],
           "throws": "L",
-          "usage": "11 5 17 4 2.1 0.00"
+          "usage": "5 (W) 22 (H) 27 1.1 23 19.2 1.83"
         },
         {
-          "name": "Connor Brogdon",
-          "role": "Middle Reliever",
+          "name": "Hunter Gaddis",
+          "role": "Setup Man",
           "stats": [
-            "1",
-            "1",
-            "3",
-            "1",
-            "13.3%",
-            "28.6%",
-            "10.1",
-            "4.8%",
-            "1.7"
+            "0",
+            "4",
+            "5",
+            "2",
+            "13.0%",
+            "16.0%",
+            "7.0",
+            "10.0%",
+            "4.4"
           ],
           "throws": "R",
-          "usage": "24 (H) 19 (L) 5 5.1 3.38"
+          "usage": "14 (H) 14 1 13 10.1 6.10"
+        },
+        {
+          "name": "Shawn Armstrong",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "3",
+            "3",
+            "3",
+            "9.0%",
+            "27.7%",
+            "11.0",
+            "14.9%",
+            "5.9"
+          ],
+          "throws": "R",
+          "usage": "IL IL IL IL IL 0 0 12 10.2 4.22"
         },
         {
           "name": "Matt Festa",
           "role": "Middle Reliever",
           "stats": [
             "1",
-            "0",
-            "2",
-            "2",
-            "9.2%",
-            "16.7%",
-            "6.8",
-            "3.3%",
-            "1.4"
+            "6",
+            "5",
+            "4",
+            "11.0%",
+            "23.1%",
+            "9.0",
+            "5.5%",
+            "2.1"
           ],
           "throws": "R",
-          "usage": "17 21 (Sv) 13 6 6.2 8.10"
+          "usage": "6 7 4 (H) 17 0.4 21 21 4.71"
         },
         {
-          "name": "Peyton Pallette",
+          "name": "Tim Herrin",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "0",
-            "0",
-            "0",
-            "9.9%",
-            "26.5%",
-            "10.6",
-            "8.8%",
-            "3.5"
+            "2",
+            "4",
+            "4",
+            "12.3%",
+            "14.3%",
+            "5.9",
+            "14.3%",
+            "5.9"
           ],
-          "throws": "R",
-          "usage": "37 30 (L) 15 5 7.2 4.70"
+          "throws": "L",
+          "usage": "19 8 27 2 19 15.1 1.17"
         },
         {
-          "name": "Kolby Allard",
+          "name": "Colin Holderman",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "1",
+            "3",
+            "1",
+            "12.6%",
+            "29.0%",
+            "9.9",
+            "6.5%",
+            "2.2"
+          ],
+          "throws": "R",
+          "usage": "13 13 1.1 11 16.1 1.65"
+        },
+        {
+          "name": "Peyton Pallette",
           "role": "Long Reliever",
           "stats": [
             "0",
-            "0",
-            "0",
             "1",
-            "6.5%",
-            "29.6%",
-            "12.7",
-            "7.4%",
-            "3.2"
+            "2",
+            "2",
+            "10.4%",
+            "23.1%",
+            "9.6",
+            "14.3%",
+            "5.9"
           ],
-          "throws": "L",
-          "usage": "18 35 3 5.2 7.94"
+          "throws": "R",
+          "usage": "29 29 58 2 15 19.2 5.49"
         }
       ],
       "injured_headers": [
@@ -1996,18 +1982,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Hunter Gaddis",
-          "status": "15-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Andrew Walters",
-          "status": "15-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "CLE",
         "league": "AL Central",
@@ -2036,137 +2011,120 @@
           "name": "Andr\u00e9s Mu\u00f1oz",
           "role": "Closer",
           "stats": [
-            "1",
+            "8",
             "0",
-            "2",
-            "1",
-            "21.3%",
-            "40.0%",
-            "14.4",
-            "10.0%",
-            "3.6"
+            "9",
+            "5",
+            "20.0%",
+            "39.0%",
+            "15.0",
+            "9.1%",
+            "3.5"
           ],
           "throws": "R",
-          "usage": "25 (Sv) 16 5 5 3.60"
-        },
-        {
-          "name": "Matt Brash",
-          "role": "Setup Man",
-          "stats": [
-            "0",
-            "1",
-            "2",
-            "0",
-            "16.7%",
-            "26.7%",
-            "7.7",
-            "0.0%",
-            "0.0"
-          ],
-          "throws": "R",
-          "usage": "4 (H) 10 (BS) 5 4.2 0.00"
+          "usage": "10 14 24 2 19 18 5.00"
         },
         {
           "name": "Jose A. Ferrer",
           "role": "Setup Man",
           "stats": [
-            "0",
-            "1",
-            "0",
             "2",
-            "12.8%",
-            "21.7%",
-            "9.0",
-            "4.3%",
-            "1.8"
+            "5",
+            "11",
+            "5",
+            "12.1%",
+            "18.4%",
+            "7.3",
+            "3.1%",
+            "1.2"
           ],
           "throws": "L",
-          "usage": "16 12 19 6 5 3.60"
+          "usage": "19 (H) 11 30 2.1 23 22.1 1.61"
         },
         {
           "name": "Eduard Bazardo",
-          "role": "Middle Reliever",
+          "role": "Setup Man",
           "stats": [
             "0",
-            "1",
-            "1",
-            "1",
-            "5.2%",
-            "18.2%",
-            "6.4",
-            "13.6%",
-            "4.8"
+            "8",
+            "7",
+            "5",
+            "9.6%",
+            "20.2%",
+            "7.7",
+            "9.0%",
+            "3.4"
           ],
           "throws": "R",
-          "usage": "17 (H) 8 6 5.2 1.59"
-        },
-        {
-          "name": "Gabe Speier",
-          "role": "Middle Reliever",
-          "stats": [
-            "1",
-            "1",
-            "2",
-            "2",
-            "17.3%",
-            "25.0%",
-            "9.0",
-            "4.2%",
-            "1.5"
-          ],
-          "throws": "L",
-          "usage": "12 (H) 9 3 (L) 7 6 3.00"
-        },
-        {
-          "name": "Casey Legumina",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "0",
-            "1",
-            "0",
-            "6.3%",
-            "18.2%",
-            "6.4",
-            "4.5%",
-            "1.6"
-          ],
-          "throws": "R",
-          "usage": "26 4 5.2 0.00"
-        },
-        {
-          "name": "Cole Wilcox",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "0",
-            "1",
-            "0",
-            "12.2%",
-            "28.6%",
-            "11.6",
-            "4.8%",
-            "1.9"
-          ],
-          "throws": "R",
-          "usage": "18 23 4 4.2 5.79"
+          "usage": "19 (H) 14 33 0.4 23 21 2.57"
         },
         {
           "name": "Cooper Criswell",
-          "role": "Long Reliever",
+          "role": "Middle Reliever",
           "stats": [
             "1",
+            "3",
+            "3",
+            "4",
+            "10.7%",
+            "23.0%",
+            "7.9",
+            "6.8%",
+            "2.3"
+          ],
+          "throws": "R",
+          "usage": "19 13 17 (BS) 49 1.1 17 19.1 2.79"
+        },
+        {
+          "name": "Nick Davila",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "1",
+            "2",
+            "0",
+            "4.1%",
+            "12.5%",
+            "4.3",
+            "16.7%",
+            "5.7"
+          ],
+          "throws": "R",
+          "usage": "19 25 11 55 3.1 6 6.1 0.00"
+        },
+        {
+          "name": "Alex Hoppe",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
             "0",
             "0",
             "1",
-            "7.9%",
-            "26.9%",
-            "9.0",
             "11.5%",
-            "3.9"
+            "25.6%",
+            "10.6",
+            "7.0%",
+            "2.9"
           ],
           "throws": "R",
-          "usage": "23 4 7 2.57"
+          "usage": "26 13 6 (L) 45 2.2 8 9.1 5.79"
+        },
+        {
+          "name": "Luis Castillo",
+          "role": "Long Reliever",
+          "stats": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "11.0%",
+            "21.3%",
+            "8.8",
+            "7.9%",
+            "3.3"
+          ],
+          "throws": "R",
+          "usage": "108 (W) 108 5.2 9 44 6.34"
         }
       ],
       "injured_headers": [
@@ -2174,13 +2132,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Carlos Vargas",
-          "status": "60-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "SEA",
         "league": "AL West",
@@ -2209,120 +2161,120 @@
           "name": "Pete Fairbanks",
           "role": "Closer",
           "stats": [
-            "2",
-            "0",
-            "2",
-            "0",
-            "12.5%",
-            "35.3%",
+            "5",
+            "1",
+            "4",
+            "3",
+            "10.9%",
+            "32.6%",
             "13.5",
-            "5.9%",
-            "2.3"
+            "10.9%",
+            "4.5"
           ],
           "throws": "R",
-          "usage": "PL PL PL 28 4 4 6.75"
+          "usage": "24 (W,B) 24 1 11 10 9.00"
         },
         {
           "name": "Calvin Faucher",
           "role": "Setup Man",
           "stats": [
-            "0",
             "1",
-            "1",
-            "2",
-            "10.4%",
-            "35.0%",
-            "14.5",
-            "20.0%",
-            "8.3"
+            "3",
+            "6",
+            "5",
+            "10.8%",
+            "23.5%",
+            "9.2",
+            "17.3%",
+            "6.8"
           ],
           "throws": "R",
-          "usage": "28 (L) 23 (H) 5 4.1 6.23"
+          "usage": "23 24 47 2.2 19 18.2 2.89"
+        },
+        {
+          "name": "Tyler Phillips",
+          "role": "Setup Man",
+          "stats": [
+            "2",
+            "0",
+            "4",
+            "1",
+            "13.2%",
+            "21.6%",
+            "8.3",
+            "12.9%",
+            "5.0"
+          ],
+          "throws": "R",
+          "usage": "43 14 57 3.1 14 27 1.33"
         },
         {
           "name": "Anthony Bender",
-          "role": "Setup Man",
-          "stats": [
-            "1",
-            "2",
-            "1",
-            "2",
-            "5.1%",
-            "26.9%",
-            "12.6",
-            "19.2%",
-            "9.0"
-          ],
-          "throws": "R",
-          "usage": "12 (H) 21 (BS) 31 (Sv) 6 5 7.20"
-        },
-        {
-          "name": "Andrew Nardi",
           "role": "Middle Reliever",
           "stats": [
-            "0",
-            "2",
+            "1",
+            "4",
+            "4",
             "3",
+            "6.0%",
+            "25.7%",
+            "9.7",
+            "10.8%",
+            "4.1"
+          ],
+          "throws": "R",
+          "usage": "9 19 28 3 19 17.2 3.57"
+        },
+        {
+          "name": "John King",
+          "role": "Middle Reliever",
+          "stats": [
+            "1",
+            "3",
+            "5",
             "0",
-            "17.6%",
-            "37.5%",
-            "13.5",
-            "18.8%",
-            "6.8"
+            "9.0%",
+            "22.1%",
+            "7.4",
+            "9.1%",
+            "3.0"
           ],
           "throws": "L",
-          "usage": "10 (H) 12 5 4 2.25"
+          "usage": "9 12 17 13 51 4 23 20.2 2.18"
         },
         {
           "name": "Michael Petersen",
           "role": "Middle Reliever",
           "stats": [
             "1",
-            "0",
-            "0",
-            "1",
-            "11.7%",
-            "26.1%",
-            "10.8",
-            "17.4%",
-            "7.2"
+            "4",
+            "3",
+            "3",
+            "10.3%",
+            "25.8%",
+            "9.4",
+            "7.6%",
+            "2.8"
           ],
           "throws": "R",
-          "usage": "22 (Sv) 5 5 5.40"
+          "usage": "14 14 1.1 15 16.1 4.41"
         },
         {
-          "name": "Tyler Phillips",
-          "role": "Middle Reliever",
-          "stats": [
-            "1",
-            "0",
-            "1",
-            "0",
-            "14.9%",
-            "27.8%",
-            "10.4",
-            "11.1%",
-            "4.2"
-          ],
-          "throws": "R",
-          "usage": "37 (Sv) 23 4 8.2 0.00"
-        },
-        {
-          "name": "John King",
+          "name": "Andrew Nardi",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "0",
-            "0",
-            "0",
-            "19.1%",
-            "23.1%",
-            "7.4",
-            "15.4%",
-            "4.9"
+            "6",
+            "9",
+            "3",
+            "12.4%",
+            "24.4%",
+            "9.7",
+            "14.1%",
+            "5.6"
           ],
           "throws": "L",
-          "usage": "7 5 (W) 5 3.2 0.00"
+          "usage": "11 16 27 2 20 17.2 5.09"
         },
         {
           "name": "Lake Bachar",
@@ -2330,16 +2282,16 @@
           "stats": [
             "0",
             "1",
+            "1",
             "0",
-            "0",
-            "19.5%",
-            "35.7%",
-            "12.9",
-            "10.7%",
-            "3.9"
+            "15.7%",
+            "26.6%",
+            "9.4",
+            "9.6%",
+            "3.4"
           ],
           "throws": "R",
-          "usage": "34 18 (H) 4 7 3.86"
+          "usage": "15 27 23 65 4 15 24 2.63"
         }
       ],
       "injured_headers": [
@@ -2347,13 +2299,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Ronny Henriquez",
-          "status": "60-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "MIA",
         "league": "NL East",
@@ -2382,103 +2328,120 @@
           "name": "Devin Williams",
           "role": "Closer",
           "stats": [
+            "6",
+            "0",
+            "9",
             "2",
-            "0",
-            "4",
-            "0",
-            "16.3%",
-            "33.3%",
-            "12.6",
-            "9.5%",
-            "3.6"
+            "17.2%",
+            "35.3%",
+            "13.8",
+            "11.8%",
+            "4.6"
           ],
           "throws": "R",
-          "usage": "16 21 (Sv) 5 5 0.00"
+          "usage": "14 (W) 12 (Sv) 13 39 3 18 15.2 4.60"
         },
         {
           "name": "Luke Weaver",
           "role": "Setup Man",
           "stats": [
             "0",
-            "1",
-            "4",
-            "1",
-            "10.0%",
-            "13.0%",
-            "4.8",
-            "8.7%",
-            "3.2"
+            "5",
+            "12",
+            "3",
+            "12.7%",
+            "25.0%",
+            "9.3",
+            "8.3%",
+            "3.1"
           ],
           "throws": "R",
-          "usage": "16 (BS) 13 (W) 12 (H) 6 5.2 3.18"
+          "usage": "19 19 (H) 23 61 4 19 20.1 3.54"
         },
         {
           "name": "Brooks Raley",
           "role": "Setup Man",
           "stats": [
             "0",
-            "2",
+            "7",
+            "9",
             "4",
-            "0",
-            "10.5%",
-            "43.8%",
-            "13.5",
-            "0.0%",
-            "0.0"
+            "11.8%",
+            "27.3%",
+            "10.3",
+            "10.4%",
+            "3.9"
           ],
           "throws": "L",
-          "usage": "20 5 4.2 0.00"
+          "usage": "23 (H) 18 (H) 17 (W) 58 1.1 20 18.1 1.47"
         },
         {
           "name": "Huascar Brazob\u00e1n",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "0",
-            "3",
             "1",
-            "11.4%",
-            "14.3%",
-            "4.8",
-            "0.0%",
-            "0.0"
+            "9",
+            "3",
+            "13.5%",
+            "19.8%",
+            "7.0",
+            "10.4%",
+            "3.7"
           ],
           "throws": "R",
-          "usage": "14 10 (W) 6 5.2 0.00"
+          "usage": "22 (W) 24 27 73 5.2 20 24.1 1.85"
         },
         {
-          "name": "Luis Garc\u00eda",
+          "name": "Austin Warren",
           "role": "Middle Reliever",
           "stats": [
             "0",
             "0",
+            "4",
             "1",
-            "1",
-            "12.4%",
-            "10.7%",
-            "5.1",
-            "7.1%",
-            "3.4"
+            "10.0%",
+            "27.6%",
+            "9.8",
+            "12.1%",
+            "4.3"
           ],
           "throws": "R",
-          "usage": "21 23 5 5.1 8.44"
+          "usage": "28 33 61 3.2 10 14.2 0.61"
         },
         {
-          "name": "Tobias Myers",
+          "name": "Craig Kimbrel",
           "role": "Middle Reliever",
           "stats": [
             "0",
             "1",
             "2",
-            "0",
-            "8.6%",
-            "17.9%",
-            "5.7",
-            "2.6%",
-            "0.8"
+            "2",
+            "11.7%",
+            "24.1%",
+            "9.5",
+            "11.1%",
+            "4.4"
           ],
           "throws": "R",
-          "usage": "36 5 11 3.27"
+          "usage": "24 17 19 60 3 13 12.1 5.84"
+        },
+        {
+          "name": "Tobias Myers",
+          "role": "Middle Reliever",
+          "stats": [
+            "1",
+            "1",
+            "5",
+            "3",
+            "9.2%",
+            "20.0%",
+            "7.1",
+            "5.2%",
+            "1.9"
+          ],
+          "throws": "R",
+          "usage": "25 (BS) 25 10 60 4 16 29 3.41"
         },
         {
           "name": "Sean Manaea",
@@ -2486,16 +2449,16 @@
           "stats": [
             "0",
             "0",
-            "1",
-            "0",
-            "8.7%",
-            "14.3%",
-            "6.0",
-            "14.3%",
-            "6.0"
+            "2",
+            "3",
+            "9.7%",
+            "22.1%",
+            "9.5",
+            "9.9%",
+            "4.3"
           ],
           "throws": "L",
-          "usage": "70 3 9 3.00"
+          "usage": "57 57 4 10 27.1 6.26"
         }
       ],
       "injured_headers": [
@@ -2503,23 +2466,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "A.J. Minter",
-          "status": "15-Day IL",
-          "throws": "L"
-        },
-        {
-          "name": "Dedniel N\u00fa\u00f1ez",
-          "status": "60-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Reed Garrett",
-          "status": "60-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "NYM",
         "league": "NL East",
@@ -2545,140 +2492,140 @@
       ],
       "active_rows": [
         {
-          "name": "Clayton Beeter",
-          "role": "Co-Closer",
+          "name": "Gus Varland",
+          "role": "Closer",
           "stats": [
-            "1",
-            "1",
-            "2",
-            "1",
-            "8.2%",
-            "15.4%",
-            "5.4",
-            "15.4%",
-            "5.4"
+            "4",
+            "5",
+            "11",
+            "4",
+            "12.5%",
+            "22.0%",
+            "8.7",
+            "8.5%",
+            "3.4"
           ],
           "throws": "R",
-          "usage": "12 15 25 (BS) 6 6.2 2.70"
-        },
-        {
-          "name": "Cole Henry",
-          "role": "Co-Closer",
-          "stats": [
-            "0",
-            "0",
-            "0",
-            "2",
-            "10.3%",
-            "25.0%",
-            "10.3",
-            "9.4%",
-            "3.9"
-          ],
-          "throws": "R",
-          "usage": "43 16 (L) 6 7 3.86"
+          "usage": "19 9 (H) 11 (W) 39 3.2 19 18.2 3.86"
         },
         {
           "name": "PJ Poulin",
           "role": "Setup Man",
           "stats": [
-            "0",
-            "3",
             "2",
-            "1",
+            "4",
+            "6",
+            "5",
             "6.1%",
-            "17.6%",
-            "7.0",
-            "20.6%",
-            "8.2"
+            "16.7%",
+            "6.6",
+            "14.6%",
+            "5.8"
           ],
           "throws": "L",
-          "usage": "10 (W) 15 27 (H) 34 8 7.2 4.70"
+          "usage": "16 19 (H) 26 (Sv) 61 2.2 23 21.2 2.91"
         },
         {
-          "name": "Cionel P\u00e9rez",
-          "role": "Middle Reliever",
+          "name": "Brad Lord",
+          "role": "Setup Man",
           "stats": [
             "0",
-            "1",
-            "1",
             "2",
-            "8.9%",
-            "13.8%",
-            "6.4",
-            "13.8%",
+            "4",
+            "2",
+            "9.4%",
+            "18.5%",
+            "7.1",
+            "4.8%",
+            "1.9"
+          ],
+          "throws": "R",
+          "usage": "27 27 1 14 29 3.10"
+        },
+        {
+          "name": "Richard Lovelady",
+          "role": "Middle Reliever",
+          "stats": [
+            "2",
+            "3",
+            "6",
+            "2",
+            "9.7%",
+            "21.1%",
+            "8.7",
+            "15.6%",
             "6.4"
           ],
           "throws": "L",
-          "usage": "14 24 21 (W) 20 (L) 7 5.2 11.12"
+          "usage": "27 (L) 11 (Sv) 17 55 2.2 18 19.2 2.75"
         },
         {
-          "name": "Gus Varland",
+          "name": "Mitchell Parker",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "1",
-            "1",
-            "1",
-            "10.0%",
-            "26.3%",
-            "11.3",
-            "10.5%",
-            "4.5"
-          ],
-          "throws": "R",
-          "usage": "22 (BS) 4 4 6.75"
-        },
-        {
-          "name": "Ken Waldichuk",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "0",
-            "1",
-            "1",
-            "11.3%",
-            "20.6%",
-            "8.2",
-            "14.7%",
-            "5.9"
+            "3",
+            "4",
+            "4",
+            "15.8%",
+            "20.4%",
+            "7.4",
+            "6.5%",
+            "2.3"
           ],
           "throws": "L",
-          "usage": "33 (BS) 4 7.2 7.04"
+          "usage": "42 44 86 6 10 23 4.70"
+        },
+        {
+          "name": "Orlando Ribalta",
+          "role": "Middle Reliever",
+          "stats": [
+            "1",
+            "1",
+            "5",
+            "0",
+            "11.0%",
+            "25.0%",
+            "8.0",
+            "6.3%",
+            "2.0"
+          ],
+          "throws": "R",
+          "usage": "9 14 6 29 3 9 9 2.00"
         },
         {
           "name": "Paxton Schultz",
           "role": "Middle Reliever",
           "stats": [
+            "1",
             "0",
-            "0",
-            "0",
-            "0",
-            "13.0%",
-            "18.2%",
-            "9.0",
-            "9.1%",
-            "4.5"
+            "1",
+            "2",
+            "8.1%",
+            "24.4%",
+            "10.0",
+            "6.1%",
+            "2.5"
           ],
           "throws": "R",
-          "usage": "20 26 IL IL 2 2 0.00"
+          "usage": "25 (L) 19 17 61 2.1 14 18 5.50"
         },
         {
-          "name": "Brad Lord",
+          "name": "Andrew Alvarez",
           "role": "Long Reliever",
           "stats": [
             "0",
-            "0",
-            "0",
             "1",
-            "10.1%",
-            "13.3%",
-            "5.2",
-            "4.4%",
-            "1.7"
+            "1",
+            "0",
+            "12.7%",
+            "34.5%",
+            "12.3",
+            "3.4%",
+            "1.2"
           ],
-          "throws": "R",
-          "usage": "52 4 10.1 4.35"
+          "throws": "L",
+          "usage": "48 (H) AAA AAA 48 3 2 7.1 2.45"
         }
       ],
       "injured_headers": [
@@ -2712,157 +2659,140 @@
       ],
       "active_rows": [
         {
-          "name": "Ryan Helsley",
-          "role": "Closer",
-          "stats": [
-            "4",
-            "0",
-            "4",
-            "1",
-            "14.9%",
-            "30.4%",
-            "14.5",
-            "17.4%",
-            "8.3"
-          ],
-          "throws": "R",
-          "usage": "18 (Sv) 24 (Sv) 5 4.1 4.15"
-        },
-        {
           "name": "Rico Garcia",
-          "role": "Setup Man",
+          "role": "Co-Closer",
           "stats": [
-            "1",
-            "2",
             "3",
-            "0",
-            "12.7%",
-            "35.0%",
-            "11.1",
-            "15.0%",
-            "4.8"
+            "7",
+            "11",
+            "1",
+            "18.6%",
+            "35.3%",
+            "10.8",
+            "10.3%",
+            "3.2"
           ],
           "throws": "R",
-          "usage": "22 (Sv) 10 (H) 6 5.2 0.00"
-        },
-        {
-          "name": "Tyler Wells",
-          "role": "Setup Man",
-          "stats": [
-            "0",
-            "4",
-            "2",
-            "1",
-            "13.2%",
-            "26.5%",
-            "10.6",
-            "11.8%",
-            "4.7"
-          ],
-          "throws": "R",
-          "usage": "22 (H) 32 (H) 6 7.2 3.52"
-        },
-        {
-          "name": "Yennier Cano",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "1",
-            "1",
-            "1",
-            "17.3%",
-            "33.3%",
-            "11.3",
-            "0.0%",
-            "0.0"
-          ],
-          "throws": "R",
-          "usage": "9 10 (W) 7 6 4 2.25"
-        },
-        {
-          "name": "Grant Wolfram",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "3",
-            "3",
-            "1",
-            "10.1%",
-            "40.9%",
-            "16.2",
-            "0.0%",
-            "0.0"
-          ],
-          "throws": "L",
-          "usage": "10 (H) 16 (H) 5 5 3.60"
+          "usage": "18 18 1 21 20 0.45"
         },
         {
           "name": "Anthony Nunez",
-          "role": "Middle Reliever",
+          "role": "Co-Closer",
+          "stats": [
+            "2",
+            "6",
+            "8",
+            "4",
+            "17.3%",
+            "28.1%",
+            "10.5",
+            "7.9%",
+            "3.0"
+          ],
+          "throws": "R",
+          "usage": "17 (W) 17 1.1 20 21.1 3.80"
+        },
+        {
+          "name": "Yennier Cano",
+          "role": "Setup Man",
           "stats": [
             "0",
+            "3",
             "2",
             "1",
-            "1",
-            "16.3%",
-            "29.2%",
-            "9.9",
-            "4.2%",
-            "1.4"
+            "11.3%",
+            "20.0%",
+            "6.4",
+            "5.0%",
+            "1.6"
           ],
           "throws": "R",
-          "usage": "10 (H) 6 (H) 5 6.1 2.84"
+          "usage": "17 (H) 10 27 2 21 17 1.06"
         },
         {
-          "name": "Albert Su\u00e1rez",
-          "role": "Middle Reliever",
-          "stats": [
-            "1",
-            "0",
-            "0",
-            "0",
-            "13.3%",
-            "15.8%",
-            "5.4",
-            "5.3%",
-            "1.8"
-          ],
-          "throws": "R",
-          "usage": "18 2 5 1.80"
-        },
-        {
-          "name": "Nick Raquet",
+          "name": "Andrew Kittredge",
           "role": "Middle Reliever",
           "stats": [
             "0",
+            "1",
+            "0",
+            "3",
+            "10.4%",
+            "18.6%",
+            "8.6",
+            "7.0%",
+            "3.2"
+          ],
+          "throws": "R",
+          "usage": "7 12 19 1.1 10 8.1 9.72"
+        },
+        {
+          "name": "Keegan Akin",
+          "role": "Middle Reliever",
+          "stats": [
             "0",
             "0",
             "1",
-            "4.0%",
-            "0.0%",
-            "0.0",
-            "16.7%",
-            "9.0"
+            "1",
+            "9.2%",
+            "17.5%",
+            "7.9",
+            "5.0%",
+            "2.3"
           ],
           "throws": "L",
-          "usage": "25 AAA AAA 1 1 27.00"
+          "usage": "22 16 38 1.1 9 8 14.63"
         },
         {
-          "name": "Cade Povich",
+          "name": "Dietrich Enns",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "0",
+            "3",
+            "0",
+            "9.3%",
+            "18.0%",
+            "7.2",
+            "18.0%",
+            "7.2"
+          ],
+          "throws": "L",
+          "usage": "39 18 18 75 3 11 13.2 3.95"
+        },
+        {
+          "name": "Cameron Foster",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "0",
+            "0",
+            "1",
+            "11.1%",
+            "18.4%",
+            "9.0",
+            "16.3%",
+            "8.0"
+          ],
+          "throws": "R",
+          "usage": "35 AAA AAA AAA AAA 35 1.1 6 9 9.00"
+        },
+        {
+          "name": "Tyler Wells",
           "role": "Long Reliever",
           "stats": [
             "0",
-            "0",
-            "0",
-            "0",
-            "9.2%",
-            "8.3%",
-            "3.2",
-            "12.5%",
-            "4.8"
+            "5",
+            "4",
+            "2",
+            "14.3%",
+            "23.3%",
+            "8.9",
+            "6.7%",
+            "2.5"
           ],
-          "throws": "L",
-          "usage": "87 1 5.2 3.18"
+          "throws": "R",
+          "usage": "38 38 2 16 21.1 3.38"
         }
       ],
       "injured_headers": [
@@ -2870,28 +2800,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Andrew Kittredge",
-          "status": "15-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Keegan Akin",
-          "status": "15-Day IL",
-          "throws": "L"
-        },
-        {
-          "name": "F\u00e9lix Bautista",
-          "status": "60-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Colin Selby",
-          "status": "60-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "BAL",
         "league": "AL East",
@@ -2920,137 +2829,137 @@
           "name": "Mason Miller",
           "role": "Closer",
           "stats": [
-            "4",
+            "15",
             "0",
-            "4",
+            "12",
             "0",
-            "32.3%",
-            "79.2%",
-            "23.3",
-            "4.2%",
-            "1.2"
+            "24.4%",
+            "53.6%",
+            "18.4",
+            "9.5%",
+            "3.3"
           ],
           "throws": "R",
-          "usage": "13 (W) 10 10 12 (Sv) 7 7.1 0.00"
+          "usage": "22 (Sv) 34 (Sv) 20 (Sv) 76 3.1 21 22 0.82"
         },
         {
           "name": "Jason Adam",
           "role": "Setup Man",
           "stats": [
-            "0",
-            "0",
             "1",
-            "0",
-            "20.0%",
-            "0.0%",
-            "0.0",
-            "0.0%",
-            "0.0"
+            "9",
+            "8",
+            "1",
+            "12.5%",
+            "11.1%",
+            "4.0",
+            "7.9%",
+            "2.9"
           ],
           "throws": "R",
-          "usage": "5 IL IL IL IL IL 1 0.1 0.00"
+          "usage": "25 (H) 10 14 (H) 13 (W) 62 3.2 17 15.2 1.15"
         },
         {
           "name": "Adrian Morejon",
           "role": "Setup Man",
           "stats": [
-            "0",
             "1",
-            "1",
-            "3",
-            "12.5%",
-            "13.9%",
-            "6.8",
-            "2.8%",
-            "1.4"
+            "9",
+            "11",
+            "6",
+            "17.9%",
+            "28.6%",
+            "11.0",
+            "6.1%",
+            "2.3"
           ],
           "throws": "L",
-          "usage": "21 (BS) 11 20 6 6.2 10.80"
+          "usage": "13 (H) 16 (H) 29 2 20 23 5.09"
+        },
+        {
+          "name": "Jeremiah Estrada",
+          "role": "Middle Reliever",
+          "stats": [
+            "1",
+            "5",
+            "8",
+            "2",
+            "14.4%",
+            "29.6%",
+            "10.5",
+            "13.0%",
+            "4.6"
+          ],
+          "throws": "R",
+          "usage": "17 (Sv) 15 32 2.1 13 13.2 3.29"
         },
         {
           "name": "Bradgley Rodriguez",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "1",
-            "2",
-            "1",
-            "14.3%",
-            "25.0%",
-            "8.2",
-            "0.0%",
-            "0.0"
+            "3",
+            "4",
+            "4",
+            "14.9%",
+            "20.5%",
+            "7.1",
+            "5.7%",
+            "2.0"
           ],
           "throws": "R",
-          "usage": "20 23 25 (H) 5 7.2 1.17"
-        },
-        {
-          "name": "David Morgan",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "0",
-            "1",
-            "0",
-            "8.3%",
-            "16.7%",
-            "6.2",
-            "16.7%",
-            "6.2"
-          ],
-          "throws": "R",
-          "usage": "17 (W) 39 6 8.2 0.00"
-        },
-        {
-          "name": "Kyle Hart",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "3",
-            "3",
-            "1",
-            "5.5%",
-            "14.3%",
-            "5.2",
-            "11.4%",
-            "4.2"
-          ],
-          "throws": "L",
-          "usage": "13 (H) 21 (H) 28 5 8.2 4.15"
+          "usage": "28 28 2 19 22.2 1.59"
         },
         {
           "name": "Ron Marinaccio",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "0",
             "1",
-            "0",
-            "16.1%",
-            "22.2%",
-            "7.0",
-            "3.7%",
-            "1.2"
+            "2",
+            "1",
+            "13.1%",
+            "20.2%",
+            "7.6",
+            "7.7%",
+            "2.9"
           ],
           "throws": "R",
-          "usage": "6 30 5 7.2 2.35"
+          "usage": "52 52 2.1 16 25 4.32"
         },
         {
           "name": "Wandy Peralta",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "2",
+            "0",
+            "4",
+            "12.3%",
+            "19.1%",
+            "7.2",
+            "9.0%",
+            "3.4"
+          ],
+          "throws": "L",
+          "usage": "10 (H) 10 1 19 21.1 2.53"
+        },
+        {
+          "name": "Yuki Matsui",
           "role": "Long Reliever",
           "stats": [
             "0",
             "0",
             "0",
-            "3",
-            "11.2%",
-            "13.0%",
-            "5.4",
-            "4.3%",
-            "1.8"
+            "0",
+            "21.3%",
+            "30.3%",
+            "10.4",
+            "12.1%",
+            "4.2"
           ],
           "throws": "L",
-          "usage": "13 10 (BS) 6 5 3.60"
+          "usage": "33 26 59 4 4 8.2 0.00"
         }
       ],
       "injured_headers": [
@@ -3058,23 +2967,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Yuki Matsui",
-          "status": "15-Day IL",
-          "throws": "L"
-        },
-        {
-          "name": "Bryan Hoeing",
-          "status": "15-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Jhony Brito",
-          "status": "60-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "SDP",
         "league": "NL West",
@@ -3103,137 +2996,137 @@
           "name": "Jhoan Duran",
           "role": "Closer",
           "stats": [
-            "4",
+            "8",
             "0",
-            "4",
+            "8",
             "1",
-            "21.4%",
-            "33.3%",
-            "11.1",
-            "0.0%",
-            "0.0"
+            "16.7%",
+            "42.0%",
+            "14.9",
+            "10.0%",
+            "3.6"
           ],
           "throws": "R",
-          "usage": "16 (Sv) 6 5.2 1.59"
+          "usage": "18 (Sv) 17 (Sv) 35 2 13 12.2 1.42"
+        },
+        {
+          "name": "Brad Keller",
+          "role": "Setup Man",
+          "stats": [
+            "3",
+            "4",
+            "8",
+            "4",
+            "11.0%",
+            "29.3%",
+            "11.0",
+            "7.3%",
+            "2.7"
+          ],
+          "throws": "R",
+          "usage": "13 (BS) 15 (W) 17 45 3 20 19.2 4.12"
         },
         {
           "name": "Jos\u00e9 Alvarado",
           "role": "Setup Man",
           "stats": [
             "0",
-            "2",
-            "2",
-            "0",
-            "13.1%",
-            "30.4%",
-            "14.5",
-            "13.0%",
-            "6.2"
+            "7",
+            "7",
+            "3",
+            "14.4%",
+            "27.1%",
+            "12.4",
+            "9.4%",
+            "4.3"
           ],
           "throws": "L",
-          "usage": "18 22 (H) 6 4.1 10.38"
-        },
-        {
-          "name": "Brad Keller",
-          "role": "Setup Man",
-          "stats": [
-            "0",
-            "3",
-            "3",
-            "1",
-            "6.5%",
-            "16.7%",
-            "6.0",
-            "4.2%",
-            "1.5"
-          ],
-          "throws": "R",
-          "usage": "7 20 (H) 6 6 4.50"
+          "usage": "20 22 (W) 21 (H) 63 2.2 22 16.2 5.40"
         },
         {
           "name": "Orion Kerkering",
           "role": "Middle Reliever",
           "stats": [
-            "0",
-            "0",
-            "0",
-            "0",
-            "2.6%",
-            "0.0%",
-            "0.0",
+            "1",
+            "1",
+            "4",
+            "2",
+            "8.5%",
+            "17.1%",
+            "6.5",
             "10.0%",
-            "4.5"
+            "3.8"
           ],
           "throws": "R",
-          "usage": "13 26 IL IL 2 2 0.00"
+          "usage": "3 (W) 18 (Sv) 11 32 1.2 19 16.2 2.16"
         },
         {
           "name": "Tanner Banks",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "1",
-            "0",
-            "0",
-            "13.8%",
-            "28.6%",
-            "9.5",
-            "0.0%",
-            "0.0"
+            "2",
+            "3",
+            "3",
+            "12.0%",
+            "24.2%",
+            "10.8",
+            "9.9%",
+            "4.4"
           ],
           "throws": "L",
-          "usage": "14 18 8 5 5.2 1.59"
-        },
-        {
-          "name": "Jonathan Bowlan",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "0",
-            "1",
-            "1",
-            "11.7%",
-            "24.0%",
-            "8.5",
-            "0.0%",
-            "0.0"
-          ],
-          "throws": "R",
-          "usage": "19 18 15 (W) 6 6.1 4.26"
+          "usage": "8 12 (L) 20 1.1 18 18.1 5.89"
         },
         {
           "name": "Tim Mayza",
           "role": "Middle Reliever",
           "stats": [
             "0",
+            "1",
             "0",
-            "0",
-            "0",
-            "16.7%",
-            "34.8%",
-            "10.3",
-            "4.3%",
-            "1.3"
+            "3",
+            "10.3%",
+            "24.7%",
+            "8.9",
+            "7.5%",
+            "2.7"
           ],
           "throws": "L",
-          "usage": "9 13 5 7 0.00"
+          "usage": "17 10 27 2.1 20 23.1 3.47"
         },
         {
-          "name": "Zach Pop",
+          "name": "Chase Shugart",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "0",
+            "1",
+            "0",
+            "7.0%",
+            "24.2%",
+            "8.6",
+            "4.8%",
+            "1.7"
+          ],
+          "throws": "R",
+          "usage": "35 35 2 13 15.2 1.72"
+        },
+        {
+          "name": "Jonathan Bowlan",
           "role": "Long Reliever",
           "stats": [
             "0",
             "0",
-            "0",
-            "0",
-            "7.5%",
-            "22.7%",
-            "8.4",
-            "13.6%",
-            "5.1"
+            "1",
+            "3",
+            "14.7%",
+            "25.0%",
+            "9.2",
+            "5.0%",
+            "1.8"
           ],
           "throws": "R",
-          "usage": "5 13 6 5.1 3.38"
+          "usage": "17 21 38 2 14 14.2 4.91"
         }
       ],
       "injured_headers": [
@@ -3241,13 +3134,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Max Lazar",
-          "status": "15-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "PHI",
         "league": "NL East",
@@ -3273,140 +3160,140 @@
       ],
       "active_rows": [
         {
-          "name": "Dennis Santana",
-          "role": "Co-Closer",
-          "stats": [
-            "1",
-            "2",
-            "6",
-            "0",
-            "13.7%",
-            "27.3%",
-            "7.7",
-            "9.1%",
-            "2.6"
-          ],
-          "throws": "R",
-          "usage": "13 (Sv) 7 7 0.00"
-        },
-        {
           "name": "Gregory Soto",
-          "role": "Co-Closer",
+          "role": "Closer",
           "stats": [
-            "1",
-            "2",
             "4",
-            "0",
-            "12.4%",
-            "39.4%",
-            "14.0",
-            "15.2%",
-            "5.4"
+            "6",
+            "14",
+            "2",
+            "9.7%",
+            "30.2%",
+            "10.5",
+            "10.5%",
+            "3.6"
           ],
           "throws": "L",
-          "usage": "24 (H) 10 (H) 18 8 8.1 1.08"
+          "usage": "30 (BS) 30 1 22 22.1 2.42"
         },
         {
-          "name": "Isaac Mattson",
+          "name": "Dennis Santana",
           "role": "Setup Man",
           "stats": [
-            "0",
+            "2",
             "3",
+            "9",
             "3",
-            "1",
-            "7.6%",
-            "20.0%",
-            "8.2",
-            "14.3%",
-            "5.9"
+            "9.4%",
+            "14.1%",
+            "5.6",
+            "10.6%",
+            "4.2"
           ],
           "throws": "R",
-          "usage": "12 (H) 9 (H) 21 8 7.2 2.35"
+          "usage": "12 18 (L) 12 42 2 21 19.1 4.66"
         },
         {
           "name": "Mason Montgomery",
+          "role": "Setup Man",
+          "stats": [
+            "0",
+            "5",
+            "7",
+            "1",
+            "18.5%",
+            "34.2%",
+            "13.0",
+            "10.5%",
+            "4.0"
+          ],
+          "throws": "L",
+          "usage": "15 14 29 2.1 18 18 3.00"
+        },
+        {
+          "name": "Isaac Mattson",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "2",
+            "7",
+            "7",
             "3",
+            "8.1%",
+            "17.2%",
+            "6.9",
+            "11.5%",
+            "4.6"
+          ],
+          "throws": "R",
+          "usage": "15 25 40 2.1 21 19.2 4.12"
+        },
+        {
+          "name": "Evan Sisk",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
             "1",
-            "18.8%",
-            "42.9%",
-            "20.3",
-            "17.9%",
-            "8.4"
+            "0",
+            "2",
+            "10.6%",
+            "31.6%",
+            "11.4",
+            "6.6%",
+            "2.4"
           ],
           "throws": "L",
-          "usage": "17 (W) 25 6 5.1 8.44"
+          "usage": "36 15 17 68 3.2 15 19 1.42"
+        },
+        {
+          "name": "Yohan Ram\u00edrez",
+          "role": "Middle Reliever",
+          "stats": [
+            "1",
+            "1",
+            "6",
+            "3",
+            "12.8%",
+            "28.0%",
+            "11.0",
+            "12.7%",
+            "5.0"
+          ],
+          "throws": "R",
+          "usage": "18 13 11 42 3 20 27 3.67"
         },
         {
           "name": "Justin Lawrence",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "1",
-            "1",
-            "1",
-            "13.6%",
-            "37.0%",
-            "15.9",
-            "7.4%",
-            "3.2"
-          ],
-          "throws": "R",
-          "usage": "25 (L) 13 6 5.2 9.53"
-        },
-        {
-          "name": "Yohan Ram\u00edrez",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "1",
-            "3",
-            "1",
-            "11.8%",
-            "30.0%",
-            "10.6",
-            "10.0%",
-            "3.5"
-          ],
-          "throws": "R",
-          "usage": "12 27 6 7.2 2.35"
-        },
-        {
-          "name": "Hunter Barco",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "0",
-            "1",
             "2",
-            "3.4%",
-            "13.8%",
-            "6.8",
-            "17.2%",
-            "8.4"
+            "2",
+            "5",
+            "10.0%",
+            "21.8%",
+            "9.3",
+            "9.2%",
+            "3.9"
           ],
-          "throws": "L",
-          "usage": "3 5.1 6.75"
+          "throws": "R",
+          "usage": "12 17 22 51 3 20 18.1 5.89"
         },
         {
-          "name": "Jos\u00e9 Urquidy",
+          "name": "Brandan Bidois",
           "role": "Long Reliever",
           "stats": [
-            "1",
             "0",
-            "1",
             "0",
-            "14.1%",
-            "27.3%",
-            "10.8",
-            "4.5%",
-            "1.8"
+            "0",
+            "0",
+            "12.0%",
+            "16.7%",
+            "6.0",
+            "8.3%",
+            "3.0"
           ],
           "throws": "R",
-          "usage": "36 31 3 5 1.80"
+          "usage": "19 17 14 50 3 3 3 3.00"
         }
       ],
       "injured_headers": [
@@ -3440,140 +3327,140 @@
       ],
       "active_rows": [
         {
-          "name": "Jakob Junis",
-          "role": "Co-Closer",
+          "name": "Jacob Latz",
+          "role": "Closer",
           "stats": [
-            "2",
-            "2",
             "5",
+            "2",
+            "6",
+            "4",
+            "10.2%",
+            "21.5%",
+            "7.1",
+            "6.3%",
+            "2.1"
+          ],
+          "throws": "L",
+          "usage": "22 (BS) 22 0 18 21.2 2.08"
+        },
+        {
+          "name": "Jakob Junis",
+          "role": "Setup Man",
+          "stats": [
+            "3",
+            "5",
+            "8",
             "0",
-            "7.8%",
-            "16.7%",
-            "5.1",
-            "0.0%",
-            "0.0"
+            "6.1%",
+            "11.8%",
+            "4.1",
+            "6.6%",
+            "2.3"
           ],
           "throws": "R",
-          "usage": "15 (Sv) 4 (Sv) 6 7 0.00"
+          "usage": "11 11 1 17 20 1.80"
         },
         {
           "name": "Cole Winn",
-          "role": "Co-Closer",
-          "stats": [
-            "1",
-            "2",
-            "3",
-            "0",
-            "16.0%",
-            "23.1%",
-            "8.5",
-            "7.7%",
-            "2.8"
-          ],
-          "throws": "R",
-          "usage": "16 (Sv) 3 (H) 14 7 6.1 0.00"
-        },
-        {
-          "name": "Robert Garcia",
           "role": "Setup Man",
           "stats": [
-            "0",
+            "1",
+            "5",
+            "4",
             "2",
-            "1",
-            "2",
-            "9.4%",
-            "13.0%",
-            "5.4",
-            "21.7%",
-            "9.0"
-          ],
-          "throws": "L",
-          "usage": "25 (BS) 14 (H) 20 (L) 6 5 5.40"
-        },
-        {
-          "name": "Jacob Latz",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "1",
-            "1",
-            "1",
-            "11.6%",
-            "30.3%",
-            "9.3",
-            "6.1%",
-            "1.9"
-          ],
-          "throws": "L",
-          "usage": "16 (L) 23 (H) 19 6 9.2 0.93"
-        },
-        {
-          "name": "Chris Martin",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "1",
-            "1",
-            "2",
-            "10.3%",
-            "16.7%",
-            "7.2",
-            "0.0%",
-            "0.0"
+            "15.7%",
+            "26.7%",
+            "10.9",
+            "8.1%",
+            "3.3"
           ],
           "throws": "R",
-          "usage": "8 (H) 13 6 5 7.20"
+          "usage": "5 24 9 (H) 38 3 21 19 4.74"
         },
         {
           "name": "Tyler Alexander",
           "role": "Middle Reliever",
           "stats": [
             "2",
+            "4",
+            "6",
             "1",
-            "1",
-            "0",
-            "7.3%",
-            "20.0%",
-            "7.9",
-            "8.0%",
-            "3.2"
+            "6.8%",
+            "17.8%",
+            "6.9",
+            "6.7%",
+            "2.6"
           ],
           "throws": "L",
-          "usage": "18 (H) 6 5.2 1.59"
+          "usage": "21 (H) 21 1 20 21 2.14"
         },
         {
           "name": "Jalen Beeks",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "2",
-            "2",
-            "0",
-            "11.0%",
-            "15.4%",
-            "5.4",
-            "3.8%",
-            "1.4"
+            "5",
+            "5",
+            "4",
+            "9.7%",
+            "20.7%",
+            "7.8",
+            "9.8%",
+            "3.7"
           ],
           "throws": "L",
-          "usage": "18 16 (W) 2 7 6.2 0.00"
+          "usage": "19 23 (H) 42 1.2 21 19.2 2.75"
         },
         {
-          "name": "Luis Curvelo",
-          "role": "Long Reliever",
+          "name": "Gavin Collyer",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "0",
+            "0",
+            "1",
+            "8.1%",
+            "18.9%",
+            "7.1",
+            "15.1%",
+            "5.7"
+          ],
+          "throws": "R",
+          "usage": "18 17 35 3 14 12.2 2.84"
+        },
+        {
+          "name": "Peyton Gray",
+          "role": "Middle Reliever",
           "stats": [
             "0",
             "1",
+            "2",
             "1",
-            "1",
-            "17.4%",
-            "15.4%",
-            "6.0",
-            "7.7%",
-            "3.0"
+            "11.6%",
+            "19.6%",
+            "7.6",
+            "12.5%",
+            "4.8"
           ],
           "throws": "R",
-          "usage": "21 25 (H) 2 3 6.00"
+          "usage": "44 11 (H) 55 2.4 8 13 2.08"
+        },
+        {
+          "name": "Cal Quantrill",
+          "role": "Long Reliever",
+          "stats": [
+            "0",
+            "0",
+            "0",
+            "1",
+            "8.3%",
+            "19.7%",
+            "7.2",
+            "10.6%",
+            "3.9"
+          ],
+          "throws": "R",
+          "usage": "25 16 (W) 41 3 7 16.1 3.31"
         }
       ],
       "injured_headers": [
@@ -3610,154 +3497,137 @@
           "name": "Bryan Baker",
           "role": "Closer",
           "stats": [
-            "2",
-            "0",
-            "3",
-            "0",
-            "23.9%",
-            "38.9%",
-            "12.6",
-            "0.0%",
-            "0.0"
-          ],
-          "throws": "R",
-          "usage": "16 (Sv) 14 (Sv) 14 (W) 5 5 1.80"
-        },
-        {
-          "name": "Griffin Jax",
-          "role": "Setup Man",
-          "stats": [
-            "0",
+            "12",
             "1",
-            "3",
-            "3",
-            "10.9%",
-            "12.0%",
-            "5.4",
-            "12.0%",
-            "5.4"
+            "9",
+            "4",
+            "16.9%",
+            "29.1%",
+            "10.7",
+            "10.1%",
+            "3.7"
           ],
           "throws": "R",
-          "usage": "13 (H) 30 6 5 9.00"
+          "usage": "10 (Sv) 18 27 (BS) 55 2.2 21 19.1 2.79"
         },
         {
           "name": "Ian Seymour",
           "role": "Setup Man",
           "stats": [
-            "0",
-            "3",
-            "2",
             "1",
-            "15.2%",
-            "21.7%",
-            "9.0",
-            "0.0%",
-            "0.0"
+            "8",
+            "8",
+            "2",
+            "14.2%",
+            "27.7%",
+            "10.6",
+            "8.5%",
+            "3.3"
           ],
           "throws": "L",
-          "usage": "17 (H) 21 (H) 5 5 10.80"
+          "usage": "7 (H) 25 32 2.2 20 22 5.32"
         },
         {
-          "name": "Mason Englert",
-          "role": "Middle Reliever",
+          "name": "Kevin Kelly",
+          "role": "Setup Man",
           "stats": [
-            "0",
-            "0",
-            "0",
-            "0",
-            "9.5%",
-            "12.1%",
-            "5.4",
-            "3.0%",
-            "1.4"
+            "2",
+            "10",
+            "15",
+            "3",
+            "8.5%",
+            "21.3%",
+            "6.9",
+            "5.0%",
+            "1.6"
           ],
           "throws": "R",
-          "usage": "65 (L) 4 6.2 9.45"
+          "usage": "21 (H) 12 2 (H) 35 2.1 21 22.1 2.42"
+        },
+        {
+          "name": "Garrett Cleavinger",
+          "role": "Middle Reliever",
+          "stats": [
+            "1",
+            "7",
+            "4",
+            "4",
+            "10.7%",
+            "31.0%",
+            "14.0",
+            "14.3%",
+            "6.5"
+          ],
+          "throws": "L",
+          "usage": "11 16 (BS) 6 (H) 33 1.2 11 8.1 5.40"
         },
         {
           "name": "Hunter Bigge",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "2",
-            "2",
-            "0",
-            "16.0%",
-            "16.7%",
-            "5.4",
-            "8.3%",
-            "2.7"
-          ],
-          "throws": "R",
-          "usage": "14 (H) 20 (H) 3 3.1 2.70"
-        },
-        {
-          "name": "Kevin Kelly",
-          "role": "Middle Reliever",
-          "stats": [
-            "2",
+            "5",
+            "8",
             "1",
-            "4",
-            "1",
-            "8.6%",
-            "22.2%",
-            "9.8",
             "11.1%",
-            "4.9"
+            "17.6%",
+            "6.6",
+            "13.5%",
+            "5.1"
           ],
           "throws": "R",
-          "usage": "14 (W) 19 (Sv) 5 3.2 12.27"
+          "usage": "11 29 (L) 16 56 3 15 17.2 5.60"
         },
         {
-          "name": "Cole Sulser",
+          "name": "Trevor Martin",
           "role": "Middle Reliever",
           "stats": [
             "0",
             "0",
             "0",
             "1",
-            "9.0%",
-            "18.9%",
-            "8.2",
-            "10.8%",
-            "4.7"
+            "11.3%",
+            "19.0%",
+            "8.3",
+            "4.8%",
+            "2.1"
           ],
           "throws": "R",
-          "usage": "37 4 7.2 4.70"
+          "usage": "AAA AAA 0 0 3 4.1 6.23"
         },
         {
-          "name": "Yoendrys G\u00f3mez",
+          "name": "Casey Legumina",
           "role": "Middle Reliever",
           "stats": [
             "0",
             "0",
-            "0",
-            "0",
-            "6.4%",
-            "12.5%",
-            "5.2",
-            "10.0%",
-            "4.2"
+            "1",
+            "1",
+            "8.3%",
+            "14.3%",
+            "5.7",
+            "6.0%",
+            "2.4"
           ],
           "throws": "R",
-          "usage": "58 4 8.2 6.23"
+          "usage": "19 19 2 14 19 3.79"
         },
         {
-          "name": "Jesse Scholtens",
+          "name": "Chase Solesky",
           "role": "Long Reliever",
           "stats": [
             "0",
             "0",
             "0",
             "0",
-            "9.8%",
+            "1.7%",
             "23.5%",
-            "7.7",
+            "12.0",
             "5.9%",
-            "1.9"
+            "3.0"
           ],
           "throws": "R",
-          "usage": "AAA AAA 61 AAA AAA AAA 1 4.2 0.00"
+          "usage": "58 AAA AAA AAA AAA AAA 58 3 1 3 6.00"
         }
       ],
       "injured_headers": [
@@ -3765,23 +3635,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Edwin Uceta",
-          "status": "15-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Steven Wilson",
-          "status": "60-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Manuel Rodr\u00edguez",
-          "status": "60-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "TBR",
         "league": "AL East",
@@ -3810,103 +3664,52 @@
           "name": "Aroldis Chapman",
           "role": "Closer",
           "stats": [
-            "3",
+            "11",
             "0",
-            "2",
+            "12",
             "1",
-            "15.6%",
-            "16.7%",
-            "5.4",
-            "11.1%",
-            "3.6"
+            "15.5%",
+            "34.4%",
+            "11.9",
+            "10.9%",
+            "3.8"
           ],
           "throws": "L",
-          "usage": "6 (Sv) 5 5 1.80"
+          "usage": "14 (Sv) 20 (Sv) 10 22 (Sv) 66 4 17 16.2 0.54"
         },
         {
           "name": "Garrett Whitlock",
           "role": "Setup Man",
           "stats": [
             "0",
+            "9",
+            "11",
             "2",
-            "3",
-            "1",
-            "9.7%",
-            "31.8%",
-            "12.6",
-            "18.2%",
-            "7.2"
+            "14.4%",
+            "30.7%",
+            "11.3",
+            "8.0%",
+            "2.9"
           ],
           "throws": "R",
-          "usage": "15 (H) 27 (L) 5 5 1.80"
+          "usage": "12 (H) 11 11 (H) 34 3 18 18.1 2.95"
         },
         {
-          "name": "Zack Kelly",
+          "name": "Justin Slaten",
           "role": "Setup Man",
           "stats": [
             "0",
+            "4",
+            "4",
             "1",
-            "1",
-            "2",
-            "5.5%",
-            "7.1%",
-            "2.7",
-            "7.1%",
-            "2.7"
+            "9.1%",
+            "33.3%",
+            "11.6",
+            "7.4%",
+            "2.6"
           ],
           "throws": "R",
-          "usage": "18 (L) 11 (H) 17 4 3.1 8.10"
-        },
-        {
-          "name": "Danny Coulombe",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "0",
-            "1",
-            "1",
-            "6.3%",
-            "13.3%",
-            "5.4",
-            "13.3%",
-            "5.4"
-          ],
-          "throws": "L",
-          "usage": "23 2 5 3.1 2.70"
-        },
-        {
-          "name": "Greg Weissert",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "2",
-            "1",
-            "3",
-            "9.8%",
-            "39.3%",
-            "14.9",
-            "7.1%",
-            "2.7"
-          ],
-          "throws": "R",
-          "usage": "18 12 (H) 18 7 6.2 6.75"
-        },
-        {
-          "name": "Jovani Mor\u00e1n",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "0",
-            "2",
-            "0",
-            "15.0%",
-            "32.3%",
-            "11.3",
-            "9.7%",
-            "3.4"
-          ],
-          "throws": "L",
-          "usage": "17 45 4 8 2.25"
+          "usage": "17 (H) 8 14 (H) 39 2.2 8 7 0.00"
         },
         {
           "name": "Tyler Samaniego",
@@ -3914,33 +3717,84 @@
           "stats": [
             "0",
             "0",
-            "0",
-            "0",
-            "7.3%",
-            "50.0%",
-            "21.6",
-            "37.5%",
-            "16.2"
+            "2",
+            "2",
+            "6.9%",
+            "19.0%",
+            "7.0",
+            "11.1%",
+            "4.1"
           ],
           "throws": "L",
-          "usage": "22 19 AAA AAA AAA 2 1.2 0.00"
+          "usage": "5 (L) 8 (L) 13 0.1 15 15.1 1.17"
+        },
+        {
+          "name": "Zack Kelly",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "3",
+            "2",
+            "4",
+            "8.4%",
+            "20.6%",
+            "8.0",
+            "10.3%",
+            "4.0"
+          ],
+          "throws": "R",
+          "usage": "26 26 0.2 16 15.2 3.45"
+        },
+        {
+          "name": "Greg Weissert",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "3",
+            "3",
+            "6",
+            "8.5%",
+            "24.0%",
+            "9.7",
+            "8.0%",
+            "3.2"
+          ],
+          "throws": "R",
+          "usage": "13 13 1.1 19 16.2 4.86"
+        },
+        {
+          "name": "Jovani Mor\u00e1n",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "0",
+            "4",
+            "1",
+            "12.7%",
+            "24.8%",
+            "9.2",
+            "13.9%",
+            "5.2"
+          ],
+          "throws": "L",
+          "usage": "21 21 1.1 14 24.1 2.96"
         },
         {
           "name": "Ryan Watson",
           "role": "Long Reliever",
           "stats": [
             "0",
-            "0",
+            "1",
             "2",
-            "0",
-            "11.1%",
-            "12.5%",
-            "5.1",
-            "18.8%",
-            "7.7"
+            "1",
+            "10.7%",
+            "18.3%",
+            "7.5",
+            "9.5%",
+            "3.9"
           ],
           "throws": "R",
-          "usage": "12 10 5 7 3.86"
+          "usage": "48 10 58 4 17 27.2 5.86"
         }
       ],
       "injured_headers": [
@@ -3974,106 +3828,106 @@
       ],
       "active_rows": [
         {
-          "name": "Emilio Pag\u00e1n",
-          "role": "Closer",
+          "name": "Graham Ashcraft",
+          "role": "Closer Committee",
           "stats": [
+            "1",
+            "8",
+            "11",
             "4",
-            "0",
-            "5",
-            "2",
-            "13.6%",
-            "24.2%",
-            "9.8",
-            "15.2%",
-            "6.1"
+            "12.8%",
+            "25.8%",
+            "9.6",
+            "16.5%",
+            "6.2"
           ],
           "throws": "R",
-          "usage": "24 (W) 13 (Sv) 7 7.1 6.14"
+          "usage": "21 (L) 15 15 51 2.2 23 23.1 3.86"
         },
         {
           "name": "Tony Santillan",
-          "role": "Setup Man",
+          "role": "Closer Committee",
           "stats": [
-            "0",
+            "1",
+            "10",
+            "12",
             "4",
-            "5",
-            "0",
-            "10.1%",
-            "34.8%",
-            "12.0",
-            "21.7%",
-            "7.5"
+            "7.5%",
+            "23.1%",
+            "9.0",
+            "11.5%",
+            "4.5"
           ],
           "throws": "R",
-          "usage": "15 (H) 6 6 0.00"
+          "usage": "19 (H) 18 (L) 37 2 20 18 5.50"
         },
         {
-          "name": "Graham Ashcraft",
-          "role": "Setup Man",
+          "name": "Pierce Johnson",
+          "role": "Closer Committee",
           "stats": [
-            "0",
-            "3",
-            "3",
             "1",
-            "21.4%",
-            "39.3%",
-            "14.1",
-            "10.7%",
-            "3.9"
+            "3",
+            "5",
+            "3",
+            "8.3%",
+            "21.5%",
+            "8.3",
+            "8.9%",
+            "3.4"
           ],
           "throws": "R",
-          "usage": "10 7 7 2.57"
+          "usage": "12 25 (H) 37 1.1 21 18.1 3.93"
         },
         {
           "name": "Brock Burke",
-          "role": "Middle Reliever",
+          "role": "Closer Committee",
           "stats": [
             "1",
-            "1",
+            "4",
+            "5",
             "2",
-            "0",
-            "16.7%",
-            "35.0%",
-            "10.5",
-            "10.0%",
-            "3.0"
+            "11.8%",
+            "25.5%",
+            "10.2",
+            "14.3%",
+            "5.7"
           ],
           "throws": "L",
-          "usage": "8 6 (H) 14 (Sv) 6 6 0.00"
+          "usage": "6 17 18 (H) 19 60 4 23 22 2.86"
+        },
+        {
+          "name": "Tejay Antone",
+          "role": "Closer Committee",
+          "stats": [
+            "1",
+            "0",
+            "1",
+            "0",
+            "8.3%",
+            "24.1%",
+            "8.6",
+            "3.4%",
+            "1.2"
+          ],
+          "throws": "R",
+          "usage": "7 13 19 (Sv) 28 67 4 7 7.1 6.14"
         },
         {
           "name": "Connor Phillips",
           "role": "Middle Reliever",
           "stats": [
             "1",
-            "1",
-            "3",
-            "2",
-            "13.5%",
-            "23.7%",
-            "9.3",
-            "21.1%",
-            "8.3"
+            "4",
+            "6",
+            "5",
+            "9.2%",
+            "21.0%",
+            "9.1",
+            "21.0%",
+            "9.1"
           ],
           "throws": "R",
-          "usage": "24 39 28 (H) 7 8.2 3.12"
-        },
-        {
-          "name": "Pierce Johnson",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "2",
-            "1",
-            "1",
-            "8.1%",
-            "17.4%",
-            "7.2",
-            "4.3%",
-            "1.8"
-          ],
-          "throws": "R",
-          "usage": "10 7 20 7 5 5.40"
+          "usage": "33 28 12 73 4 23 25.2 5.26"
         },
         {
           "name": "Sam Moll",
@@ -4082,32 +3936,32 @@
             "0",
             "1",
             "4",
-            "0",
-            "10.2%",
-            "23.1%",
-            "7.7",
-            "11.5%",
-            "3.9"
+            "4",
+            "8.4%",
+            "21.7%",
+            "8.5",
+            "13.3%",
+            "5.2"
           ],
           "throws": "L",
-          "usage": "16 28 6 (W) 7 7 2.57"
+          "usage": "22 (L,B) 13 35 2.1 21 19 3.32"
         },
         {
-          "name": "Kyle Nicolas",
+          "name": "Jose Franco",
           "role": "Long Reliever",
           "stats": [
             "0",
+            "1",
+            "2",
             "0",
-            "0",
-            "0",
-            "6.9%",
-            "16.7%",
-            "13.5",
-            "33.3%",
-            "27.0"
+            "7.7%",
+            "17.9%",
+            "7.4",
+            "16.4%",
+            "6.8"
           ],
           "throws": "R",
-          "usage": "29 AAA AAA AAA AAA AAA 1 0.2 40.50"
+          "usage": "AAA AAA AAA AAA 0 0 8 14.2 4.30"
         }
       ],
       "injured_headers": [
@@ -4115,13 +3969,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Caleb Ferguson",
-          "status": "15-Day IL",
-          "throws": "L"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "CIN",
         "league": "NL Central",
@@ -4147,140 +3995,123 @@
       ],
       "active_rows": [
         {
-          "name": "Victor Vodnik",
-          "role": "Closer",
+          "name": "Juan Mejia",
+          "role": "Co-Closer",
           "stats": [
-            "1",
-            "0",
-            "2",
-            "1",
-            "9.6%",
-            "14.3%",
-            "6.0",
-            "7.1%",
-            "3.0"
+            "3",
+            "3",
+            "10",
+            "3",
+            "14.2%",
+            "26.7%",
+            "10.6",
+            "10.9%",
+            "4.3"
           ],
           "throws": "R",
-          "usage": "32 22 (Sv) 5 6 3.00"
-        },
-        {
-          "name": "Jimmy Herget",
-          "role": "Setup Man",
-          "stats": [
-            "1",
-            "1",
-            "4",
-            "0",
-            "12.7%",
-            "24.0%",
-            "7.7",
-            "0.0%",
-            "0.0"
-          ],
-          "throws": "R",
-          "usage": "10 33 (H) 6 7 1.29"
+          "usage": "16 (Sv) 35 (H) 9 60 3.2 19 23 3.91"
         },
         {
           "name": "Antonio Senzatela",
-          "role": "Setup Man",
+          "role": "Co-Closer",
           "stats": [
+            "3",
             "1",
+            "9",
             "1",
-            "4",
-            "0",
-            "8.7%",
-            "38.7%",
-            "12.0",
-            "9.7%",
-            "3.0"
+            "11.7%",
+            "23.8%",
+            "7.9",
+            "7.6%",
+            "2.5"
           ],
           "throws": "R",
-          "usage": "31 26 (Sv) 4 9 0.00"
+          "usage": "27 (Sv) 26 (W) 53 4 13 28.1 1.27"
         },
         {
           "name": "Jaden Hill",
-          "role": "Middle Reliever",
+          "role": "Setup Man",
           "stats": [
             "0",
-            "1",
-            "2",
-            "2",
-            "11.8%",
-            "25.0%",
-            "8.5",
-            "8.3%",
-            "2.8"
-          ],
-          "throws": "R",
-          "usage": "2 19 10 (H) 7 6.1 1.42"
-        },
-        {
-          "name": "Juan Mejia",
-          "role": "Middle Reliever",
-          "stats": [
-            "1",
-            "0",
+            "9",
+            "8",
             "4",
-            "2",
-            "9.0%",
             "12.1%",
-            "4.9",
-            "12.1%",
-            "4.9"
+            "26.6%",
+            "10.7",
+            "11.4%",
+            "4.6"
           ],
           "throws": "R",
-          "usage": "18 (L) 21 21 (Sv) 6 7.1 6.14"
+          "usage": "16 (H) 26 (H) 12 (H) 54 3.2 20 17.2 3.06"
         },
         {
           "name": "Brennan Bernardino",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "1",
-            "1",
-            "1",
-            "12.4%",
-            "16.7%",
+            "2",
+            "4",
+            "2",
+            "10.4%",
+            "17.1%",
             "6.4",
-            "8.3%",
-            "3.2"
+            "6.6%",
+            "2.5"
           ],
           "throws": "L",
-          "usage": "14 (BS) 14 (H) 7 5.2 1.59"
+          "usage": "18 (H) 15 9 42 3.1 21 18.1 3.93"
+        },
+        {
+          "name": "Victor Vodnik",
+          "role": "Middle Reliever",
+          "stats": [
+            "4",
+            "0",
+            "6",
+            "4",
+            "11.6%",
+            "17.8%",
+            "8.0",
+            "14.4%",
+            "6.5"
+          ],
+          "throws": "R",
+          "usage": "14 11 16 41 1.1 18 18 8.00"
+        },
+        {
+          "name": "Seth Halvorsen",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "2",
+            "1",
+            "0",
+            "9.3%",
+            "23.1%",
+            "9.0",
+            "15.4%",
+            "6.0"
+          ],
+          "throws": "R",
+          "usage": "14 25 39 2 6 6 1.50"
         },
         {
           "name": "Zach Agnos",
-          "role": "Middle Reliever",
-          "stats": [
-            "1",
-            "0",
-            "1",
-            "2",
-            "16.8%",
-            "20.6%",
-            "9.0",
-            "5.9%",
-            "2.6"
-          ],
-          "throws": "R",
-          "usage": "44 (Sv) 18 4 7 6.43"
-        },
-        {
-          "name": "Valente Bellozo",
           "role": "Long Reliever",
           "stats": [
-            "0",
-            "0",
+            "2",
             "0",
             "1",
-            "17.5%",
-            "29.2%",
-            "9.9",
-            "12.5%",
-            "4.3"
+            "3",
+            "12.3%",
+            "15.6%",
+            "6.2",
+            "7.8%",
+            "3.1"
           ],
           "throws": "R",
-          "usage": "3 (L) 2 6.1 5.68"
+          "usage": "AAA 57 57 4 13 29 5.59"
         }
       ],
       "injured_headers": [
@@ -4288,18 +4119,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Jeff Criswell",
-          "status": "60-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "RJ Petit",
-          "status": "60-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "COL",
         "league": "NL West",
@@ -4328,86 +4148,69 @@
           "name": "Lucas Erceg",
           "role": "Closer",
           "stats": [
+            "11",
+            "1",
+            "11",
             "4",
-            "1",
-            "3",
-            "1",
-            "4.7%",
-            "14.3%",
-            "4.8",
-            "9.5%",
-            "3.2"
-          ],
-          "throws": "R",
-          "usage": "10 (Sv) 14 (Sv) 30 6 5.2 3.18"
-        },
-        {
-          "name": "Matt Strahm",
-          "role": "Setup Man",
-          "stats": [
-            "0",
-            "4",
-            "3",
-            "1",
-            "7.3%",
-            "20.8%",
+            "8.9%",
+            "21.3%",
             "7.9",
-            "8.3%",
-            "3.2"
-          ],
-          "throws": "L",
-          "usage": "7 (H) 24 (H) 29 6 5.2 4.76"
-        },
-        {
-          "name": "John Schreiber",
-          "role": "Setup Man",
-          "stats": [
-            "1",
-            "0",
-            "1",
-            "2",
-            "3.5%",
-            "8.0%",
-            "3.6",
-            "20.0%",
-            "9.0"
+            "16.3%",
+            "6.1"
           ],
           "throws": "R",
-          "usage": "11 19 (L) 6 5 5.40"
+          "usage": "22 (Sv) 12 (BS) 15 49 3 20 19.1 3.26"
         },
         {
           "name": "Nick Mears",
-          "role": "Middle Reliever",
+          "role": "Setup Man",
           "stats": [
             "0",
-            "1",
-            "3",
-            "0",
-            "7.7%",
-            "27.8%",
-            "9.0",
-            "11.1%",
-            "3.6"
+            "5",
+            "8",
+            "4",
+            "8.2%",
+            "18.5%",
+            "6.9",
+            "12.3%",
+            "4.6"
           ],
           "throws": "R",
-          "usage": "24 14 5 5 0.00"
+          "usage": "16 16 1 18 15.2 2.87"
         },
         {
           "name": "Daniel Lynch IV",
-          "role": "Middle Reliever",
+          "role": "Setup Man",
           "stats": [
-            "0",
             "1",
+            "5",
+            "10",
             "2",
-            "0",
-            "17.4%",
-            "31.8%",
-            "11.8",
-            "13.6%",
-            "5.1"
+            "16.1%",
+            "32.9%",
+            "11.7",
+            "7.6%",
+            "2.7"
           ],
           "throws": "L",
-          "usage": "13 4 5.1 1.69"
+          "usage": "21 (H) 20 41 2.2 19 20 1.80"
+        },
+        {
+          "name": "John Schreiber",
+          "role": "Middle Reliever",
+          "stats": [
+            "1",
+            "1",
+            "5",
+            "5",
+            "7.2%",
+            "11.3%",
+            "4.4",
+            "12.5%",
+            "4.9"
+          ],
+          "throws": "R",
+          "usage": "13 1 18 32 2.1 20 18.1 3.44"
         },
         {
           "name": "Alex Lange",
@@ -4416,15 +4219,49 @@
             "0",
             "0",
             "0",
-            "0",
-            "17.5%",
-            "30.8%",
-            "12.7",
-            "15.4%",
-            "6.4"
+            "3",
+            "13.0%",
+            "23.4%",
+            "9.1",
+            "13.8%",
+            "5.4"
           ],
           "throws": "R",
-          "usage": "37 4 5.2 4.76"
+          "usage": "15 10 13 38 3 19 21.2 5.40"
+        },
+        {
+          "name": "Steven Cruz",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "0",
+            "0",
+            "2",
+            "14.2%",
+            "27.7%",
+            "12.1",
+            "17.0%",
+            "7.4"
+          ],
+          "throws": "R",
+          "usage": "11 5 (L) 22 38 2.2 10 9.2 7.45"
+        },
+        {
+          "name": "Bailey Falter",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "0",
+            "0",
+            "0",
+            "8.3%",
+            "13.8%",
+            "6.8",
+            "10.3%",
+            "5.1"
+          ],
+          "throws": "L",
+          "usage": "28 IL IL IL 28 2 3 5.1 10.13"
         },
         {
           "name": "Eli Morgan",
@@ -4433,15 +4270,32 @@
             "1",
             "0",
             "0",
-            "0",
-            "14.5%",
-            "30.0%",
-            "10.8",
-            "10.0%",
-            "3.6"
+            "2",
+            "9.0%",
+            "20.0%",
+            "7.8",
+            "13.3%",
+            "5.2"
           ],
           "throws": "R",
-          "usage": "27 AAA AAA AAA AAA 2 5 0.00"
+          "usage": "AAA AAA AAA AAA AAA 0 0 7 10.1 2.61"
+        },
+        {
+          "name": "Luinder Avila",
+          "role": "Long Reliever",
+          "stats": [
+            "0",
+            "0",
+            "2",
+            "2",
+            "10.8%",
+            "23.2%",
+            "9.4",
+            "13.0%",
+            "5.3"
+          ],
+          "throws": "R",
+          "usage": "33 33 2 8 15.1 5.28"
         }
       ],
       "injured_headers": [
@@ -4449,13 +4303,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "James McArthur",
-          "status": "15-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "KCR",
         "league": "AL Central",
@@ -4484,86 +4332,69 @@
           "name": "Kenley Jansen",
           "role": "Closer",
           "stats": [
-            "2",
+            "7",
             "0",
-            "1",
-            "1",
-            "20.5%",
-            "60.0%",
-            "20.3",
-            "10.0%",
-            "3.4"
+            "6",
+            "3",
+            "13.6%",
+            "36.7%",
+            "13.1",
+            "10.2%",
+            "3.6"
           ],
           "throws": "R",
-          "usage": "12 (Sv) 4 2.2 3.38"
+          "usage": "12 16 (W) 14 42 3 15 12.1 3.65"
         },
         {
           "name": "Kyle Finnegan",
           "role": "Setup Man",
           "stats": [
-            "0",
-            "2",
             "1",
-            "0",
-            "10.0%",
-            "13.6%",
-            "5.1",
-            "31.8%",
-            "11.8"
+            "5",
+            "6",
+            "3",
+            "9.7%",
+            "15.7%",
+            "5.8",
+            "18.0%",
+            "6.6"
           ],
           "throws": "R",
-          "usage": "13 (H) 16 6 5.1 0.00"
+          "usage": "13 (BS) 16 (BS) 29 2.1 21 21.2 1.66"
         },
         {
           "name": "Will Vest",
           "role": "Setup Man",
           "stats": [
             "0",
+            "4",
             "2",
-            "1",
-            "2",
-            "13.8%",
-            "23.1%",
-            "9.5",
+            "3",
+            "11.3%",
+            "25.0%",
+            "10.0",
             "11.5%",
-            "4.8"
+            "4.6"
           ],
           "throws": "R",
-          "usage": "34 (L) 15 7 5.2 7.94"
+          "usage": "IL IL IL IL 0 0 13 11.2 6.17"
         },
         {
           "name": "Tyler Holton",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "1",
-            "1",
-            "0",
-            "8.3%",
-            "20.0%",
-            "7.1",
-            "16.0%",
-            "5.7"
+            "3",
+            "5",
+            "3",
+            "8.7%",
+            "16.7%",
+            "6.8",
+            "8.9%",
+            "3.6"
           ],
           "throws": "L",
-          "usage": "24 16 6 6.1 0.00"
-        },
-        {
-          "name": "Drew Anderson",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "0",
-            "1",
-            "2",
-            "15.3%",
-            "22.6%",
-            "9.9",
-            "12.9%",
-            "5.7"
-          ],
-          "throws": "R",
-          "usage": "49 4 6.1 7.11"
+          "usage": "11 (L) 7 18 1.1 20 20 4.50"
         },
         {
           "name": "Brant Hurter",
@@ -4571,50 +4402,84 @@
           "stats": [
             "0",
             "1",
-            "2",
-            "0",
-            "4.7%",
-            "16.0%",
-            "6.0",
-            "12.0%",
-            "4.5"
+            "7",
+            "3",
+            "7.2%",
+            "17.6%",
+            "6.4",
+            "11.0%",
+            "4.0"
           ],
           "throws": "L",
-          "usage": "10 (H) 1 23 6 6 3.00"
+          "usage": "13 23 36 0.1 19 22.2 3.18"
         },
         {
-          "name": "Connor Seabold",
+          "name": "Burch Smith",
           "role": "Middle Reliever",
           "stats": [
             "0",
             "0",
-            "0",
-            "0",
-            "9.5%",
-            "24.0%",
-            "8.5",
-            "12.0%",
-            "4.3"
+            "1",
+            "2",
+            "10.0%",
+            "29.2%",
+            "11.2",
+            "9.2%",
+            "3.5"
           ],
           "throws": "R",
-          "usage": "35 31 3 6.1 0.00"
+          "usage": "14 26 40 3.1 11 15.1 2.93"
+        },
+        {
+          "name": "Drew Anderson",
+          "role": "Middle Reliever",
+          "stats": [
+            "1",
+            "2",
+            "5",
+            "5",
+            "13.7%",
+            "26.7%",
+            "10.3",
+            "10.3%",
+            "4.0"
+          ],
+          "throws": "R",
+          "usage": "46 8 (L) 54 4 15 27 4.67"
         },
         {
           "name": "Enmanuel De Jesus",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "0",
+            "2",
+            "3",
+            "8.0%",
+            "19.6%",
+            "8.7",
+            "12.0%",
+            "5.3"
+          ],
+          "throws": "L",
+          "usage": "26 29 19 74 2.1 14 18.2 6.75"
+        },
+        {
+          "name": "Connor Seabold",
           "role": "Long Reliever",
           "stats": [
             "0",
             "0",
-            "0",
             "1",
-            "9.1%",
-            "24.1%",
-            "11.1",
-            "13.8%",
-            "6.4"
+            "0",
+            "10.7%",
+            "22.2%",
+            "8.6",
+            "7.9%",
+            "3.1"
           ],
-          "throws": "L",
-          "usage": "21 38 4 5.2 6.35"
+          "throws": "R",
+          "usage": "36 8 IL IL 44 3.2 10 14.2 3.07"
         }
       ],
       "injured_headers": [
@@ -4622,18 +4487,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Bailey Horn",
-          "status": "15-Day IL",
-          "throws": "L"
-        },
-        {
-          "name": "Beau Brieske",
-          "status": "60-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "DET",
         "league": "AL Central",
@@ -4659,123 +4513,140 @@
       ],
       "active_rows": [
         {
-          "name": "Cole Sands",
+          "name": "Luis Garc\u00eda",
           "role": "Closer Committee",
           "stats": [
+            "2",
             "1",
             "3",
-            "1",
-            "1",
-            "13.0%",
-            "21.1%",
-            "8.3",
-            "15.8%",
-            "6.2"
+            "2",
+            "9.8%",
+            "8.1%",
+            "3.6",
+            "8.1%",
+            "3.6"
           ],
           "throws": "R",
-          "usage": "9 (H) 12 (H) 21 5 4.1 2.08"
+          "usage": "22 (Sv) 18 40 3 15 15 9.00"
         },
         {
           "name": "Taylor Rogers",
           "role": "Closer Committee",
           "stats": [
-            "0",
-            "2",
             "1",
-            "2",
-            "9.0%",
-            "21.4%",
-            "8.5",
-            "7.1%",
-            "2.8"
-          ],
-          "throws": "L",
-          "usage": "30 12 (H) 18 7 6.1 4.26"
-        },
-        {
-          "name": "Justin Topa",
-          "role": "Closer Committee",
-          "stats": [
-            "1",
-            "1",
-            "1",
-            "2",
-            "3.3%",
-            "15.6%",
+            "4",
+            "6",
+            "3",
+            "7.2%",
+            "16.9%",
             "6.8",
-            "9.4%",
-            "4.1"
-          ],
-          "throws": "R",
-          "usage": "12 10 14 (Sv) 15 (L) 9 6.2 5.40"
-        },
-        {
-          "name": "Kody Funderburk",
-          "role": "Middle Reliever",
-          "stats": [
-            "1",
-            "3",
-            "3",
-            "0",
-            "6.0%",
-            "21.4%",
-            "9.5",
-            "21.4%",
-            "9.5"
+            "7.2%",
+            "2.9"
           ],
           "throws": "L",
-          "usage": "20 (Sv) 20 (H) 3 8 5.2 3.18"
+          "usage": "11 (Sv) 8 (H) 23 42 1.1 20 18.2 3.86"
         },
         {
           "name": "Eric Orze",
-          "role": "Middle Reliever",
+          "role": "Closer Committee",
           "stats": [
             "1",
-            "3",
-            "3",
-            "0",
-            "7.8%",
-            "17.4%",
-            "6.4",
-            "13.0%",
+            "4",
+            "7",
+            "2",
+            "10.3%",
+            "18.8%",
+            "7.3",
+            "12.5%",
             "4.8"
           ],
           "throws": "R",
-          "usage": "14 (Sv) 19 (H) 12 (H) 5 5.2 1.59"
+          "usage": "19 (W) 26 45 3.1 19 22.1 3.63"
+        },
+        {
+          "name": "Justin Topa",
+          "role": "Middle Reliever",
+          "stats": [
+            "2",
+            "4",
+            "3",
+            "4",
+            "5.3%",
+            "13.0%",
+            "5.7",
+            "12.0%",
+            "5.2"
+          ],
+          "throws": "R",
+          "usage": "31 11 (H) 35 77 1.5 23 19 8.05"
+        },
+        {
+          "name": "Andrew Morris",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "3",
+            "3",
+            "3",
+            "10.3%",
+            "18.0%",
+            "7.2",
+            "6.7%",
+            "2.7"
+          ],
+          "throws": "R",
+          "usage": "16 (H) 12 (H) 24 (L,B) 52 2.2 12 20 4.50"
         },
         {
           "name": "Anthony Banda",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "1",
-            "1",
-            "2",
-            "9.6%",
-            "18.9%",
-            "8.2",
-            "5.4%",
-            "2.3"
+            "4",
+            "4",
+            "4",
+            "11.3%",
+            "19.8%",
+            "8.4",
+            "8.8%",
+            "3.7"
           ],
           "throws": "L",
-          "usage": "36 21 17 (H) 8 7.2 9.39"
+          "usage": "18 (H) 8 26 1.1 22 19.1 6.98"
         },
         {
-          "name": "Garrett Acton",
+          "name": "Yoendrys G\u00f3mez",
           "role": "Middle Reliever",
+          "stats": [
+            "2",
+            "1",
+            "2",
+            "0",
+            "9.2%",
+            "14.7%",
+            "6.1",
+            "12.6%",
+            "5.2"
+          ],
+          "throws": "R",
+          "usage": "11 (H) 11 7 29 1.2 15 20.2 5.23"
+        },
+        {
+          "name": "Simeon Woods Richardson",
+          "role": "Long Reliever",
           "stats": [
             "0",
             "0",
             "0",
             "0",
-            "14.3%",
-            "25.0%",
-            "9.0",
-            "0.0%",
-            "0.0"
+            "7.1%",
+            "10.3%",
+            "4.4",
+            "10.3%",
+            "4.4"
           ],
           "throws": "R",
-          "usage": "35 (W,B) 1 2 4.50"
+          "usage": "18 88 (L) 106 4 10 43 7.53"
         }
       ],
       "injured_headers": [
@@ -4812,137 +4683,137 @@
           "name": "Seranthony Dom\u00ednguez",
           "role": "Closer",
           "stats": [
-            "2",
+            "10",
             "0",
-            "1",
-            "1",
-            "8.6%",
-            "22.7%",
-            "9.6",
-            "13.6%",
-            "5.8"
-          ],
-          "throws": "R",
-          "usage": "15 (Sv) 5 4.2 3.86"
-        },
-        {
-          "name": "Jordan Leasure",
-          "role": "Setup Man",
-          "stats": [
-            "0",
-            "3",
-            "3",
-            "1",
-            "14.5%",
-            "30.0%",
+            "8",
+            "4",
+            "10.6%",
+            "26.5%",
             "10.6",
-            "6.7%",
-            "2.3"
+            "13.3%",
+            "5.3"
           ],
           "throws": "R",
-          "usage": "18 (H) 21 (H) 19 (H) 7 7.2 4.70"
+          "usage": "32 (BS) 14 (Sv) 46 2 20 18.2 4.82"
         },
         {
           "name": "Grant Taylor",
           "role": "Setup Man",
           "stats": [
             "0",
+            "2",
+            "5",
             "1",
-            "1",
-            "0",
-            "9.4%",
-            "29.6%",
-            "11.4",
-            "7.4%",
-            "2.8"
+            "12.1%",
+            "34.3%",
+            "12.9",
+            "7.8%",
+            "3.0"
           ],
           "throws": "R",
-          "usage": "22 (H) 16 6 6.1 1.42"
+          "usage": "25 15 40 3 18 24.1 1.85"
         },
         {
           "name": "Sean Newcomb",
-          "role": "Middle Reliever",
+          "role": "Setup Man",
           "stats": [
-            "0",
             "1",
-            "0",
-            "0",
+            "3",
+            "5",
+            "1",
             "8.8%",
-            "23.7%",
-            "9.7",
-            "10.5%",
-            "4.3"
+            "21.7%",
+            "8.1",
+            "7.0%",
+            "2.6"
           ],
           "throws": "L",
-          "usage": "14 26 6 8.1 4.32"
+          "usage": "21 26 (Sv) 14 (H) 61 5 20 27.2 2.60"
+        },
+        {
+          "name": "Bryan Hudson",
+          "role": "Middle Reliever",
+          "stats": [
+            "2",
+            "2",
+            "4",
+            "3",
+            "10.2%",
+            "22.9%",
+            "9.0",
+            "10.4%",
+            "4.1"
+          ],
+          "throws": "L",
+          "usage": "19 23 (L) 42 2 23 22 1.64"
         },
         {
           "name": "Jordan Hicks",
           "role": "Middle Reliever",
           "stats": [
             "1",
-            "1",
-            "1",
-            "1",
-            "4.8%",
-            "14.8%",
-            "6.4",
-            "25.9%",
-            "11.1"
+            "3",
+            "4",
+            "2",
+            "6.6%",
+            "17.6%",
+            "7.8",
+            "20.0%",
+            "8.8"
           ],
           "throws": "R",
-          "usage": "13 23 (L,B) 6 5.2 7.94"
+          "usage": "18 35 21 (H) 74 2.2 19 17.1 5.19"
         },
         {
-          "name": "Bryan Hudson",
+          "name": "Tyler Davis",
           "role": "Middle Reliever",
           "stats": [
             "0",
+            "0",
+            "2",
             "1",
+            "6.9%",
+            "18.4%",
+            "6.3",
+            "18.4%",
+            "6.3"
+          ],
+          "throws": "R",
+          "usage": "16 (W) 9 23 (W) 48 3.2 9 10 3.60"
+        },
+        {
+          "name": "Brandon Eisert",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "0",
             "0",
             "1",
-            "7.8%",
-            "16.7%",
-            "7.7",
-            "16.7%",
-            "7.7"
+            "8.9%",
+            "8.7%",
+            "4.5",
+            "13.0%",
+            "6.8"
           ],
           "throws": "L",
-          "usage": "10 (BS) 15 19 (H) 5 4.2 3.86"
+          "usage": "21 31 AAA AAA AAA 52 1.1 4 4 9.00"
         },
         {
-          "name": "Lucas Sims",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "1",
-            "0",
-            "1",
-            "8.8%",
-            "21.1%",
-            "8.3",
-            "10.5%",
-            "4.2"
-          ],
-          "throws": "R",
-          "usage": "16 (L,H) 21 3 4.1 2.08"
-        },
-        {
-          "name": "Duncan Davitt",
+          "name": "Trevor Richards",
           "role": "Long Reliever",
           "stats": [
             "0",
             "0",
-            "0",
-            "0",
-            "0.0%",
-            "0.0%",
-            "0.0",
-            "33.3%",
-            "9.0"
+            "1",
+            "1",
+            "10.1%",
+            "24.4%",
+            "10.0",
+            "9.8%",
+            "4.0"
           ],
           "throws": "R",
-          "usage": "14 AAA AAA AAA AAA 1 1 0.00"
+          "usage": "26 34 7 67 3.2 6 9 9.00"
         }
       ],
       "injured_headers": [
@@ -4950,18 +4821,7 @@
         "Thr",
         "Status"
       ],
-      "injured_rows": [
-        {
-          "name": "Prelander Berroa",
-          "status": "15-Day IL",
-          "throws": "R"
-        },
-        {
-          "name": "Mike Vasil",
-          "status": "60-Day IL",
-          "throws": "R"
-        }
-      ],
+      "injured_rows": [],
       "team": {
         "code": "CHW",
         "league": "AL Central",
@@ -4990,103 +4850,103 @@
           "name": "David Bednar",
           "role": "Closer",
           "stats": [
-            "5",
+            "11",
             "0",
-            "2",
-            "1",
-            "8.8%",
-            "23.3%",
-            "9.9",
-            "10.0%",
-            "4.3"
+            "7",
+            "4",
+            "14.3%",
+            "25.5%",
+            "10.7",
+            "9.2%",
+            "3.9"
           ],
           "throws": "R",
-          "usage": "21 (L) 14 (Sv) 6 6.1 4.26"
-        },
-        {
-          "name": "Camilo Doval",
-          "role": "Setup Man",
-          "stats": [
-            "0",
-            "1",
-            "2",
-            "1",
-            "15.7%",
-            "25.0%",
-            "10.8",
-            "4.2%",
-            "1.8"
-          ],
-          "throws": "R",
-          "usage": "8 12 7 5 7.20"
+          "usage": "36 (Sv) 23 (BS) 21 80 3 21 21 5.14"
         },
         {
           "name": "Fernando Cruz",
           "role": "Setup Man",
           "stats": [
             "0",
+            "9",
+            "8",
             "3",
-            "1",
-            "0",
-            "18.9%",
-            "38.9%",
-            "13.5",
-            "22.2%",
-            "7.7"
+            "17.7%",
+            "32.2%",
+            "12.6",
+            "14.9%",
+            "5.9"
           ],
           "throws": "R",
-          "usage": "20 (W) 16 (H) 6 4.2 1.93"
+          "usage": "21 (H) 13 (H) 15 (H) 49 3.1 23 20 2.25"
         },
         {
           "name": "Tim Hill",
-          "role": "Middle Reliever",
+          "role": "Setup Man",
           "stats": [
             "0",
+            "7",
+            "8",
             "3",
-            "4",
-            "0",
-            "9.5%",
-            "15.8%",
-            "4.5",
-            "0.0%",
-            "0.0"
+            "5.0%",
+            "9.9%",
+            "3.4",
+            "2.8%",
+            "1.0"
           ],
           "throws": "L",
-          "usage": "17 6 6 0.00"
-        },
-        {
-          "name": "Jake Bird",
-          "role": "Middle Reliever",
-          "stats": [
-            "0",
-            "1",
-            "1",
-            "1",
-            "12.2%",
-            "32.0%",
-            "12.0",
-            "4.0%",
-            "1.5"
-          ],
-          "throws": "R",
-          "usage": "20 10 10 (L,B) 7 6 4.50"
+          "usage": "10 (L) 12 22 0.2 22 18.2 1.45"
         },
         {
           "name": "Brent Headrick",
           "role": "Middle Reliever",
           "stats": [
             "0",
-            "0",
-            "2",
-            "1",
-            "18.5%",
-            "34.3%",
-            "14.7",
-            "11.4%",
-            "4.9"
+            "5",
+            "8",
+            "3",
+            "15.1%",
+            "26.3%",
+            "10.0",
+            "9.1%",
+            "3.5"
           ],
           "throws": "L",
-          "usage": "16 14 22 9 7.1 1.23"
+          "usage": "26 26 1.1 23 23.1 2.31"
+        },
+        {
+          "name": "Camilo Doval",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "3",
+            "2",
+            "4",
+            "12.3%",
+            "23.6%",
+            "8.8",
+            "4.2%",
+            "1.6"
+          ],
+          "throws": "R",
+          "usage": "15 (H) 8 23 1.1 20 17.1 5.19"
+        },
+        {
+          "name": "Jake Bird",
+          "role": "Middle Reliever",
+          "stats": [
+            "0",
+            "5",
+            "4",
+            "2",
+            "11.4%",
+            "25.0%",
+            "9.8",
+            "6.3%",
+            "2.5"
+          ],
+          "throws": "R",
+          "usage": "18 (H) 15 33 0.4 18 14.2 4.91"
         },
         {
           "name": "Ryan Yarbrough",
@@ -5095,15 +4955,15 @@
             "0",
             "0",
             "0",
-            "1",
-            "6.6%",
-            "17.6%",
-            "5.8",
-            "11.8%",
-            "3.9"
+            "2",
+            "9.2%",
+            "19.7%",
+            "7.6",
+            "8.5%",
+            "3.2"
           ],
           "throws": "L",
-          "usage": "28 23 3 4.2 0.00"
+          "usage": "21 55 76 4 10 16.2 4.32"
         },
         {
           "name": "Paul Blackburn",
@@ -5113,14 +4973,14 @@
             "0",
             "0",
             "1",
-            "10.1%",
-            "15.0%",
-            "6.8",
-            "5.0%",
-            "2.3"
+            "7.0%",
+            "14.8%",
+            "5.8",
+            "11.4%",
+            "4.4"
           ],
           "throws": "R",
-          "usage": "19 3 4 2.25"
+          "usage": "20 (W) 24 36 80 4.2 14 20.1 3.54"
         }
       ],
       "injured_headers": [
@@ -5137,5 +4997,5 @@
       }
     }
   },
-  "updated": "Updated: Saturday, April 11, 2026 10:45 AM ET Updated: 4/11/2026 10:45 AM ET"
+  "updated": "Updated: Tuesday, May 19, 2026 11:29 AM ET Updated: 5/19/2026 11:29 AM ET"
 }

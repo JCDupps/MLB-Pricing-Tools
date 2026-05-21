@@ -1,0 +1,3901 @@
+{
+  "cache_key": "{\"overrides_modified_at\": \"2026-05-21T17:53:43.800409\", \"workbook_modified_at\": \"2026-04-29T12:09:43.655735\"}",
+  "generated_at": "2026-05-21T19:22:33.287758",
+  "lookup": {
+    "a": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Jos\u00e9 Ure\u00f1a"
+    },
+    "aaronbrooks": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Aaron Brooks"
+    },
+    "aaroncivale": {
+      "era": 4.65,
+      "ip": 5.12,
+      "pitcher_name": "Aaron Civale"
+    },
+    "aaronnola": {
+      "era": 3.9,
+      "ip": 5.3,
+      "pitcher_name": "Aaron Nola"
+    },
+    "abbott": {
+      "era": 4.15,
+      "ip": 5.05,
+      "pitcher_name": "Andrew Abbott"
+    },
+    "abel": {
+      "era": 4.5,
+      "ip": 6.19,
+      "pitcher_name": "Mick Abel"
+    },
+    "adammazur": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Adam Mazur"
+    },
+    "adamoller": {
+      "era": 4.9,
+      "ip": "",
+      "pitcher_name": "Adam Oller"
+    },
+    "adams": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Travis Adams"
+    },
+    "adrianhouser": {
+      "era": 4.55,
+      "ip": 5.06,
+      "pitcher_name": "Adrian Houser"
+    },
+    "aguiar": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Julian Aguiar"
+    },
+    "ajblubaugh": {
+      "era": 4.2,
+      "ip": 4.0,
+      "pitcher_name": "AJ Blubaugh"
+    },
+    "ajsmithshawver": {
+      "era": 4.05,
+      "ip": "",
+      "pitcher_name": "AJ Smith-Shawver"
+    },
+    "albertsuarez": {
+      "era": 4.3,
+      "ip": 4.74,
+      "pitcher_name": "Albert Su\u00e1rez"
+    },
+    "alcantara": {
+      "era": 3.65,
+      "ip": 6.1,
+      "pitcher_name": "Sandy Alcantara"
+    },
+    "alecmarsh": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Alec Marsh"
+    },
+    "alekmanoah": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Alek Manoah"
+    },
+    "alexcobb": {
+      "era": 3.9,
+      "ip": "",
+      "pitcher_name": "Alex Cobb"
+    },
+    "alexfaedo": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Alex Faedo"
+    },
+    "allard": {
+      "era": 4.4,
+      "ip": 1.99,
+      "pitcher_name": "Kolby Allard"
+    },
+    "allen": {
+      "era": 4.35,
+      "ip": "",
+      "pitcher_name": "Logan Allen"
+    },
+    "alvarez": {
+      "era": 4.5,
+      "ip": 5.29,
+      "pitcher_name": "Andrew Alvarez"
+    },
+    "andrepallante": {
+      "era": 4.3,
+      "ip": 5.1,
+      "pitcher_name": "Andre Pallante"
+    },
+    "andrewabbott": {
+      "era": 4.15,
+      "ip": 5.05,
+      "pitcher_name": "Andrew Abbott"
+    },
+    "andrewalvarez": {
+      "era": 4.5,
+      "ip": 5.29,
+      "pitcher_name": "Andrew Alvarez"
+    },
+    "andrewheaney": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Andrew Heaney"
+    },
+    "andrewpainter": {
+      "era": 4.2,
+      "ip": 5.25,
+      "pitcher_name": "Andrew Painter"
+    },
+    "anthonydesclafani": {
+      "era": 4.45,
+      "ip": "",
+      "pitcher_name": "Anthony Desclafani"
+    },
+    "anthonykay": {
+      "era": 4.8,
+      "ip": 4.75,
+      "pitcher_name": "Anthony Kay"
+    },
+    "anthonymolina": {
+      "era": 5.2,
+      "ip": "",
+      "pitcher_name": "Anthony Molina"
+    },
+    "antoniosenzatela": {
+      "era": 5.25,
+      "ip": 6.99,
+      "pitcher_name": "Antonio Senzatela"
+    },
+    "armstrong": {
+      "era": 4.1,
+      "ip": 4.18,
+      "pitcher_name": "Shawn Armstrong"
+    },
+    "arrighetti": {
+      "era": 4.35,
+      "ip": 5.49,
+      "pitcher_name": "Spencer Arrighetti"
+    },
+    "assad": {
+      "era": 4.5,
+      "ip": 4.73,
+      "pitcher_name": "Javier Assad"
+    },
+    "austingomber": {
+      "era": 5.2,
+      "ip": "",
+      "pitcher_name": "Austin Gomber"
+    },
+    "avila": {
+      "era": 4.85,
+      "ip": 3.56,
+      "pitcher_name": "Luinder Avila"
+    },
+    "baileyfalter": {
+      "era": 4.85,
+      "ip": 3.51,
+      "pitcher_name": "Bailey Falter"
+    },
+    "baileyober": {
+      "era": 4.5,
+      "ip": 5.39,
+      "pitcher_name": "Bailey Ober"
+    },
+    "barnett": {
+      "era": 4.7,
+      "ip": 3.77,
+      "pitcher_name": "Mason Barnett"
+    },
+    "bassitt": {
+      "era": 4.4,
+      "ip": 5.29,
+      "pitcher_name": "Chris Bassitt"
+    },
+    "basso": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Brady Basso"
+    },
+    "baz": {
+      "era": 4.1,
+      "ip": 5.47,
+      "pitcher_name": "Shane Baz"
+    },
+    "beaubrieske": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Beau Brieske"
+    },
+    "bello": {
+      "era": 4.35,
+      "ip": 4.84,
+      "pitcher_name": "Brayan Bello"
+    },
+    "bellozo": {
+      "era": 4.75,
+      "ip": 4.8,
+      "pitcher_name": "Valente Bellozo"
+    },
+    "benbrown": {
+      "era": 4,
+      "ip": 5.11,
+      "pitcher_name": "Ben Brown"
+    },
+    "bencasparius": {
+      "era": 4.2,
+      "ip": 2.76,
+      "pitcher_name": "Ben Casparius"
+    },
+    "benlively": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Ben Lively"
+    },
+    "bergert": {
+      "era": 4.25,
+      "ip": "",
+      "pitcher_name": "Ryan Bergert"
+    },
+    "bibee": {
+      "era": 4.1,
+      "ip": 5.19,
+      "pitcher_name": "Tanner Bibee"
+    },
+    "bido": {
+      "era": 4.7,
+      "ip": 5.07,
+      "pitcher_name": "Osvaldo Bido"
+    },
+    "bieber": {
+      "era": 3.65,
+      "ip": "",
+      "pitcher_name": "Shane Bieber"
+    },
+    "birdsong": {
+      "era": 4.45,
+      "ip": "",
+      "pitcher_name": "Hayden Birdsong"
+    },
+    "blach": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Ty Blach"
+    },
+    "black": {
+      "era": 5,
+      "ip": 3.48,
+      "pitcher_name": "Mason Black"
+    },
+    "blackburn": {
+      "era": 4.25,
+      "ip": 5.85,
+      "pitcher_name": "Paul Blackburn"
+    },
+    "bladetidwell": {
+      "era": 4.7,
+      "ip": 5.27,
+      "pitcher_name": "Blade Tidwell"
+    },
+    "blakesnell": {
+      "era": 3.45,
+      "ip": "",
+      "pitcher_name": "Blake Snell"
+    },
+    "blalock": {
+      "era": 5.3,
+      "ip": "",
+      "pitcher_name": "Bradley Blalock"
+    },
+    "blanco": {
+      "era": 4.2,
+      "ip": "",
+      "pitcher_name": "Ronel Blanco"
+    },
+    "bloss": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Jake Bloss"
+    },
+    "blubaugh": {
+      "era": 4.2,
+      "ip": 4.0,
+      "pitcher_name": "AJ Blubaugh"
+    },
+    "bobbymiller": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Bobby Miller"
+    },
+    "bolton": {
+      "era": 4.35,
+      "ip": 3.92,
+      "pitcher_name": "Cody Bolton"
+    },
+    "bowdenfrancis": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Bowden Francis"
+    },
+    "boyd": {
+      "era": 3.75,
+      "ip": 4.93,
+      "pitcher_name": "Matthew Boyd"
+    },
+    "boyle": {
+      "era": 3.9,
+      "ip": 4.05,
+      "pitcher_name": "Joe Boyle"
+    },
+    "bpgame": {
+      "era": 4.9,
+      "ip": "",
+      "pitcher_name": "BP Game"
+    },
+    "bradford": {
+      "era": 4.15,
+      "ip": "",
+      "pitcher_name": "Cody Bradford"
+    },
+    "bradish": {
+      "era": 3.7,
+      "ip": 5.14,
+      "pitcher_name": "Kyle Bradish"
+    },
+    "bradley": {
+      "era": 3.75,
+      "ip": 5.67,
+      "pitcher_name": "Taj Bradley"
+    },
+    "bradleyblalock": {
+      "era": 5.3,
+      "ip": "",
+      "pitcher_name": "Bradley Blalock"
+    },
+    "bradlord": {
+      "era": 4.15,
+      "ip": 4.74,
+      "pitcher_name": "Brad Lord"
+    },
+    "bradybasso": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Brady Basso"
+    },
+    "bradysinger": {
+      "era": 4.15,
+      "ip": 5.38,
+      "pitcher_name": "Brady Singer"
+    },
+    "brandonpfaadt": {
+      "era": 4.25,
+      "ip": 5.39,
+      "pitcher_name": "Brandon Pfaadt"
+    },
+    "brandonsproat": {
+      "era": 4.3,
+      "ip": 5.1,
+      "pitcher_name": "Brandon Sproat"
+    },
+    "brandonwaddell": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Brandon Waddell"
+    },
+    "brandonwalter": {
+      "era": 3.85,
+      "ip": "",
+      "pitcher_name": "Brandon Walter"
+    },
+    "brandonwilliamson": {
+      "era": 4.65,
+      "ip": 5.11,
+      "pitcher_name": "Brandon Williamson"
+    },
+    "brandonwoodruff": {
+      "era": 3.85,
+      "ip": 5.73,
+      "pitcher_name": "Brandon Woodruff"
+    },
+    "brandonyoung": {
+      "era": 4.4,
+      "ip": 5.13,
+      "pitcher_name": "Brandon Young"
+    },
+    "branthurter": {
+      "era": 4.25,
+      "ip": 3.53,
+      "pitcher_name": "Brant Hurter"
+    },
+    "braxtonashcraft": {
+      "era": 3.7,
+      "ip": 5.6,
+      "pitcher_name": "Braxton Ashcraft"
+    },
+    "braxtongarrett": {
+      "era": 4.1,
+      "ip": "",
+      "pitcher_name": "Braxton Garrett"
+    },
+    "brayanbello": {
+      "era": 4.35,
+      "ip": 4.84,
+      "pitcher_name": "Brayan Bello"
+    },
+    "brieske": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Beau Brieske"
+    },
+    "brooks": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Aaron Brooks"
+    },
+    "bryanhoeing": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Bryan Hoeing"
+    },
+    "bryansammons": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Bryan Sammons"
+    },
+    "bryanwoo": {
+      "era": 3.45,
+      "ip": 6.01,
+      "pitcher_name": "Bryan Woo"
+    },
+    "bryceelder": {
+      "era": 4.25,
+      "ip": 5.87,
+      "pitcher_name": "Bryce Elder"
+    },
+    "brycemiller": {
+      "era": 4.1,
+      "ip": "",
+      "pitcher_name": "Bryce Miller"
+    },
+    "brysewilson": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Bryse Wilson"
+    },
+    "bubbachandler": {
+      "era": 4.35,
+      "ip": 4.98,
+      "pitcher_name": "Bubba Chandler"
+    },
+    "bubic": {
+      "era": 3.65,
+      "ip": 5.25,
+      "pitcher_name": "Kris Bubic"
+    },
+    "buehler": {
+      "era": 4.6,
+      "ip": 4.7,
+      "pitcher_name": "Walker Buehler"
+    },
+    "burke": {
+      "era": 4.35,
+      "ip": 5.56,
+      "pitcher_name": "Sean Burke"
+    },
+    "burnes": {
+      "era": 3.55,
+      "ip": "",
+      "pitcher_name": "Corbin Burnes"
+    },
+    "burns": {
+      "era": 3.5,
+      "ip": 5.37,
+      "pitcher_name": "Chase Burns"
+    },
+    "burrows": {
+      "era": 4.25,
+      "ip": 5.3,
+      "pitcher_name": "Mike Burrows"
+    },
+    "bush": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Ky Bush"
+    },
+    "cabrera": {
+      "era": 3.95,
+      "ip": 5.83,
+      "pitcher_name": "Edward Cabrera"
+    },
+    "cadecavalli": {
+      "era": 4.3,
+      "ip": 4.8,
+      "pitcher_name": "Cade Cavalli"
+    },
+    "cadehorton": {
+      "era": 3.9,
+      "ip": 6.25,
+      "pitcher_name": "Cade Horton"
+    },
+    "cadendana": {
+      "era": 4.9,
+      "ip": "",
+      "pitcher_name": "Caden Dana"
+    },
+    "cadepovich": {
+      "era": 4.25,
+      "ip": 5.85,
+      "pitcher_name": "Cade Povich"
+    },
+    "calebkilian": {
+      "era": 4.5,
+      "ip": 5.42,
+      "pitcher_name": "Caleb Kilian"
+    },
+    "calquantrill": {
+      "era": 4.75,
+      "ip": 4.59,
+      "pitcher_name": "Cal Quantrill"
+    },
+    "cameron": {
+      "era": 4.15,
+      "ip": 5.38,
+      "pitcher_name": "Noah Cameron"
+    },
+    "camschlittler": {
+      "era": 3.45,
+      "ip": 5.77,
+      "pitcher_name": "Cam Schlittler"
+    },
+    "canning": {
+      "era": 4.15,
+      "ip": "",
+      "pitcher_name": "Griffin Canning"
+    },
+    "cannon": {
+      "era": 4.75,
+      "ip": "",
+      "pitcher_name": "Jonathan Cannon"
+    },
+    "cantillo": {
+      "era": 3.8,
+      "ip": 5.2,
+      "pitcher_name": "Joey Cantillo"
+    },
+    "carloscarrasco": {
+      "era": 4.85,
+      "ip": 8.1,
+      "pitcher_name": "Carlos Carrasco"
+    },
+    "carlosrodon": {
+      "era": 3.7,
+      "ip": "",
+      "pitcher_name": "Carlos Rod\u00f3n"
+    },
+    "carlosrodriguez": {
+      "era": 4.5,
+      "ip": 5.07,
+      "pitcher_name": "Carlos Rodriguez"
+    },
+    "carmenmlodzinski": {
+      "era": 3.8,
+      "ip": 5.34,
+      "pitcher_name": "Carmen Mlodzinski"
+    },
+    "carrasco": {
+      "era": 4.85,
+      "ip": 8.1,
+      "pitcher_name": "Carlos Carrasco"
+    },
+    "carsonfulmer": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Carson Fulmer"
+    },
+    "carsonpalmquist": {
+      "era": 5.5,
+      "ip": "",
+      "pitcher_name": "Carson Palmquist"
+    },
+    "carsonseymour": {
+      "era": 4.9,
+      "ip": "",
+      "pitcher_name": "Carson Seymour"
+    },
+    "carsonspiers": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Carson Spiers"
+    },
+    "carsonwhisenhunt": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Carson Whisenhunt"
+    },
+    "caseymize": {
+      "era": 3.85,
+      "ip": 5.77,
+      "pitcher_name": "Casey Mize"
+    },
+    "casparius": {
+      "era": 4.2,
+      "ip": 2.76,
+      "pitcher_name": "Ben Casparius"
+    },
+    "castillo": {
+      "era": 4.1,
+      "ip": 5.02,
+      "pitcher_name": "Luis Castillo"
+    },
+    "cavalli": {
+      "era": 4.3,
+      "ip": 4.8,
+      "pitcher_name": "Cade Cavalli"
+    },
+    "cease": {
+      "era": 3.3,
+      "ip": 5.06,
+      "pitcher_name": "Dylan Cease"
+    },
+    "cecconi": {
+      "era": 4.5,
+      "ip": 5.23,
+      "pitcher_name": "Slade Cecconi"
+    },
+    "chadpatrick": {
+      "era": 4.15,
+      "ip": 5.19,
+      "pitcher_name": "Chad Patrick"
+    },
+    "chandler": {
+      "era": 4.35,
+      "ip": 4.98,
+      "pitcher_name": "Bubba Chandler"
+    },
+    "charliemorton": {
+      "era": 4.05,
+      "ip": "",
+      "pitcher_name": "Charlie Morton"
+    },
+    "chaseanderson": {
+      "era": 4.9,
+      "ip": "",
+      "pitcher_name": "Chase Anderson"
+    },
+    "chaseburns": {
+      "era": 3.5,
+      "ip": 5.37,
+      "pitcher_name": "Chase Burns"
+    },
+    "chasedollander": {
+      "era": 4.25,
+      "ip": 5.14,
+      "pitcher_name": "Chase Dollander"
+    },
+    "chasepetty": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Chase Petty"
+    },
+    "chaycemcdermott": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Chayce McDermott"
+    },
+    "chirinos": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Yonny Chirinos"
+    },
+    "chrisbassitt": {
+      "era": 4.4,
+      "ip": 5.29,
+      "pitcher_name": "Chris Bassitt"
+    },
+    "chrisflexen": {
+      "era": 4.55,
+      "ip": "",
+      "pitcher_name": "Chris Flexen"
+    },
+    "chrispaddack": {
+      "era": 4.4,
+      "ip": 5.3,
+      "pitcher_name": "Chris Paddack"
+    },
+    "chrissale": {
+      "era": 3.15,
+      "ip": 5.49,
+      "pitcher_name": "Chris Sale"
+    },
+    "christianscott": {
+      "era": 4.1,
+      "ip": 2.25,
+      "pitcher_name": "Christian Scott"
+    },
+    "civale": {
+      "era": 4.65,
+      "ip": 5.12,
+      "pitcher_name": "Aaron Civale"
+    },
+    "clarkeschmidt": {
+      "era": 3.9,
+      "ip": "",
+      "pitcher_name": "Clarke Schmidt"
+    },
+    "clayholmes": {
+      "era": 4,
+      "ip": 5.97,
+      "pitcher_name": "Clay Holmes"
+    },
+    "claytonkershaw": {
+      "era": 3.95,
+      "ip": "",
+      "pitcher_name": "Clayton Kershaw"
+    },
+    "clevinger": {
+      "era": 5.2,
+      "ip": "",
+      "pitcher_name": "Mike Clevinger"
+    },
+    "cobb": {
+      "era": 3.9,
+      "ip": "",
+      "pitcher_name": "Alex Cobb"
+    },
+    "codybolton": {
+      "era": 4.35,
+      "ip": 3.92,
+      "pitcher_name": "Cody Bolton"
+    },
+    "codybradford": {
+      "era": 4.15,
+      "ip": "",
+      "pitcher_name": "Cody Bradford"
+    },
+    "codyponce": {
+      "era": 4.7,
+      "ip": 3.57,
+      "pitcher_name": "Cody Ponce"
+    },
+    "cole": {
+      "era": 3.5,
+      "ip": "",
+      "pitcher_name": "Gerrit Cole"
+    },
+    "coleirvin": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Cole Irvin"
+    },
+    "colemancrow": {
+      "era": 4.45,
+      "ip": 5.3,
+      "pitcher_name": "Coleman Crow"
+    },
+    "coleragans": {
+      "era": 3.45,
+      "ip": 5.22,
+      "pitcher_name": "Cole Ragans"
+    },
+    "colinrea": {
+      "era": 4.3,
+      "ip": 4.83,
+      "pitcher_name": "Colin Rea"
+    },
+    "coltongordon": {
+      "era": 4.3,
+      "ip": 4.71,
+      "pitcher_name": "Colton Gordon"
+    },
+    "connellyearly": {
+      "era": 3.8,
+      "ip": 5.5,
+      "pitcher_name": "Connelly Early"
+    },
+    "connorgillispie": {
+      "era": 4.75,
+      "ip": "",
+      "pitcher_name": "Connor Gillispie"
+    },
+    "contreras": {
+      "era": 4.65,
+      "ip": "",
+      "pitcher_name": "Roansy Contreras"
+    },
+    "coopercriswell": {
+      "era": 4.4,
+      "ip": 6.18,
+      "pitcher_name": "Cooper Criswell"
+    },
+    "corbin": {
+      "era": 4.5,
+      "ip": 5.31,
+      "pitcher_name": "Patrick Corbin"
+    },
+    "corbinburnes": {
+      "era": 3.55,
+      "ip": "",
+      "pitcher_name": "Corbin Burnes"
+    },
+    "cortes": {
+      "era": 4.55,
+      "ip": "",
+      "pitcher_name": "Nestor Cortes"
+    },
+    "crawford": {
+      "era": 4.15,
+      "ip": "",
+      "pitcher_name": "Kutter Crawford"
+    },
+    "crismatt": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Nabil Crismatt"
+    },
+    "cristianjavier": {
+      "era": 4.85,
+      "ip": 4.65,
+      "pitcher_name": "Cristian Javier"
+    },
+    "cristianmena": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Cristian Mena"
+    },
+    "cristophersanchez": {
+      "era": 3.05,
+      "ip": 5.59,
+      "pitcher_name": "Cristopher S\u00e1nchez"
+    },
+    "criswell": {
+      "era": 4.4,
+      "ip": 6.18,
+      "pitcher_name": "Cooper Criswell"
+    },
+    "crochet": {
+      "era": 2.9,
+      "ip": 5.56,
+      "pitcher_name": "Garrett Crochet"
+    },
+    "crow": {
+      "era": 4.45,
+      "ip": 5.3,
+      "pitcher_name": "Coleman Crow"
+    },
+    "cueto": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Johnny Cueto"
+    },
+    "curry": {
+      "era": 4.9,
+      "ip": "",
+      "pitcher_name": "Xzavion Curry"
+    },
+    "dakotahudson": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Dakota Hudson"
+    },
+    "dallaskeuchel": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Dallas Keuchel"
+    },
+    "dana": {
+      "era": 4.9,
+      "ip": "",
+      "pitcher_name": "Caden Dana"
+    },
+    "danedunning": {
+      "era": 4.45,
+      "ip": "",
+      "pitcher_name": "Dane Dunning"
+    },
+    "daniel": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Davis Daniel"
+    },
+    "darrenmccaughan": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Darren McCaughan"
+    },
+    "darvish": {
+      "era": 4,
+      "ip": "",
+      "pitcher_name": "Yu Darvish"
+    },
+    "davidfesta": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "David Festa"
+    },
+    "davidpeterson": {
+      "era": 3.85,
+      "ip": 5.29,
+      "pitcher_name": "David Peterson"
+    },
+    "davis": {
+      "era": 4.75,
+      "ip": "",
+      "pitcher_name": "Noah Davis"
+    },
+    "davisdaniel": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Davis Daniel"
+    },
+    "davismartin": {
+      "era": 4.3,
+      "ip": 5.59,
+      "pitcher_name": "davis Martin"
+    },
+    "deankremer": {
+      "era": 4.4,
+      "ip": 5.63,
+      "pitcher_name": "Dean Kremer"
+    },
+    "degrom": {
+      "era": 3.3,
+      "ip": 5.56,
+      "pitcher_name": "Jacob DeGrom"
+    },
+    "desclafani": {
+      "era": 4.45,
+      "ip": "",
+      "pitcher_name": "Anthony Desclafani"
+    },
+    "detmers": {
+      "era": 3.8,
+      "ip": 5.67,
+      "pitcher_name": "Reid Detmers"
+    },
+    "didierfuentes": {
+      "era": 4.15,
+      "ip": 4.5,
+      "pitcher_name": "Didier Fuentes"
+    },
+    "dietrichenns": {
+      "era": 4.25,
+      "ip": 1.93,
+      "pitcher_name": "Dietrich Enns"
+    },
+    "djherz": {
+      "era": 4.1,
+      "ip": "",
+      "pitcher_name": "DJ Herz"
+    },
+    "dlhall": {
+      "era": 4.6,
+      "ip": 5.15,
+      "pitcher_name": "DL Hall"
+    },
+    "dobbins": {
+      "era": 4.45,
+      "ip": "",
+      "pitcher_name": "Hunter Dobbins"
+    },
+    "dobnak": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Randy Dobnak"
+    },
+    "dollander": {
+      "era": 4.25,
+      "ip": 5.14,
+      "pitcher_name": "Chase Dollander"
+    },
+    "domingogerman": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Domingo Germ\u00e1n"
+    },
+    "dougnikhazy": {
+      "era": 4.6,
+      "ip": 4.1,
+      "pitcher_name": "Doug Nikhazy"
+    },
+    "drewrasmussen": {
+      "era": 3.7,
+      "ip": 5.04,
+      "pitcher_name": "Drew Rasmussen"
+    },
+    "drewthorpe": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Drew Thorpe"
+    },
+    "drohan": {
+      "era": 4.5,
+      "ip": 4.0,
+      "pitcher_name": "Shane Drohan"
+    },
+    "dunning": {
+      "era": 4.45,
+      "ip": "",
+      "pitcher_name": "Dane Dunning"
+    },
+    "dustinmay": {
+      "era": 4.35,
+      "ip": 4.97,
+      "pitcher_name": "Dustin May"
+    },
+    "dylancease": {
+      "era": 3.3,
+      "ip": 5.06,
+      "pitcher_name": "Dylan Cease"
+    },
+    "early": {
+      "era": 3.8,
+      "ip": 5.5,
+      "pitcher_name": "Connelly Early"
+    },
+    "eastonlucas": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Easton Lucas"
+    },
+    "eder": {
+      "era": 5,
+      "ip": 4.53,
+      "pitcher_name": "Jake Eder"
+    },
+    "eduardorodriguez": {
+      "era": 4.2,
+      "ip": 5.29,
+      "pitcher_name": "Eduardo Rodriguez"
+    },
+    "edwardcabrera": {
+      "era": 3.95,
+      "ip": 5.83,
+      "pitcher_name": "Edward Cabrera"
+    },
+    "eflin": {
+      "era": 4.25,
+      "ip": 3.68,
+      "pitcher_name": "Zach Eflin"
+    },
+    "elder": {
+      "era": 4.25,
+      "ip": 5.87,
+      "pitcher_name": "Bryce Elder"
+    },
+    "elvinrodriguez": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Elvin Rodriguez"
+    },
+    "emersonhancock": {
+      "era": 3.9,
+      "ip": 5.66,
+      "pitcher_name": "Emerson Hancock"
+    },
+    "emmetsheehan": {
+      "era": 4.1,
+      "ip": 5.32,
+      "pitcher_name": "Emmet Sheehan"
+    },
+    "enns": {
+      "era": 4.25,
+      "ip": 1.93,
+      "pitcher_name": "Dietrich Enns"
+    },
+    "eovaldi": {
+      "era": 3.6,
+      "ip": 6.06,
+      "pitcher_name": "Nathan Eovaldi"
+    },
+    "erickfedde": {
+      "era": 4.8,
+      "ip": 5.19,
+      "pitcher_name": "Erick Fedde"
+    },
+    "ericlauer": {
+      "era": 4.15,
+      "ip": 5.37,
+      "pitcher_name": "Eric Lauer"
+    },
+    "espino": {
+      "era": 5.2,
+      "ip": "",
+      "pitcher_name": "Paolo Espino"
+    },
+    "estes": {
+      "era": 4.75,
+      "ip": "",
+      "pitcher_name": "Joey Estes"
+    },
+    "estrada": {
+      "era": 4.5,
+      "ip": 3.28,
+      "pitcher_name": "Lazaro Estrada"
+    },
+    "euryperez": {
+      "era": 4.05,
+      "ip": 5.19,
+      "pitcher_name": "Eury P\u00e9rez"
+    },
+    "evans": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Logan Evans"
+    },
+    "faedo": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Alex Faedo"
+    },
+    "falter": {
+      "era": 4.85,
+      "ip": 3.51,
+      "pitcher_name": "Bailey Falter"
+    },
+    "fedde": {
+      "era": 4.8,
+      "ip": 5.19,
+      "pitcher_name": "Erick Fedde"
+    },
+    "feltner": {
+      "era": 4.6,
+      "ip": 4.6,
+      "pitcher_name": "Ryan Feltner"
+    },
+    "festa": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "David Festa"
+    },
+    "fitts": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Richard Fitts"
+    },
+    "flaherty": {
+      "era": 4.1,
+      "ip": 4.75,
+      "pitcher_name": "Jack Flaherty"
+    },
+    "flexen": {
+      "era": 4.55,
+      "ip": "",
+      "pitcher_name": "Chris Flexen"
+    },
+    "fostergriffin": {
+      "era": 4.15,
+      "ip": 5.57,
+      "pitcher_name": "Foster Griffin"
+    },
+    "frambervaldez": {
+      "era": 3.55,
+      "ip": 5.74,
+      "pitcher_name": "Framber Valdez"
+    },
+    "francis": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Bowden Francis"
+    },
+    "frankiemontas": {
+      "era": 4.25,
+      "ip": "",
+      "pitcher_name": "Frankie Montas"
+    },
+    "freddyperalta": {
+      "era": 3.8,
+      "ip": 5.44,
+      "pitcher_name": "Freddy Peralta"
+    },
+    "freeland": {
+      "era": 4.3,
+      "ip": 5.65,
+      "pitcher_name": "Kyle Freeland"
+    },
+    "fried": {
+      "era": 3.35,
+      "ip": 6.11,
+      "pitcher_name": "Max Fried"
+    },
+    "fuentes": {
+      "era": 4.15,
+      "ip": 4.5,
+      "pitcher_name": "Didier Fuentes"
+    },
+    "fulmer": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Carson Fulmer"
+    },
+    "gallen": {
+      "era": 4.3,
+      "ip": 5.23,
+      "pitcher_name": "Zac Gallen"
+    },
+    "game": {
+      "era": 4.9,
+      "ip": "",
+      "pitcher_name": "BP Game"
+    },
+    "garcia": {
+      "era": 4.2,
+      "ip": "",
+      "pitcher_name": "Luis Garcia"
+    },
+    "garrett": {
+      "era": 4.1,
+      "ip": "",
+      "pitcher_name": "Braxton Garrett"
+    },
+    "garrettcrochet": {
+      "era": 2.9,
+      "ip": 5.56,
+      "pitcher_name": "Garrett Crochet"
+    },
+    "gasser": {
+      "era": 4.35,
+      "ip": "",
+      "pitcher_name": "Robert Gasser"
+    },
+    "gausman": {
+      "era": 3.4,
+      "ip": 5.94,
+      "pitcher_name": "Kevin Gausman"
+    },
+    "gavinstone": {
+      "era": 4.15,
+      "ip": "",
+      "pitcher_name": "Gavin Stone"
+    },
+    "gavinwilliams": {
+      "era": 3.8,
+      "ip": 5.61,
+      "pitcher_name": "Gavin Williams"
+    },
+    "georgekirby": {
+      "era": 3.65,
+      "ip": 6.16,
+      "pitcher_name": "George Kirby"
+    },
+    "georgeklassen": {
+      "era": 4.7,
+      "ip": 4.49,
+      "pitcher_name": "George Klassen"
+    },
+    "germanmarquez": {
+      "era": 5,
+      "ip": 6.26,
+      "pitcher_name": "Germ\u00e1n M\u00e1rquez"
+    },
+    "gerritcole": {
+      "era": 3.5,
+      "ip": "",
+      "pitcher_name": "Gerrit Cole"
+    },
+    "gibson": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Kyle Gibson"
+    },
+    "gil": {
+      "era": 4.3,
+      "ip": 5.38,
+      "pitcher_name": "Luis Gil"
+    },
+    "gilbert": {
+      "era": 3.4,
+      "ip": 5.5,
+      "pitcher_name": "Logan Gilbert"
+    },
+    "gillispie": {
+      "era": 4.75,
+      "ip": "",
+      "pitcher_name": "Connor Gillispie"
+    },
+    "ginn": {
+      "era": 4.25,
+      "ip": 5.33,
+      "pitcher_name": "J.T. Ginn"
+    },
+    "giolito": {
+      "era": 4.35,
+      "ip": "",
+      "pitcher_name": "Lucas Giolito"
+    },
+    "glasnow": {
+      "era": 3.35,
+      "ip": 6.34,
+      "pitcher_name": "Tyler Glasnow"
+    },
+    "gomber": {
+      "era": 5.2,
+      "ip": "",
+      "pitcher_name": "Austin Gomber"
+    },
+    "gonsolin": {
+      "era": 4.45,
+      "ip": "",
+      "pitcher_name": "Tony Gonsolin"
+    },
+    "gonzales": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Marco Gonzales"
+    },
+    "gordongraceffo": {
+      "era": 4.4,
+      "ip": 4.73,
+      "pitcher_name": "Gordon Graceffo"
+    },
+    "gore": {
+      "era": 3.6,
+      "ip": 5.01,
+      "pitcher_name": "MacKenzie Gore"
+    },
+    "graceffo": {
+      "era": 4.4,
+      "ip": 4.73,
+      "pitcher_name": "Gordon Graceffo"
+    },
+    "grahamashcraft": {
+      "era": 4.5,
+      "ip": 2.73,
+      "pitcher_name": "Graham Ashcraft"
+    },
+    "grantholmes": {
+      "era": 4.25,
+      "ip": 5.31,
+      "pitcher_name": "Grant Holmes"
+    },
+    "graysonrodriguez": {
+      "era": 3.7,
+      "ip": "",
+      "pitcher_name": "Grayson Rodriguez"
+    },
+    "greene": {
+      "era": 3.1,
+      "ip": "",
+      "pitcher_name": "Hunter Greene"
+    },
+    "griffin": {
+      "era": 4.15,
+      "ip": 5.57,
+      "pitcher_name": "Foster Griffin"
+    },
+    "griffincanning": {
+      "era": 4.15,
+      "ip": "",
+      "pitcher_name": "Griffin Canning"
+    },
+    "guez": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Yariel Rodr\u00edguez"
+    },
+    "gunnarhoglund": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Gunnar Hoglund"
+    },
+    "gusto": {
+      "era": 4.25,
+      "ip": 6.58,
+      "pitcher_name": "Ryan Gusto"
+    },
+    "hagenman": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Justin Hagenman"
+    },
+    "hall": {
+      "era": 4.6,
+      "ip": 5.15,
+      "pitcher_name": "DL Hall"
+    },
+    "hancock": {
+      "era": 3.9,
+      "ip": 5.66,
+      "pitcher_name": "Emerson Hancock"
+    },
+    "harrington": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Thomas Harrington"
+    },
+    "harris": {
+      "era": 4.4,
+      "ip": 4.93,
+      "pitcher_name": "Hogan Harris"
+    },
+    "harrison": {
+      "era": 4.05,
+      "ip": 4.85,
+      "pitcher_name": "Kyle Harrison"
+    },
+    "hart": {
+      "era": 4.8,
+      "ip": 4.91,
+      "pitcher_name": "Kyle Hart"
+    },
+    "hatch": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Thomas Hatch"
+    },
+    "haydenbirdsong": {
+      "era": 4.45,
+      "ip": "",
+      "pitcher_name": "Hayden Birdsong"
+    },
+    "haydenwesneski": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Hayden Wesneski"
+    },
+    "heaney": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Andrew Heaney"
+    },
+    "henderson": {
+      "era": 4.15,
+      "ip": 4.74,
+      "pitcher_name": "Logan Henderson"
+    },
+    "hendricks": {
+      "era": 4.9,
+      "ip": "",
+      "pitcher_name": "Kyle Hendricks"
+    },
+    "henry": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Tommy Henry"
+    },
+    "herz": {
+      "era": 4.1,
+      "ip": "",
+      "pitcher_name": "DJ Herz"
+    },
+    "hicks": {
+      "era": 4.15,
+      "ip": 4.91,
+      "pitcher_name": "Jordan Hicks"
+    },
+    "hill": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Rich Hill"
+    },
+    "hoeing": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Bryan Hoeing"
+    },
+    "hoganharris": {
+      "era": 4.4,
+      "ip": 4.93,
+      "pitcher_name": "Hogan Harris"
+    },
+    "hoglund": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Gunnar Hoglund"
+    },
+    "horton": {
+      "era": 3.9,
+      "ip": 6.25,
+      "pitcher_name": "Cade Horton"
+    },
+    "houck": {
+      "era": 4,
+      "ip": "",
+      "pitcher_name": "Tanner Houck"
+    },
+    "houser": {
+      "era": 4.55,
+      "ip": 5.06,
+      "pitcher_name": "Adrian Houser"
+    },
+    "howard": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Spencer Howard"
+    },
+    "hudson": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Dakota Hudson"
+    },
+    "hunterbrown": {
+      "era": 3.4,
+      "ip": 5.38,
+      "pitcher_name": "Hunter Brown"
+    },
+    "hunterdobbins": {
+      "era": 4.45,
+      "ip": "",
+      "pitcher_name": "Hunter Dobbins"
+    },
+    "huntergreene": {
+      "era": 3.1,
+      "ip": "",
+      "pitcher_name": "Hunter Greene"
+    },
+    "hurstonwaldrep": {
+      "era": 4.2,
+      "ip": "",
+      "pitcher_name": "Hurston Waldrep"
+    },
+    "hurter": {
+      "era": 4.25,
+      "ip": 3.53,
+      "pitcher_name": "Brant Hurter"
+    },
+    "ianseymour": {
+      "era": 4.4,
+      "ip": 4.78,
+      "pitcher_name": "Ian Seymour"
+    },
+    "imai": {
+      "era": 4.1,
+      "ip": 4.3,
+      "pitcher_name": "Tatsuya Imai"
+    },
+    "imanaga": {
+      "era": 3.8,
+      "ip": 5.67,
+      "pitcher_name": "Shota Imanaga"
+    },
+    "jackflaherty": {
+      "era": 4.1,
+      "ip": 4.75,
+      "pitcher_name": "Jack Flaherty"
+    },
+    "jackkochanowicz": {
+      "era": 4.6,
+      "ip": 5.91,
+      "pitcher_name": "Jack Kochanowicz"
+    },
+    "jackleiter": {
+      "era": 4,
+      "ip": 5.35,
+      "pitcher_name": "Jack Leiter"
+    },
+    "jackperkins": {
+      "era": 4.15,
+      "ip": 4.92,
+      "pitcher_name": "Jack Perkins"
+    },
+    "jacksonjobe": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Jackson Jobe"
+    },
+    "jacobdegrom": {
+      "era": 3.3,
+      "ip": 5.56,
+      "pitcher_name": "Jacob DeGrom"
+    },
+    "jacoblatz": {
+      "era": 4.3,
+      "ip": 5.0,
+      "pitcher_name": "Jacob Latz"
+    },
+    "jacoblopez": {
+      "era": 4.3,
+      "ip": 4.89,
+      "pitcher_name": "Jacob Lopez"
+    },
+    "jacobmisiorowski": {
+      "era": 3.4,
+      "ip": 5.51,
+      "pitcher_name": "Jacob Misiorowski"
+    },
+    "jakebloss": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Jake Bloss"
+    },
+    "jakeeder": {
+      "era": 5,
+      "ip": 4.53,
+      "pitcher_name": "Jake Eder"
+    },
+    "jakeirvin": {
+      "era": 4.4,
+      "ip": 5.4,
+      "pitcher_name": "Jake Irvin"
+    },
+    "jakepalisch": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Jake Palisch"
+    },
+    "jakewoodford": {
+      "era": 4.8,
+      "ip": 5.96,
+      "pitcher_name": "Jake Woodford"
+    },
+    "jakobjunis": {
+      "era": 4.45,
+      "ip": 4.17,
+      "pitcher_name": "Jakob Junis"
+    },
+    "jamesontaillon": {
+      "era": 4.5,
+      "ip": 5.56,
+      "pitcher_name": "Jameson Taillon"
+    },
+    "jamespaxton": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "James Paxton"
+    },
+    "jansonjunk": {
+      "era": 4.3,
+      "ip": 5.98,
+      "pitcher_name": "Janson Junk"
+    },
+    "jaredjones": {
+      "era": 4,
+      "ip": "",
+      "pitcher_name": "Jared Jones"
+    },
+    "jaredshuster": {
+      "era": 5,
+      "ip": 4.41,
+      "pitcher_name": "Jared Shuster"
+    },
+    "jasonalexander": {
+      "era": 4.1,
+      "ip": "",
+      "pitcher_name": "Jason Alexander"
+    },
+    "javier": {
+      "era": 4.85,
+      "ip": 4.65,
+      "pitcher_name": "Cristian Javier"
+    },
+    "javierassad": {
+      "era": 4.5,
+      "ip": 4.73,
+      "pitcher_name": "Javier Assad"
+    },
+    "jeffreysprings": {
+      "era": 4.35,
+      "ip": 5.81,
+      "pitcher_name": "Jeffrey Springs"
+    },
+    "jessescholtens": {
+      "era": 4.45,
+      "ip": 4.78,
+      "pitcher_name": "Jesse Scholtens"
+    },
+    "jesusluzardo": {
+      "era": 3.45,
+      "ip": 5.74,
+      "pitcher_name": "Jes\u00fas Luzardo"
+    },
+    "jhonathandiaz": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Jhonathan Diaz"
+    },
+    "jobe": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Jackson Jobe"
+    },
+    "joeboyle": {
+      "era": 3.9,
+      "ip": 4.05,
+      "pitcher_name": "Joe Boyle"
+    },
+    "joemusgrove": {
+      "era": 3.9,
+      "ip": "",
+      "pitcher_name": "Joe Musgrove"
+    },
+    "joerandom": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Joe Random"
+    },
+    "joeross": {
+      "era": 4.5,
+      "ip": 1.72,
+      "pitcher_name": "Joe Ross"
+    },
+    "joeryan": {
+      "era": 3.6,
+      "ip": 5.58,
+      "pitcher_name": "Joe Ryan"
+    },
+    "joeycantillo": {
+      "era": 3.8,
+      "ip": 5.2,
+      "pitcher_name": "Joey Cantillo"
+    },
+    "joeyestes": {
+      "era": 4.75,
+      "ip": "",
+      "pitcher_name": "Joey Estes"
+    },
+    "joeylucchesi": {
+      "era": 4.4,
+      "ip": 2.21,
+      "pitcher_name": "Joey Lucchesi"
+    },
+    "joeywentz": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Joey Wentz"
+    },
+    "johanoviedo": {
+      "era": 4.45,
+      "ip": 3.29,
+      "pitcher_name": "Johan Oviedo"
+    },
+    "johnmeans": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "John Means"
+    },
+    "johnnycueto": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Johnny Cueto"
+    },
+    "johnson": {
+      "era": 4.75,
+      "ip": 4.65,
+      "pitcher_name": "Ryan Johnson"
+    },
+    "jonahtong": {
+      "era": 4.1,
+      "ip": "",
+      "pitcher_name": "Jonah Tong"
+    },
+    "jonathancannon": {
+      "era": 4.75,
+      "ip": "",
+      "pitcher_name": "Jonathan Cannon"
+    },
+    "jones": {
+      "era": 4,
+      "ip": "",
+      "pitcher_name": "Jared Jones"
+    },
+    "jongray": {
+      "era": 4.15,
+      "ip": "",
+      "pitcher_name": "Jon Gray"
+    },
+    "jordanhicks": {
+      "era": 4.15,
+      "ip": 4.91,
+      "pitcher_name": "Jordan Hicks"
+    },
+    "jordanmontgomery": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Jordan Montgomery"
+    },
+    "jordanwicks": {
+      "era": 4.15,
+      "ip": "",
+      "pitcher_name": "Jordan Wicks"
+    },
+    "joseberrios": {
+      "era": 4.1,
+      "ip": "",
+      "pitcher_name": "Jos\u00e9 Berr\u00edos"
+    },
+    "josequintana": {
+      "era": 4.7,
+      "ip": 5.1,
+      "pitcher_name": "Jose Quintana"
+    },
+    "josesoriano": {
+      "era": 3.5,
+      "ip": 5.72,
+      "pitcher_name": "Jos\u00e9 Soriano"
+    },
+    "josesuarez": {
+      "era": 4.8,
+      "ip": 4.32,
+      "pitcher_name": "Jos\u00e9 Suarez"
+    },
+    "joseurena": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Jos\u00e9 Ure\u00f1a"
+    },
+    "joshwinckowski": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Josh Winckowski"
+    },
+    "jpsears": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "JP Sears"
+    },
+    "jr": {
+      "era": 4.3,
+      "ip": 5.05,
+      "pitcher_name": "Lance McCullers Jr."
+    },
+    "jrritchie": {
+      "era": 4.4,
+      "ip": 5.9,
+      "pitcher_name": "JR Ritchie"
+    },
+    "jtginn": {
+      "era": 4.25,
+      "ip": 5.33,
+      "pitcher_name": "J.T. Ginn"
+    },
+    "julianaguiar": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Julian Aguiar"
+    },
+    "junis": {
+      "era": 4.45,
+      "ip": 4.17,
+      "pitcher_name": "Jakob Junis"
+    },
+    "junk": {
+      "era": 4.3,
+      "ip": 5.98,
+      "pitcher_name": "Janson Junk"
+    },
+    "justinhagenman": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Justin Hagenman"
+    },
+    "justinsteele": {
+      "era": 3.7,
+      "ip": "",
+      "pitcher_name": "Justin Steele"
+    },
+    "justinverlander": {
+      "era": 4.25,
+      "ip": 3.32,
+      "pitcher_name": "Justin Verlander"
+    },
+    "justinwrobleski": {
+      "era": 4.3,
+      "ip": 5.17,
+      "pitcher_name": "Justin Wrobleski"
+    },
+    "kaiweiteng": {
+      "era": 4.8,
+      "ip": 5.78,
+      "pitcher_name": "Kai-Wei Teng"
+    },
+    "kay": {
+      "era": 4.8,
+      "ip": 4.75,
+      "pitcher_name": "Anthony Kay"
+    },
+    "keatonwinn": {
+      "era": 4.5,
+      "ip": 5.3,
+      "pitcher_name": "Keaton Winn"
+    },
+    "keidermontero": {
+      "era": 4.35,
+      "ip": 4.52,
+      "pitcher_name": "Keider Montero"
+    },
+    "keller": {
+      "era": 4.2,
+      "ip": 5.44,
+      "pitcher_name": "Mitch Keller"
+    },
+    "kelly": {
+      "era": 4.25,
+      "ip": 4.2,
+      "pitcher_name": "Merrill Kelly"
+    },
+    "kentamaeda": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Kenta Maeda"
+    },
+    "kerr": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Ray Kerr"
+    },
+    "kershaw": {
+      "era": 3.95,
+      "ip": "",
+      "pitcher_name": "Clayton Kershaw"
+    },
+    "keuchel": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Dallas Keuchel"
+    },
+    "kevingausman": {
+      "era": 3.4,
+      "ip": 5.94,
+      "pitcher_name": "Kevin Gausman"
+    },
+    "kikuchi": {
+      "era": 4.1,
+      "ip": 5.18,
+      "pitcher_name": "Yusei Kikuchi"
+    },
+    "kilian": {
+      "era": 4.5,
+      "ip": 5.42,
+      "pitcher_name": "Caleb Kilian"
+    },
+    "king": {
+      "era": 3.9,
+      "ip": 5.15,
+      "pitcher_name": "Michael King"
+    },
+    "kirby": {
+      "era": 3.65,
+      "ip": 6.16,
+      "pitcher_name": "George Kirby"
+    },
+    "klassen": {
+      "era": 4.7,
+      "ip": 4.49,
+      "pitcher_name": "George Klassen"
+    },
+    "knack": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Landon Knack"
+    },
+    "kochanowicz": {
+      "era": 4.6,
+      "ip": 5.91,
+      "pitcher_name": "Jack Kochanowicz"
+    },
+    "kodaisenga": {
+      "era": 3.65,
+      "ip": 4.89,
+      "pitcher_name": "Kodai Senga"
+    },
+    "kolbyallard": {
+      "era": 4.4,
+      "ip": 1.99,
+      "pitcher_name": "Kolby Allard"
+    },
+    "kolek": {
+      "era": 4.2,
+      "ip": "",
+      "pitcher_name": "Stephen Kolek"
+    },
+    "kremer": {
+      "era": 4.4,
+      "ip": 5.63,
+      "pitcher_name": "Dean Kremer"
+    },
+    "krisbubic": {
+      "era": 3.65,
+      "ip": 5.25,
+      "pitcher_name": "Kris Bubic"
+    },
+    "kumarrocker": {
+      "era": 4.3,
+      "ip": 5.13,
+      "pitcher_name": "Kumar Rocker"
+    },
+    "kuttercrawford": {
+      "era": 4.15,
+      "ip": "",
+      "pitcher_name": "Kutter Crawford"
+    },
+    "kybush": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Ky Bush"
+    },
+    "kylebradish": {
+      "era": 3.7,
+      "ip": 5.14,
+      "pitcher_name": "Kyle Bradish"
+    },
+    "kylefreeland": {
+      "era": 4.3,
+      "ip": 5.65,
+      "pitcher_name": "Kyle Freeland"
+    },
+    "kylegibson": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Kyle Gibson"
+    },
+    "kyleharrison": {
+      "era": 4.05,
+      "ip": 4.85,
+      "pitcher_name": "Kyle Harrison"
+    },
+    "kylehart": {
+      "era": 4.8,
+      "ip": 4.91,
+      "pitcher_name": "Kyle Hart"
+    },
+    "kylehendricks": {
+      "era": 4.9,
+      "ip": "",
+      "pitcher_name": "Kyle Hendricks"
+    },
+    "kyleleahy": {
+      "era": 4.5,
+      "ip": 5.0,
+      "pitcher_name": "Kyle Leahy"
+    },
+    "kyletyler": {
+      "era": 4.9,
+      "ip": "",
+      "pitcher_name": "Kyle Tyler"
+    },
+    "lambert": {
+      "era": 4.7,
+      "ip": 5.32,
+      "pitcher_name": "Peter Lambert"
+    },
+    "lancelynn": {
+      "era": 4.2,
+      "ip": "",
+      "pitcher_name": "Lance Lynn"
+    },
+    "lancemccullersjr": {
+      "era": 4.3,
+      "ip": 5.05,
+      "pitcher_name": "Lance McCullers Jr."
+    },
+    "landenroupp": {
+      "era": 3.8,
+      "ip": 5.65,
+      "pitcher_name": "Landen Roupp"
+    },
+    "landonknack": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Landon Knack"
+    },
+    "latz": {
+      "era": 4.3,
+      "ip": 5.0,
+      "pitcher_name": "Jacob Latz"
+    },
+    "lauer": {
+      "era": 4.15,
+      "ip": 5.37,
+      "pitcher_name": "Eric Lauer"
+    },
+    "lazaroestrada": {
+      "era": 4.5,
+      "ip": 3.28,
+      "pitcher_name": "Lazaro Estrada"
+    },
+    "leahy": {
+      "era": 4.5,
+      "ip": 5.0,
+      "pitcher_name": "Kyle Leahy"
+    },
+    "leiter": {
+      "era": 4,
+      "ip": 5.35,
+      "pitcher_name": "Jack Leiter"
+    },
+    "liberatore": {
+      "era": 4.4,
+      "ip": 5.33,
+      "pitcher_name": "Matthew Liberatore"
+    },
+    "littell": {
+      "era": 4.55,
+      "ip": 4.95,
+      "pitcher_name": "Zack Littell"
+    },
+    "lively": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Ben Lively"
+    },
+    "lodolo": {
+      "era": 3.6,
+      "ip": "",
+      "pitcher_name": "Nick Lodolo"
+    },
+    "loganallen": {
+      "era": 4.35,
+      "ip": "",
+      "pitcher_name": "Logan Allen"
+    },
+    "loganevans": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Logan Evans"
+    },
+    "logangilbert": {
+      "era": 3.4,
+      "ip": 5.5,
+      "pitcher_name": "Logan Gilbert"
+    },
+    "loganhenderson": {
+      "era": 4.15,
+      "ip": 4.74,
+      "pitcher_name": "Logan Henderson"
+    },
+    "loganwebb": {
+      "era": 3.4,
+      "ip": 6.16,
+      "pitcher_name": "Logan Webb"
+    },
+    "lopez": {
+      "era": 4.3,
+      "ip": 4.89,
+      "pitcher_name": "Jacob Lopez"
+    },
+    "lord": {
+      "era": 4.15,
+      "ip": 4.74,
+      "pitcher_name": "Brad Lord"
+    },
+    "lorenzen": {
+      "era": 4.6,
+      "ip": 5.05,
+      "pitcher_name": "Michael Lorenzen"
+    },
+    "louievarland": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Louie Varland"
+    },
+    "lowder": {
+      "era": 4.05,
+      "ip": 5.66,
+      "pitcher_name": "Rhett Lowder"
+    },
+    "lucas": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Easton Lucas"
+    },
+    "lucasgiolito": {
+      "era": 4.35,
+      "ip": "",
+      "pitcher_name": "Lucas Giolito"
+    },
+    "lucchesi": {
+      "era": 4.4,
+      "ip": 2.21,
+      "pitcher_name": "Joey Lucchesi"
+    },
+    "lugo": {
+      "era": 4.1,
+      "ip": 5.91,
+      "pitcher_name": "Seth Lugo"
+    },
+    "luinderavila": {
+      "era": 4.85,
+      "ip": 3.56,
+      "pitcher_name": "Luinder Avila"
+    },
+    "luiscastillo": {
+      "era": 4.1,
+      "ip": 5.02,
+      "pitcher_name": "Luis Castillo"
+    },
+    "luisgarcia": {
+      "era": 4.2,
+      "ip": "",
+      "pitcher_name": "Luis Garcia"
+    },
+    "luisgil": {
+      "era": 4.3,
+      "ip": 5.38,
+      "pitcher_name": "Luis Gil"
+    },
+    "luislortiz": {
+      "era": 4.2,
+      "ip": "",
+      "pitcher_name": "Luis L. Ortiz"
+    },
+    "luismedina": {
+      "era": 5,
+      "ip": 5.42,
+      "pitcher_name": "Luis Medina"
+    },
+    "luismorales": {
+      "era": 4.5,
+      "ip": 3.93,
+      "pitcher_name": "Luis Morales"
+    },
+    "luisseverino": {
+      "era": 4.5,
+      "ip": 5.41,
+      "pitcher_name": "Luis Severino"
+    },
+    "luzardo": {
+      "era": 3.45,
+      "ip": 5.74,
+      "pitcher_name": "Jes\u00fas Luzardo"
+    },
+    "lynn": {
+      "era": 4.2,
+      "ip": "",
+      "pitcher_name": "Lance Lynn"
+    },
+    "mackenziegore": {
+      "era": 3.6,
+      "ip": 5.01,
+      "pitcher_name": "MacKenzie Gore"
+    },
+    "madden": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Ty Madden"
+    },
+    "maeda": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Kenta Maeda"
+    },
+    "mahle": {
+      "era": 4.3,
+      "ip": 5.67,
+      "pitcher_name": "Tyler Mahle"
+    },
+    "manaea": {
+      "era": 3.85,
+      "ip": 4.79,
+      "pitcher_name": "Sean Manaea"
+    },
+    "manning": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Matt Manning"
+    },
+    "manoah": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Alek Manoah"
+    },
+    "marcogonzales": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Marco Gonzales"
+    },
+    "marcusstroman": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Marcus Stroman"
+    },
+    "marsh": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Alec Marsh"
+    },
+    "martin": {
+      "era": 4.3,
+      "ip": 5.59,
+      "pitcher_name": "davis Martin"
+    },
+    "martinez": {
+      "era": 4.4,
+      "ip": 6.14,
+      "pitcher_name": "Nick Martinez"
+    },
+    "martinperez": {
+      "era": 4.7,
+      "ip": 4.93,
+      "pitcher_name": "Mart\u00edn P\u00e9rez"
+    },
+    "masonbarnett": {
+      "era": 4.7,
+      "ip": 3.77,
+      "pitcher_name": "Mason Barnett"
+    },
+    "masonblack": {
+      "era": 5,
+      "ip": 3.48,
+      "pitcher_name": "Mason Black"
+    },
+    "matthewboyd": {
+      "era": 3.75,
+      "ip": 4.93,
+      "pitcher_name": "Matthew Boyd"
+    },
+    "matthewliberatore": {
+      "era": 4.4,
+      "ip": 5.33,
+      "pitcher_name": "Matthew Liberatore"
+    },
+    "matthews": {
+      "era": 4.25,
+      "ip": "",
+      "pitcher_name": "Zebby Matthews"
+    },
+    "mattmanning": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Matt Manning"
+    },
+    "mattsauer": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Matt Sauer"
+    },
+    "mattwaldron": {
+      "era": 4.7,
+      "ip": 4.58,
+      "pitcher_name": "Matt Waldron"
+    },
+    "matz": {
+      "era": 4.1,
+      "ip": 5.16,
+      "pitcher_name": "Steven Matz"
+    },
+    "maxfried": {
+      "era": 3.35,
+      "ip": 6.11,
+      "pitcher_name": "Max Fried"
+    },
+    "maxmeyer": {
+      "era": 3.95,
+      "ip": 5.62,
+      "pitcher_name": "Max Meyer"
+    },
+    "maxscherzer": {
+      "era": 4.3,
+      "ip": 4.44,
+      "pitcher_name": "Max Scherzer"
+    },
+    "may": {
+      "era": 4.35,
+      "ip": 4.97,
+      "pitcher_name": "Dustin May"
+    },
+    "mazur": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Adam Mazur"
+    },
+    "mccadebrown": {
+      "era": 4.9,
+      "ip": "",
+      "pitcher_name": "McCade Brown"
+    },
+    "mccaughan": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Darren McCaughan"
+    },
+    "mcclanahan": {
+      "era": 4.2,
+      "ip": 5.03,
+      "pitcher_name": "Shane McClanahan"
+    },
+    "mcdermott": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Chayce McDermott"
+    },
+    "mcgreevy": {
+      "era": 4.1,
+      "ip": 5.53,
+      "pitcher_name": "Michael McGreevy"
+    },
+    "mckenzie": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Triston McKenzie"
+    },
+    "mclean": {
+      "era": 3.65,
+      "ip": 5.81,
+      "pitcher_name": "Nolan McLean"
+    },
+    "mcsweeney": {
+      "era": 5.3,
+      "ip": "",
+      "pitcher_name": "Morgan McSweeney"
+    },
+    "means": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "John Means"
+    },
+    "mederos": {
+      "era": 5.1,
+      "ip": "",
+      "pitcher_name": "Victor Mederos"
+    },
+    "medina": {
+      "era": 5,
+      "ip": 5.42,
+      "pitcher_name": "Luis Medina"
+    },
+    "megill": {
+      "era": 3.7,
+      "ip": "",
+      "pitcher_name": "Tylor Megill"
+    },
+    "melton": {
+      "era": 4.15,
+      "ip": "",
+      "pitcher_name": "Troy Melton"
+    },
+    "mena": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Cristian Mena"
+    },
+    "mercado": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Michael Mercado"
+    },
+    "merrillkelly": {
+      "era": 4.25,
+      "ip": 4.2,
+      "pitcher_name": "Merrill Kelly"
+    },
+    "messick": {
+      "era": 3.6,
+      "ip": 5.58,
+      "pitcher_name": "Parker Messick"
+    },
+    "meyer": {
+      "era": 3.95,
+      "ip": 5.62,
+      "pitcher_name": "Max Meyer"
+    },
+    "mez": {
+      "era": 4.65,
+      "ip": 4.47,
+      "pitcher_name": "Yoendrys G\u00f3mez"
+    },
+    "michaelking": {
+      "era": 3.9,
+      "ip": 5.15,
+      "pitcher_name": "Michael King"
+    },
+    "michaellorenzen": {
+      "era": 4.6,
+      "ip": 5.05,
+      "pitcher_name": "Michael Lorenzen"
+    },
+    "michaelmcgreevy": {
+      "era": 4.1,
+      "ip": 5.53,
+      "pitcher_name": "Michael McGreevy"
+    },
+    "michaelmercado": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Michael Mercado"
+    },
+    "michaelsoroka": {
+      "era": 3.9,
+      "ip": 5.46,
+      "pitcher_name": "Michael Soroka"
+    },
+    "michaelwacha": {
+      "era": 4.15,
+      "ip": 5.63,
+      "pitcher_name": "Michael Wacha"
+    },
+    "mickabel": {
+      "era": 4.5,
+      "ip": 6.19,
+      "pitcher_name": "Mick Abel"
+    },
+    "mikeburrows": {
+      "era": 4.25,
+      "ip": 5.3,
+      "pitcher_name": "Mike Burrows"
+    },
+    "mikeclevinger": {
+      "era": 5.2,
+      "ip": "",
+      "pitcher_name": "Mike Clevinger"
+    },
+    "mikevasil": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Mike Vasil"
+    },
+    "mikolas": {
+      "era": 5,
+      "ip": 5.37,
+      "pitcher_name": "Miles Mikolas"
+    },
+    "milesmikolas": {
+      "era": 5,
+      "ip": 5.37,
+      "pitcher_name": "Miles Mikolas"
+    },
+    "miley": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Wade Miley"
+    },
+    "misiorowski": {
+      "era": 3.4,
+      "ip": 5.51,
+      "pitcher_name": "Jacob Misiorowski"
+    },
+    "mitchellparker": {
+      "era": 4.9,
+      "ip": 4.8,
+      "pitcher_name": "Mitchell Parker"
+    },
+    "mitchkeller": {
+      "era": 4.2,
+      "ip": 5.44,
+      "pitcher_name": "Mitch Keller"
+    },
+    "mitchspence": {
+      "era": 4.55,
+      "ip": 3.81,
+      "pitcher_name": "Mitch Spence"
+    },
+    "mize": {
+      "era": 3.85,
+      "ip": 5.77,
+      "pitcher_name": "Casey Mize"
+    },
+    "mlodzinski": {
+      "era": 3.8,
+      "ip": 5.34,
+      "pitcher_name": "Carmen Mlodzinski"
+    },
+    "molina": {
+      "era": 5.2,
+      "ip": "",
+      "pitcher_name": "Anthony Molina"
+    },
+    "montas": {
+      "era": 4.25,
+      "ip": "",
+      "pitcher_name": "Frankie Montas"
+    },
+    "montero": {
+      "era": 4.35,
+      "ip": 4.52,
+      "pitcher_name": "Keider Montero"
+    },
+    "montgomery": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Jordan Montgomery"
+    },
+    "morales": {
+      "era": 4.5,
+      "ip": 3.93,
+      "pitcher_name": "Luis Morales"
+    },
+    "morganmcsweeney": {
+      "era": 5.3,
+      "ip": "",
+      "pitcher_name": "Morgan McSweeney"
+    },
+    "morton": {
+      "era": 4.05,
+      "ip": "",
+      "pitcher_name": "Charlie Morton"
+    },
+    "musgrove": {
+      "era": 3.9,
+      "ip": "",
+      "pitcher_name": "Joe Musgrove"
+    },
+    "myers": {
+      "era": 4.3,
+      "ip": 6.27,
+      "pitcher_name": "Tobias Myers"
+    },
+    "nabilcrismatt": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Nabil Crismatt"
+    },
+    "nastrini": {
+      "era": 5.8,
+      "ip": "",
+      "pitcher_name": "Nick Nastrini"
+    },
+    "nathaneovaldi": {
+      "era": 3.6,
+      "ip": 6.06,
+      "pitcher_name": "Nathan Eovaldi"
+    },
+    "nathanwiles": {
+      "era": 4.85,
+      "ip": "",
+      "pitcher_name": "Nathan Wiles"
+    },
+    "nelson": {
+      "era": 4.35,
+      "ip": 4.71,
+      "pitcher_name": "Ryne Nelson"
+    },
+    "nestorcortes": {
+      "era": 4.55,
+      "ip": "",
+      "pitcher_name": "Nestor Cortes"
+    },
+    "newcomb": {
+      "era": 4.55,
+      "ip": 5.22,
+      "pitcher_name": "Sean Newcomb"
+    },
+    "nicklodolo": {
+      "era": 3.6,
+      "ip": "",
+      "pitcher_name": "Nick Lodolo"
+    },
+    "nickmartinez": {
+      "era": 4.4,
+      "ip": 6.14,
+      "pitcher_name": "Nick Martinez"
+    },
+    "nicknastrini": {
+      "era": 5.8,
+      "ip": "",
+      "pitcher_name": "Nick Nastrini"
+    },
+    "nickpivetta": {
+      "era": 3.85,
+      "ip": 5.37,
+      "pitcher_name": "Nick Pivetta"
+    },
+    "nikhazy": {
+      "era": 4.6,
+      "ip": 4.1,
+      "pitcher_name": "Doug Nikhazy"
+    },
+    "noahcameron": {
+      "era": 4.15,
+      "ip": 5.38,
+      "pitcher_name": "Noah Cameron"
+    },
+    "noahdavis": {
+      "era": 4.75,
+      "ip": "",
+      "pitcher_name": "Noah Davis"
+    },
+    "noahschultz": {
+      "era": 4.5,
+      "ip": 5.7,
+      "pitcher_name": "Noah Schultz"
+    },
+    "nola": {
+      "era": 3.9,
+      "ip": 5.3,
+      "pitcher_name": "Aaron Nola"
+    },
+    "nolanmclean": {
+      "era": 3.65,
+      "ip": 5.81,
+      "pitcher_name": "Nolan McLean"
+    },
+    "ober": {
+      "era": 4.5,
+      "ip": 5.39,
+      "pitcher_name": "Bailey Ober"
+    },
+    "ogasawara": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Shinnosuke Ogasawara"
+    },
+    "ohl": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Pierson Ohl"
+    },
+    "ohtani": {
+      "era": 3.25,
+      "ip": 5.58,
+      "pitcher_name": "Shohei Ohtani"
+    },
+    "oller": {
+      "era": 4.9,
+      "ip": "",
+      "pitcher_name": "Adam Oller"
+    },
+    "olson": {
+      "era": 3.8,
+      "ip": "",
+      "pitcher_name": "Reese Olson"
+    },
+    "ortiz": {
+      "era": 4.2,
+      "ip": "",
+      "pitcher_name": "Luis L. Ortiz"
+    },
+    "os": {
+      "era": 4.1,
+      "ip": "",
+      "pitcher_name": "Jos\u00e9 Berr\u00edos"
+    },
+    "osvaldobido": {
+      "era": 4.7,
+      "ip": 5.07,
+      "pitcher_name": "Osvaldo Bido"
+    },
+    "oviedo": {
+      "era": 4.45,
+      "ip": 3.29,
+      "pitcher_name": "Johan Oviedo"
+    },
+    "oz": {
+      "era": 4.7,
+      "ip": 3.19,
+      "pitcher_name": "Roddery Mu\u00f1oz"
+    },
+    "pablolopez": {
+      "era": 3.4,
+      "ip": "",
+      "pitcher_name": "Pablo L\u00f3pez"
+    },
+    "paddack": {
+      "era": 4.4,
+      "ip": 5.3,
+      "pitcher_name": "Chris Paddack"
+    },
+    "painter": {
+      "era": 4.2,
+      "ip": 5.25,
+      "pitcher_name": "Andrew Painter"
+    },
+    "palisch": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Jake Palisch"
+    },
+    "pallante": {
+      "era": 4.3,
+      "ip": 5.1,
+      "pitcher_name": "Andre Pallante"
+    },
+    "palmquist": {
+      "era": 5.5,
+      "ip": "",
+      "pitcher_name": "Carson Palmquist"
+    },
+    "paoloespino": {
+      "era": 5.2,
+      "ip": "",
+      "pitcher_name": "Paolo Espino"
+    },
+    "parker": {
+      "era": 4.9,
+      "ip": 4.8,
+      "pitcher_name": "Mitchell Parker"
+    },
+    "parkermessick": {
+      "era": 3.6,
+      "ip": 5.58,
+      "pitcher_name": "Parker Messick"
+    },
+    "patrick": {
+      "era": 4.15,
+      "ip": 5.19,
+      "pitcher_name": "Chad Patrick"
+    },
+    "patrickcorbin": {
+      "era": 4.5,
+      "ip": 5.31,
+      "pitcher_name": "Patrick Corbin"
+    },
+    "patricksandoval": {
+      "era": 4,
+      "ip": "",
+      "pitcher_name": "Patrick Sandoval"
+    },
+    "paulblackburn": {
+      "era": 4.25,
+      "ip": 5.85,
+      "pitcher_name": "Paul Blackburn"
+    },
+    "paulskenes": {
+      "era": 2.75,
+      "ip": 6.05,
+      "pitcher_name": "Paul Skenes"
+    },
+    "paxton": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "James Paxton"
+    },
+    "paytontolle": {
+      "era": 4.7,
+      "ip": 5.39,
+      "pitcher_name": "Payton Tolle"
+    },
+    "pepiot": {
+      "era": 4.05,
+      "ip": "",
+      "pitcher_name": "Ryan Pepiot"
+    },
+    "peralta": {
+      "era": 3.8,
+      "ip": 5.44,
+      "pitcher_name": "Freddy Peralta"
+    },
+    "perkins": {
+      "era": 4.15,
+      "ip": 4.92,
+      "pitcher_name": "Jack Perkins"
+    },
+    "peterlambert": {
+      "era": 4.7,
+      "ip": 5.32,
+      "pitcher_name": "Peter Lambert"
+    },
+    "peterson": {
+      "era": 3.85,
+      "ip": 5.29,
+      "pitcher_name": "David Peterson"
+    },
+    "petty": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Chase Petty"
+    },
+    "pfaadt": {
+      "era": 4.25,
+      "ip": 5.39,
+      "pitcher_name": "Brandon Pfaadt"
+    },
+    "phillips": {
+      "era": 4.55,
+      "ip": 3.38,
+      "pitcher_name": "Tyler Phillips"
+    },
+    "piersonohl": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Pierson Ohl"
+    },
+    "pivetta": {
+      "era": 3.85,
+      "ip": 5.37,
+      "pitcher_name": "Nick Pivetta"
+    },
+    "plesac": {
+      "era": 5.3,
+      "ip": "",
+      "pitcher_name": "Zach Plesac"
+    },
+    "ponce": {
+      "era": 4.7,
+      "ip": 3.57,
+      "pitcher_name": "Cody Ponce"
+    },
+    "povich": {
+      "era": 4.25,
+      "ip": 5.85,
+      "pitcher_name": "Cade Povich"
+    },
+    "priester": {
+      "era": 3.65,
+      "ip": "",
+      "pitcher_name": "Quinn Priester"
+    },
+    "quantrill": {
+      "era": 4.75,
+      "ip": 4.59,
+      "pitcher_name": "Cal Quantrill"
+    },
+    "quinnpriester": {
+      "era": 3.65,
+      "ip": "",
+      "pitcher_name": "Quinn Priester"
+    },
+    "quintana": {
+      "era": 4.7,
+      "ip": 5.1,
+      "pitcher_name": "Jose Quintana"
+    },
+    "ragans": {
+      "era": 3.45,
+      "ip": 5.22,
+      "pitcher_name": "Cole Ragans"
+    },
+    "random": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Joe Random"
+    },
+    "randydobnak": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Randy Dobnak"
+    },
+    "randyvasquez": {
+      "era": 4.25,
+      "ip": 5.34,
+      "pitcher_name": "Randy V\u00e1squez"
+    },
+    "rangersuarez": {
+      "era": 3.9,
+      "ip": 6.16,
+      "pitcher_name": "Ranger Suarez"
+    },
+    "rasmussen": {
+      "era": 3.7,
+      "ip": 5.04,
+      "pitcher_name": "Drew Rasmussen"
+    },
+    "ray": {
+      "era": 4.1,
+      "ip": 5.55,
+      "pitcher_name": "Robbie Ray"
+    },
+    "raykerr": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Ray Kerr"
+    },
+    "rea": {
+      "era": 4.3,
+      "ip": 4.83,
+      "pitcher_name": "Colin Rea"
+    },
+    "reeseolson": {
+      "era": 3.8,
+      "ip": "",
+      "pitcher_name": "Reese Olson"
+    },
+    "reiddetmers": {
+      "era": 3.8,
+      "ip": 5.67,
+      "pitcher_name": "Reid Detmers"
+    },
+    "reynaldolopez": {
+      "era": 4.1,
+      "ip": 4.61,
+      "pitcher_name": "Reynaldo L\u00f3pez"
+    },
+    "rhettlowder": {
+      "era": 4.05,
+      "ip": 5.66,
+      "pitcher_name": "Rhett Lowder"
+    },
+    "richardfitts": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Richard Fitts"
+    },
+    "richardson": {
+      "era": 4.55,
+      "ip": 4.92,
+      "pitcher_name": "Simeon Woods Richardson"
+    },
+    "richhill": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Rich Hill"
+    },
+    "ritchie": {
+      "era": 4.4,
+      "ip": 5.9,
+      "pitcher_name": "JR Ritchie"
+    },
+    "riverryan": {
+      "era": 4.45,
+      "ip": "",
+      "pitcher_name": "River Ryan"
+    },
+    "roansycontreras": {
+      "era": 4.65,
+      "ip": "",
+      "pitcher_name": "Roansy Contreras"
+    },
+    "robbieray": {
+      "era": 4.1,
+      "ip": 5.55,
+      "pitcher_name": "Robbie Ray"
+    },
+    "robertgasser": {
+      "era": 4.35,
+      "ip": "",
+      "pitcher_name": "Robert Gasser"
+    },
+    "rocker": {
+      "era": 4.3,
+      "ip": 5.13,
+      "pitcher_name": "Kumar Rocker"
+    },
+    "rodderymunoz": {
+      "era": 4.7,
+      "ip": 3.19,
+      "pitcher_name": "Roddery Mu\u00f1oz"
+    },
+    "rogers": {
+      "era": 3.85,
+      "ip": 5.17,
+      "pitcher_name": "Trevor Rogers"
+    },
+    "rokisasaki": {
+      "era": 4.55,
+      "ip": 4.35,
+      "pitcher_name": "Roki Sasaki"
+    },
+    "ronelblanco": {
+      "era": 4.2,
+      "ip": "",
+      "pitcher_name": "Ronel Blanco"
+    },
+    "ross": {
+      "era": 4.5,
+      "ip": 1.72,
+      "pitcher_name": "Joe Ross"
+    },
+    "rossstripling": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Ross Stripling"
+    },
+    "roupp": {
+      "era": 3.8,
+      "ip": 5.65,
+      "pitcher_name": "Landen Roupp"
+    },
+    "rquez": {
+      "era": 5,
+      "ip": 6.26,
+      "pitcher_name": "Germ\u00e1n M\u00e1rquez"
+    },
+    "ryanbergert": {
+      "era": 4.25,
+      "ip": "",
+      "pitcher_name": "Ryan Bergert"
+    },
+    "ryanfeltner": {
+      "era": 4.6,
+      "ip": 4.6,
+      "pitcher_name": "Ryan Feltner"
+    },
+    "ryangusto": {
+      "era": 4.25,
+      "ip": 6.58,
+      "pitcher_name": "Ryan Gusto"
+    },
+    "ryanjohnson": {
+      "era": 4.75,
+      "ip": 4.65,
+      "pitcher_name": "Ryan Johnson"
+    },
+    "ryanpepiot": {
+      "era": 4.05,
+      "ip": "",
+      "pitcher_name": "Ryan Pepiot"
+    },
+    "ryanweathers": {
+      "era": 3.75,
+      "ip": 5.52,
+      "pitcher_name": "Ryan Weathers"
+    },
+    "ryanweiss": {
+      "era": 4.45,
+      "ip": 3.41,
+      "pitcher_name": "Ryan Weiss"
+    },
+    "ryanyarbrough": {
+      "era": 4,
+      "ip": 5.27,
+      "pitcher_name": "Ryan Yarbrough"
+    },
+    "rynenelson": {
+      "era": 4.35,
+      "ip": 4.71,
+      "pitcher_name": "Ryne Nelson"
+    },
+    "sale": {
+      "era": 3.15,
+      "ip": 5.49,
+      "pitcher_name": "Chris Sale"
+    },
+    "samaldegheri": {
+      "era": 4.8,
+      "ip": 3.64,
+      "pitcher_name": "Sam Aldegheri"
+    },
+    "sammons": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Bryan Sammons"
+    },
+    "samuelaldegheri": {
+      "era": 4.9,
+      "ip": "",
+      "pitcher_name": "Samuel Aldegheri"
+    },
+    "sandoval": {
+      "era": 4,
+      "ip": "",
+      "pitcher_name": "Patrick Sandoval"
+    },
+    "sandyalcantara": {
+      "era": 3.65,
+      "ip": 6.1,
+      "pitcher_name": "Sandy Alcantara"
+    },
+    "sasaki": {
+      "era": 4.55,
+      "ip": 4.35,
+      "pitcher_name": "Roki Sasaki"
+    },
+    "sauer": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Matt Sauer"
+    },
+    "sawyergibsonlong": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Sawyer Gibson-Long"
+    },
+    "sawyergipsonlong": {
+      "era": 4.05,
+      "ip": "",
+      "pitcher_name": "Sawyer Gipson-Long"
+    },
+    "scherzer": {
+      "era": 4.3,
+      "ip": 4.44,
+      "pitcher_name": "Max Scherzer"
+    },
+    "schlittler": {
+      "era": 3.45,
+      "ip": 5.77,
+      "pitcher_name": "Cam Schlittler"
+    },
+    "schmidt": {
+      "era": 3.9,
+      "ip": "",
+      "pitcher_name": "Clarke Schmidt"
+    },
+    "scholtens": {
+      "era": 4.45,
+      "ip": 4.78,
+      "pitcher_name": "Jesse Scholtens"
+    },
+    "schultz": {
+      "era": 4.5,
+      "ip": 5.7,
+      "pitcher_name": "Noah Schultz"
+    },
+    "schwellenbach": {
+      "era": 3.5,
+      "ip": "",
+      "pitcher_name": "Spencer Schwellenbach"
+    },
+    "scott": {
+      "era": 4.1,
+      "ip": 2.25,
+      "pitcher_name": "Christian Scott"
+    },
+    "seanburke": {
+      "era": 4.35,
+      "ip": 5.56,
+      "pitcher_name": "Sean Burke"
+    },
+    "seanmanaea": {
+      "era": 3.85,
+      "ip": 4.79,
+      "pitcher_name": "Sean Manaea"
+    },
+    "seannewcomb": {
+      "era": 4.55,
+      "ip": 5.22,
+      "pitcher_name": "Sean Newcomb"
+    },
+    "sears": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "JP Sears"
+    },
+    "senga": {
+      "era": 3.65,
+      "ip": 4.89,
+      "pitcher_name": "Kodai Senga"
+    },
+    "senzatela": {
+      "era": 5.25,
+      "ip": 6.99,
+      "pitcher_name": "Antonio Senzatela"
+    },
+    "sethlugo": {
+      "era": 4.1,
+      "ip": 5.91,
+      "pitcher_name": "Seth Lugo"
+    },
+    "severino": {
+      "era": 4.5,
+      "ip": 5.41,
+      "pitcher_name": "Luis Severino"
+    },
+    "shanebaz": {
+      "era": 4.1,
+      "ip": 5.47,
+      "pitcher_name": "Shane Baz"
+    },
+    "shanebieber": {
+      "era": 3.65,
+      "ip": "",
+      "pitcher_name": "Shane Bieber"
+    },
+    "shanedrohan": {
+      "era": 4.5,
+      "ip": 4.0,
+      "pitcher_name": "Shane Drohan"
+    },
+    "shanemcclanahan": {
+      "era": 4.2,
+      "ip": 5.03,
+      "pitcher_name": "Shane McClanahan"
+    },
+    "shanesmith": {
+      "era": 4.3,
+      "ip": 5.22,
+      "pitcher_name": "Shane Smith"
+    },
+    "shaunanderson": {
+      "era": 4.9,
+      "ip": 3.14,
+      "pitcher_name": "Shaun Anderson"
+    },
+    "shawnarmstrong": {
+      "era": 4.1,
+      "ip": 4.18,
+      "pitcher_name": "Shawn Armstrong"
+    },
+    "shawver": {
+      "era": 4.05,
+      "ip": "",
+      "pitcher_name": "AJ Smith-Shawver"
+    },
+    "sheehan": {
+      "era": 4.1,
+      "ip": 5.32,
+      "pitcher_name": "Emmet Sheehan"
+    },
+    "shinnosukeogasawara": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Shinnosuke Ogasawara"
+    },
+    "shoheiohtani": {
+      "era": 3.25,
+      "ip": 5.58,
+      "pitcher_name": "Shohei Ohtani"
+    },
+    "shotaimanaga": {
+      "era": 3.8,
+      "ip": 5.67,
+      "pitcher_name": "Shota Imanaga"
+    },
+    "shuster": {
+      "era": 5,
+      "ip": 4.41,
+      "pitcher_name": "Jared Shuster"
+    },
+    "simeonwoodsrichardson": {
+      "era": 4.55,
+      "ip": 4.92,
+      "pitcher_name": "Simeon Woods Richardson"
+    },
+    "singer": {
+      "era": 4.15,
+      "ip": 5.38,
+      "pitcher_name": "Brady Singer"
+    },
+    "sixtosanchez": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Sixto S\u00e1nchez"
+    },
+    "skenes": {
+      "era": 2.75,
+      "ip": 6.05,
+      "pitcher_name": "Paul Skenes"
+    },
+    "skubal": {
+      "era": 2.9,
+      "ip": 6.06,
+      "pitcher_name": "Tarik Skubal"
+    },
+    "sladececconi": {
+      "era": 4.5,
+      "ip": 5.23,
+      "pitcher_name": "Slade Cecconi"
+    },
+    "smith": {
+      "era": 4.3,
+      "ip": 5.22,
+      "pitcher_name": "Shane Smith"
+    },
+    "snell": {
+      "era": 3.45,
+      "ip": "",
+      "pitcher_name": "Blake Snell"
+    },
+    "sonnygray": {
+      "era": 3.65,
+      "ip": 5.48,
+      "pitcher_name": "Sonny Gray"
+    },
+    "soriano": {
+      "era": 3.5,
+      "ip": 5.72,
+      "pitcher_name": "Jos\u00e9 Soriano"
+    },
+    "soroka": {
+      "era": 3.9,
+      "ip": 5.46,
+      "pitcher_name": "Michael Soroka"
+    },
+    "spence": {
+      "era": 4.55,
+      "ip": 3.81,
+      "pitcher_name": "Mitch Spence"
+    },
+    "spencerarrighetti": {
+      "era": 4.35,
+      "ip": 5.49,
+      "pitcher_name": "Spencer Arrighetti"
+    },
+    "spencerhoward": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Spencer Howard"
+    },
+    "spencerschwellenbach": {
+      "era": 3.5,
+      "ip": "",
+      "pitcher_name": "Spencer Schwellenbach"
+    },
+    "spencerstrider": {
+      "era": 4,
+      "ip": "",
+      "pitcher_name": "Spencer Strider"
+    },
+    "spencerturnbull": {
+      "era": 4.35,
+      "ip": "",
+      "pitcher_name": "Spencer Turnbull"
+    },
+    "spiers": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Carson Spiers"
+    },
+    "springs": {
+      "era": 4.35,
+      "ip": 5.81,
+      "pitcher_name": "Jeffrey Springs"
+    },
+    "sproat": {
+      "era": 4.3,
+      "ip": 5.1,
+      "pitcher_name": "Brandon Sproat"
+    },
+    "squez": {
+      "era": 4.25,
+      "ip": 5.34,
+      "pitcher_name": "Randy V\u00e1squez"
+    },
+    "steele": {
+      "era": 3.7,
+      "ip": "",
+      "pitcher_name": "Justin Steele"
+    },
+    "stephenkolek": {
+      "era": 4.2,
+      "ip": "",
+      "pitcher_name": "Stephen Kolek"
+    },
+    "stevenmatz": {
+      "era": 4.1,
+      "ip": 5.16,
+      "pitcher_name": "Steven Matz"
+    },
+    "stone": {
+      "era": 4.15,
+      "ip": "",
+      "pitcher_name": "Gavin Stone"
+    },
+    "strider": {
+      "era": 4,
+      "ip": "",
+      "pitcher_name": "Spencer Strider"
+    },
+    "stripling": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Ross Stripling"
+    },
+    "stroman": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Marcus Stroman"
+    },
+    "sugano": {
+      "era": 4.65,
+      "ip": 4.97,
+      "pitcher_name": "Tomoyuki Sugano"
+    },
+    "taijuanwalker": {
+      "era": 4.95,
+      "ip": 4.71,
+      "pitcher_name": "Taijuan Walker"
+    },
+    "taillon": {
+      "era": 4.5,
+      "ip": 5.56,
+      "pitcher_name": "Jameson Taillon"
+    },
+    "tajbradley": {
+      "era": 3.75,
+      "ip": 5.67,
+      "pitcher_name": "Taj Bradley"
+    },
+    "tannerbibee": {
+      "era": 4.1,
+      "ip": 5.19,
+      "pitcher_name": "Tanner Bibee"
+    },
+    "tannergordon": {
+      "era": 4.85,
+      "ip": 4.54,
+      "pitcher_name": "Tanner Gordon"
+    },
+    "tannerhouck": {
+      "era": 4,
+      "ip": "",
+      "pitcher_name": "Tanner Houck"
+    },
+    "tarikskubal": {
+      "era": 2.9,
+      "ip": 6.06,
+      "pitcher_name": "Tarik Skubal"
+    },
+    "tatsuyaimai": {
+      "era": 4.1,
+      "ip": 4.3,
+      "pitcher_name": "Tatsuya Imai"
+    },
+    "teng": {
+      "era": 4.8,
+      "ip": 5.78,
+      "pitcher_name": "Kai-Wei Teng"
+    },
+    "thomasharrington": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Thomas Harrington"
+    },
+    "thomashatch": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Thomas Hatch"
+    },
+    "thorpe": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Drew Thorpe"
+    },
+    "tidwell": {
+      "era": 4.7,
+      "ip": 5.27,
+      "pitcher_name": "Blade Tidwell"
+    },
+    "tobiasmyers": {
+      "era": 4.3,
+      "ip": 6.27,
+      "pitcher_name": "Tobias Myers"
+    },
+    "tolle": {
+      "era": 4.7,
+      "ip": 5.39,
+      "pitcher_name": "Payton Tolle"
+    },
+    "tommyhenry": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Tommy Henry"
+    },
+    "tomoyukisugano": {
+      "era": 4.65,
+      "ip": 4.97,
+      "pitcher_name": "Tomoyuki Sugano"
+    },
+    "tong": {
+      "era": 4.1,
+      "ip": "",
+      "pitcher_name": "Jonah Tong"
+    },
+    "tonygonsolin": {
+      "era": 4.45,
+      "ip": "",
+      "pitcher_name": "Tony Gonsolin"
+    },
+    "travisadams": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Travis Adams"
+    },
+    "trevorrogers": {
+      "era": 3.85,
+      "ip": 5.17,
+      "pitcher_name": "Trevor Rogers"
+    },
+    "trevorwilliams": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Trevor Williams"
+    },
+    "treyyesavage": {
+      "era": 3.6,
+      "ip": 5.17,
+      "pitcher_name": "Trey Yesavage"
+    },
+    "tristonmckenzie": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Triston McKenzie"
+    },
+    "troymelton": {
+      "era": 4.15,
+      "ip": "",
+      "pitcher_name": "Troy Melton"
+    },
+    "turnbull": {
+      "era": 4.35,
+      "ip": "",
+      "pitcher_name": "Spencer Turnbull"
+    },
+    "tyblach": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Ty Blach"
+    },
+    "tyler": {
+      "era": 4.9,
+      "ip": "",
+      "pitcher_name": "Kyle Tyler"
+    },
+    "tyleralexander": {
+      "era": 4.6,
+      "ip": 4.78,
+      "pitcher_name": "Tyler Alexander"
+    },
+    "tyleranderson": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Tyler Anderson"
+    },
+    "tylerglasnow": {
+      "era": 3.35,
+      "ip": 6.34,
+      "pitcher_name": "Tyler Glasnow"
+    },
+    "tylermahle": {
+      "era": 4.3,
+      "ip": 5.67,
+      "pitcher_name": "Tyler Mahle"
+    },
+    "tylerphillips": {
+      "era": 4.55,
+      "ip": 3.38,
+      "pitcher_name": "Tyler Phillips"
+    },
+    "tylerwells": {
+      "era": 3.9,
+      "ip": 5.61,
+      "pitcher_name": "Tyler Wells"
+    },
+    "tylormegill": {
+      "era": 3.7,
+      "ip": "",
+      "pitcher_name": "Tylor Megill"
+    },
+    "tymadden": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Ty Madden"
+    },
+    "urena": {
+      "era": 4.45,
+      "ip": 10.35,
+      "pitcher_name": "Walbert Urena"
+    },
+    "valdez": {
+      "era": 3.55,
+      "ip": 5.74,
+      "pitcher_name": "Framber Valdez"
+    },
+    "valentebellozo": {
+      "era": 4.75,
+      "ip": 4.8,
+      "pitcher_name": "Valente Bellozo"
+    },
+    "varland": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Louie Varland"
+    },
+    "vasil": {
+      "era": 4.7,
+      "ip": "",
+      "pitcher_name": "Mike Vasil"
+    },
+    "verlander": {
+      "era": 4.25,
+      "ip": 3.32,
+      "pitcher_name": "Justin Verlander"
+    },
+    "victormederos": {
+      "era": 5.1,
+      "ip": "",
+      "pitcher_name": "Victor Mederos"
+    },
+    "wacha": {
+      "era": 4.15,
+      "ip": 5.63,
+      "pitcher_name": "Michael Wacha"
+    },
+    "waddell": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Brandon Waddell"
+    },
+    "wademiley": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Wade Miley"
+    },
+    "walberturena": {
+      "era": 4.45,
+      "ip": 10.35,
+      "pitcher_name": "Walbert Urena"
+    },
+    "waldrep": {
+      "era": 4.2,
+      "ip": "",
+      "pitcher_name": "Hurston Waldrep"
+    },
+    "waldron": {
+      "era": 4.7,
+      "ip": 4.58,
+      "pitcher_name": "Matt Waldron"
+    },
+    "walker": {
+      "era": 4.95,
+      "ip": 4.71,
+      "pitcher_name": "Taijuan Walker"
+    },
+    "walkerbuehler": {
+      "era": 4.6,
+      "ip": 4.7,
+      "pitcher_name": "Walker Buehler"
+    },
+    "walter": {
+      "era": 3.85,
+      "ip": "",
+      "pitcher_name": "Brandon Walter"
+    },
+    "warren": {
+      "era": 3.9,
+      "ip": 5.42,
+      "pitcher_name": "Will Warren"
+    },
+    "weathers": {
+      "era": 3.75,
+      "ip": 5.52,
+      "pitcher_name": "Ryan Weathers"
+    },
+    "webb": {
+      "era": 3.4,
+      "ip": 6.16,
+      "pitcher_name": "Logan Webb"
+    },
+    "weiss": {
+      "era": 4.45,
+      "ip": 3.41,
+      "pitcher_name": "Ryan Weiss"
+    },
+    "wells": {
+      "era": 3.9,
+      "ip": 5.61,
+      "pitcher_name": "Tyler Wells"
+    },
+    "wentz": {
+      "era": 4.6,
+      "ip": "",
+      "pitcher_name": "Joey Wentz"
+    },
+    "wesneski": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Hayden Wesneski"
+    },
+    "wheeler": {
+      "era": 3.1,
+      "ip": 5.89,
+      "pitcher_name": "Zack Wheeler"
+    },
+    "whisenhunt": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Carson Whisenhunt"
+    },
+    "wicks": {
+      "era": 4.15,
+      "ip": "",
+      "pitcher_name": "Jordan Wicks"
+    },
+    "wiles": {
+      "era": 4.85,
+      "ip": "",
+      "pitcher_name": "Nathan Wiles"
+    },
+    "williamson": {
+      "era": 4.65,
+      "ip": 5.11,
+      "pitcher_name": "Brandon Williamson"
+    },
+    "willwarren": {
+      "era": 3.9,
+      "ip": 5.42,
+      "pitcher_name": "Will Warren"
+    },
+    "wilson": {
+      "era": 5,
+      "ip": "",
+      "pitcher_name": "Bryse Wilson"
+    },
+    "winckowski": {
+      "era": 4.3,
+      "ip": "",
+      "pitcher_name": "Josh Winckowski"
+    },
+    "winn": {
+      "era": 4.5,
+      "ip": 5.3,
+      "pitcher_name": "Keaton Winn"
+    },
+    "woo": {
+      "era": 3.45,
+      "ip": 6.01,
+      "pitcher_name": "Bryan Woo"
+    },
+    "woodford": {
+      "era": 4.8,
+      "ip": 5.96,
+      "pitcher_name": "Jake Woodford"
+    },
+    "woodruff": {
+      "era": 3.85,
+      "ip": 5.73,
+      "pitcher_name": "Brandon Woodruff"
+    },
+    "wrobleski": {
+      "era": 4.3,
+      "ip": 5.17,
+      "pitcher_name": "Justin Wrobleski"
+    },
+    "xzavioncurry": {
+      "era": 4.9,
+      "ip": "",
+      "pitcher_name": "Xzavion Curry"
+    },
+    "yamamoto": {
+      "era": 3.25,
+      "ip": 5.98,
+      "pitcher_name": "Yoshinobu Yamamoto"
+    },
+    "yarbrough": {
+      "era": 4,
+      "ip": 5.27,
+      "pitcher_name": "Ryan Yarbrough"
+    },
+    "yarielrodriguez": {
+      "era": 4.4,
+      "ip": "",
+      "pitcher_name": "Yariel Rodr\u00edguez"
+    },
+    "yesavage": {
+      "era": 3.6,
+      "ip": 5.17,
+      "pitcher_name": "Trey Yesavage"
+    },
+    "yilberdiaz": {
+      "era": 4.5,
+      "ip": "",
+      "pitcher_name": "Yilber Diaz"
+    },
+    "yoendrysgomez": {
+      "era": 4.65,
+      "ip": 4.47,
+      "pitcher_name": "Yoendrys G\u00f3mez"
+    },
+    "yonnychirinos": {
+      "era": 4.8,
+      "ip": "",
+      "pitcher_name": "Yonny Chirinos"
+    },
+    "yoshinobuyamamoto": {
+      "era": 3.25,
+      "ip": 5.98,
+      "pitcher_name": "Yoshinobu Yamamoto"
+    },
+    "young": {
+      "era": 4.4,
+      "ip": 5.13,
+      "pitcher_name": "Brandon Young"
+    },
+    "yudarvish": {
+      "era": 4,
+      "ip": "",
+      "pitcher_name": "Yu Darvish"
+    },
+    "yuseikikuchi": {
+      "era": 4.1,
+      "ip": 5.18,
+      "pitcher_name": "Yusei Kikuchi"
+    },
+    "zacgallen": {
+      "era": 4.3,
+      "ip": 5.23,
+      "pitcher_name": "Zac Gallen"
+    },
+    "zacheflin": {
+      "era": 4.25,
+      "ip": 3.68,
+      "pitcher_name": "Zach Eflin"
+    },
+    "zachplesac": {
+      "era": 5.3,
+      "ip": "",
+      "pitcher_name": "Zach Plesac"
+    },
+    "zacklittell": {
+      "era": 4.55,
+      "ip": 4.95,
+      "pitcher_name": "Zack Littell"
+    },
+    "zackwheeler": {
+      "era": 3.1,
+      "ip": 5.89,
+      "pitcher_name": "Zack Wheeler"
+    },
+    "zebbymatthews": {
+      "era": 4.25,
+      "ip": "",
+      "pitcher_name": "Zebby Matthews"
+    }
+  }
+}

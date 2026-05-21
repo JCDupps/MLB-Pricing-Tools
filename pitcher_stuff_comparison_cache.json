@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T13:57:27.819160",
+  "generated_at": "2026-05-21T18:52:35.991335",
   "pitchers": {
     "434378": {
       "cache_saved_at": "2026-04-08T14:51:04.241746",
@@ -70,7 +70,7 @@
       "previous_season": 2025
     },
     "471911": {
-      "cache_saved_at": "2026-04-08T14:40:28.500965",
+      "cache_saved_at": "2026-04-13T14:13:38.041274",
       "current_season": 2026,
       "fangraphs_player_id": 6632,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=6632",
@@ -121,7 +121,7 @@
       "previous_season": 2025
     },
     "489446": {
-      "cache_saved_at": "2026-04-08T14:58:26.034304",
+      "cache_saved_at": "2026-04-13T14:47:20.236550",
       "current_season": 2026,
       "fangraphs_player_id": 9073,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=9073",
@@ -172,7 +172,7 @@
       "previous_season": 2025
     },
     "518489": {
-      "cache_saved_at": "2026-04-08T15:32:07.056324",
+      "cache_saved_at": "2026-04-13T15:30:26.147907",
       "current_season": 2026,
       "fangraphs_player_id": 5615,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=5615",
@@ -257,24 +257,24 @@
       "previous_season": 2025
     },
     "519242": {
-      "cache_saved_at": "2026-04-08T14:39:51.341488",
+      "cache_saved_at": "2026-05-01T12:54:33.341801",
       "current_season": 2026,
       "fangraphs_player_id": 10603,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=10603",
       "metrics": {
-        "LocationPlus": "105.8",
-        "PitchingPlus": "112.0",
-        "StuffPlusCurrent": "112.7",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "109.0",
+        "PitchingPlus": "118.9",
+        "StuffPlusCurrent": "115.0",
+        "StuffPlusDiff": "-1.2",
+        "StuffPlusPrevious": "116.2"
       },
       "mlb_player_id": 519242,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "sale",
+      "pitcher_name": "Sale",
       "previous_season": 2025
     },
     "519326": {
-      "cache_saved_at": "2026-04-08T14:58:47.760329",
+      "cache_saved_at": "2026-04-13T14:51:01.391893",
       "current_season": 2026,
       "fangraphs_player_id": 7836,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=7836",
@@ -291,20 +291,20 @@
       "previous_season": 2025
     },
     "527048": {
-      "cache_saved_at": "2026-04-08T14:39:55.834319",
+      "cache_saved_at": "2026-04-16T12:27:30.560597",
       "current_season": 2026,
       "fangraphs_player_id": 6902,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=6902",
       "metrics": {
-        "LocationPlus": "106.8",
-        "PitchingPlus": "95.8",
-        "StuffPlusCurrent": "86.8",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "103.0",
+        "PitchingPlus": "93.9",
+        "StuffPlusCurrent": "87.8",
+        "StuffPlusDiff": "2.1",
+        "StuffPlusPrevious": "85.7"
       },
       "mlb_player_id": 527048,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "prezm",
+      "pitcher_name": "P\u00e9rez, M",
       "previous_season": 2025
     },
     "529017": {
@@ -410,20 +410,20 @@
       "previous_season": 2025
     },
     "543243": {
-      "cache_saved_at": "2026-04-08T14:42:50.815983",
+      "cache_saved_at": "2026-04-13T11:52:26.768843",
       "current_season": 2026,
       "fangraphs_player_id": 12768,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=12768",
       "metrics": {
-        "LocationPlus": "102.1",
-        "PitchingPlus": "107.0",
-        "StuffPlusCurrent": "101.3",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "100.0",
+        "PitchingPlus": "104.9",
+        "StuffPlusCurrent": "100.2",
+        "StuffPlusDiff": "-1.4",
+        "StuffPlusPrevious": "101.6"
       },
       "mlb_player_id": 543243,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "grays",
+      "pitcher_name": "Gray, S",
       "previous_season": 2025
     },
     "544150": {
@@ -444,20 +444,20 @@
       "previous_season": 2025
     },
     "547179": {
-      "cache_saved_at": "2026-04-08T14:49:15.492691",
+      "cache_saved_at": "2026-04-18T12:01:11.193083",
       "current_season": 2026,
       "fangraphs_player_id": 14843,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=14843",
       "metrics": {
-        "LocationPlus": "97.5",
-        "PitchingPlus": "85.3",
-        "StuffPlusCurrent": "87.1",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "96.7",
+        "PitchingPlus": "86.3",
+        "StuffPlusCurrent": "89.1",
+        "StuffPlusDiff": "-2.7",
+        "StuffPlusPrevious": "91.8"
       },
       "mlb_player_id": 547179,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "lorenzen",
+      "pitcher_name": "Lorenzen",
       "previous_season": 2025
     },
     "547184": {
@@ -512,7 +512,7 @@
       "previous_season": 2025
     },
     "552640": {
-      "cache_saved_at": "2026-04-08T14:41:44.467733",
+      "cache_saved_at": "2026-04-13T14:22:34.579889",
       "current_season": 2026,
       "fangraphs_player_id": 12828,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=12828",
@@ -580,15 +580,15 @@
       "previous_season": 2025
     },
     "571578": {
-      "cache_saved_at": "2026-04-08T15:32:51.871425",
+      "cache_saved_at": "2026-04-13T15:33:11.969515",
       "current_season": 2026,
       "fangraphs_player_id": 9323,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=9323",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
+        "LocationPlus": "114.2",
+        "PitchingPlus": "109.3",
+        "StuffPlusCurrent": "92.8",
+        "StuffPlusDiff": "-0.5",
         "StuffPlusPrevious": "93.3"
       },
       "mlb_player_id": 571578,
@@ -597,7 +597,7 @@
       "previous_season": 2025
     },
     "571882": {
-      "cache_saved_at": "2026-04-08T14:39:25.955356",
+      "cache_saved_at": "2026-04-13T14:08:14.491580",
       "current_season": 2026,
       "fangraphs_player_id": 13133,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=13133",
@@ -631,20 +631,20 @@
       "previous_season": 2025
     },
     "571945": {
-      "cache_saved_at": "2026-04-08T15:34:06.593851",
+      "cache_saved_at": "2026-04-13T11:52:12.726056",
       "current_season": 2026,
       "fangraphs_player_id": 9803,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=9803",
       "metrics": {
-        "LocationPlus": "119.5",
-        "PitchingPlus": "105.7",
+        "LocationPlus": "118.1",
+        "PitchingPlus": "105.5",
         "StuffPlusCurrent": "89.0",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "StuffPlusDiff": "-0.1",
+        "StuffPlusPrevious": "89.1"
       },
       "mlb_player_id": 571945,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "mikolas",
+      "pitcher_name": "Mikolas",
       "previous_season": 2025
     },
     "571946": {
@@ -801,7 +801,7 @@
       "previous_season": 2025
     },
     "592155": {
-      "cache_saved_at": "2026-04-08T15:30:42.697024",
+      "cache_saved_at": "2026-04-13T15:21:45.734861",
       "current_season": 2026,
       "fangraphs_player_id": 16061,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=16061",
@@ -818,20 +818,20 @@
       "previous_season": 2025
     },
     "592332": {
-      "cache_saved_at": "2026-04-08T15:32:48.976547",
+      "cache_saved_at": "2026-04-13T11:52:35.805106",
       "current_season": 2026,
       "fangraphs_player_id": 14107,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=14107",
       "metrics": {
         "LocationPlus": "113.9",
-        "PitchingPlus": "116.2",
+        "PitchingPlus": "116.3",
         "StuffPlusCurrent": "105.5",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "StuffPlusDiff": "3.5",
+        "StuffPlusPrevious": "102.0"
       },
       "mlb_player_id": 592332,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "gausman",
+      "pitcher_name": "Gausman",
       "previous_season": 2025
     },
     "592426": {
@@ -869,24 +869,24 @@
       "previous_season": 2025
     },
     "592662": {
-      "cache_saved_at": "2026-04-08T15:26:24.708350",
+      "cache_saved_at": "2026-04-13T11:52:14.528971",
       "current_season": 2026,
       "fangraphs_player_id": 11486,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=11486",
       "metrics": {
-        "LocationPlus": "103.5",
-        "PitchingPlus": "104.5",
-        "StuffPlusCurrent": "105.2",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "99.7",
+        "PitchingPlus": "100.8",
+        "StuffPlusCurrent": "105.8",
+        "StuffPlusDiff": "5.5",
+        "StuffPlusPrevious": "100.3"
       },
       "mlb_player_id": 592662,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "ray",
+      "pitcher_name": "Ray",
       "previous_season": 2025
     },
     "592717": {
-      "cache_saved_at": "2026-04-08T14:55:26.381597",
+      "cache_saved_at": "2026-04-13T14:42:36.399351",
       "current_season": 2026,
       "fangraphs_player_id": 11490,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=11490",
@@ -1124,20 +1124,20 @@
       "previous_season": 2025
     },
     "594798": {
-      "cache_saved_at": "2026-04-08T15:31:26.989957",
+      "cache_saved_at": "2026-04-16T12:27:48.057031",
       "current_season": 2026,
       "fangraphs_player_id": 10954,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=10954",
       "metrics": {
-        "LocationPlus": "113.6",
-        "PitchingPlus": "122.8",
-        "StuffPlusCurrent": "110.9",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "110.9",
+        "PitchingPlus": "118.8",
+        "StuffPlusCurrent": "109.3",
+        "StuffPlusDiff": "0.7",
+        "StuffPlusPrevious": "108.6"
       },
       "mlb_player_id": 594798,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "degrom",
+      "pitcher_name": "deGrom",
       "previous_season": 2025
     },
     "594835": {
@@ -1175,16 +1175,16 @@
       "previous_season": 2025
     },
     "595014": {
-      "cache_saved_at": "2026-04-08T15:02:48.255490",
+      "cache_saved_at": "2026-04-13T14:57:28.370887",
       "current_season": 2026,
       "fangraphs_player_id": 12572,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=12572",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "99.1",
+        "PitchingPlus": "105.1",
+        "StuffPlusCurrent": "108.6",
+        "StuffPlusDiff": "-3.1",
+        "StuffPlusPrevious": "111.7"
       },
       "mlb_player_id": 595014,
       "normalized_name": "",
@@ -1243,7 +1243,7 @@
       "previous_season": 2025
     },
     "595928": {
-      "cache_saved_at": "2026-04-08T14:39:15.600131",
+      "cache_saved_at": "2026-04-13T14:06:12.507643",
       "current_season": 2026,
       "fangraphs_player_id": 16128,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=16128",
@@ -1277,7 +1277,7 @@
       "previous_season": 2025
     },
     "596112": {
-      "cache_saved_at": "2026-04-08T14:58:24.649133",
+      "cache_saved_at": "2026-04-13T14:46:48.835962",
       "current_season": 2026,
       "fangraphs_player_id": 13594,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=13594",
@@ -1311,7 +1311,7 @@
       "previous_season": 2025
     },
     "596271": {
-      "cache_saved_at": "2026-04-08T15:28:10.726556",
+      "cache_saved_at": "2026-04-13T15:09:45.281429",
       "current_season": 2026,
       "fangraphs_player_id": 11121,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=11121",
@@ -1328,7 +1328,7 @@
       "previous_season": 2025
     },
     "596295": {
-      "cache_saved_at": "2026-04-08T15:31:53.840192",
+      "cache_saved_at": "2026-04-13T15:27:07.359405",
       "current_season": 2026,
       "fangraphs_player_id": 16561,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=16561",
@@ -1396,20 +1396,20 @@
       "previous_season": 2025
     },
     "605135": {
-      "cache_saved_at": "2026-04-08T14:41:19.632094",
+      "cache_saved_at": "2026-04-16T12:27:26.559161",
       "current_season": 2026,
       "fangraphs_player_id": 12304,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=12304",
       "metrics": {
-        "LocationPlus": "78.8",
-        "PitchingPlus": "72.6",
-        "StuffPlusCurrent": "94.9",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "92.7",
+        "PitchingPlus": "89.8",
+        "StuffPlusCurrent": "97.8",
+        "StuffPlusDiff": "-0.7",
+        "StuffPlusPrevious": "98.5"
       },
       "mlb_player_id": 605135,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "bassitt",
+      "pitcher_name": "Bassitt",
       "previous_season": 2025
     },
     "605154": {
@@ -1481,7 +1481,7 @@
       "previous_season": 2025
     },
     "605242": {
-      "cache_saved_at": "2026-04-08T15:27:14.081630",
+      "cache_saved_at": "2026-04-13T15:05:29.927928",
       "current_season": 2026,
       "fangraphs_player_id": 13218,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=13218",
@@ -1634,7 +1634,7 @@
       "previous_season": 2025
     },
     "605463": {
-      "cache_saved_at": "2026-04-08T14:40:47.895060",
+      "cache_saved_at": "2026-04-13T14:18:54.747868",
       "current_season": 2026,
       "fangraphs_player_id": 13652,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=13652",
@@ -1668,20 +1668,20 @@
       "previous_season": 2025
     },
     "605488": {
-      "cache_saved_at": "2026-04-08T14:19:14.609492",
+      "cache_saved_at": "2026-04-13T15:43:25.063505",
       "current_season": 2026,
       "fangraphs_player_id": 17677,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=17677",
       "metrics": {
-        "LocationPlus": "104.6",
-        "PitchingPlus": "100.7",
-        "StuffPlusCurrent": "96.9",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "106.7",
+        "PitchingPlus": "106.2",
+        "StuffPlusCurrent": "99.4",
+        "StuffPlusDiff": "4.9",
+        "StuffPlusPrevious": "94.5"
       },
       "mlb_player_id": 605488,
-      "normalized_name": "jeffreysprings",
-      "pitcher_name": "Jeffrey Springs",
+      "normalized_name": "springs",
+      "pitcher_name": "Springs",
       "previous_season": 2025
     },
     "605540": {
@@ -1770,20 +1770,20 @@
       "previous_season": 2025
     },
     "607067": {
-      "cache_saved_at": "2026-04-08T14:44:17.361343",
+      "cache_saved_at": "2026-04-13T11:52:18.369921",
       "current_season": 2026,
       "fangraphs_player_id": 12317,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=12317",
       "metrics": {
-        "LocationPlus": "104.2",
-        "PitchingPlus": "96.6",
-        "StuffPlusCurrent": "91.0",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "97.7",
+        "PitchingPlus": "90.4",
+        "StuffPlusCurrent": "91.6",
+        "StuffPlusDiff": "-1.4",
+        "StuffPlusPrevious": "93.0"
       },
       "mlb_player_id": 607067,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "rea",
+      "pitcher_name": "Rea",
       "previous_season": 2025
     },
     "607074": {
@@ -1821,20 +1821,20 @@
       "previous_season": 2025
     },
     "607192": {
-      "cache_saved_at": "2026-04-08T15:02:37.829214",
+      "cache_saved_at": "2026-04-13T14:54:12.398534",
       "current_season": 2026,
       "fangraphs_player_id": 14374,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=14374",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "105.0",
+        "PitchingPlus": "111.5",
+        "StuffPlusCurrent": "106.3",
+        "StuffPlusDiff": "5.0",
+        "StuffPlusPrevious": "101.3"
       },
       "mlb_player_id": 607192,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "tylerglasnow",
+      "pitcher_name": "Tyler Glasnow",
       "previous_season": 2025
     },
     "607200": {
@@ -1923,24 +1923,24 @@
       "previous_season": 2025
     },
     "607625": {
-      "cache_saved_at": "2026-04-08T14:21:28.613199",
+      "cache_saved_at": "2026-05-01T12:54:35.517333",
       "current_season": 2026,
       "fangraphs_player_id": 12447,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=12447",
       "metrics": {
-        "LocationPlus": "93.6",
-        "PitchingPlus": "105.0",
-        "StuffPlusCurrent": "112.9",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "109.6",
+        "PitchingPlus": "96.1",
+        "StuffPlusCurrent": "88.1",
+        "StuffPlusDiff": "-4.6",
+        "StuffPlusPrevious": "92.7"
       },
       "mlb_player_id": 607625,
-      "normalized_name": "sethlugo",
-      "pitcher_name": "Seth Lugo",
+      "normalized_name": "lugos",
+      "pitcher_name": "Lugo, S",
       "previous_season": 2025
     },
     "607644": {
-      "cache_saved_at": "2026-04-08T14:55:42.144408",
+      "cache_saved_at": "2026-04-13T14:43:07.732424",
       "current_season": 2026,
       "fangraphs_player_id": 16269,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=16269",
@@ -1957,16 +1957,16 @@
       "previous_season": 2025
     },
     "608032": {
-      "cache_saved_at": "2026-04-08T14:55:09.512580",
+      "cache_saved_at": "2026-04-13T14:39:25.382507",
       "current_season": 2026,
       "fangraphs_player_id": 14542,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=14542",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "62.9",
+        "PitchingPlus": "45.9",
+        "StuffPlusCurrent": "79.1",
+        "StuffPlusDiff": "-18.4",
+        "StuffPlusPrevious": "97.5"
       },
       "mlb_player_id": 608032,
       "normalized_name": "",
@@ -2059,20 +2059,20 @@
       "previous_season": 2025
     },
     "608379": {
-      "cache_saved_at": "2026-04-08T14:54:34.896811",
+      "cache_saved_at": "2026-04-13T14:33:32.364927",
       "current_season": 2026,
       "fangraphs_player_id": 14078,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=14078",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "104.0",
+        "PitchingPlus": "101.6",
+        "StuffPlusCurrent": "99.3",
+        "StuffPlusDiff": "2.9",
+        "StuffPlusPrevious": "96.4"
       },
       "mlb_player_id": 608379,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "michaelwacha",
+      "pitcher_name": "Michael Wacha",
       "previous_season": 2025
     },
     "608566": {
@@ -2144,7 +2144,7 @@
       "previous_season": 2025
     },
     "615698": {
-      "cache_saved_at": "2026-04-08T15:31:55.316540",
+      "cache_saved_at": "2026-04-13T15:27:41.566998",
       "current_season": 2026,
       "fangraphs_player_id": 19312,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19312",
@@ -2161,7 +2161,7 @@
       "previous_season": 2025
     },
     "621016": {
-      "cache_saved_at": "2026-04-08T14:56:00.734849",
+      "cache_saved_at": "2026-04-13T14:44:10.906534",
       "current_season": 2026,
       "fangraphs_player_id": 17701,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=17701",
@@ -2178,7 +2178,7 @@
       "previous_season": 2025
     },
     "621051": {
-      "cache_saved_at": "2026-04-08T15:30:32.356557",
+      "cache_saved_at": "2026-04-13T15:20:09.629368",
       "current_season": 2026,
       "fangraphs_player_id": 20353,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20353",
@@ -2212,7 +2212,7 @@
       "previous_season": 2025
     },
     "621074": {
-      "cache_saved_at": "2026-04-08T15:28:23.434162",
+      "cache_saved_at": "2026-04-13T15:11:53.654183",
       "current_season": 2026,
       "fangraphs_player_id": 19454,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19454",
@@ -2365,24 +2365,24 @@
       "previous_season": 2025
     },
     "621242": {
-      "cache_saved_at": "2026-04-08T15:02:39.105818",
+      "cache_saved_at": "2026-04-13T14:55:45.963406",
       "current_season": 2026,
       "fangraphs_player_id": 14710,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=14710",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "98.0",
+        "PitchingPlus": "101.2",
+        "StuffPlusCurrent": "108.8",
+        "StuffPlusDiff": "-5.2",
+        "StuffPlusPrevious": "114.0"
       },
       "mlb_player_id": 621242,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "edwindaz",
+      "pitcher_name": "Edwin D\u00edaz",
       "previous_season": 2025
     },
     "621244": {
-      "cache_saved_at": "2026-04-08T15:33:09.199075",
+      "cache_saved_at": "2026-04-13T15:33:43.525955",
       "current_season": 2026,
       "fangraphs_player_id": 14168,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=14168",
@@ -2433,20 +2433,20 @@
       "previous_season": 2025
     },
     "621381": {
-      "cache_saved_at": "2026-04-08T14:54:55.354913",
+      "cache_saved_at": "2026-04-13T14:34:37.017061",
       "current_season": 2026,
       "fangraphs_player_id": 13799,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=13799",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "91.0",
+        "PitchingPlus": "93.3",
+        "StuffPlusCurrent": "100.6",
+        "StuffPlusDiff": "-9.2",
+        "StuffPlusPrevious": "109.8"
       },
       "mlb_player_id": 621381,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "mattstrahm",
+      "pitcher_name": "Matt Strahm",
       "previous_season": 2025
     },
     "621383": {
@@ -2518,7 +2518,7 @@
       "previous_season": 2025
     },
     "622250": {
-      "cache_saved_at": "2026-04-08T15:32:05.108441",
+      "cache_saved_at": "2026-04-13T15:29:52.781961",
       "current_season": 2026,
       "fangraphs_player_id": 18323,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=18323",
@@ -2586,7 +2586,7 @@
       "previous_season": 2025
     },
     "622503": {
-      "cache_saved_at": "2026-04-08T15:31:59.632341",
+      "cache_saved_at": "2026-04-13T15:28:18.404130",
       "current_season": 2026,
       "fangraphs_player_id": 17732,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=17732",
@@ -2637,15 +2637,15 @@
       "previous_season": 2025
     },
     "622663": {
-      "cache_saved_at": "2026-04-11T13:48:13.138708",
+      "cache_saved_at": "2026-05-21T18:23:17.266328",
       "current_season": 2026,
       "fangraphs_player_id": 15890,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=15890",
       "metrics": {
-        "LocationPlus": "89.3",
-        "PitchingPlus": "98.6",
-        "StuffPlusCurrent": "108.6",
-        "StuffPlusDiff": "4.5",
+        "LocationPlus": "101.1",
+        "PitchingPlus": "107.2",
+        "StuffPlusCurrent": "107.3",
+        "StuffPlusDiff": "3.2",
         "StuffPlusPrevious": "104.1"
       },
       "mlb_player_id": 622663,
@@ -2654,7 +2654,7 @@
       "previous_season": 2025
     },
     "622694": {
-      "cache_saved_at": "2026-04-08T14:40:29.629334",
+      "cache_saved_at": "2026-04-13T14:14:09.315803",
       "current_season": 2026,
       "fangraphs_player_id": 16933,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=16933",
@@ -2671,7 +2671,7 @@
       "previous_season": 2025
     },
     "622780": {
-      "cache_saved_at": "2026-04-08T14:58:52.383916",
+      "cache_saved_at": "2026-04-13T14:52:06.393966",
       "current_season": 2026,
       "fangraphs_player_id": 17759,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=17759",
@@ -2680,7 +2680,7 @@
         "PitchingPlus": null,
         "StuffPlusCurrent": null,
         "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "StuffPlusPrevious": "105.1"
       },
       "mlb_player_id": 622780,
       "normalized_name": "",
@@ -2841,20 +2841,20 @@
       "previous_season": 2025
     },
     "624133": {
-      "cache_saved_at": "2026-04-08T14:42:53.239420",
+      "cache_saved_at": "2026-04-16T12:27:38.534872",
       "current_season": 2026,
       "fangraphs_player_id": 17277,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=17277",
       "metrics": {
-        "LocationPlus": "99.7",
-        "PitchingPlus": "94.3",
-        "StuffPlusCurrent": "92.7",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "102.1",
+        "PitchingPlus": "97.8",
+        "StuffPlusCurrent": "95.6",
+        "StuffPlusDiff": "-1.4",
+        "StuffPlusPrevious": "97.0"
       },
       "mlb_player_id": 624133,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "suarez",
+      "pitcher_name": "Suarez",
       "previous_season": 2025
     },
     "624522": {
@@ -2875,7 +2875,7 @@
       "previous_season": 2025
     },
     "625510": {
-      "cache_saved_at": "2026-04-08T15:35:03.213999",
+      "cache_saved_at": "2026-04-13T15:39:34.732204",
       "current_season": 2026,
       "fangraphs_player_id": 15817,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=15817",
@@ -2892,20 +2892,20 @@
       "previous_season": 2025
     },
     "625643": {
-      "cache_saved_at": "2026-04-08T14:39:52.312243",
+      "cache_saved_at": "2026-04-13T11:52:25.290497",
       "current_season": 2026,
       "fangraphs_player_id": 16400,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=16400",
       "metrics": {
-        "LocationPlus": "97.1",
-        "PitchingPlus": "85.7",
-        "StuffPlusCurrent": "88.1",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "96.7",
+        "PitchingPlus": "86.0",
+        "StuffPlusCurrent": "88.6",
+        "StuffPlusDiff": "-8.9",
+        "StuffPlusPrevious": "97.5"
       },
       "mlb_player_id": 625643,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "lpezr",
+      "pitcher_name": "L\u00f3pez, R",
       "previous_season": 2025
     },
     "627392": {
@@ -3181,7 +3181,7 @@
       "previous_season": 2025
     },
     "641540": {
-      "cache_saved_at": "2026-04-08T15:28:08.386583",
+      "cache_saved_at": "2026-04-13T15:08:41.036957",
       "current_season": 2026,
       "fangraphs_player_id": 19409,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19409",
@@ -3215,7 +3215,7 @@
       "previous_season": 2025
     },
     "641627": {
-      "cache_saved_at": "2026-04-08T15:34:50.060809",
+      "cache_saved_at": "2026-04-13T15:37:59.017656",
       "current_season": 2026,
       "fangraphs_player_id": 15046,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=15046",
@@ -3232,7 +3232,7 @@
       "previous_season": 2025
     },
     "641656": {
-      "cache_saved_at": "2026-04-08T14:40:45.748915",
+      "cache_saved_at": "2026-04-13T14:18:22.374820",
       "current_season": 2026,
       "fangraphs_player_id": 19261,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19261",
@@ -3266,7 +3266,7 @@
       "previous_season": 2025
     },
     "641729": {
-      "cache_saved_at": "2026-04-08T14:40:20.292891",
+      "cache_saved_at": "2026-04-13T14:12:03.064023",
       "current_season": 2026,
       "fangraphs_player_id": 15761,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=15761",
@@ -3334,20 +3334,20 @@
       "previous_season": 2025
     },
     "641778": {
-      "cache_saved_at": "2026-04-08T15:32:53.988792",
+      "cache_saved_at": "2026-04-16T12:27:49.711359",
       "current_season": 2026,
       "fangraphs_player_id": 19316,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19316",
       "metrics": {
-        "LocationPlus": "99.0",
-        "PitchingPlus": "83.0",
+        "LocationPlus": "93.4",
+        "PitchingPlus": "79.1",
         "StuffPlusCurrent": "85.6",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "StuffPlusDiff": "-8.5",
+        "StuffPlusPrevious": "94.1"
       },
       "mlb_player_id": 641778,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "lauer",
+      "pitcher_name": "Lauer",
       "previous_season": 2025
     },
     "641793": {
@@ -3419,7 +3419,7 @@
       "previous_season": 2025
     },
     "641907": {
-      "cache_saved_at": "2026-04-08T15:32:17.725460",
+      "cache_saved_at": "2026-04-13T15:31:30.712026",
       "current_season": 2026,
       "fangraphs_player_id": 19712,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19712",
@@ -3504,7 +3504,7 @@
       "previous_season": 2025
     },
     "642048": {
-      "cache_saved_at": "2026-04-08T14:58:43.603138",
+      "cache_saved_at": "2026-04-13T14:49:57.685484",
       "current_season": 2026,
       "fangraphs_player_id": 17888,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=17888",
@@ -3725,7 +3725,7 @@
       "previous_season": 2025
     },
     "642585": {
-      "cache_saved_at": "2026-04-08T14:41:39.479881",
+      "cache_saved_at": "2026-04-13T14:22:03.198117",
       "current_season": 2026,
       "fangraphs_player_id": 20666,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20666",
@@ -3759,7 +3759,7 @@
       "previous_season": 2025
     },
     "642759": {
-      "cache_saved_at": "2026-04-08T15:34:46.667004",
+      "cache_saved_at": "2026-04-13T15:36:54.387645",
       "current_season": 2026,
       "fangraphs_player_id": 18341,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=18341",
@@ -3776,7 +3776,7 @@
       "previous_season": 2025
     },
     "642770": {
-      "cache_saved_at": "2026-04-08T14:40:54.815643",
+      "cache_saved_at": "2026-04-13T14:19:57.572512",
       "current_season": 2026,
       "fangraphs_player_id": 17292,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=17292",
@@ -3912,7 +3912,7 @@
       "previous_season": 2025
     },
     "646242": {
-      "cache_saved_at": "2026-04-08T15:28:09.493219",
+      "cache_saved_at": "2026-04-13T15:09:12.913236",
       "current_season": 2026,
       "fangraphs_player_id": 20298,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20298",
@@ -3946,20 +3946,20 @@
       "previous_season": 2025
     },
     "647336": {
-      "cache_saved_at": "2026-04-08T14:38:09.465890",
+      "cache_saved_at": "2026-04-16T12:27:51.326250",
       "current_season": 2026,
       "fangraphs_player_id": 18383,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=18383",
       "metrics": {
-        "LocationPlus": "105.8",
-        "PitchingPlus": "95.5",
-        "StuffPlusCurrent": "93.3",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "100.0",
+        "PitchingPlus": "92.4",
+        "StuffPlusCurrent": "94.8",
+        "StuffPlusDiff": "-0.4",
+        "StuffPlusPrevious": "95.2"
       },
       "mlb_player_id": 647336,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "soroka",
+      "pitcher_name": "Soroka",
       "previous_season": 2025
     },
     "650556": {
@@ -3980,20 +3980,20 @@
       "previous_season": 2025
     },
     "650633": {
-      "cache_saved_at": "2026-04-08T15:25:00.696608",
+      "cache_saved_at": "2026-04-13T15:42:23.139889",
       "current_season": 2026,
       "fangraphs_player_id": 19853,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19853",
       "metrics": {
-        "LocationPlus": "90.1",
-        "PitchingPlus": "84.4",
-        "StuffPlusCurrent": "96.1",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "88.6",
+        "PitchingPlus": "82.4",
+        "StuffPlusCurrent": "94.9",
+        "StuffPlusDiff": "-5.9",
+        "StuffPlusPrevious": "100.8"
       },
       "mlb_player_id": 650633,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "kingm",
+      "pitcher_name": "King, M",
       "previous_season": 2025
     },
     "650644": {
@@ -4065,7 +4065,7 @@
       "previous_season": 2025
     },
     "655889": {
-      "cache_saved_at": "2026-04-08T15:30:27.638209",
+      "cache_saved_at": "2026-04-13T15:19:04.029852",
       "current_season": 2026,
       "fangraphs_player_id": 20794,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20794",
@@ -4082,7 +4082,7 @@
       "previous_season": 2025
     },
     "656008": {
-      "cache_saved_at": "2026-04-08T14:59:35.627233",
+      "cache_saved_at": "2026-04-13T14:52:38.215499",
       "current_season": 2026,
       "fangraphs_player_id": 20802,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20802",
@@ -4184,7 +4184,7 @@
       "previous_season": 2025
     },
     "656240": {
-      "cache_saved_at": "2026-04-08T15:29:27.091926",
+      "cache_saved_at": "2026-04-13T15:16:57.476640",
       "current_season": 2026,
       "fangraphs_player_id": 16427,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=16427",
@@ -4269,20 +4269,20 @@
       "previous_season": 2025
     },
     "656302": {
-      "cache_saved_at": "2026-04-08T15:32:50.178765",
+      "cache_saved_at": "2026-05-01T12:54:15.325599",
       "current_season": 2026,
       "fangraphs_player_id": 18525,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=18525",
       "metrics": {
-        "LocationPlus": "87.5",
-        "PitchingPlus": "97.6",
-        "StuffPlusCurrent": "107.0",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "95.9",
+        "PitchingPlus": "106.0",
+        "StuffPlusCurrent": "108.3",
+        "StuffPlusDiff": "0.6",
+        "StuffPlusPrevious": "107.7"
       },
       "mlb_player_id": 656302,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "cease",
+      "pitcher_name": "Cease",
       "previous_season": 2025
     },
     "656353": {
@@ -4371,20 +4371,20 @@
       "previous_season": 2025
     },
     "656492": {
-      "cache_saved_at": "2026-04-08T15:34:09.691799",
+      "cache_saved_at": "2026-05-01T12:54:24.768123",
       "current_season": 2026,
       "fangraphs_player_id": 16432,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=16432",
       "metrics": {
-        "LocationPlus": "97.0",
-        "PitchingPlus": "99.1",
-        "StuffPlusCurrent": "99.1",
+        "LocationPlus": "102.0",
+        "PitchingPlus": "99.7",
+        "StuffPlusCurrent": "96.8",
         "StuffPlusDiff": null,
         "StuffPlusPrevious": null
       },
       "mlb_player_id": 656492,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "griffin",
+      "pitcher_name": "Griffin",
       "previous_season": 2025
     },
     "656529": {
@@ -4422,24 +4422,24 @@
       "previous_season": 2025
     },
     "656550": {
-      "cache_saved_at": "2026-04-08T14:39:53.340155",
+      "cache_saved_at": "2026-04-18T12:01:15.592312",
       "current_season": 2026,
       "fangraphs_player_id": 16944,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=16944",
       "metrics": {
-        "LocationPlus": "100.8",
-        "PitchingPlus": "94.2",
-        "StuffPlusCurrent": "91.0",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "95.1",
+        "PitchingPlus": "87.4",
+        "StuffPlusCurrent": "89.8",
+        "StuffPlusDiff": "-2.4",
+        "StuffPlusPrevious": "92.2"
       },
       "mlb_player_id": 656550,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "holmesg",
+      "pitcher_name": "Holmes, G",
       "previous_season": 2025
     },
     "656557": {
-      "cache_saved_at": "2026-04-08T14:43:19.235828",
+      "cache_saved_at": "2026-04-13T14:29:18.585593",
       "current_season": 2026,
       "fangraphs_player_id": 19879,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19879",
@@ -4490,20 +4490,20 @@
       "previous_season": 2025
     },
     "656638": {
-      "cache_saved_at": "2026-04-08T14:55:02.503629",
+      "cache_saved_at": "2026-04-13T14:36:45.120859",
       "current_season": 2026,
       "fangraphs_player_id": 19883,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19883",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "97.1",
+        "PitchingPlus": "97.7",
+        "StuffPlusCurrent": "95.4",
+        "StuffPlusDiff": "11.1",
+        "StuffPlusPrevious": "84.3"
       },
       "mlb_player_id": 656638,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "alexlange",
+      "pitcher_name": "Alex Lange",
       "previous_season": 2025
     },
     "656641": {
@@ -4575,7 +4575,7 @@
       "previous_season": 2025
     },
     "656755": {
-      "cache_saved_at": "2026-04-08T15:34:48.505721",
+      "cache_saved_at": "2026-04-13T15:37:26.504213",
       "current_season": 2026,
       "fangraphs_player_id": 21319,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=21319",
@@ -4592,7 +4592,7 @@
       "previous_season": 2025
     },
     "656756": {
-      "cache_saved_at": "2026-04-08T15:31:50.444381",
+      "cache_saved_at": "2026-04-13T15:26:02.950729",
       "current_season": 2026,
       "fangraphs_player_id": 16511,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=16511",
@@ -4711,20 +4711,20 @@
       "previous_season": 2025
     },
     "656945": {
-      "cache_saved_at": "2026-04-08T15:02:42.113516",
+      "cache_saved_at": "2026-04-13T14:56:18.669186",
       "current_season": 2026,
       "fangraphs_player_id": 17586,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=17586",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "117.5",
+        "PitchingPlus": "127.3",
+        "StuffPlusCurrent": "117.2",
+        "StuffPlusDiff": "-0.1",
+        "StuffPlusPrevious": "117.3"
       },
       "mlb_player_id": 656945,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "tannerscott",
+      "pitcher_name": "Tanner Scott",
       "previous_season": 2025
     },
     "656986": {
@@ -4864,20 +4864,20 @@
       "previous_season": 2025
     },
     "657277": {
-      "cache_saved_at": "2026-04-08T15:26:22.168093",
+      "cache_saved_at": "2026-04-16T12:27:32.459426",
       "current_season": 2026,
       "fangraphs_player_id": 17995,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=17995",
       "metrics": {
-        "LocationPlus": "105.4",
-        "PitchingPlus": "107.8",
-        "StuffPlusCurrent": "99.4",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "105.2",
+        "PitchingPlus": "109.7",
+        "StuffPlusCurrent": "102.5",
+        "StuffPlusDiff": "-3.3",
+        "StuffPlusPrevious": "105.8"
       },
       "mlb_player_id": 657277,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "webbl",
+      "pitcher_name": "Webb, L",
       "previous_season": 2025
     },
     "657376": {
@@ -5068,7 +5068,7 @@
       "previous_season": 2025
     },
     "658551": {
-      "cache_saved_at": "2026-04-08T14:39:23.281121",
+      "cache_saved_at": "2026-04-13T14:07:15.152809",
       "current_season": 2026,
       "fangraphs_player_id": 18496,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=18496",
@@ -5119,7 +5119,7 @@
       "previous_season": 2025
     },
     "660271": {
-      "cache_saved_at": "2026-04-08T15:02:33.170327",
+      "cache_saved_at": "2026-04-13T14:53:09.495864",
       "current_season": 2026,
       "fangraphs_player_id": 19755,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19755",
@@ -5131,12 +5131,12 @@
         "StuffPlusPrevious": null
       },
       "mlb_player_id": 660271,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "shoheiohtani",
+      "pitcher_name": "Shohei Ohtani",
       "previous_season": 2025
     },
     "660600": {
-      "cache_saved_at": "2026-04-08T14:42:12.734807",
+      "cache_saved_at": "2026-04-13T14:26:00.199811",
       "current_season": 2026,
       "fangraphs_player_id": 20447,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20447",
@@ -5170,7 +5170,7 @@
       "previous_season": 2025
     },
     "660623": {
-      "cache_saved_at": "2026-04-08T14:58:34.686317",
+      "cache_saved_at": "2026-04-13T14:48:54.851523",
       "current_season": 2026,
       "fangraphs_player_id": 20468,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20468",
@@ -5510,20 +5510,20 @@
       "previous_season": 2025
     },
     "663436": {
-      "cache_saved_at": "2026-04-08T14:45:32.939638",
+      "cache_saved_at": "2026-04-16T12:27:52.840147",
       "current_season": 2026,
       "fangraphs_player_id": 21448,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=21448",
       "metrics": {
-        "LocationPlus": "96.2",
-        "PitchingPlus": "86.8",
-        "StuffPlusCurrent": "89.2",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "101.1",
+        "PitchingPlus": "91.7",
+        "StuffPlusCurrent": "89.9",
+        "StuffPlusDiff": "-3.0",
+        "StuffPlusPrevious": "92.9"
       },
       "mlb_player_id": 663436,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "martin",
+      "pitcher_name": "Martin",
       "previous_season": 2025
     },
     "663455": {
@@ -5544,24 +5544,24 @@
       "previous_season": 2025
     },
     "663460": {
-      "cache_saved_at": "2026-04-08T14:54:31.303346",
+      "cache_saved_at": "2026-04-13T14:32:59.634639",
       "current_season": 2026,
       "fangraphs_player_id": 21455,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=21455",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "105.4",
+        "PitchingPlus": "100.1",
+        "StuffPlusCurrent": "92.2",
+        "StuffPlusDiff": "-3.9",
+        "StuffPlusPrevious": "96.1"
       },
       "mlb_player_id": 663460,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "krisbubic",
+      "pitcher_name": "Kris Bubic",
       "previous_season": 2025
     },
     "663462": {
-      "cache_saved_at": "2026-04-08T14:39:12.834954",
+      "cache_saved_at": "2026-04-13T14:05:41.386894",
       "current_season": 2026,
       "fangraphs_player_id": 25551,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=25551",
@@ -5663,37 +5663,37 @@
       "previous_season": 2025
     },
     "663554": {
-      "cache_saved_at": "2026-04-08T14:50:42.200673",
+      "cache_saved_at": "2026-04-16T12:27:35.409611",
       "current_season": 2026,
       "fangraphs_player_id": 20492,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20492",
       "metrics": {
-        "LocationPlus": "97.1",
-        "PitchingPlus": "88.3",
-        "StuffPlusCurrent": "88.4",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "99.9",
+        "PitchingPlus": "91.6",
+        "StuffPlusCurrent": "87.4",
+        "StuffPlusDiff": "-7.2",
+        "StuffPlusPrevious": "94.6"
       },
       "mlb_player_id": 663554,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "mize",
+      "pitcher_name": "Mize",
       "previous_season": 2025
     },
     "663556": {
-      "cache_saved_at": "2026-04-08T15:29:55.160348",
+      "cache_saved_at": "2026-04-18T12:01:02.953822",
       "current_season": 2026,
       "fangraphs_player_id": 21483,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=21483",
       "metrics": {
-        "LocationPlus": "77.4",
-        "PitchingPlus": "84.8",
-        "StuffPlusCurrent": "104.4",
+        "LocationPlus": "78.5",
+        "PitchingPlus": "84.3",
+        "StuffPlusCurrent": "103.3",
         "StuffPlusDiff": null,
         "StuffPlusPrevious": null
       },
       "mlb_player_id": 663556,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "mcclanahan",
+      "pitcher_name": "McClanahan",
       "previous_season": 2025
     },
     "663558": {
@@ -5714,20 +5714,20 @@
       "previous_season": 2025
     },
     "663559": {
-      "cache_saved_at": "2026-04-08T14:55:10.227458",
+      "cache_saved_at": "2026-04-13T14:39:56.609724",
       "current_season": 2026,
       "fangraphs_player_id": 20070,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20070",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "84.1",
+        "PitchingPlus": "76.5",
+        "StuffPlusCurrent": "87.6",
+        "StuffPlusDiff": "-5.8",
+        "StuffPlusPrevious": "93.4"
       },
       "mlb_player_id": 663559,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "baileyfalter",
+      "pitcher_name": "Bailey Falter",
       "previous_season": 2025
     },
     "663562": {
@@ -5765,7 +5765,7 @@
       "previous_season": 2025
     },
     "663568": {
-      "cache_saved_at": "2026-04-08T14:55:04.609709",
+      "cache_saved_at": "2026-04-13T14:38:20.482062",
       "current_season": 2026,
       "fangraphs_player_id": 21487,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=21487",
@@ -5774,7 +5774,7 @@
         "PitchingPlus": null,
         "StuffPlusCurrent": null,
         "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "StuffPlusPrevious": "94.6"
       },
       "mlb_player_id": 663568,
       "normalized_name": "",
@@ -5867,7 +5867,7 @@
       "previous_season": 2025
     },
     "663704": {
-      "cache_saved_at": "2026-04-08T14:55:10.956849",
+      "cache_saved_at": "2026-04-13T14:40:28.663039",
       "current_season": 2026,
       "fangraphs_player_id": 21527,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=21527",
@@ -5884,20 +5884,20 @@
       "previous_season": 2025
     },
     "663738": {
-      "cache_saved_at": "2026-04-08T14:54:57.859633",
+      "cache_saved_at": "2026-04-13T14:35:41.734595",
       "current_season": 2026,
       "fangraphs_player_id": 21537,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=21537",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "88.6",
+        "PitchingPlus": "91.1",
+        "StuffPlusCurrent": "103.6",
+        "StuffPlusDiff": "8.9",
+        "StuffPlusPrevious": "94.7"
       },
       "mlb_player_id": 663738,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "daniellynchiv",
+      "pitcher_name": "Daniel Lynch IV",
       "previous_season": 2025
     },
     "663753": {
@@ -6020,7 +6020,7 @@
       "previous_season": 2025
     },
     "663804": {
-      "cache_saved_at": "2026-04-08T14:42:07.650072",
+      "cache_saved_at": "2026-04-13T14:25:26.987000",
       "current_season": 2026,
       "fangraphs_player_id": 21549,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=21549",
@@ -6105,20 +6105,20 @@
       "previous_season": 2025
     },
     "663903": {
-      "cache_saved_at": "2026-04-08T14:46:42.836572",
+      "cache_saved_at": "2026-04-13T11:52:16.055720",
       "current_season": 2026,
       "fangraphs_player_id": 25377,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=25377",
       "metrics": {
-        "LocationPlus": "90.5",
-        "PitchingPlus": "82.1",
-        "StuffPlusCurrent": "93.6",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "98.6",
+        "PitchingPlus": "89.4",
+        "StuffPlusCurrent": "95.7",
+        "StuffPlusDiff": "0.7",
+        "StuffPlusPrevious": "95.0"
       },
       "mlb_player_id": 663903,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "singer",
+      "pitcher_name": "Singer",
       "previous_season": 2025
     },
     "663941": {
@@ -6326,20 +6326,20 @@
       "previous_season": 2025
     },
     "664192": {
-      "cache_saved_at": "2026-04-10T11:17:23.721226",
+      "cache_saved_at": "2026-04-13T14:51:34.509973",
       "current_season": 2026,
       "fangraphs_player_id": 19320,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19320",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "82.3",
+        "PitchingPlus": "81.4",
+        "StuffPlusCurrent": "100.4",
+        "StuffPlusDiff": "-2.1",
+        "StuffPlusPrevious": "102.5"
       },
       "mlb_player_id": 664192,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "joeylucchesi",
+      "pitcher_name": "Joey Lucchesi",
       "previous_season": 2025
     },
     "664199": {
@@ -6377,20 +6377,20 @@
       "previous_season": 2025
     },
     "664285": {
-      "cache_saved_at": "2026-04-08T14:50:39.137546",
+      "cache_saved_at": "2026-04-13T11:52:11.081541",
       "current_season": 2026,
       "fangraphs_player_id": 17295,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=17295",
       "metrics": {
-        "LocationPlus": "109.4",
-        "PitchingPlus": "119.2",
-        "StuffPlusCurrent": "110.7",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "105.1",
+        "PitchingPlus": "111.4",
+        "StuffPlusCurrent": "105.9",
+        "StuffPlusDiff": "-0.3",
+        "StuffPlusPrevious": "106.2"
       },
       "mlb_player_id": 664285,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "valdezf",
+      "pitcher_name": "Valdez, F",
       "previous_season": 2025
     },
     "664299": {
@@ -6445,7 +6445,7 @@
       "previous_season": 2025
     },
     "664744": {
-      "cache_saved_at": "2026-04-08T14:41:54.063166",
+      "cache_saved_at": "2026-04-13T14:24:09.970254",
       "current_season": 2026,
       "fangraphs_player_id": 21131,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=21131",
@@ -6462,7 +6462,7 @@
       "previous_season": 2025
     },
     "664747": {
-      "cache_saved_at": "2026-04-08T15:32:10.402994",
+      "cache_saved_at": "2026-04-13T15:30:58.784067",
       "current_season": 2026,
       "fangraphs_player_id": 21132,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=21132",
@@ -6496,7 +6496,7 @@
       "previous_season": 2025
     },
     "664849": {
-      "cache_saved_at": "2026-04-08T14:40:22.221367",
+      "cache_saved_at": "2026-04-13T14:12:33.916970",
       "current_season": 2026,
       "fangraphs_player_id": 18439,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=18439",
@@ -6615,7 +6615,7 @@
       "previous_season": 2025
     },
     "665152": {
-      "cache_saved_at": "2026-04-08T14:41:48.587850",
+      "cache_saved_at": "2026-04-13T14:23:37.484729",
       "current_season": 2026,
       "fangraphs_player_id": 19350,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19350",
@@ -6649,7 +6649,7 @@
       "previous_season": 2025
     },
     "665625": {
-      "cache_saved_at": "2026-04-08T14:42:17.835205",
+      "cache_saved_at": "2026-04-13T14:27:44.890541",
       "current_season": 2026,
       "fangraphs_player_id": 21652,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=21652",
@@ -6717,37 +6717,37 @@
       "previous_season": 2025
     },
     "665795": {
-      "cache_saved_at": "2026-04-08T14:44:13.384265",
+      "cache_saved_at": "2026-04-16T12:27:22.716393",
       "current_season": 2026,
       "fangraphs_player_id": 21690,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=21690",
       "metrics": {
-        "LocationPlus": "100.2",
-        "PitchingPlus": "93.4",
-        "StuffPlusCurrent": "91.7",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "100.0",
+        "PitchingPlus": "93.2",
+        "StuffPlusCurrent": "92.1",
+        "StuffPlusDiff": "-11.8",
+        "StuffPlusPrevious": "103.9"
       },
       "mlb_player_id": 665795,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "cabrerae",
+      "pitcher_name": "Cabrera, E",
       "previous_season": 2025
     },
     "665871": {
-      "cache_saved_at": "2026-04-08T14:44:15.547710",
+      "cache_saved_at": "2026-04-18T12:01:08.022777",
       "current_season": 2026,
       "fangraphs_player_id": 21741,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=21741",
       "metrics": {
-        "LocationPlus": "101.8",
-        "PitchingPlus": "100.7",
-        "StuffPlusCurrent": "100.1",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "98.9",
+        "PitchingPlus": "103.5",
+        "StuffPlusCurrent": "103.1",
+        "StuffPlusDiff": "9.8",
+        "StuffPlusPrevious": "93.3"
       },
       "mlb_player_id": 665871,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "assad",
+      "pitcher_name": "Assad",
       "previous_season": 2025
     },
     "665959": {
@@ -6853,20 +6853,20 @@
       "previous_season": 2025
     },
     "666142": {
-      "cache_saved_at": "2026-04-08T14:54:23.420139",
+      "cache_saved_at": "2026-04-13T11:52:08.979826",
       "current_season": 2026,
       "fangraphs_player_id": 21846,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=21846",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "94.2",
+        "PitchingPlus": "97.4",
+        "StuffPlusCurrent": "103.1",
+        "StuffPlusDiff": "-8.9",
+        "StuffPlusPrevious": "112.0"
       },
       "mlb_player_id": 666142,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "ragans",
+      "pitcher_name": "Ragans",
       "previous_season": 2025
     },
     "666148": {
@@ -6921,7 +6921,7 @@
       "previous_season": 2025
     },
     "666168": {
-      "cache_saved_at": "2026-04-08T15:32:19.489058",
+      "cache_saved_at": "2026-04-13T15:32:04.798807",
       "current_season": 2026,
       "fangraphs_player_id": 21850,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=21850",
@@ -6972,7 +6972,7 @@
       "previous_season": 2025
     },
     "666201": {
-      "cache_saved_at": "2026-04-08T14:58:20.222438",
+      "cache_saved_at": "2026-04-13T14:45:13.359105",
       "current_season": 2026,
       "fangraphs_player_id": 26410,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26410",
@@ -6989,7 +6989,7 @@
       "previous_season": 2025
     },
     "666214": {
-      "cache_saved_at": "2026-04-08T14:40:16.314082",
+      "cache_saved_at": "2026-04-13T14:11:30.352779",
       "current_season": 2026,
       "fangraphs_player_id": 19962,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19962",
@@ -7244,20 +7244,20 @@
       "previous_season": 2025
     },
     "667755": {
-      "cache_saved_at": "2026-04-11T12:36:39.968996",
+      "cache_saved_at": "2026-05-21T18:52:35.956260",
       "current_season": 2026,
       "fangraphs_player_id": 22100,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=22100",
       "metrics": {
-        "LocationPlus": "112.9",
-        "PitchingPlus": "119.7",
-        "StuffPlusCurrent": "105.4",
-        "StuffPlusDiff": "2.3",
+        "LocationPlus": "104.8",
+        "PitchingPlus": "109.8",
+        "StuffPlusCurrent": "101.8",
+        "StuffPlusDiff": "-1.3",
         "StuffPlusPrevious": "103.1"
       },
       "mlb_player_id": 667755,
-      "normalized_name": "sorianoj",
-      "pitcher_name": "Soriano, J",
+      "normalized_name": "jossoriano",
+      "pitcher_name": "Jos\u00e9 Soriano",
       "previous_season": 2025
     },
     "668338": {
@@ -7312,20 +7312,20 @@
       "previous_season": 2025
     },
     "668674": {
-      "cache_saved_at": "2026-04-08T14:54:47.475251",
+      "cache_saved_at": "2026-04-13T14:34:04.394432",
       "current_season": 2026,
       "fangraphs_player_id": 19360,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19360",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "95.7",
+        "PitchingPlus": "96.5",
+        "StuffPlusCurrent": "100.7",
+        "StuffPlusDiff": "1.8",
+        "StuffPlusPrevious": "98.9"
       },
       "mlb_player_id": 668674,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "lucaserceg",
+      "pitcher_name": "Lucas Erceg",
       "previous_season": 2025
     },
     "668678": {
@@ -7448,7 +7448,7 @@
       "previous_season": 2025
     },
     "668868": {
-      "cache_saved_at": "2026-04-08T15:29:20.401741",
+      "cache_saved_at": "2026-04-13T15:15:52.911459",
       "current_season": 2026,
       "fangraphs_player_id": 25918,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=25918",
@@ -7584,7 +7584,7 @@
       "previous_season": 2025
     },
     "668968": {
-      "cache_saved_at": "2026-04-08T14:42:10.499053",
+      "cache_saved_at": "2026-04-13T14:27:14.059671",
       "current_season": 2026,
       "fangraphs_player_id": 22192,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=22192",
@@ -7652,20 +7652,20 @@
       "previous_season": 2025
     },
     "669022": {
-      "cache_saved_at": "2026-04-08T15:31:30.947851",
+      "cache_saved_at": "2026-04-13T15:42:54.116274",
       "current_season": 2026,
       "fangraphs_player_id": 22201,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=22201",
       "metrics": {
-        "LocationPlus": "109.3",
-        "PitchingPlus": "108.2",
-        "StuffPlusCurrent": "98.9",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "110.2",
+        "PitchingPlus": "109.3",
+        "StuffPlusCurrent": "100.9",
+        "StuffPlusDiff": "1.4",
+        "StuffPlusPrevious": "99.5"
       },
       "mlb_player_id": 669022,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "gore",
+      "pitcher_name": "Gore",
       "previous_season": 2025
     },
     "669060": {
@@ -7805,7 +7805,7 @@
       "previous_season": 2025
     },
     "669145": {
-      "cache_saved_at": "2026-04-08T15:29:18.610343",
+      "cache_saved_at": "2026-04-13T15:15:20.798829",
       "current_season": 2026,
       "fangraphs_player_id": 20370,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20370",
@@ -7855,6 +7855,23 @@
       "pitcher_name": "",
       "previous_season": 2025
     },
+    "669169": {
+      "cache_saved_at": "2026-04-13T15:23:53.163593",
+      "current_season": 2026,
+      "fangraphs_player_id": 22224,
+      "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=22224",
+      "metrics": {
+        "LocationPlus": null,
+        "PitchingPlus": null,
+        "StuffPlusCurrent": null,
+        "StuffPlusDiff": null,
+        "StuffPlusPrevious": null
+      },
+      "mlb_player_id": 669169,
+      "normalized_name": "",
+      "pitcher_name": "",
+      "previous_season": 2025
+    },
     "669193": {
       "cache_saved_at": "2026-04-11T13:37:57.653395",
       "current_season": 2026,
@@ -7873,20 +7890,20 @@
       "previous_season": 2025
     },
     "669194": {
-      "cache_saved_at": "2026-04-08T14:38:07.505885",
+      "cache_saved_at": "2026-04-18T12:01:14.574303",
       "current_season": 2026,
       "fangraphs_player_id": 26253,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26253",
       "metrics": {
-        "LocationPlus": "89.6",
-        "PitchingPlus": "97.6",
-        "StuffPlusCurrent": "106.3",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "96.3",
+        "PitchingPlus": "105.4",
+        "StuffPlusCurrent": "109.1",
+        "StuffPlusDiff": "2.8",
+        "StuffPlusPrevious": "106.3"
       },
       "mlb_player_id": 669194,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "nelsonr",
+      "pitcher_name": "Nelson, R",
       "previous_season": 2025
     },
     "669199": {
@@ -7924,7 +7941,7 @@
       "previous_season": 2025
     },
     "669211": {
-      "cache_saved_at": "2026-04-08T14:41:36.903324",
+      "cache_saved_at": "2026-04-13T14:21:32.186426",
       "current_season": 2026,
       "fangraphs_player_id": 19362,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19362",
@@ -7941,20 +7958,20 @@
       "previous_season": 2025
     },
     "669212": {
-      "cache_saved_at": "2026-04-08T14:55:51.045227",
+      "cache_saved_at": "2026-04-13T14:37:17.626209",
       "current_season": 2026,
       "fangraphs_player_id": 20203,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20203",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "91.8",
+        "PitchingPlus": "91.7",
+        "StuffPlusCurrent": "100.0",
+        "StuffPlusDiff": "2.8",
+        "StuffPlusPrevious": "97.2"
       },
       "mlb_player_id": 669212,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "elimorgan",
+      "pitcher_name": "Eli Morgan",
       "previous_season": 2025
     },
     "669270": {
@@ -8162,20 +8179,20 @@
       "previous_season": 2025
     },
     "669387": {
-      "cache_saved_at": "2026-04-08T15:23:52.968944",
+      "cache_saved_at": "2026-05-01T12:54:23.578259",
       "current_season": 2026,
       "fangraphs_player_id": 27572,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27572",
       "metrics": {
-        "LocationPlus": "108.9",
-        "PitchingPlus": "98.5",
-        "StuffPlusCurrent": "90.6",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "106.9",
+        "PitchingPlus": "98.7",
+        "StuffPlusCurrent": "92.5",
+        "StuffPlusDiff": "-9.6",
+        "StuffPlusPrevious": "102.1"
       },
       "mlb_player_id": 669387,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "mlodzinski",
+      "pitcher_name": "Mlodzinski",
       "previous_season": 2025
     },
     "669395": {
@@ -8247,20 +8264,20 @@
       "previous_season": 2025
     },
     "669432": {
-      "cache_saved_at": "2026-04-08T14:41:16.421948",
+      "cache_saved_at": "2026-04-13T11:52:05.585948",
       "current_season": 2026,
       "fangraphs_player_id": 22286,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=22286",
       "metrics": {
-        "LocationPlus": "101.3",
-        "PitchingPlus": "99.1",
-        "StuffPlusCurrent": "99.8",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "100.7",
+        "PitchingPlus": "98.8",
+        "StuffPlusCurrent": "99.6",
+        "StuffPlusDiff": "2.8",
+        "StuffPlusPrevious": "96.8"
       },
       "mlb_player_id": 669432,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "rogerstr",
+      "pitcher_name": "Rogers, Tr",
       "previous_season": 2025
     },
     "669434": {
@@ -8366,7 +8383,7 @@
       "previous_season": 2025
     },
     "669456": {
-      "cache_saved_at": "2026-04-08T15:33:11.210089",
+      "cache_saved_at": "2026-04-13T15:34:14.630343",
       "current_season": 2026,
       "fangraphs_player_id": 19427,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19427",
@@ -8383,20 +8400,20 @@
       "previous_season": 2025
     },
     "669461": {
-      "cache_saved_at": "2026-04-08T15:28:47.166084",
+      "cache_saved_at": "2026-04-18T12:01:04.892879",
       "current_season": 2026,
       "fangraphs_player_id": 22294,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=22294",
       "metrics": {
-        "LocationPlus": "102.2",
-        "PitchingPlus": "104.0",
-        "StuffPlusCurrent": "105.2",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "102.1",
+        "PitchingPlus": "99.5",
+        "StuffPlusCurrent": "99.5",
+        "StuffPlusDiff": "4.2",
+        "StuffPlusPrevious": "95.3"
       },
       "mlb_player_id": 669461,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "liberatore",
+      "pitcher_name": "Liberatore",
       "previous_season": 2025
     },
     "669467": {
@@ -8468,7 +8485,7 @@
       "previous_season": 2025
     },
     "669704": {
-      "cache_saved_at": "2026-04-08T14:39:07.642214",
+      "cache_saved_at": "2026-04-13T14:04:03.514525",
       "current_season": 2026,
       "fangraphs_player_id": 26191,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26191",
@@ -8621,15 +8638,15 @@
       "previous_season": 2025
     },
     "669947": {
-      "cache_saved_at": "2026-04-08T15:30:17.424081",
+      "cache_saved_at": "2026-04-13T15:18:00.156292",
       "current_season": 2026,
       "fangraphs_player_id": 19205,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19205",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
+        "LocationPlus": "117.8",
+        "PitchingPlus": "114.9",
+        "StuffPlusCurrent": "91.6",
+        "StuffPlusDiff": "-2.7",
         "StuffPlusPrevious": "94.3"
       },
       "mlb_player_id": 669947,
@@ -8740,20 +8757,20 @@
       "previous_season": 2025
     },
     "670167": {
-      "cache_saved_at": "2026-04-08T14:54:56.441360",
+      "cache_saved_at": "2026-04-13T14:36:13.904423",
       "current_season": 2026,
       "fangraphs_player_id": 20020,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20020",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "90.1",
+        "PitchingPlus": "86.5",
+        "StuffPlusCurrent": "95.7",
+        "StuffPlusDiff": "-7.0",
+        "StuffPlusPrevious": "102.7"
       },
       "mlb_player_id": 670167,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "johnschreiber",
+      "pitcher_name": "John Schreiber",
       "previous_season": 2025
     },
     "670174": {
@@ -8978,7 +8995,7 @@
       "previous_season": 2025
     },
     "670955": {
-      "cache_saved_at": "2026-04-08T15:30:29.260391",
+      "cache_saved_at": "2026-04-13T15:19:35.995282",
       "current_season": 2026,
       "fangraphs_player_id": 20539,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20539",
@@ -9114,7 +9131,7 @@
       "previous_season": 2025
     },
     "671131": {
-      "cache_saved_at": "2026-04-08T15:34:45.630892",
+      "cache_saved_at": "2026-04-13T15:36:21.858217",
       "current_season": 2026,
       "fangraphs_player_id": 26215,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26215",
@@ -9148,7 +9165,7 @@
       "previous_season": 2025
     },
     "671162": {
-      "cache_saved_at": "2026-04-08T14:40:41.477506",
+      "cache_saved_at": "2026-04-13T14:17:18.440489",
       "current_season": 2026,
       "fangraphs_player_id": 25873,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=25873",
@@ -9182,7 +9199,7 @@
       "previous_season": 2025
     },
     "671305": {
-      "cache_saved_at": "2026-04-08T15:32:02.896004",
+      "cache_saved_at": "2026-04-13T15:29:21.226862",
       "current_season": 2026,
       "fangraphs_player_id": 22533,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=22533",
@@ -9369,20 +9386,20 @@
       "previous_season": 2025
     },
     "672282": {
-      "cache_saved_at": "2026-04-08T14:58:00.435819",
+      "cache_saved_at": "2026-04-13T11:52:19.670521",
       "current_season": 2026,
       "fangraphs_player_id": 27468,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27468",
       "metrics": {
-        "LocationPlus": "113.0",
-        "PitchingPlus": "118.6",
-        "StuffPlusCurrent": "109.0",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "107.5",
+        "PitchingPlus": "111.3",
+        "StuffPlusCurrent": "106.7",
+        "StuffPlusDiff": "-8.1",
+        "StuffPlusPrevious": "114.8"
       },
       "mlb_player_id": 672282,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "detmers",
+      "pitcher_name": "Detmers",
       "previous_season": 2025
     },
     "672335": {
@@ -9420,7 +9437,7 @@
       "previous_season": 2025
     },
     "672391": {
-      "cache_saved_at": "2026-04-08T14:58:46.448602",
+      "cache_saved_at": "2026-04-13T14:50:29.883867",
       "current_season": 2026,
       "fangraphs_player_id": 20061,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20061",
@@ -9454,20 +9471,20 @@
       "previous_season": 2025
     },
     "672456": {
-      "cache_saved_at": "2026-04-08T14:50:41.090727",
+      "cache_saved_at": "2026-05-01T12:54:32.172780",
       "current_season": 2026,
       "fangraphs_player_id": 22630,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=22630",
       "metrics": {
-        "LocationPlus": "106.6",
-        "PitchingPlus": "101.2",
-        "StuffPlusCurrent": "89.2",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "107.6",
+        "PitchingPlus": "99.5",
+        "StuffPlusCurrent": "93.1",
+        "StuffPlusDiff": "-3.6",
+        "StuffPlusPrevious": "96.7"
       },
       "mlb_player_id": 672456,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "monterok",
+      "pitcher_name": "Montero, K",
       "previous_season": 2025
     },
     "672487": {
@@ -9590,7 +9607,7 @@
       "previous_season": 2025
     },
     "672841": {
-      "cache_saved_at": "2026-04-08T15:28:04.239360",
+      "cache_saved_at": "2026-04-13T15:07:04.710600",
       "current_season": 2026,
       "fangraphs_player_id": 22915,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=22915",
@@ -9760,7 +9777,7 @@
       "previous_season": 2025
     },
     "674003": {
-      "cache_saved_at": "2026-04-08T15:31:48.034791",
+      "cache_saved_at": "2026-04-13T15:25:27.447929",
       "current_season": 2026,
       "fangraphs_player_id": 27597,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27597",
@@ -9811,7 +9828,7 @@
       "previous_season": 2025
     },
     "674072": {
-      "cache_saved_at": "2026-04-11T13:29:40.579036",
+      "cache_saved_at": "2026-04-13T14:02:29.816910",
       "current_season": 2026,
       "fangraphs_player_id": 26285,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26285",
@@ -9896,20 +9913,20 @@
       "previous_season": 2025
     },
     "674444": {
-      "cache_saved_at": "2026-04-08T14:55:03.389574",
+      "cache_saved_at": "2026-04-13T14:43:38.748776",
       "current_season": 2026,
       "fangraphs_player_id": 23165,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=23165",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "105.3",
+        "PitchingPlus": "109.2",
+        "StuffPlusCurrent": "102.5",
+        "StuffPlusDiff": "0.8",
+        "StuffPlusPrevious": "101.7"
       },
       "mlb_player_id": 674444,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "stevencruz",
+      "pitcher_name": "Steven Cruz",
       "previous_season": 2025
     },
     "674674": {
@@ -10168,7 +10185,7 @@
       "previous_season": 2025
     },
     "675911": {
-      "cache_saved_at": "2026-04-08T14:40:12.795929",
+      "cache_saved_at": "2026-04-13T14:10:26.607792",
       "current_season": 2026,
       "fangraphs_player_id": 27498,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27498",
@@ -10185,7 +10202,7 @@
       "previous_season": 2025
     },
     "675916": {
-      "cache_saved_at": "2026-04-08T14:40:43.562700",
+      "cache_saved_at": "2026-04-13T14:17:50.424363",
       "current_season": 2026,
       "fangraphs_player_id": 20151,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20151",
@@ -10202,15 +10219,15 @@
       "previous_season": 2025
     },
     "675919": {
-      "cache_saved_at": "2026-04-08T14:41:32.329000",
+      "cache_saved_at": "2026-04-13T14:21:01.039096",
       "current_season": 2026,
       "fangraphs_player_id": 20333,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20333",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
+        "LocationPlus": "73.5",
+        "PitchingPlus": "74.3",
+        "StuffPlusCurrent": "103.9",
+        "StuffPlusDiff": "4.2",
         "StuffPlusPrevious": "99.7"
       },
       "mlb_player_id": 675919,
@@ -10321,7 +10338,7 @@
       "previous_season": 2025
     },
     "676050": {
-      "cache_saved_at": "2026-04-08T15:29:29.923237",
+      "cache_saved_at": "2026-04-13T15:17:29.058987",
       "current_season": 2026,
       "fangraphs_player_id": 23292,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=23292",
@@ -10423,20 +10440,20 @@
       "previous_season": 2025
     },
     "676106": {
-      "cache_saved_at": "2026-04-08T15:27:42.790095",
+      "cache_saved_at": "2026-05-01T12:54:37.503783",
       "current_season": 2026,
       "fangraphs_player_id": 27470,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27470",
       "metrics": {
-        "LocationPlus": "109.4",
-        "PitchingPlus": "105.2",
-        "StuffPlusCurrent": "101.8",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "106.4",
+        "PitchingPlus": "104.3",
+        "StuffPlusCurrent": "103.9",
+        "StuffPlusDiff": "13.9",
+        "StuffPlusPrevious": "90.0"
       },
       "mlb_player_id": 676106,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "hancock",
+      "pitcher_name": "Hancock",
       "previous_season": 2025
     },
     "676130": {
@@ -10559,20 +10576,20 @@
       "previous_season": 2025
     },
     "676282": {
-      "cache_saved_at": "2026-04-08T14:48:04.435225",
+      "cache_saved_at": "2026-04-13T11:52:37.083921",
       "current_season": 2026,
       "fangraphs_player_id": 23335,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=23335",
       "metrics": {
-        "LocationPlus": "87.0",
-        "PitchingPlus": "82.9",
-        "StuffPlusCurrent": "96.8",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "91.8",
+        "PitchingPlus": "86.0",
+        "StuffPlusCurrent": "94.7",
+        "StuffPlusDiff": "-6.0",
+        "StuffPlusPrevious": "100.7"
       },
       "mlb_player_id": 676282,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "cantillo",
+      "pitcher_name": "Cantillo",
       "previous_season": 2025
     },
     "676333": {
@@ -10661,20 +10678,20 @@
       "previous_season": 2025
     },
     "676440": {
-      "cache_saved_at": "2026-04-08T14:48:02.346532",
+      "cache_saved_at": "2026-04-16T12:27:28.798002",
       "current_season": 2026,
       "fangraphs_player_id": 30134,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=30134",
       "metrics": {
-        "LocationPlus": "104.2",
-        "PitchingPlus": "103.7",
-        "StuffPlusCurrent": "99.5",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "105.6",
+        "PitchingPlus": "104.3",
+        "StuffPlusCurrent": "99.9",
+        "StuffPlusDiff": "-3.9",
+        "StuffPlusPrevious": "103.8"
       },
       "mlb_player_id": 676440,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "bibee",
+      "pitcher_name": "Bibee",
       "previous_season": 2025
     },
     "676442": {
@@ -11018,7 +11035,7 @@
       "previous_season": 2025
     },
     "676680": {
-      "cache_saved_at": "2026-04-08T14:52:43.971644",
+      "cache_saved_at": "2026-04-13T14:31:56.871238",
       "current_season": 2026,
       "fangraphs_player_id": 23443,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=23443",
@@ -11069,7 +11086,7 @@
       "previous_season": 2025
     },
     "676702": {
-      "cache_saved_at": "2026-04-08T14:40:39.726803",
+      "cache_saved_at": "2026-04-13T14:16:47.496271",
       "current_season": 2026,
       "fangraphs_player_id": 23455,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=23455",
@@ -11086,7 +11103,7 @@
       "previous_season": 2025
     },
     "676710": {
-      "cache_saved_at": "2026-04-08T14:43:17.337838",
+      "cache_saved_at": "2026-04-13T14:28:46.796842",
       "current_season": 2026,
       "fangraphs_player_id": 20531,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20531",
@@ -11188,7 +11205,7 @@
       "previous_season": 2025
     },
     "676831": {
-      "cache_saved_at": "2026-04-08T15:30:54.549311",
+      "cache_saved_at": "2026-04-13T15:23:21.411589",
       "current_season": 2026,
       "fangraphs_player_id": 19731,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19731",
@@ -11324,37 +11341,37 @@
       "previous_season": 2025
     },
     "676974": {
-      "cache_saved_at": "2026-04-08T14:19:13.804265",
+      "cache_saved_at": "2026-04-13T11:52:22.015026",
       "current_season": 2026,
       "fangraphs_player_id": 27474,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27474",
       "metrics": {
-        "LocationPlus": "112.9",
-        "PitchingPlus": "110.5",
-        "StuffPlusCurrent": "93.8",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "108.0",
+        "PitchingPlus": "105.5",
+        "StuffPlusCurrent": "95.3",
+        "StuffPlusDiff": "-2.0",
+        "StuffPlusPrevious": "97.3"
       },
       "mlb_player_id": 676974,
-      "normalized_name": "maxmeyer",
-      "pitcher_name": "Max Meyer",
+      "normalized_name": "meyer",
+      "pitcher_name": "Meyer",
       "previous_season": 2025
     },
     "676979": {
-      "cache_saved_at": "2026-04-08T14:42:49.831779",
+      "cache_saved_at": "2026-04-18T12:01:01.031780",
       "current_season": 2026,
       "fangraphs_player_id": 27463,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27463",
       "metrics": {
-        "LocationPlus": "97.8",
-        "PitchingPlus": "103.6",
-        "StuffPlusCurrent": "109.3",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "95.0",
+        "PitchingPlus": "101.3",
+        "StuffPlusCurrent": "108.9",
+        "StuffPlusDiff": "-8.1",
+        "StuffPlusPrevious": "117.0"
       },
       "mlb_player_id": 676979,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "crochet",
+      "pitcher_name": "Crochet",
       "previous_season": 2025
     },
     "676987": {
@@ -11375,7 +11392,7 @@
       "previous_season": 2025
     },
     "677020": {
-      "cache_saved_at": "2026-04-08T14:42:15.727996",
+      "cache_saved_at": "2026-04-13T14:26:42.475404",
       "current_season": 2026,
       "fangraphs_player_id": 23617,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=23617",
@@ -11562,20 +11579,20 @@
       "previous_season": 2025
     },
     "677944": {
-      "cache_saved_at": "2026-04-08T14:48:06.795383",
+      "cache_saved_at": "2026-05-01T12:54:21.241366",
       "current_season": 2026,
       "fangraphs_player_id": 27500,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27500",
       "metrics": {
-        "LocationPlus": "95.1",
-        "PitchingPlus": "84.2",
-        "StuffPlusCurrent": "94.5",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "97.4",
+        "PitchingPlus": "87.9",
+        "StuffPlusCurrent": "93.3",
+        "StuffPlusDiff": "0.2",
+        "StuffPlusPrevious": "93.1"
       },
       "mlb_player_id": 677944,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "cecconi",
+      "pitcher_name": "Cecconi",
       "previous_season": 2025
     },
     "677952": {
@@ -11630,37 +11647,37 @@
       "previous_season": 2025
     },
     "677958": {
-      "cache_saved_at": "2026-04-08T15:31:32.383479",
+      "cache_saved_at": "2026-05-01T12:54:31.101981",
       "current_season": 2026,
       "fangraphs_player_id": 31843,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=31843",
       "metrics": {
-        "LocationPlus": "101.5",
-        "PitchingPlus": "96.3",
-        "StuffPlusCurrent": "93.9",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "97.5",
+        "PitchingPlus": "91.8",
+        "StuffPlusCurrent": "92.4",
+        "StuffPlusDiff": "-2.3",
+        "StuffPlusPrevious": "94.7"
       },
       "mlb_player_id": 677958,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "rocker",
+      "pitcher_name": "Rocker",
       "previous_season": 2025
     },
     "677960": {
-      "cache_saved_at": "2026-04-08T14:19:15.532018",
+      "cache_saved_at": "2026-04-13T11:52:20.852954",
       "current_season": 2026,
       "fangraphs_player_id": 23796,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=23796",
       "metrics": {
-        "LocationPlus": "114.4",
-        "PitchingPlus": "113.2",
-        "StuffPlusCurrent": "101.0",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "116.9",
+        "PitchingPlus": "118.0",
+        "StuffPlusCurrent": "102.2",
+        "StuffPlusDiff": "-2.0",
+        "StuffPlusPrevious": "104.2"
       },
       "mlb_player_id": 677960,
-      "normalized_name": "ryanweathers",
-      "pitcher_name": "Ryan Weathers",
+      "normalized_name": "weathers",
+      "pitcher_name": "Weathers",
       "previous_season": 2025
     },
     "677961": {
@@ -11681,7 +11698,7 @@
       "previous_season": 2025
     },
     "677976": {
-      "cache_saved_at": "2026-04-08T15:28:07.308654",
+      "cache_saved_at": "2026-04-13T15:08:08.788865",
       "current_season": 2026,
       "fangraphs_player_id": 23798,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=23798",
@@ -11783,7 +11800,7 @@
       "previous_season": 2025
     },
     "678061": {
-      "cache_saved_at": "2026-04-08T14:40:56.277275",
+      "cache_saved_at": "2026-04-13T14:20:29.431472",
       "current_season": 2026,
       "fangraphs_player_id": 23809,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=23809",
@@ -11851,7 +11868,7 @@
       "previous_season": 2025
     },
     "678226": {
-      "cache_saved_at": "2026-04-08T14:40:18.056857",
+      "cache_saved_at": "2026-04-13T14:16:16.474841",
       "current_season": 2026,
       "fangraphs_player_id": 20271,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20271",
@@ -12208,7 +12225,7 @@
       "previous_season": 2025
     },
     "679525": {
-      "cache_saved_at": "2026-04-08T14:55:08.618440",
+      "cache_saved_at": "2026-04-13T14:38:52.322241",
       "current_season": 2026,
       "fangraphs_player_id": 27451,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27451",
@@ -12310,20 +12327,20 @@
       "previous_season": 2025
     },
     "679883": {
-      "cache_saved_at": "2026-04-08T14:55:04.008829",
+      "cache_saved_at": "2026-04-13T14:41:00.658691",
       "current_season": 2026,
       "fangraphs_player_id": 24452,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=24452",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "96.5",
+        "PitchingPlus": "98.9",
+        "StuffPlusCurrent": "97.0",
+        "StuffPlusDiff": "-8.1",
+        "StuffPlusPrevious": "105.1"
       },
       "mlb_player_id": 679883,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "luinderavila",
+      "pitcher_name": "Luinder Avila",
       "previous_season": 2025
     },
     "679885": {
@@ -12497,7 +12514,7 @@
       "previous_season": 2025
     },
     "680570": {
-      "cache_saved_at": "2026-04-08T14:58:22.172568",
+      "cache_saved_at": "2026-04-13T14:45:45.885921",
       "current_season": 2026,
       "fangraphs_player_id": 24492,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=24492",
@@ -12565,7 +12582,7 @@
       "previous_season": 2025
     },
     "680604": {
-      "cache_saved_at": "2026-04-08T15:28:06.221996",
+      "cache_saved_at": "2026-04-13T15:07:36.620732",
       "current_season": 2026,
       "fangraphs_player_id": 26117,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26117",
@@ -12650,7 +12667,7 @@
       "previous_season": 2025
     },
     "680701": {
-      "cache_saved_at": "2026-04-08T15:30:58.131179",
+      "cache_saved_at": "2026-04-13T15:24:24.861092",
       "current_season": 2026,
       "fangraphs_player_id": 24590,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=24590",
@@ -12684,15 +12701,15 @@
       "previous_season": 2025
     },
     "680704": {
-      "cache_saved_at": "2026-04-08T14:58:40.882355",
+      "cache_saved_at": "2026-04-13T14:44:41.886835",
       "current_season": 2026,
       "fangraphs_player_id": 20517,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=20517",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
+        "LocationPlus": "94.5",
+        "PitchingPlus": "103.7",
+        "StuffPlusCurrent": "121.5",
+        "StuffPlusDiff": "20.8",
         "StuffPlusPrevious": "100.7"
       },
       "mlb_player_id": 680704,
@@ -12735,7 +12752,7 @@
       "previous_season": 2025
     },
     "680730": {
-      "cache_saved_at": "2026-04-11T13:56:38.168872",
+      "cache_saved_at": "2026-04-13T15:34:46.481003",
       "current_season": 2026,
       "fangraphs_player_id": 27636,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27636",
@@ -12752,20 +12769,20 @@
       "previous_season": 2025
     },
     "680732": {
-      "cache_saved_at": "2026-04-08T14:45:31.127884",
+      "cache_saved_at": "2026-05-01T12:54:34.254459",
       "current_season": 2026,
       "fangraphs_player_id": 29878,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=29878",
       "metrics": {
-        "LocationPlus": "119.3",
-        "PitchingPlus": "115.3",
-        "StuffPlusCurrent": "100.9",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "105.9",
+        "PitchingPlus": "98.7",
+        "StuffPlusCurrent": "94.8",
+        "StuffPlusDiff": "2.4",
+        "StuffPlusPrevious": "92.4"
       },
       "mlb_player_id": 680732,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "burkes",
+      "pitcher_name": "Burke, S",
       "previous_season": 2025
     },
     "680734": {
@@ -12786,20 +12803,20 @@
       "previous_season": 2025
     },
     "680736": {
-      "cache_saved_at": "2026-04-08T15:02:59.195356",
+      "cache_saved_at": "2026-04-13T14:55:14.925449",
       "current_season": 2026,
       "fangraphs_player_id": 31204,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=31204",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "101.4",
+        "PitchingPlus": "98.3",
+        "StuffPlusCurrent": "95.0",
+        "StuffPlusDiff": "-6.4",
+        "StuffPlusPrevious": "101.4"
       },
       "mlb_player_id": 680736,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "justinwrobleski",
+      "pitcher_name": "Justin Wrobleski",
       "previous_season": 2025
     },
     "680742": {
@@ -12956,7 +12973,7 @@
       "previous_season": 2025
     },
     "680885": {
-      "cache_saved_at": "2026-04-08T14:40:09.867570",
+      "cache_saved_at": "2026-04-13T14:09:16.673945",
       "current_season": 2026,
       "fangraphs_player_id": 31846,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=31846",
@@ -13126,7 +13143,7 @@
       "previous_season": 2025
     },
     "681006": {
-      "cache_saved_at": "2026-04-08T15:28:18.211418",
+      "cache_saved_at": "2026-04-13T15:11:21.609194",
       "current_season": 2026,
       "fangraphs_player_id": 25957,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=25957",
@@ -13313,15 +13330,15 @@
       "previous_season": 2025
     },
     "681151": {
-      "cache_saved_at": "2026-04-11T13:38:22.048606",
+      "cache_saved_at": "2026-04-13T14:29:49.426581",
       "current_season": 2026,
       "fangraphs_player_id": 26482,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26482",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
+        "LocationPlus": "89.1",
+        "PitchingPlus": "78.7",
+        "StuffPlusCurrent": "86.0",
+        "StuffPlusDiff": "-11.9",
         "StuffPlusPrevious": "97.9"
       },
       "mlb_player_id": 681151,
@@ -13330,15 +13347,15 @@
       "previous_season": 2025
     },
     "681168": {
-      "cache_saved_at": "2026-04-08T15:31:47.095189",
+      "cache_saved_at": "2026-04-13T15:24:56.369702",
       "current_season": 2026,
       "fangraphs_player_id": 24710,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=24710",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
+        "LocationPlus": "120.3",
+        "PitchingPlus": "123.2",
+        "StuffPlusCurrent": "107.7",
+        "StuffPlusDiff": "9.4",
         "StuffPlusPrevious": "98.3"
       },
       "mlb_player_id": 681168,
@@ -13568,20 +13585,20 @@
       "previous_season": 2025
     },
     "681347": {
-      "cache_saved_at": "2026-04-08T14:52:04.062416",
+      "cache_saved_at": "2026-04-18T12:01:06.809476",
       "current_season": 2026,
       "fangraphs_player_id": 24728,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=24728",
       "metrics": {
-        "LocationPlus": "95.9",
-        "PitchingPlus": "90.3",
-        "StuffPlusCurrent": "91.2",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "96.2",
+        "PitchingPlus": "91.9",
+        "StuffPlusCurrent": "92.4",
+        "StuffPlusDiff": "-2.3",
+        "StuffPlusPrevious": "94.7"
       },
       "mlb_player_id": 681347,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "burrows",
+      "pitcher_name": "Burrows",
       "previous_season": 2025
     },
     "681402": {
@@ -13721,20 +13738,20 @@
       "previous_season": 2025
     },
     "681517": {
-      "cache_saved_at": "2026-04-08T15:28:51.150563",
+      "cache_saved_at": "2026-04-16T12:27:42.626911",
       "current_season": 2026,
       "fangraphs_player_id": 24763,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=24763",
       "metrics": {
-        "LocationPlus": "109.2",
-        "PitchingPlus": "101.9",
-        "StuffPlusCurrent": "86.5",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "104.6",
+        "PitchingPlus": "98.3",
+        "StuffPlusCurrent": "88.6",
+        "StuffPlusDiff": "-11.1",
+        "StuffPlusPrevious": "99.7"
       },
       "mlb_player_id": 681517,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "leahy",
+      "pitcher_name": "Leahy",
       "previous_season": 2025
     },
     "681520": {
@@ -13823,7 +13840,7 @@
       "previous_season": 2025
     },
     "681676": {
-      "cache_saved_at": "2026-04-08T15:29:22.847164",
+      "cache_saved_at": "2026-04-13T15:16:25.536648",
       "current_season": 2026,
       "fangraphs_player_id": 24862,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=24862",
@@ -13891,7 +13908,7 @@
       "previous_season": 2025
     },
     "681806": {
-      "cache_saved_at": "2026-04-08T15:30:46.827839",
+      "cache_saved_at": "2026-04-13T15:22:48.974894",
       "current_season": 2026,
       "fangraphs_player_id": 24933,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=24933",
@@ -13976,7 +13993,7 @@
       "previous_season": 2025
     },
     "681869": {
-      "cache_saved_at": "2026-04-08T14:39:17.235220",
+      "cache_saved_at": "2026-04-13T14:06:43.372339",
       "current_season": 2026,
       "fangraphs_player_id": 24977,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=24977",
@@ -14027,7 +14044,7 @@
       "previous_season": 2025
     },
     "681882": {
-      "cache_saved_at": "2026-04-08T14:41:46.596923",
+      "cache_saved_at": "2026-04-13T14:23:05.916767",
       "current_season": 2026,
       "fangraphs_player_id": 24986,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=24986",
@@ -14129,20 +14146,20 @@
       "previous_season": 2025
     },
     "681911": {
-      "cache_saved_at": "2026-04-08T15:02:45.207191",
+      "cache_saved_at": "2026-04-13T14:56:51.001851",
       "current_season": 2026,
       "fangraphs_player_id": 25007,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=25007",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "92.9",
+        "PitchingPlus": "105.9",
+        "StuffPlusCurrent": "115.4",
+        "StuffPlusDiff": "-1.9",
+        "StuffPlusPrevious": "117.3"
       },
       "mlb_player_id": 681911,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "alexvesia",
+      "pitcher_name": "Alex Vesia",
       "previous_season": 2025
     },
     "681916": {
@@ -14333,7 +14350,7 @@
       "previous_season": 2025
     },
     "682144": {
-      "cache_saved_at": "2026-04-08T14:41:58.269463",
+      "cache_saved_at": "2026-04-13T14:24:56.114656",
       "current_season": 2026,
       "fangraphs_player_id": 25158,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=25158",
@@ -14384,20 +14401,20 @@
       "previous_season": 2025
     },
     "682227": {
-      "cache_saved_at": "2026-04-08T14:46:45.360982",
+      "cache_saved_at": "2026-04-16T12:27:44.391270",
       "current_season": 2026,
       "fangraphs_player_id": 25463,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=25463",
       "metrics": {
-        "LocationPlus": "102.1",
-        "PitchingPlus": "101.8",
-        "StuffPlusCurrent": "99.1",
+        "LocationPlus": "92.9",
+        "PitchingPlus": "92.6",
+        "StuffPlusCurrent": "98.3",
         "StuffPlusDiff": null,
         "StuffPlusPrevious": null
       },
       "mlb_player_id": 682227,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "williamson",
+      "pitcher_name": "Williamson",
       "previous_season": 2025
     },
     "682240": {
@@ -14418,7 +14435,7 @@
       "previous_season": 2025
     },
     "682243": {
-      "cache_saved_at": "2026-04-08T15:28:02.908091",
+      "cache_saved_at": "2026-04-13T15:06:32.501674",
       "current_season": 2026,
       "fangraphs_player_id": 29837,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=29837",
@@ -14520,20 +14537,20 @@
       "previous_season": 2025
     },
     "682610": {
-      "cache_saved_at": "2026-04-08T14:52:56.506370",
+      "cache_saved_at": "2026-04-13T14:30:52.996257",
       "current_season": 2026,
       "fangraphs_player_id": 25311,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=25311",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "80.2",
+        "PitchingPlus": "69.1",
+        "StuffPlusCurrent": "85.8",
+        "StuffPlusDiff": "-14.9",
+        "StuffPlusPrevious": "100.7"
       },
       "mlb_player_id": 682610,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "rodderymuoz",
+      "pitcher_name": "Roddery Mu\u00f1oz",
       "previous_season": 2025
     },
     "682620": {
@@ -14860,7 +14877,7 @@
       "previous_season": 2025
     },
     "682989": {
-      "cache_saved_at": "2026-04-08T14:40:24.555531",
+      "cache_saved_at": "2026-04-13T14:13:04.762334",
       "current_season": 2026,
       "fangraphs_player_id": 31533,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=31533",
@@ -15030,7 +15047,7 @@
       "previous_season": 2025
     },
     "683068": {
-      "cache_saved_at": "2026-04-08T15:34:52.209972",
+      "cache_saved_at": "2026-04-13T15:38:31.382198",
       "current_season": 2026,
       "fangraphs_player_id": 25368,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=25368",
@@ -15217,20 +15234,20 @@
       "previous_season": 2025
     },
     "683232": {
-      "cache_saved_at": "2026-04-08T14:54:57.184032",
+      "cache_saved_at": "2026-04-13T14:35:09.897531",
       "current_season": 2026,
       "fangraphs_player_id": 25376,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=25376",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "87.9",
+        "PitchingPlus": "92.7",
+        "StuffPlusCurrent": "106.1",
+        "StuffPlusDiff": "5.6",
+        "StuffPlusPrevious": "100.5"
       },
       "mlb_player_id": 683232,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "nickmears",
+      "pitcher_name": "Nick Mears",
       "previous_season": 2025
     },
     "683235": {
@@ -15421,24 +15438,24 @@
       "previous_season": 2025
     },
     "683618": {
-      "cache_saved_at": "2026-04-08T15:02:54.621874",
+      "cache_saved_at": "2026-04-13T14:58:37.220258",
       "current_season": 2026,
       "fangraphs_player_id": 26944,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26944",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "78.6",
+        "PitchingPlus": "98.5",
+        "StuffPlusCurrent": "115.9",
+        "StuffPlusDiff": "-7.9",
+        "StuffPlusPrevious": "123.8"
       },
       "mlb_player_id": 683618,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "edgardohenriquez",
+      "pitcher_name": "Edgardo Henriquez",
       "previous_season": 2025
     },
     "683627": {
-      "cache_saved_at": "2026-04-08T14:40:31.662462",
+      "cache_saved_at": "2026-04-13T14:14:41.821255",
       "current_season": 2026,
       "fangraphs_player_id": 26952,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26952",
@@ -15591,20 +15608,20 @@
       "previous_season": 2025
     },
     "684007": {
-      "cache_saved_at": "2026-04-08T14:44:11.209368",
+      "cache_saved_at": "2026-05-01T12:54:19.345031",
       "current_season": 2026,
       "fangraphs_player_id": 33829,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=33829",
       "metrics": {
-        "LocationPlus": "111.5",
-        "PitchingPlus": "108.8",
-        "StuffPlusCurrent": "101.3",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "109.2",
+        "PitchingPlus": "105.8",
+        "StuffPlusCurrent": "97.5",
+        "StuffPlusDiff": "-1.0",
+        "StuffPlusPrevious": "98.5"
       },
       "mlb_player_id": 684007,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "imanaga",
+      "pitcher_name": "Imanaga",
       "previous_season": 2025
     },
     "684049": {
@@ -15897,7 +15914,7 @@
       "previous_season": 2025
     },
     "685116": {
-      "cache_saved_at": "2026-04-08T15:28:21.883098",
+      "cache_saved_at": "2026-04-13T15:13:13.526461",
       "current_season": 2026,
       "fangraphs_player_id": 27910,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27910",
@@ -16203,20 +16220,20 @@
       "previous_season": 2025
     },
     "686218": {
-      "cache_saved_at": "2026-04-08T15:02:36.936431",
+      "cache_saved_at": "2026-04-13T14:54:43.377477",
       "current_season": 2026,
       "fangraphs_player_id": 29839,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=29839",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "104.2",
+        "PitchingPlus": "97.7",
+        "StuffPlusCurrent": "91.2",
+        "StuffPlusDiff": "-10.0",
+        "StuffPlusPrevious": "101.2"
       },
       "mlb_player_id": 686218,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "emmetsheehan",
+      "pitcher_name": "Emmet Sheehan",
       "previous_season": 2025
     },
     "686223": {
@@ -16237,7 +16254,7 @@
       "previous_season": 2025
     },
     "686228": {
-      "cache_saved_at": "2026-04-08T14:39:10.819164",
+      "cache_saved_at": "2026-04-13T14:05:08.518210",
       "current_season": 2026,
       "fangraphs_player_id": 27271,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27271",
@@ -16254,7 +16271,7 @@
       "previous_season": 2025
     },
     "686294": {
-      "cache_saved_at": "2026-04-08T14:52:47.336469",
+      "cache_saved_at": "2026-04-13T14:32:28.540783",
       "current_season": 2026,
       "fangraphs_player_id": 26128,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26128",
@@ -16373,7 +16390,7 @@
       "previous_season": 2025
     },
     "686539": {
-      "cache_saved_at": "2026-04-08T15:32:22.721064",
+      "cache_saved_at": "2026-04-13T15:32:39.681656",
       "current_season": 2026,
       "fangraphs_player_id": 25645,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=25645",
@@ -16679,7 +16696,7 @@
       "previous_season": 2025
     },
     "686701": {
-      "cache_saved_at": "2026-04-08T14:55:16.881804",
+      "cache_saved_at": "2026-04-13T14:42:04.144088",
       "current_season": 2026,
       "fangraphs_player_id": 29863,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=29863",
@@ -16688,7 +16705,7 @@
         "PitchingPlus": null,
         "StuffPlusCurrent": null,
         "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "StuffPlusPrevious": "91.9"
       },
       "mlb_player_id": 686701,
       "normalized_name": "",
@@ -16781,7 +16798,7 @@
       "previous_season": 2025
     },
     "686752": {
-      "cache_saved_at": "2026-04-08T15:30:21.433725",
+      "cache_saved_at": "2026-04-13T15:18:31.231476",
       "current_season": 2026,
       "fangraphs_player_id": 26221,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26221",
@@ -16798,7 +16815,7 @@
       "previous_season": 2025
     },
     "686753": {
-      "cache_saved_at": "2026-04-08T14:39:06.205388",
+      "cache_saved_at": "2026-04-13T14:03:32.562332",
       "current_season": 2026,
       "fangraphs_player_id": 26260,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26260",
@@ -16968,7 +16985,7 @@
       "previous_season": 2025
     },
     "686839": {
-      "cache_saved_at": "2026-04-08T15:28:26.645436",
+      "cache_saved_at": "2026-04-13T15:12:41.868030",
       "current_season": 2026,
       "fangraphs_player_id": 26024,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26024",
@@ -17189,7 +17206,7 @@
       "previous_season": 2025
     },
     "687003": {
-      "cache_saved_at": "2026-04-08T15:30:41.431910",
+      "cache_saved_at": "2026-04-13T15:21:13.398169",
       "current_season": 2026,
       "fangraphs_player_id": 27695,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27695",
@@ -17444,7 +17461,7 @@
       "previous_season": 2025
     },
     "687166": {
-      "cache_saved_at": "2026-04-08T14:40:52.597508",
+      "cache_saved_at": "2026-04-13T14:19:25.721149",
       "current_season": 2026,
       "fangraphs_player_id": 26136,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26136",
@@ -17818,7 +17835,7 @@
       "previous_season": 2025
     },
     "687377": {
-      "cache_saved_at": "2026-04-08T15:34:41.204430",
+      "cache_saved_at": "2026-04-13T15:35:49.800135",
       "current_season": 2026,
       "fangraphs_player_id": 26247,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26247",
@@ -17852,7 +17869,7 @@
       "previous_season": 2025
     },
     "687424": {
-      "cache_saved_at": "2026-04-08T14:52:42.844152",
+      "cache_saved_at": "2026-04-13T14:31:25.160194",
       "current_season": 2026,
       "fangraphs_player_id": 26034,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26034",
@@ -17988,20 +18005,20 @@
       "previous_season": 2025
     },
     "687570": {
-      "cache_saved_at": "2026-04-08T15:11:13.473793",
+      "cache_saved_at": "2026-05-01T12:54:17.323799",
       "current_season": 2026,
-      "fangraphs_player_id": null,
-      "fangraphs_url": null,
+      "fangraphs_player_id": 31857,
+      "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=31857",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
+        "LocationPlus": "108.6",
+        "PitchingPlus": "111.2",
+        "StuffPlusCurrent": "109.2",
         "StuffPlusDiff": null,
         "StuffPlusPrevious": null
       },
       "mlb_player_id": 687570,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "prielipp",
+      "pitcher_name": "Prielipp",
       "previous_season": 2025
     },
     "687589": {
@@ -18107,7 +18124,7 @@
       "previous_season": 2025
     },
     "687765": {
-      "cache_saved_at": "2026-04-08T14:55:18.367006",
+      "cache_saved_at": "2026-04-13T14:37:49.431332",
       "current_season": 2026,
       "fangraphs_player_id": 27707,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27707",
@@ -18116,7 +18133,7 @@
         "PitchingPlus": null,
         "StuffPlusCurrent": null,
         "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "StuffPlusPrevious": "95.4"
       },
       "mlb_player_id": 687765,
       "normalized_name": "",
@@ -18243,7 +18260,7 @@
       "previous_season": 2025
     },
     "687847": {
-      "cache_saved_at": "2026-04-08T15:32:01.926793",
+      "cache_saved_at": "2026-04-13T15:28:49.444948",
       "current_season": 2026,
       "fangraphs_player_id": 26353,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26353",
@@ -18617,7 +18634,7 @@
       "previous_season": 2025
     },
     "688138": {
-      "cache_saved_at": "2026-04-08T15:28:01.910693",
+      "cache_saved_at": "2026-04-13T15:06:01.159594",
       "current_season": 2026,
       "fangraphs_player_id": 33699,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=33699",
@@ -19263,15 +19280,15 @@
       "previous_season": 2025
     },
     "689266": {
-      "cache_saved_at": "2026-04-08T14:40:37.640230",
+      "cache_saved_at": "2026-04-13T14:15:12.916934",
       "current_season": 2026,
       "fangraphs_player_id": 29928,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=29928",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
+        "LocationPlus": "99.0",
+        "PitchingPlus": "102.5",
+        "StuffPlusCurrent": "103.8",
+        "StuffPlusDiff": "1.2",
         "StuffPlusPrevious": "102.6"
       },
       "mlb_player_id": 689266,
@@ -19994,7 +20011,7 @@
       "previous_season": 2025
     },
     "690829": {
-      "cache_saved_at": "2026-04-08T14:58:23.284167",
+      "cache_saved_at": "2026-04-13T14:46:17.647962",
       "current_season": 2026,
       "fangraphs_player_id": 31461,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=31461",
@@ -20011,7 +20028,7 @@
       "previous_season": 2025
     },
     "690916": {
-      "cache_saved_at": "2026-04-08T15:29:09.110084",
+      "cache_saved_at": "2026-04-13T15:14:48.684850",
       "current_season": 2026,
       "fangraphs_player_id": 30160,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=30160",
@@ -20079,7 +20096,7 @@
       "previous_season": 2025
     },
     "690928": {
-      "cache_saved_at": "2026-04-08T15:29:06.661557",
+      "cache_saved_at": "2026-04-13T15:14:17.287313",
       "current_season": 2026,
       "fangraphs_player_id": 30240,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=30240",
@@ -20113,20 +20130,20 @@
       "previous_season": 2025
     },
     "690953": {
-      "cache_saved_at": "2026-04-08T14:19:18.955502",
+      "cache_saved_at": "2026-04-13T11:52:28.546324",
       "current_season": 2026,
       "fangraphs_player_id": 27756,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27756",
       "metrics": {
-        "LocationPlus": "93.6",
-        "PitchingPlus": "100.5",
-        "StuffPlusCurrent": "109.7",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "102.0",
+        "PitchingPlus": "109.7",
+        "StuffPlusCurrent": "111.4",
+        "StuffPlusDiff": "2.3",
+        "StuffPlusPrevious": "109.1"
       },
       "mlb_player_id": 690953,
-      "normalized_name": "mickabel",
-      "pitcher_name": "Mick Abel",
+      "normalized_name": "abel",
+      "pitcher_name": "Abel",
       "previous_season": 2025
     },
     "690967": {
@@ -20249,20 +20266,20 @@
       "previous_season": 2025
     },
     "690997": {
-      "cache_saved_at": "2026-04-08T14:19:20.775684",
+      "cache_saved_at": "2026-04-13T15:43:55.887989",
       "current_season": 2026,
       "fangraphs_player_id": 33703,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=33703",
       "metrics": {
-        "LocationPlus": "109.1",
-        "PitchingPlus": "116.5",
-        "StuffPlusCurrent": "99.3",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "104.7",
+        "PitchingPlus": "112.5",
+        "StuffPlusCurrent": "100.7",
+        "StuffPlusDiff": "-7.8",
+        "StuffPlusPrevious": "108.5"
       },
       "mlb_player_id": 690997,
-      "normalized_name": "nolanmclean",
-      "pitcher_name": "Nolan McLean",
+      "normalized_name": "mclean",
+      "pitcher_name": "McLean",
       "previous_season": 2025
     },
     "690999": {
@@ -20487,7 +20504,7 @@
       "previous_season": 2025
     },
     "691172": {
-      "cache_saved_at": "2026-04-08T15:28:16.200717",
+      "cache_saved_at": "2026-04-13T15:10:49.606189",
       "current_season": 2026,
       "fangraphs_player_id": 27765,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27765",
@@ -20521,7 +20538,7 @@
       "previous_season": 2025
     },
     "691251": {
-      "cache_saved_at": "2026-04-08T15:34:37.254647",
+      "cache_saved_at": "2026-04-13T15:35:18.559485",
       "current_season": 2026,
       "fangraphs_player_id": 27967,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27967",
@@ -20674,7 +20691,7 @@
       "previous_season": 2025
     },
     "691548": {
-      "cache_saved_at": "2026-04-08T14:40:33.693752",
+      "cache_saved_at": "2026-04-13T14:08:45.553327",
       "current_season": 2026,
       "fangraphs_player_id": 27407,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27407",
@@ -20861,14 +20878,14 @@
       "previous_season": 2025
     },
     "691725": {
-      "cache_saved_at": "2026-04-11T12:36:36.145068",
+      "cache_saved_at": "2026-04-18T12:01:17.058629",
       "current_season": 2026,
       "fangraphs_player_id": 30091,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=30091",
       "metrics": {
-        "LocationPlus": "114.9",
-        "PitchingPlus": "114.0",
-        "StuffPlusCurrent": "96.0",
+        "LocationPlus": "112.3",
+        "PitchingPlus": "112.7",
+        "StuffPlusCurrent": "98.1",
         "StuffPlusDiff": null,
         "StuffPlusPrevious": null
       },
@@ -20946,7 +20963,7 @@
       "previous_season": 2025
     },
     "691769": {
-      "cache_saved_at": "2026-04-08T14:39:09.121478",
+      "cache_saved_at": "2026-04-13T14:04:37.786651",
       "current_season": 2026,
       "fangraphs_player_id": 33821,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=33821",
@@ -21184,7 +21201,7 @@
       "previous_season": 2025
     },
     "691951": {
-      "cache_saved_at": "2026-04-08T14:58:27.163216",
+      "cache_saved_at": "2026-04-13T14:47:51.119825",
       "current_season": 2026,
       "fangraphs_player_id": 26443,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=26443",
@@ -21235,7 +21252,7 @@
       "previous_season": 2025
     },
     "692030": {
-      "cache_saved_at": "2026-04-08T15:31:52.642160",
+      "cache_saved_at": "2026-04-13T15:26:33.985817",
       "current_season": 2026,
       "fangraphs_player_id": 27984,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27984",
@@ -21473,7 +21490,7 @@
       "previous_season": 2025
     },
     "692285": {
-      "cache_saved_at": "2026-04-08T15:30:44.915230",
+      "cache_saved_at": "2026-04-13T15:22:17.364895",
       "current_season": 2026,
       "fangraphs_player_id": 31184,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=31184",
@@ -21915,20 +21932,20 @@
       "previous_season": 2025
     },
     "693433": {
-      "cache_saved_at": "2026-04-08T15:27:41.798033",
+      "cache_saved_at": "2026-04-13T15:41:52.170537",
       "current_season": 2026,
       "fangraphs_player_id": 30279,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=30279",
       "metrics": {
-        "LocationPlus": "107.4",
-        "PitchingPlus": "110.0",
-        "StuffPlusCurrent": "106.9",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "107.1",
+        "PitchingPlus": "109.8",
+        "StuffPlusCurrent": "107.6",
+        "StuffPlusDiff": "-1.8",
+        "StuffPlusPrevious": "109.4"
       },
       "mlb_player_id": 693433,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "woo",
+      "pitcher_name": "Woo",
       "previous_season": 2025
     },
     "693440": {
@@ -22527,32 +22544,32 @@
       "previous_season": 2025
     },
     "694361": {
-      "cache_saved_at": "2026-04-08T15:02:52.536274",
+      "cache_saved_at": "2026-04-13T14:58:05.228251",
       "current_season": 2026,
       "fangraphs_player_id": 27787,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27787",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "106.4",
+        "PitchingPlus": "105.7",
+        "StuffPlusCurrent": "101.2",
+        "StuffPlusDiff": "-2.2",
+        "StuffPlusPrevious": "103.4"
       },
       "mlb_player_id": 694361,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "willklein",
+      "pitcher_name": "Will Klein",
       "previous_season": 2025
     },
     "694363": {
-      "cache_saved_at": "2026-04-08T15:29:05.125747",
+      "cache_saved_at": "2026-04-13T15:13:45.508135",
       "current_season": 2026,
       "fangraphs_player_id": 27472,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=27472",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
+        "LocationPlus": "100.6",
+        "PitchingPlus": "94.9",
+        "StuffPlusCurrent": "82.7",
+        "StuffPlusDiff": "-9.6",
         "StuffPlusPrevious": "92.3"
       },
       "mlb_player_id": 694363,
@@ -22799,7 +22816,7 @@
       "previous_season": 2025
     },
     "694462": {
-      "cache_saved_at": "2026-04-08T14:40:14.607740",
+      "cache_saved_at": "2026-04-13T14:10:58.191656",
       "current_season": 2026,
       "fangraphs_player_id": 33527,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=33527",
@@ -23139,7 +23156,7 @@
       "previous_season": 2025
     },
     "694646": {
-      "cache_saved_at": "2026-04-08T14:41:52.609498",
+      "cache_saved_at": "2026-04-13T14:28:15.689329",
       "current_season": 2026,
       "fangraphs_player_id": 29866,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=29866",
@@ -23275,20 +23292,20 @@
       "previous_season": 2025
     },
     "694738": {
-      "cache_saved_at": "2026-04-08T15:26:26.929937",
+      "cache_saved_at": "2026-05-01T12:54:29.975954",
       "current_season": 2026,
       "fangraphs_player_id": 30076,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=30076",
       "metrics": {
-        "LocationPlus": "109.6",
-        "PitchingPlus": "108.9",
-        "StuffPlusCurrent": "100.3",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "108.6",
+        "PitchingPlus": "107.7",
+        "StuffPlusCurrent": "99.3",
+        "StuffPlusDiff": "2.0",
+        "StuffPlusPrevious": "97.3"
       },
       "mlb_player_id": 694738,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "roupp",
+      "pitcher_name": "Roupp",
       "previous_season": 2025
     },
     "694753": {
@@ -24057,20 +24074,20 @@
       "previous_season": 2025
     },
     "695076": {
-      "cache_saved_at": "2026-04-08T14:46:43.575100",
+      "cache_saved_at": "2026-05-01T12:54:22.372049",
       "current_season": 2026,
       "fangraphs_player_id": 33876,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=33876",
       "metrics": {
-        "LocationPlus": "109.1",
-        "PitchingPlus": "94.2",
-        "StuffPlusCurrent": "83.3",
+        "LocationPlus": "110.1",
+        "PitchingPlus": "98.6",
+        "StuffPlusCurrent": "85.5",
         "StuffPlusDiff": null,
         "StuffPlusPrevious": null
       },
       "mlb_player_id": 695076,
-      "normalized_name": "rhettlowder",
-      "pitcher_name": "Rhett Lowder",
+      "normalized_name": "lowder",
+      "pitcher_name": "Lowder",
       "previous_season": 2025
     },
     "695229": {
@@ -25332,7 +25349,7 @@
       "previous_season": 2025
     },
     "696131": {
-      "cache_saved_at": "2026-04-08T14:55:17.704744",
+      "cache_saved_at": "2026-04-13T14:41:32.434742",
       "current_season": 2026,
       "fangraphs_player_id": 30171,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=30171",
@@ -25341,7 +25358,7 @@
         "PitchingPlus": null,
         "StuffPlusCurrent": null,
         "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "StuffPlusPrevious": "93.8"
       },
       "mlb_player_id": 696131,
       "normalized_name": "",
@@ -25706,7 +25723,7 @@
       "previous_season": 2025
     },
     "697812": {
-      "cache_saved_at": "2026-04-08T15:30:35.260867",
+      "cache_saved_at": "2026-04-13T15:20:42.039961",
       "current_season": 2026,
       "fangraphs_player_id": 30016,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=30016",
@@ -26488,7 +26505,7 @@
       "previous_season": 2025
     },
     "700187": {
-      "cache_saved_at": "2026-04-08T15:28:14.386090",
+      "cache_saved_at": "2026-04-13T15:10:17.953396",
       "current_season": 2026,
       "fangraphs_player_id": 31883,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=31883",
@@ -26522,20 +26539,20 @@
       "previous_season": 2025
     },
     "700241": {
-      "cache_saved_at": "2026-04-08T15:28:48.327912",
+      "cache_saved_at": "2026-04-13T15:41:21.084951",
       "current_season": 2026,
       "fangraphs_player_id": 29869,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=29869",
       "metrics": {
-        "LocationPlus": "110.5",
-        "PitchingPlus": "93.1",
-        "StuffPlusCurrent": "76.3",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "113.6",
+        "PitchingPlus": "93.6",
+        "StuffPlusCurrent": "75.9",
+        "StuffPlusDiff": "-12.1",
+        "StuffPlusPrevious": "88.0"
       },
       "mlb_player_id": 700241,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "mcgreevy",
+      "pitcher_name": "McGreevy",
       "previous_season": 2025
     },
     "700245": {
@@ -26862,7 +26879,7 @@
       "previous_season": 2025
     },
     "700363": {
-      "cache_saved_at": "2026-04-08T14:40:11.579160",
+      "cache_saved_at": "2026-04-13T14:09:47.659400",
       "current_season": 2026,
       "fangraphs_player_id": 29960,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=29960",
@@ -27321,7 +27338,7 @@
       "previous_season": 2025
     },
     "701121": {
-      "cache_saved_at": "2026-04-08T14:52:41.148485",
+      "cache_saved_at": "2026-04-13T14:30:20.468966",
       "current_season": 2026,
       "fangraphs_player_id": 31884,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=31884",
@@ -28955,8 +28972,8 @@
     "702193": {
       "cache_saved_at": "2026-04-11T13:45:55.160184",
       "current_season": 2026,
-      "fangraphs_player_id": 19755,
-      "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=19755",
+      "fangraphs_player_id": 31891,
+      "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=31891",
       "metrics": {
         "LocationPlus": "93.4",
         "PitchingPlus": "99.8",
@@ -29055,20 +29072,20 @@
       "previous_season": 2025
     },
     "702273": {
-      "cache_saved_at": "2026-04-08T14:46:03.438878",
+      "cache_saved_at": "2026-04-18T12:01:12.078322",
       "current_season": 2026,
-      "fangraphs_player_id": null,
-      "fangraphs_url": "https://www.fangraphs.com/players/shohei-ohtani/19755/stats/pitching",
+      "fangraphs_player_id": 32056,
+      "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=32056",
       "metrics": {
-        "LocationPlus": "91.5",
-        "PitchingPlus": "90.8",
-        "StuffPlusCurrent": "101.5",
+        "LocationPlus": "89.6",
+        "PitchingPlus": "89.8",
+        "StuffPlusCurrent": "105.2",
         "StuffPlusDiff": null,
         "StuffPlusPrevious": null
       },
       "mlb_player_id": 702273,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "schultz",
+      "pitcher_name": "Schultz",
       "previous_season": 2025
     },
     "702274": {
@@ -29786,7 +29803,7 @@
       "previous_season": 2025
     },
     "702674": {
-      "cache_saved_at": "2026-04-08T14:58:32.545015",
+      "cache_saved_at": "2026-04-13T14:48:22.857543",
       "current_season": 2026,
       "fangraphs_player_id": 31508,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=31508",
@@ -33050,7 +33067,7 @@
       "previous_season": 2025
     },
     "802686": {
-      "cache_saved_at": "2026-04-08T14:40:35.378426",
+      "cache_saved_at": "2026-04-13T14:15:44.606183",
       "current_season": 2026,
       "fangraphs_player_id": 31913,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=31913",
@@ -34631,7 +34648,7 @@
       "previous_season": 2025
     },
     "805299": {
-      "cache_saved_at": "2026-04-10T11:12:50.336760",
+      "cache_saved_at": "2026-04-13T14:03:00.846679",
       "current_season": 2026,
       "fangraphs_player_id": 33568,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=33568",
@@ -38065,16 +38082,16 @@
       "previous_season": 2025
     },
     "808963": {
-      "cache_saved_at": "2026-04-11T12:11:42.997375",
+      "cache_saved_at": "2026-04-18T12:01:08.978971",
       "current_season": 2026,
       "fangraphs_player_id": 35323,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=35323",
       "metrics": {
-        "LocationPlus": "80.1",
-        "PitchingPlus": "83.4",
-        "StuffPlusCurrent": "99.3",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "87.2",
+        "PitchingPlus": "91.2",
+        "StuffPlusCurrent": "99.8",
+        "StuffPlusDiff": "9.0",
+        "StuffPlusPrevious": "90.8"
       },
       "mlb_player_id": 808963,
       "normalized_name": "sasaki",
@@ -38082,20 +38099,20 @@
       "previous_season": 2025
     },
     "808967": {
-      "cache_saved_at": "2026-04-08T15:02:33.781383",
+      "cache_saved_at": "2026-04-13T14:53:40.988763",
       "current_season": 2026,
       "fangraphs_player_id": 33825,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=33825",
       "metrics": {
-        "LocationPlus": null,
-        "PitchingPlus": null,
-        "StuffPlusCurrent": null,
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "108.0",
+        "PitchingPlus": "106.7",
+        "StuffPlusCurrent": "98.8",
+        "StuffPlusDiff": "-1.2",
+        "StuffPlusPrevious": "100.0"
       },
       "mlb_player_id": 808967,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "yoshinobuyamamoto",
+      "pitcher_name": "Yoshinobu Yamamoto",
       "previous_season": 2025
     },
     "808970": {
@@ -39272,20 +39289,20 @@
       "previous_season": 2025
     },
     "813349": {
-      "cache_saved_at": "2026-04-08T14:42:51.752542",
+      "cache_saved_at": "2026-05-01T12:54:25.867271",
       "current_season": 2026,
       "fangraphs_player_id": 33666,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=33666",
       "metrics": {
-        "LocationPlus": "97.6",
-        "PitchingPlus": "96.8",
-        "StuffPlusCurrent": "99.6",
-        "StuffPlusDiff": null,
-        "StuffPlusPrevious": null
+        "LocationPlus": "94.8",
+        "PitchingPlus": "97.4",
+        "StuffPlusCurrent": "102.1",
+        "StuffPlusDiff": "1.2",
+        "StuffPlusPrevious": "100.9"
       },
       "mlb_player_id": 813349,
-      "normalized_name": "",
-      "pitcher_name": "",
+      "normalized_name": "early",
+      "pitcher_name": "Early",
       "previous_season": 2025
     },
     "813409": {
@@ -41618,7 +41635,7 @@
       "previous_season": 2025
     },
     "820862": {
-      "cache_saved_at": "2026-04-08T14:58:38.641565",
+      "cache_saved_at": "2026-04-13T14:49:26.382570",
       "current_season": 2026,
       "fangraphs_player_id": 33908,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=33908",
@@ -44916,7 +44933,7 @@
       "previous_season": 2025
     },
     "829272": {
-      "cache_saved_at": "2026-04-08T15:34:36.325275",
+      "cache_saved_at": "2026-04-13T15:39:03.038386",
       "current_season": 2026,
       "fangraphs_player_id": 35324,
       "fangraphs_url": "https://www.fangraphs.com/statss.aspx?playerid=35324",
